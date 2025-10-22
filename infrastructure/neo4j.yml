@@ -1,0 +1,15 @@
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j
+    ports:
+      - 7474:7474  # browser interface
+      - 7687:7687  # bolt protocol
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      - NEO4J_dbms_security_procedures_allowlist=apoc.*
+    volumes:
+      - .././neo4j/data:/data
+      - .././neo4j/logs:/logs

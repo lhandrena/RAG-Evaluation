@@ -1,0 +1,17 @@
+.main-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: 100vh;
+    gap: 0.5rem;
+
+    .app {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        background-color: whitesmoke;
+        overflow: hidden;
+    }
+}

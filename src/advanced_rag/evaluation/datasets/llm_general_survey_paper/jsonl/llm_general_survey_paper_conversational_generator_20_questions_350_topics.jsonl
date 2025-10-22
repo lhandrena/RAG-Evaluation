@@ -1,0 +1,420 @@
+{
+  "id": "77f729a2-b3af-49d7-8a79-b56932e904b1",
+  "question": "Welche sind besonders wertvoll?",
+  "reference_answer": "Die drei fortgeschrittenen Fähigkeiten sind: die Anpassung an menschliche Werte und Präferenzen (human alignment), das richtige Handeln in realen Szenarien (Interaktion mit der externen Umgebung) und die Erweiterung des Fähigkeitsspektrums (Werkzeugmanipulation).",
+  "reference_context": "Document 1794: Unnamed: 0: 1794\ntext: 62\n\nSummary. The above three abilities are of great value to the practical performance of LLMs: conforming to human values and preferences (human alignment), acting properly in real-world scenarios (interaction with the external envi- ronment), and expanding the ability scope (tool manipu- lation). In addition to the above three advanced abilities, LLMs might also show other abilities that are specially related to some tasks (e.g., data annotation [488]) or learning mechanisms (e.g., self-improvement [708]). It will be an open direction to discover, measure and evaluate these newly emerging abilities, so as to better utilize and improve LLMs.\n\n7.3 Benchmarks and Evaluation Approaches\n\nIn the above, we have discussed the basic and advanced abilities of LLMs. Next, we will introduce existing evalua- tion benchmarks and approaches [735, 736].\n\n7.3.1 Comprehensive Evaluation Benchmarks\n\nRecently, several comprehensive benchmarks [70, 362, 522] have been released for the evaluation of LLMs. In this part, we introduce several widely used benchmarks, i.e., MMLU, BIG-bench, HELM, and a series of human exam benchmarks.\n\nMMLU [362] is a versatile benchmark for large-scale evaluation of multi-task knowledge understanding, cover- ing a wide range of knowledge domains from mathematics and computer science to humanities and social sciences. The difficulties of these tasks vary from basic to advanced. As shown in existing work, LLMs mostly outperform small models by a substantial margin on this benchmark [35, 56, 57, 69], which shows the scaling law in model size.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 1793: Unnamed: 0: 1793\ntext: It has been found that with the help of tools, LLMs become more capable of handling the issues that they are not good at, e.g., equation calculation and answering timely questions [80, 441]. However, as the number of available tools increases, the limited context length of LLMs may pose challenges in describing and demonstrating extensive tool APIs. To address this issue, existing work retrieves the usage of relevant tools, or en- coding tool information as tokens within the embedding space [704–706].\n\nIn addition to existing tools developed by humans, LLMs possess the capability to make their own tools for specific tasks autonomously [707]. This enables the models to independently explore and manipulate these self-created tools, thereby expanding their potential for autonomous exploration in solving a wide range of real-world tasks.\n\n62\n\nSummary. The above three abilities are of great value to the practical performance of LLMs: conforming to human values and preferences (human alignment), acting properly in real-world scenarios (interaction with the external envi- ronment), and expanding the ability scope (tool manipu- lation). In addition to the above three advanced abilities, LLMs might also show other abilities that are specially related to some tasks (e.g., data annotation [488]) or learning mechanisms (e.g., self-improvement [708]). It will be an open direction to discover, measure and evaluate these newly emerging abilities, so as to better utilize and improve LLMs.\n\n7.3 Benchmarks and Evaluation Approaches\n\nIn the above, we have discussed the basic and advanced abilities of LLMs. Next, we will introduce existing evalua- tion benchmarks and approaches [735, 736].\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welche drei fortgeschrittenen Fähigkeiten für die praktische Leistung von LLMs besonders wertvoll sind."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1794,
+    "topic": "LLM Evaluation and Benchmarking"
+  }
+}
+{
+  "id": "cac91e57-08eb-4ded-b3ef-afbc8f684f72",
+  "question": "Welcher wird bevorzugt?",
+  "reference_answer": "Der neueste Dialogagent, Claude, bevorzugt Constitutional AI.",
+  "reference_context": "Document 30: Unnamed: 0: 30\ntext: 5. Statistics of model size [52] and training speed 1across different models and computing devices.\n\nAlthough RLHF has shown promising results by incorporating fluency, progress in this field is impeded by a lack of publicly available benchmarks and implementation resources, leading to a perception that RL is a challenging approach for NLP. To address this issue, an open-source library named RL4LMs [49] has recently been introduced, consisting of building blocks for fine-tuning and evaluating RL algorithms on LM-based generation.\n\nBeyond human feedback, the latest dialogue agent, Claude, favors Constitutional AI [50], where the reward model is learned via RL from AI Feedback (RLAIF). Both the critiques and the AI feedback are guided by a small set of principles drawn from a “constitution”, which is the only thing provided by humans in Claude. The AI feedback focuses on controlling the outputs to be less harmful by explaining its objections to dangerous queries. Moreover, recently a preliminary theoretical analysis of the RLAIF [51] justifies the empirical success of RLHF and provides new insights for specialized RLHF algorithm design for language models.\n\n3.3 Computing 3.3.1 Hardware. In recent years, there have been significant hardware advancements that have facilitated the training of large-scale models. In the past, training a large neural network using CPUs could take several days or even weeks. However, with the emergence of more powerful computing resources, this process has been accelerated by several orders of magnitude. For instance, the NVIDIA A100 GPU achieves seven times faster during BERT-large inference compared to the V100 and 11 times faster than the T42. Additionally, Google’s Tensor Processing Units (TPUs), which are designed specifically for deep learning, offer even higher computing performance compared to the current generation of A100 GPUs3.\nref_doc_id: general_surveys\/2303.04226v1.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welchen neuesten Dialogagenten Constitutional AI bevorzugt."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 30,
+    "topic": "Large Language Model Training Costs"
+  }
+}
+{
+  "id": "e6c2f97f-1b4d-4871-bdcd-7ea9b8fd8198",
+  "question": "Welches behandelt das?",
+  "reference_answer": "N. De Cao, W. Aziz und I. Titov. 2021. Editing factual knowledge in language models.",
+  "reference_context": "Document 4184: Unnamed: 0: 4184\ntext: [107] T. Dao, D. Y. Fu, S. Ermon, A. Rudra and C. Ré. 2022. Flashattention: Fast and memory-efficient exact attention with io-awareness. arXiv preprint arXiv:2205.14135.\n\n[108] T. Dao, D. Y. Fu, K. K. Saab, A. W. Thomas, A. Rudra and C. Ré. 2023. Hungry Hungry Hippos: Towards Language Modeling with State Space Models. ArXiv:2212.14052 [cs].\n\n[109] S. Dathathri, A. Madotto, J. Lan, J. Hung, E. Frank, P. Molino, J. Yosinski and R. Liu. 2020. Plug and play language models: A simple approach to controlled text generation.\n\n[110] J. Dauparas, I. Anishchenko, N. Bennett, H. Bai, R. J. Ragotte, L. F. Milles, B. I. M. Wicky, A. Courbet et al. 2022. Robust deep learning&#x2013;based protein sequence de- sign using proteinmpnn. Science, 378(6615):49–56.\n\n[111] N. De Cao, W. Aziz and I. Titov. 2021. Editing fac- tual knowledge in language models. In Proceedings of the 2021 Conference on Empirical Methods in Natural Lan- guage Processing, pages 6491–6506, Online and Punta Cana, Dominican Republic. Association for Computational Linguistics.\nref_doc_id: general_surveys\/2307.10169v1.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich suche nach einem Papier, das die Bearbeitung von Faktenwissen in Sprachmodellen behandelt."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 4184,
+    "topic": "Large Language Models and Transformers"
+  }
+}
+{
+  "id": "5fc4000f-fd54-426e-b27b-cc4fe1db1c5b",
+  "question": "Welche wird erwähnt?",
+  "reference_answer": "International Conference on Learning Representations",
+  "reference_context": "Document 3075: Unnamed: 0: 3075\ntext: 75\n\n[112] S. Zhang, S. Roller, N. Goyal, M. Artetxe, M. Chen, S. Chen, C. Dewan, M. Diab, X. Li, X. V. Lin, et al., “Opt: Open pre-trained transformer language models,” arXiv preprint arXiv:2205.01068, 2022.\n\n[113] J. Wei, M. Bosma, V. Zhao, K. Guu, A. W. Yu, B. Lester, N. Du, A. M. Dai, and Q. V. Le, “Finetuned language models are zero-shot learners,” in International Conference on Learning Representations, 2022.\n\n[114] O. Honovich, T. Scialom, O. Levy, and T. Schick, “Unnatural instructions: Tuning language models\n\nwith (almost) no human labor,” arXiv preprint arXiv:2212.09689, 2022.\n\n[115] Y. Wang, S. Mishra, P. Alipoormolabashi, Y. Kordi, A. Mirzaei, A. Naik, A. Ashok, A. S. Dhanasekaran, A. Arunkumar, D. Stap, et al., “Super-naturalinstructions: Generalization via declar- ative instructions on 1600+ nlp tasks,” in Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp. 5085–5109, 2022.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Konferenz, die in Bezug auf feinabgestimmte Sprachmodelle erwähnt wird."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 3075,
+    "topic": "Large Language Models and Transformers"
+  }
+}
+{
+  "id": "76f0b557-6c9b-4155-91bf-572e8e211efc",
+  "question": "Was ist das?",
+  "reference_answer": "Das Buch zielt darauf ab, die grundlegenden Konzepte großer Sprachmodelle zu umreißen und die damit verbundenen Techniken vorzustellen.",
+  "reference_context": "Document 260: Unnamed: 0: 260\ntext: You may not use this file except in compliance with the License. You may ob- tain a copy of the License at http:\/\/creativecommons.org\/licenses\/by-nc\/4.0. Unless required by applicable law or agreed to in writing, software distributed under the License is dis- tributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limita- tions under the License.\n\nJune 17, 2025\n\nPreface\n\nLarge language models originated from natural language processing, but they have undoubtedly become one of the most revolutionary technological advancements in the field of artificial intelli- gence in recent years. An important insight brought by large language models is that knowledge of the world and languages can be acquired through large-scale language modeling tasks, and in this way, we can create a universal model that handles diverse problems. This discovery has profoundly impacted the research methodologies in natural language processing and many related disciplines. We have shifted from training specialized systems from scratch using a large amount of labeled data to a new paradigm of using large-scale pre-training to obtain foundation models, which are then fine-tuned, aligned, and prompted.\n\nThis book aims to outline the basic concepts of large language models and introduce the related techniques. As the title suggests, the book focuses more on the foundational aspects of large language models rather than providing comprehensive coverage of all cutting-edge methods. The book consists of five chapters:\n\nChapter 1 introduces the basics of pre-training. This is the foundation of large language models, and common pre-training methods and model architectures will be discussed here.\n\nChapter 2 introduces generative models, which are the large language models we commonly refer to today.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für das Ziel des Buches über große Sprachmodelle."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 260,
+    "topic": "Large Language Models"
+  }
+}
+{
+  "id": "7081a40d-9c01-46cc-8a0b-3046aff5438f",
+  "question": "Welche Vorteile hat das eine im Vergleich zum anderen?",
+  "reference_answer": "Im Vergleich zum FFNN hat das RNN den Vorteil, dass es Eingaben beliebiger variabler Länge akzeptieren kann. Durch den internen Zustandsmechanismus kann es wiederholte Berechnungen vermeiden, und die Parameterteilung reduziert die Anzahl der Modellparameter.",
+  "reference_context": "Document 2905: Unnamed: 0: 2905\ntext: The structure of the FFNN contains only limited information about the foregoing and has some limita- tions on the length of the input sequence. Therefore, the RNN LM comes into being. As shown in Fig. 15 (b), RNN can accept input of any variable length. When the input window is moved, its internal state mecha- nism can avoid repeated calculation, and parameter sharing further reduces the number of model parameters. Therefore, compared with FFNN, RNN has a great advantage.\n\nThe pretraining LM is to get a set of model parameters by pretraining some tasks. It initializes the model with these parameters and then trains to improve the model performance effectively. The commonly used pretraining models are ﬁxed embedding (Word2vec [12], Glove [69], etc), variable embedding (Embeddings from LMs (ELMO) [275], Generative Pretrained Transformer (GPT) [50] and Bidirectional Encoder Repre- sentations from Transformers (BERT) [13], etc). Here, we give an example of the GPT model, as shown in Fig. 15 (c). It adopts a two-stage process. In the ﬁrst stage, the Transformer decoder is used as the basic unit of the model to perform text prediction. In the second stage, the GPT is initialized differently for different downstream tasks, training the model and ﬁne-tuning the parameters.\n\nA.2 Basic Components on GL\n\nDue to the extensive use of graph data in many ﬁelds, some communities (e.g., chemistry, protein, and social network) have recently focused on the study of graph pretraining.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Vorteile des RNN im Vergleich zum FFNN."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 2905,
+    "topic": "Large Language Model Architectures"
+  }
+}
+{
+  "id": "039ac22e-2dde-41ab-adfc-6337c1656420",
+  "question": "Welche beschreibt das?",
+  "reference_answer": "Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang und Qun Liu beschreiben TinyBERT in 'Tinybert: Distilling bert for natural language understanding', veröffentlicht in den Findings of the Association for Computational Linguistics: EMNLP 2020, Seiten 4163–4174, 2020.",
+  "reference_context": "Document 1199: Unnamed: 0: 1199\ntext: How can we know what language models know? Transactions of the Association for Computational Linguistics, 8:423–438, 2020.\n\n[Jiao et al., 2020] Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang, and Qun Liu. Tinybert: Distilling bert for natural language understanding. In Findings of the Association for Computational Linguistics: EMNLP 2020, pages 4163–4174, 2020.\n\n[Joshi et al., 2017] Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. Triviaqa: A large In Proceedings of the 55th scale distantly supervised challenge dataset for reading comprehension. Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1601– 1611, 2017.\n\n[Joshi et al., 2020] Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S Weld, Luke Zettlemoyer, and Omer Levy. Spanbert: Improving pre-training by representing and predicting spans. Transactions of the association for computational linguistics, 8:64–77, 2020.\n\n[Jurafsky and Martin, 2008] Dan Jurafsky and James H. Martin. Speech and Language Processing (2nd\n\ned.). Prentice Hall, 2008.\n\n[Kahneman, 2011] Daniel Kahneman. Thinking, fast and slow. macmillan, 2011.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Veröffentlichung, die TinyBERT für das Verständnis natürlicher Sprache beschreibt."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1199,
+    "topic": "Others"
+  }
+}
+{
+  "id": "6fe6f246-c6b6-45ce-bdd7-323650cffdfd",
+  "question": "Was ist das laut dem Kontext?",
+  "reference_answer": "'Seq2sql' ist ein Ansatz zur Generierung strukturierter Abfragen aus natürlicher Sprache unter Verwendung von Reinforcement Learning, wie in CoRR, vol. abs\/1709.00103, 2017 beschrieben.",
+  "reference_context": "Document 2441: Unnamed: 0: 2441\ntext: The Association for Computer Linguistics, 2015, pp. 1470–1480.\n\n[623] V. Zhong, C. Xiong, and R. Socher, “Seq2sql: Gener- ating structured queries from natural language using reinforcement learning,” CoRR, vol. abs\/1709.00103, 2017.\n\n[624] W. Chen, H. Wang, J. Chen, Y. Zhang, H. Wang, S. Li, X. Zhou, and W. Y. Wang, “Tabfact: A large- scale dataset for table-based fact verification,” in 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020.\n\nOpenReview.net, 2020.\n\n[625] T. Yu, R. Zhang, K. Yang, M. Yasunaga, D. Wang, Z. Li, J. Ma, I. Li, Q. Yao, S. Roman, Z. Zhang, and D. R. Radev, “Spider: A large-scale human-labeled dataset for complex and cross-domain semantic pars- ing and text-to-sql task,” in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018, E. Riloff, D. Chiang, J. Hockenmaier, and J. Tsu- jii, Eds. Association for Computational Linguistics, 2018, pp. 3911–3921.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2440: Unnamed: 0: 2440\ntext: Association for Computational Linguistics, 2023, pp. 3548–3562. [622] P. Pasupat and P. Liang, “Compositional semantic parsing on semi-structured tables,” in Proceedings of the 53rd Annual Meeting of the Association for Com- putational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing, ACL 2015, July 26-31, 2015, Beijing, China, Volume 1: Long Papers. The Association for Computer Linguistics, 2015, pp. 1470–1480.\n\n[623] V. Zhong, C. Xiong, and R. Socher, “Seq2sql: Gener- ating structured queries from natural language using reinforcement learning,” CoRR, vol. abs\/1709.00103, 2017.\n\n[624] W. Chen, H. Wang, J. Chen, Y. Zhang, H. Wang, S. Li, X. Zhou, and W. Y. Wang, “Tabfact: A large- scale dataset for table-based fact verification,” in 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020.\n\nOpenReview.net, 2020.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, was 'Seq2sql' laut dem bereitgestellten Kontext ist."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 2441,
+    "topic": "Question Answering and Commonsense Reasoning in NLP"
+  }
+}
+{
+  "id": "97eb322f-de2c-4848-97b5-7b7c0237ff85",
+  "question": "Wann war das?",
+  "reference_answer": "2018",
+  "reference_context": "Document 2276: Unnamed: 0: 2276\ntext: abs\/1609.08144, 2016.\n\n[310] R. Paulus, C. Xiong, and R. Socher, “A deep re- inforced model for abstractive summarization,” in ICLR (Poster). OpenReview.net, 2018.\n\n[311] A. K. Vijayakumar, M. Cogswell, R. R. Selvaraju, Q. Sun, S. Lee, D. J. Crandall, and D. Batra, “Diverse beam search: Decoding diverse solutions from neural sequence models,” CoRR, vol. abs\/1610.02424, 2016. [312] A. Fan, M. Lewis, and Y. N. Dauphin, “Hierarchical neural story generation,” in ACL (1). Association for Computational Linguistics, 2018, pp. 889–898. J. Hewitt, C. D. Manning, and P. Liang, “Trunca- tion sampling as language model desmoothing,” in EMNLP (Findings). Association for Computational Linguistics, 2022, pp. 3414–3427.\n\n[313]\n\n[314] Y. Su, T. Lan, Y. Wang, D. Yogatama, L. Kong, and N. Collier, “A contrastive framework for neural text generation,” in NeurIPS, 2022.\n\n[315] C. Meister, T. Pimentel, G. Wiher, and R. Cotterell, “Locally typical sampling,” Trans. Assoc. Comput. Lin- guistics, 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, in welchem Jahr das Papier 'A deep reinforced model for abstractive summarization' veröffentlicht wurde."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 2276,
+    "topic": "Others"
+  }
+}
+{
+  "id": "cd86c1e0-cab8-4beb-824c-090c6aa1f9ab",
+  "question": "Wie viel wird dafür benötigt?",
+  "reference_answer": "Für das Training von LLaMA-7B (P ≈ 6.7 × 10^9) werden etwa 100GB Speicher benötigt, um die Modellzustände allein zu speichern.",
+  "reference_context": "Document 1957: Unnamed: 0: 1957\ntext: Model States Cost. Model states often occupy the majority of memory during training, typically consisting of model parameters, gradients, and optimizer states. As introduced in Section 4.3.2, mixed precision training has been widely utilized in LLM training. For a model containing P param- eters, both the model parameters and their gradients are typically stored as 16-bit floating-point numbers, requiring a total storage of 4P bytes (2P for the parameters and 2P for the gradients). When using optimizers such as Adam [318] or AdamW [975], an additional set of 32-bit floating-point numbers are needed to store the optimizer states, including the copy of model parameters, gradient momenta, and gradient variances, which leads to a total storage of 12P bytes (4P each for each of these components). Consequently, the total memory required for storing the model states during training is 16P bytes. For instance, training LLaMA- 7B (P ≈ 6.7 × 109) requires around 100GB memory to store the model states alone.\n\nActivations Cost. Activations are the intermediate states that require to be stored in the forward pass for gradient computation during backpropagation. For example, for a binary operation Y = WX, calculating the gradient ∂Y ∂W necessitates the input X, which should be preserved dur- ing the forward pass. In Table 18, we list the estimation of the activation memory consumption for different com- ponents within the Transformer model.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 1958: Unnamed: 0: 1958\ntext: Consequently, the total memory required for storing the model states during training is 16P bytes. For instance, training LLaMA- 7B (P ≈ 6.7 × 109) requires around 100GB memory to store the model states alone.\n\nActivations Cost. Activations are the intermediate states that require to be stored in the forward pass for gradient computation during backpropagation. For example, for a binary operation Y = WX, calculating the gradient ∂Y ∂W necessitates the input X, which should be preserved dur- ing the forward pass. In Table 18, we list the estimation of the activation memory consumption for different com- ponents within the Transformer model. Take LLaMA-7B\n\n81\n\n(V = 32,000,L = 32,H = 4,096,H′ = 11,008,N = 32) as an example, it would take 16GB memory to store activations per device under the setting B = 1,T = 2,048.\n\nTABLE 18: The activation memory consumption of each computation within the LLaMA model based on research work [976]. We denote batch size by B, sequence length by T, the vocabulary size by V , the number of head in the attention module by N, the dimension of each head by D, the hidden size by H (H = ND), and the intermediate size inside FFN by H′. Equations ➀-➈ are layer-wise and need to be multiplied by the number of the layers L when computing the total consumption.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, wie viel Speicher benötigt wird, um die Modellzustände beim Training von LLaMA-7B zu speichern."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1957,
+    "topic": "Large Language Model Training Techniques"
+  }
+}
+{
+  "id": "151fc5d5-0399-4422-8f5c-876be8bf6e4f",
+  "question": "Was bedeutet das?",
+  "reference_answer": "Prompt Ensembling ist der Prozess der Verwendung mehrerer unbeantworteter Prompts für eine Eingabe zur Vorhersage während der Inferenzzeit.",
+  "reference_context": "Document 3264: Unnamed: 0: 3264\ntext: Input (X) | Google became a subsidiary of Alphabet. Input (X) | Mike went to New York yesterday. Sub-PRI | [X] The [MASK] Google. pr | [X] Mike is [MASK] entity type, New York is [MASK] entity type. Sub-PR2 | [X] The [MASK] Alphabet.\n\nSub-PR3 [ [XJ Google [MASK] Alphabet. Sub-PR1 [ DC]. Mike is [MASK] entity type. . a Sub-PR2 { [XJ New York is [MASK] entity type. +»\n\n| [XJ The [MASK] Google [MASK] the [MASK] Alphabet. —>\n\nPR\n\n(c) Prompt Composition. (d) Prompt Decomposition.\n\nFig. 2. Different multi-prompt learning strategies. We use different colors to differentiate different compo- nents as follows. “—” for input text, ““>” for prompt, “>” for answered prompt. “>” for sub-prompt. We\n\nuse the following abbreviations. “PR” denotes prompt, “Ans-PR” denotes answered prompt, “Sub-PR” denotes sub-prompt.\n\nmultiple prompts can further improve the efficacy of prompting methods, and we will call these methods multi-prompt learning methods. In practice, there are several ways to extend the single prompt learning to the use multiple prompts, which have a variety of motivations. We summarize representative methods in the “Multi-prompt Learning” section of Figure 1 as well as Figure 2.\n\n5.1 Prompt Ensembling\n\nPrompt ensembling is the process of using multiple unanswered prompts for an input at inference time to make predictions. An example is shown in Figure 2(a).\nref_doc_id: general_surveys\/3560815.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte mehr über Prompt Ensembling in der Multi-Prompt-Lernstrategie erfahren."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 3264,
+    "topic": "Others"
+  }
+}
+{
+  "id": "8753a017-80a2-47e6-a4e9-5429b7de04dd",
+  "question": "Welche behandelt das?",
+  "reference_answer": "J. Uesato, N. Kushman, R. Kumar, H. F. Song, N. Y. Siegel, L. Wang, A. Creswell, G. Irving, and I. Higgins, “Solving math word problems with process- and outcome-based feedback,” CoRR, vol. abs\/2211.14275, 2022.",
+  "reference_context": "Document 2307: Unnamed: 0: 2307\ntext: abs\/2309.00267, 2023. [371] H. Dong, W. Xiong, D. Goyal, R. Pan, S. Diao, J. Zhang, K. Shum, and T. Zhang, “RAFT: reward ranked finetuning for generative foundation model alignment,” CoRR, vol. abs\/2304.06767, 2023. [Online]. Available: https:\/\/doi.org\/10.48550\/arXiv. 2304.06767\n\n[372] A. Askell, Y. Bai, A. Chen, D. Drain, D. Gan- guli, T. Henighan, A. Jones, N. Joseph, B. Mann, N. DasSarma et al., “A general language assis- tant as a laboratory for alignment,” arXiv preprint arXiv:2112.00861, 2021.\n\n[373] R. Zheng, S. Dou, S. Gao, W. Shen, B. Wang, Y. Liu, S. Jin, Q. Liu, L. Xiong, L. Chen et al., “Secrets of rlhf in large language models part i: Ppo,” arXiv preprint arXiv:2307.04964, 2023.\n\n[374]\n\nJ. Uesato, N. Kushman, R. Kumar, H. F. Song, N. Y. Siegel, L. Wang, A. Creswell, G. Irving, and I. Higgins, “Solving math word problems with process- and outcome-based feedback,” CoRR, vol. abs\/2211.14275, 2022.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2306: Unnamed: 0: 2306\ntext: abs\/2212.08073, 2022. [Online]. Available: https:\/\/doi.org\/10.48550\/arXiv.2212.08073\n\nJ. Ladish,\n\n[370] H. Lee, S. Phatale, H. Mansoor, K. Lu, T. Mesnard, C. Bishop, V. Carbune, and A. Rastogi, “RLAIF: scaling reinforcement learning from human feedback with AI feedback,” CoRR, vol. abs\/2309.00267, 2023. [371] H. Dong, W. Xiong, D. Goyal, R. Pan, S. Diao, J. Zhang, K. Shum, and T. Zhang, “RAFT: reward ranked finetuning for generative foundation model alignment,” CoRR, vol. abs\/2304.06767, 2023. [Online]. Available: https:\/\/doi.org\/10.48550\/arXiv. 2304.06767\n\n[372] A. Askell, Y. Bai, A. Chen, D. Drain, D. Gan- guli, T. Henighan, A. Jones, N. Joseph, B. Mann, N. DasSarma et al., “A general language assis- tant as a laboratory for alignment,” arXiv preprint arXiv:2112.00861, 2021.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Veröffentlichung zum Thema 'Solving math word problems with process- and outcome-based feedback'."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 2307,
+    "topic": "Large Language Model Training and Alignment"
+  }
+}
+{
+  "id": "af35d1e5-0fe0-4ffe-9958-387154bf5c1f",
+  "question": "Welche wird dort behandelt?",
+  "reference_answer": "Lernen durch Graph Property Prediction.",
+  "reference_context": "Document 2678: Unnamed: 0: 2678\ntext: . . . . 5.3 Learning by Graph Property Prediction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.4 Learning by Masked Autoencoder . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.5 Other Learning Strategies on Graph Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.6 Summary .\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n6 PFMs for Other Data Modality . . .\n\n. 6.1 PFMs for Speech . . . . .\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Lernstrategie, die im Abschnitt 5.3 des Dokuments behandelt wird."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 2678,
+    "topic": "Pretrained Foundation Models on Graph Data"
+  }
+}
+{
+  "id": "859cc81b-1dd6-4e99-982b-ebfe8a6a7579",
+  "question": "Welche gibt es?",
+  "reference_answer": "Es gibt Bedenken hinsichtlich der Privatsphäre beim Hochladen von Gesundheitsinformationen von Patienten auf einen kommerziellen Server, der das LLM unterstützt, sowie die Möglichkeit, dass LLMs medizinische Fehlinformationen fabrizieren, z.B. medizinische Begriffe falsch interpretieren und Ratschläge geben, die nicht mit medizinischen Richtlinien übereinstimmen.",
+  "reference_context": "Document 1922: Unnamed: 0: 1922\ntext: In addition, it would also raise privacy concerns to upload the health information of patients [765] into a commercial server that support the LLM.\n\nEducation is also an important application domain where LLMs potentially exert significant influence. Existing work has found that LLMs can achieve student-level performance on standardized tests [46] in a variety of subjects of math- ematics (e.g., physics, computer science) on both multiple- choice and free-response problems. In addition, empirical studies have shown that LLMs can serve as writing or read- ing assistant for education [901, 902]. A recent study [902] reveals that ChatGPT is capable of generating logically\n\nconsistent answers across disciplines, balancing both depth and breadth. Another quantitative analysis [901] shows that students utilizing ChatGPT (either keeping or refining the results from LLMs as their own answers) perform better than average students in some courses from the computer security field. Recently, several perspective papers [903, 904] also explore various application scenarios of LLMs in class- room teaching, such as teacher-student collaboration, per- sonalized learning, and assessment automation. However, the application of LLMs in education may lead to a series of practical issues, e.g., plagiarism, potential bias in AI- generated content, overreliance on LLMs, and inequitable access for non-English speaking individuals [905].\n\nLaw is a specialized domain that is built on professional domain knowledge. Recently, a number of studies have ap- plied LLMs to solve various legal tasks, e.g., legal document analysis [906], legal judgment prediction [907], and legal document writing [908].\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 1921: Unnamed: 0: 1921\ntext: As the major technical approach, researchers typically design specific prompts or instructions to guide LLMs to perform a wide range of medical tasks. To further harness the power of LLMs in the healthcare domain, researchers propose to develop healthcare-related LLMs [354, 898, 899]. Specifically, the Med-PaLM models [354, 898] achieves expert-level per- formance on the United States Medical Licensing Exami- nation (USMLE), and earns greater approval from physi- cians in answering consumer’s medical questions. However, LLMs may fabricate medical misinformation [897, 900], e.g., misinterpreting medical terms and suggesting advice inconsistent with medical guidelines. In addition, it would also raise privacy concerns to upload the health information of patients [765] into a commercial server that support the LLM.\n\nEducation is also an important application domain where LLMs potentially exert significant influence. Existing work has found that LLMs can achieve student-level performance on standardized tests [46] in a variety of subjects of math- ematics (e.g., physics, computer science) on both multiple- choice and free-response problems. In addition, empirical studies have shown that LLMs can serve as writing or read- ing assistant for education [901, 902]. A recent study [902] reveals that ChatGPT is capable of generating logically\n\nconsistent answers across disciplines, balancing both depth and breadth. Another quantitative analysis [901] shows that students utilizing ChatGPT (either keeping or refining the results from LLMs as their own answers) perform better than average students in some courses from the computer security field.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Es gibt Bedenken hinsichtlich der Nutzung von LLMs im Gesundheitswesen."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1922,
+    "topic": "Large Language Models in Specialized Domains"
+  }
+}
+{
+  "id": "f7c2170c-5094-498c-b77e-56e7a18b98f4",
+  "question": "Welches Thema behandelt es?",
+  "reference_answer": "Das Papier behandelt die ethischen und sozialen Risiken von Schäden durch Sprachmodelle.",
+  "reference_context": "Document 3078: Unnamed: 0: 3078\ntext: [118] L. Weidinger, J. Mellor, M. Rauh, C. Grifﬁn, J. Uesato, P.-S. Huang, M. Cheng, M. Glaese, B. Balle, A. Kasirzadeh, et al., “Ethical and social risks of harm from language models,” arXiv preprint arXiv:2112.04359, 2021.\n\n[119] S. Kiegeland and J. Kreutzer, “Revisiting the weaknesses of reinforcement learning for neural ma- chine translation,” in Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 1673–1681, 2021.\n\n[120] N. Jaques, J. H. Shen, A. Ghandeharioun, C. Ferguson, A. Lapedriza, N. Jones, S. Gu, and R. Pi- card, “Human-centric dialog training via ofﬂine reinforcement learning,” in Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 3985–4003, 2020.\n\n[121] S. J. Rennie, E. Marcheret, Y. Mroueh, J. Ross, and V. Goel, “Self-critical sequence training for image captioning,” in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 7008–7024, 2017.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für das Papier von L. Weidinger und anderen im Jahr 2021."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 3078,
+    "topic": "Others"
+  }
+}
+{
+  "id": "6257a060-4e11-4f13-adc1-a52b724b78ce",
+  "question": "Wofür wird das verwendet?",
+  "reference_answer": "Das CoNLL2012-Dataset wird für die Koreferenzauflösung verwendet, bei der Modelle identifizieren, welche Wörter in einem Text auf dieselbe Entität verweisen.",
+  "reference_context": "Document 5007: Unnamed: 0: 5007\ntext: GSM8K [292]: A dataset\n\nfocused on mathematical problem-solving, challenging models to tackle complex word problems with logical reasoning.\n\nCoNLL2012 [316]: A dataset used for coreference reso- lution, where models identify which words in a text refer to the same entity.\n\nIMDB [317] and SST-2 [318]: Sentiment analysis datasets used to determine the emotional tone of a given text, whether positive, negative, or neutral.\n\nMRPC [319] and STS-B [320]: Datasets for semantic matching, where models assess the similarity or relat- edness of sentence pairs.\n\nCommonGen [296]: A text generation dataset that pro- vides structured inputs, challenging models to generate coherent sentences based on given keywords.\n\nWMT [299]: A dataset for machine translation, widely used for training and evaluating models in translating text between languages.\n\nXSum [321] and CNN\/DM [297]: Text summarization datasets that require models to generate concise sum- maries from longer text documents.\n\nAGNews [322] and TREC [323]: Text classification datasets that test a model’s ability to categorize text into predefined categories based on content.\n\nCoLA [324]: A dataset focused on evaluating the gram- matical correctness of sentences, essential for text quality evaluation.\n\nMBPP [325]: A text-to-code dataset that provides natural language programming problems and assesses a model’s ability to generate correct code solutions.\n\nCoNLL2003 [326]: A named entity recognition dataset where models identify and classify proper nouns, such as names of people, organizations, and locations, within a text.\nref_doc_id: general_surveys\/682263.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Verwendung des CoNLL2012-Datasets."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 5007,
+    "topic": "Natural Language Processing Datasets"
+  }
+}
+{
+  "id": "85087364-c960-494a-8e8e-773125669666",
+  "question": "Welches wird dort vorgestellt?",
+  "reference_answer": "Attngan: Fine-grained text to image generation with attentional generative adversarial networks",
+  "reference_context": "Document 185: Unnamed: 0: 185\ntext: 5907–5915, 2017.\n\n[149] T. Xu, P. Zhang, Q. Huang, H. Zhang, Z. Gan, X. Huang, and X. He, “Attngan: Fine-grained text to image generation with attentional generative adversarial networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 1316–1324, 2018.\n\n[150] O. Patashnik, Z. Wu, E. Shechtman, D. Cohen-Or, and D. Lischinski, “Styleclip: Text-driven manipulation of stylegan imagery,” in Proceedings of the IEEE\/CVF International Conference on Computer Vision, pp. 2085–2094, 2021. [151] A. Nichol, P. Dhariwal, A. Ramesh, P. Shyam, P. Mishkin, B. McGrew, I. Sutskever, and M. Chen, “Glide: Towards\n\nphotorealistic image generation and editing with text-guided diffusion models,” 2021.\n\n[152] C. Saharia, W. Chan, S. Saxena, L. Li, J. Whang, E. Denton, S. K. S. Ghasemipour, B. K. Ayan, S. S. Mahdavi, R. G. Lopes, et al., “Photorealistic text-to-image diffusion models with deep language understanding,” arXiv preprint arXiv:2205.11487, 2022.\n\n[153] M. Chen, X. Tan, B. Li, Y. Liu, T. Qin, S. Zhao, and T.-Y.\nref_doc_id: general_surveys\/2303.04226v1.pdf\n\nDocument 184: Unnamed: 0: 184\ntext: [146] J. Merullo, L. Castricato, C. Eickhoff, and E. Pavlick, “Linearly mapping from image to text space,” arXiv preprint\n\narXiv:2209.15162, 2022.\n\n[147] R. Zhou, C. Jiang, and Q. Xu, “A survey on generative adversarial network-based text-to-image synthesis,” Neurocom-\n\nputing, vol. 451, pp. 316–336, 2021.\n\n[148] H. Zhang, T. Xu, H. Li, S. Zhang, X. Wang, X. Huang, and D. N. Metaxas, “Stackgan: Text to photo-realistic image synthesis with stacked generative adversarial networks,” in Proceedings of the IEEE international conference on computer vision, pp. 5907–5915, 2017.\n\n[149] T. Xu, P. Zhang, Q. Huang, H. Zhang, Z. Gan, X. Huang, and X. He, “Attngan: Fine-grained text to image generation with attentional generative adversarial networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 1316–1324, 2018.\n\n[150] O. Patashnik, Z. Wu, E. Shechtman, D. Cohen-Or, and D. Lischinski, “Styleclip: Text-driven manipulation of stylegan imagery,” in Proceedings of the IEEE\/CVF International Conference on Computer Vision, pp. 2085–2094, 2021.\nref_doc_id: general_surveys\/2303.04226v1.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für das Modell, das in der Arbeit von T. Xu et al. im Jahr 2018 vorgestellt wurde."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 185,
+    "topic": "Deep Generative Models"
+  }
+}
+{
+  "id": "7dcee746-bb25-4bcc-80dc-65b0bf0dfadd",
+  "question": "Welches Thema behandelt es?",
+  "reference_answer": "Automatisierung der Formalisierung von Theoremaussagen mit großen Sprachmodellen.",
+  "reference_context": "Document 4205: Unnamed: 0: 4205\ntext: Minds and machines, 30(3):411–437.\n\n[159] S. Gadgil, A. R. Tadipatri, A. Agrawal, A. Narayanan and N. Goyal. 2022. Towards automating formalisation of theorem statements using large language models. 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Workshop on MATH-AI.\n\n[160] T. Gale, D. Narayanan, C. Young and M. Zaharia. 2022. Megablocks: Efficient sparse training with mixture-of- experts. arXiv preprint arXiv:2211.15841.\n\n[161] T. Gale, M. Zaharia, C. Young and E. Elsen. Sparse GPU Kernels for Deep Learning.\n\n2020. ArXiv:2006.10901 [cs, stat].\n\n[162] K. Gandhi, J.-P. Fränken, T. Gerstenbrg and N. D. Goodman. 2023. Understanding social reasoning in lan- arXiv preprint guage models with language models. arXiv:2306.15448.\n\n[163] D. Ganguli, L. Lovitt, J. Kernion, A. Askell, Y. Bai, S. Kadavath, B. Mann, E. Perez et al. 2022. Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned. arXiv preprint arXiv:2209.07858.\n\n[164] J. Gao, X. Ding, B. Qin and T. Liu. 2023.\nref_doc_id: general_surveys\/2307.10169v1.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welches Thema das Paper von S. Gadgil und Kollegen aus dem Jahr 2022 behandelt."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 4205,
+    "topic": "Large Language Models Research"
+  }
+}
+{
+  "id": "9e3de7ee-50e2-45cf-b678-c5b7e05de890",
+  "question": "Welche wird als solche angesehen?",
+  "reference_answer": "Human Alignment, also die Ausrichtung an menschlichen Werten und Bedürfnissen, wird als Schlüssel für die breite Nutzung von LLMs in realen Anwendungen angesehen.",
+  "reference_context": "Document 1785: Unnamed: 0: 1785\ntext: LLMs face difficulties in numerical computation, especially for the symbols that are seldom en- countered during pre-training. In addition to us- ing mathematical tools, tokenizing digits into in- dividual tokens is also an effective design choice for improving the arithmetic ability of LLMs.\n\n7.2 Advanced Ability\n\nIn addition to the above basic evaluation tasks, LLMs also exhibit some superior abilities that require special consider- ations for evaluation. In this part, we discuss several rep- resentative advanced abilities and the corresponding eval- uation approaches, including human alignment, interaction with the external environment, and tool manipulation. Next, we discuss these advanced abilities in detail.\n\n61\n\n7.2.1 Human Alignment\n\nIt is desired that LLMs could well conform to human values and needs, i.e., human alignment, which is a key ability for the broad use of LLMs in real-world applications.\n\nTo evaluate this ability, existing studies consider multiple criteria for human alignment, such as helpfulness, honesty, and safety [46, 183, 366]. For helpfulness and honesty, adver- sarial question answering tasks (e.g., TruthfulQA [558]) can be utilized to examine LLM’s ability in detecting possible falsehood in the text [46, 81]. Furthermore, harmlessness can be also evaluated by several existing benchmarks, e.g., CrowS-Pairs [605] and Winogender [606]. Despite the auto- matic evaluation with the above datasets, human evaluation is still a more direct way to effectively test the human alignment ability of LLMs. OpenAI invites many experts in domains related to AI risks to evaluate and improve the behaviors of GPT-4 when encountering risky contents [46].\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 1784: Unnamed: 0: 1784\ntext: ternal tools, recent studies find that tokenizing digits into individual tokens (e.g., LLaMA and Galactica tokenizers) is a useful approach to enhancing the inherent arithmetic ability of LLMs [359, 692]. One possible explanation is that subword tokenization techniques can result in inconsistent sequences when tokenizing numbers. For instance, with a subword tokenizer the integer 7481 may be tokenized as 7 481, while 74815 may be tokenized as 748 15 (the same numerical substrings with different splits) [359]. As a comparison, digit-based tokenization for numbers can avoid such an inconsistency, thus likely improving the numerical computation ability of LLMs. LLMs face difficulties in numerical computation, especially for the symbols that are seldom en- countered during pre-training. In addition to us- ing mathematical tools, tokenizing digits into in- dividual tokens is also an effective design choice for improving the arithmetic ability of LLMs.\n\n7.2 Advanced Ability\n\nIn addition to the above basic evaluation tasks, LLMs also exhibit some superior abilities that require special consider- ations for evaluation. In this part, we discuss several rep- resentative advanced abilities and the corresponding eval- uation approaches, including human alignment, interaction with the external environment, and tool manipulation. Next, we discuss these advanced abilities in detail.\n\n61\n\n7.2.1 Human Alignment\n\nIt is desired that LLMs could well conform to human values and needs, i.e., human alignment, which is a key ability for the broad use of LLMs in real-world applications.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welche Fähigkeit als Schlüssel für die breite Nutzung von LLMs in realen Anwendungen angesehen wird."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1785,
+    "topic": "Large Language Model Evaluation and Challenges"
+  }
+}
+{
+  "id": "236cbbdb-9b00-4758-a457-3c997e7b9a55",
+  "question": "Welches Thema behandelt dieser?",
+  "reference_answer": "Der Artikel 'Hotpotqa' behandelt ein Datenset für vielfältige, erklärbare Multi-Hop-Fragebeantwortung.",
+  "reference_context": "Document 2416: Unnamed: 0: 2416\ntext: 697–706.\n\n[579] F. Mahdisoltani,\n\n[581] Z. Yang, P. Qi, S. Zhang, Y. Bengio, W. W. Cohen, R. Salakhutdinov, and C. D. Manning, “Hotpotqa: A dataset for diverse, explainable multi-hop ques- tion answering,” in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018. As- sociation for Computational Linguistics, 2018, pp. 2369–2380.\n\n[582] C. Clark, K. Lee, M. Chang, T. Kwiatkowski, M. Collins, and K. Toutanova, “Boolq: Exploring the surprising difficulty of natural yes\/no questions,” in Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguis- tics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA, June 2-7, 2019, Volume 1 (Long and Short Papers), J. Burstein, C. Doran, and T. Solorio, Association for Computational Linguistics, Eds. 2019, pp. 2924–2936.\n\n[583] M. Sap, H. Rashkin, D. Chen, R. L. Bras, and Y. Choi, “Socialiqa: Commonsense reasoning about social in- teractions,” CoRR, vol. abs\/1904.09728, 2019.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welches Thema der Artikel 'Hotpotqa' von Z. Yang und anderen behandelt."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 2416,
+    "topic": "Question Answering Datasets"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "id": "96975c30-2d44-40fc-9a50-85877e59c788",
+  "question": "Warum ist das so?",
+  "reference_answer": "Zahlreiche SPD-Abgeordnete haben massive Probleme bei der Vorstellung, schon bald Friedrich Merz zum Kanzler zu wählen, weil sie ihm nicht trauen und es hängt zusammen mit den viel kritisierten Abstimmungen im Bundestag, bei denen die Stimmen der AfD in Kauf genommen wurden.",
+  "reference_context": "Document 1019: Unnamed: 0: 1019\ntext: Können große Unterschiede überwunden werden? Wie könnten Kompromisse aussehen?\nEs ist auch die Phase, in der im Wahlkampf zugezogene Verletzungen und Beleidigungen überwunden werden müssen. Verzeihen und Vertrauen spielen die zentrale Rolle.\nVertrauen als Grundlage für Koalitionsverhandlungen\nDenn Vertrauen ist die Grundlage für das, was dann kommt. In diesen Tagen wird auf beiden Seiten deutlich, dass in Sachen Vertrauen noch Luft nach oben ist. Zahlreiche SPD-Abgeordnete haben massive Probleme bei der Vorstellung, schon bald Friedrich Merz zum Kanzler zu wählen. Sie trauen ihm nicht. Das mag teilweise gespielte Aufregung sein, teilweise ist die Empörung aber auch echt. Sie hängt zusammen mit den viel kritisierten Abstimmungen im Bundestag, bei denen die Stimmen der AfD in Kauf genommen wurden.\nDas dort verloren gegangene Vertrauen muss nun in kürzester Zeit wiederhergestellt werden. Denn Vertrauen ist die Grundlage für die Phase, die nach dem Sondieren kommt. Die Phase der Koalitionsverhandlungen. Jetzt wird es konkret. Jetzt wird aufgeschrieben, was sich die künftige Regierung vornimmt, was sie angehen möchte. Der Druck ist nun besonders groß.\nZur Einigkeit verdammt\nScheitern die Koalitionsverhandlungen, wird es kompliziert. Denn eigentlich sind Union und SPD zur Einigung verdammt. Es fehlen schlicht die Optionen. Eine Zusammenarbeit mit der AfD hat Friedrich Merz vehement ausgeschlossen. Eine Minderheitsregierung ohne festen Koalitionspartner ist in Deutschland nicht gelernt und birgt gewisse Risiken, vor allem in Zeiten, in denen Stabilität gefragt ist. Deswegen ist in dieser Phase eine Menge Konzentration gefragt.\nGelingt es beiden Seiten, einen Koalitionsvertrag zu beschließen, beginnt die Phase des gemeinsamen Regierens.\nref_doc_id: 2025-02-28\/inland\/article_8.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Zahlreiche SPD-Abgeordnete haben Probleme damit, Friedrich Merz zum Kanzler zu wählen."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1019,
+    "topic": "Koalitionsverhandlungen nach der Bundestagswahl 2025"
+  }
+}
+{
+  "id": "9d3463c1-28a3-40b6-b05c-6f1881225561",
+  "question": "Was war das?",
+  "reference_answer": "Die Hamas hat angekündigt, sie werde kommende Woche vier weitere Leichen übergeben, womit die erste Phase des Abkommens endgültig abgeschlossen wird.",
+  "reference_context": "Document 244: Unnamed: 0: 244\ntext: Die Hamas hat zudem angekündigt, sie werde kommende Woche vier weitere Leichen übergeben, womit die erste Phase des Abkommens endgültig abgeschlossen wird.\nDie Hamas ließ drei der sechs heute freigelassenen Geiseln früher frei als geplant. Das sollte gemäß dem Waffenruhe-Abkommen eigentlich erst in einer Woche passieren. Die Islamisten wollten, dass die Freilassung Dutzender hochrangiger Mitglieder der Terrororganisation aus israelischen Gefängnissen nicht in letzter Minute scheitert, berichteten mehrere Medien.\nIsrael verschob jedoch die Entlassung palästinensischer Häftlinge, wie das Büro des israelischen Ministerpräsidenten Benjamin Netanjahu in der Nacht mitteilte. \"Angesichts der wiederholten Verstöße der Hamas, einschließlich der Zeremonien zur Demütigung unserer Geiseln und der zynischen Ausnutzung unserer Geiseln für Propagandazwecke, wurde beschlossen, die für gestern geplante Freilassung der Terroristen zu verschieben, bis die Freilassung der nächsten Geiseln sichergestellt ist, und zwar ohne die demütigenden Zeremonien\", hieß es.\nZukunft der Waffenruhe ungewiss\nLaut der US-Nachrichtenseite \"Axios\" gibt es sowohl aufseiten der palästinensischen Terrororganisation als auch innerhalb der israelischen Regierung Befürchtungen, dass die erste, sechswöchige Phase der Waffenruhe nicht wie verabredet bis Anfang März halten könnte - und wichtige Forderungen dann unerfüllt bleiben.\nIn Israel gibt es deshalb Sorgen um das Schicksal der noch übrigen 62 Geiseln, die bei dem Terrorangriff der Hamas auf Israel im Oktober 2023 entführt worden waren. Von ihnen sollen nach Angaben der israelischen Armee noch 27 am Leben sein.\nLeiche von Shiri Bibas identifiziert\nUnterdessen wurde eine am Freitagabend von der Hamas übergebene Frauenleiche identifiziert.\nref_doc_id: 2025-02-23\/ausland\/article_2.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Die Hamas hat etwas angekündigt, um die erste Phase des Abkommens abzuschließen."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 244,
+    "topic": "Israel-Hamas-Konflikt und Geiselfreilassungen"
+  }
+}
+{
+  "id": "b26380a2-9b56-41ee-bd75-910f25620cbb",
+  "question": "Wer wird das machen?",
+  "reference_answer": "Der Trump-Bewunderer Christopher Macchio wird die Nationalhymne singen.",
+  "reference_context": "Document 566: Unnamed: 0: 566\ntext: Im Nachgang hatte ein Fotograf zugegeben, die offiziellen Bilder von Trump Amtseinführung so bearbeitet zu haben, dass die Menschenmenge größer aussah. Der Guardian hatte damals darüber berichtet.\nWer wird singen?\nBei der Amtseinführung von Joe Biden 2021 traten Megastars wie Lady Gaga und Jennifer Lopez auf. Die Aktivistin und amerikanische Lyrikerin Amanda Gorman sorgte außerdem für weltweite Aufmerksamkeit mit ihrem Gedicht \"The Hill we climb\". Obama ließ sich 2013 von Beyoncé feiern.\nUnd Trump? Neben dem Trump-Bewunderer Christopher Macchio, der die Nationalhymne singt, werden die Countrysängerin Carrie Underwood und der 82-jährige Lee Greenwood auftreten. Greenwoods Song \"God bless America\" gilt als inoffizielle Trump-Hymne und wurde bei seinen Wahlkampfveranstaltungen hoch und runter gespielt. Gemeinsam mit dem 82-Jährigen hatte Trump zuletzt eine Bibel vermarktet.\nEx-Präsidenten, Staatschefs, Tech-Milliardäre - wer ist eingeladen?\nNeben zahlreichen Schaulustigen werden der amtierende Präsident, Joe Biden, und die amtierende Vizepräsidentin, Kamala Harris, erwartet. Außerdem nehmen für gewöhnlich führende Politiker und Politikerinnen von Demokraten und Republikanern, Richter des Supreme Courts, hochrangige US-Militärs und frühere Präsidenten an der Zeremonie teil.\nTrump wiederum boykottierte vor vier Jahren die Vereidigung seines Nachfolgers Biden, weil er seine Niederlage nicht akzeptierte.\nIn vorderster Reihe bei diesem Mal dürfte wiederum auch der gesamte Trump-Clan zu sehen sein, darunter seine Kinder Ivanka, Eric und Donald Trump Jr..\nNeben Prominenz aus Kultur und Sport werden auch internationale Staats- und Regierungschefs erwartet, vor allem aus dem rechten Lager: etwa Italiens Staatschefin Giorgia Meloni oder Argentiniens ultraliberaler Staatschef Javier Milei.\nref_doc_id: 2025-01-20\/ausland\/article_12.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, wer bei der Amtseinführung von Trump die Nationalhymne singen wird."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 566,
+    "topic": "US-Präsidentschaft und Machtwechsel"
+  }
+}
+{
+  "id": "d03ed731-75a3-4204-941c-6a8cb24a6d75",
+  "question": "Welche sieht er?",
+  "reference_answer": "Der Auftragseingang in Westeuropa sei deutlich gestiegen, und die Auftragsbücher füllten sich schnell. Der Absatz von E-Autos habe sich in Westeuropa deutlich erhöht.",
+  "reference_context": "Document 864: Unnamed: 0: 864\ntext: Kostenstruktur im Blick\n\"Gerade weil die weltweiten ökonomischen Rahmenbedingungen gegenwärtig so unsicher sind, müssen wir uns auf die Dinge konzentrieren, die wir selbst beeinflussen können\", sagte Finanzchef Arno Antlitz. \"Das heißt: Zu unserem starken Angebot an Fahrzeugen müssen wir eine wettbewerbsfähige Kostenstruktur sicherstellen, damit wir auch in einer sich schnell verändernden Welt erfolgreich bleiben.\"\nAntlitz sieht auch positive Entwicklungen: Der Auftragseingang in Westeuropa sei deutlich gestiegen, und die Auftragsbücher füllten sich schnell. \"Der Absatz von E-Autos habe sich in Westeuropa deutlich erhöht\", unterstreicht er.\nGewinneinbruch auch bei Mercedes\nAuch für den Konkurrenten Mercedes-Benz läuft das Geschäft nicht rund. Der Autobauer hat im ersten Quartal bei einem Absatzrückgang in China einen Gewinneinbruch verzeichnet. Wegen der unklaren US-Zollpolitik kann das Management keinen Jahresausblick mehr geben.\nVon Januar bis März sackte der Betriebsgewinn um gut 40 Prozent auf 2,3 Milliarden Euro ab, wie das Unternehmen heute mitteilte. Der Absatz auf dem wichtigsten Markt China sei um zehn Prozent gesunken. Mercedes kämpft wie die anderen deutschen Autobauer auf dem weltweit größten Markt mit harter Konkurrenz durch heimische Hersteller. Auch in Europa sanken die Verkäufe, in den USA waren sie noch stabil.\nref_doc_id: 2025-04-30\/wirtschaft\/article_11.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welche positive Entwicklung Arno Antlitz in Westeuropa sieht."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 864,
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "bb00f142-eb09-4f6a-a3e4-6b16fed28419",
+  "question": "Warum tat er das?",
+  "reference_answer": "Weil im Keller kein Empfang für das Telefon war und er auf den Anruf wartete, dass sein Vater im Krankenhaus gestorben war.",
+  "reference_context": "Document 1161: Unnamed: 0: 1161\ntext: Corona-Ausbruch in Bergamo 2020\n\"Wir haben unsere Liebsten ersticken sehen\"\nStand: 31.01.2025 09:24 Uhr\nZu Beginn der Corona-Pandemie war die italienische Region rund um Bergamo besonders betroffen. Bei den Angehörigen der Opfer kommen schmerzhafte Erinnerungen hoch. Fünf Jahre später kämpfen sie noch immer um Aufarbeitung.\nNoch schnell eine Kundin bedienen, dann erst hat Salvatore Mazzola Zeit, sich zu erinnern. Die Bäckerei geht vor. Hier in seinem kleinen Ladengeschäft in Nembro in der Nähe von Bergamo hat er damals, zu Beginn der Corona-Pandemie, die meiste Zeit verbracht. \"Es war schrecklich, es war eine Spannung zu spüren, ein gespenstisches Schweigen. Man hat sich angeschaut und gefragt: Wer ist der nächste?\"\nWährend dieser Zeit habe er zunächst im Untergeschoß geschlafen. Doch als sein Vater ins Krankenhaus kam, habe er die Liege rauf in die Bäckerei gebracht, um dort zu schlafen. Denn im Keller gab es keinen Empfang für das Telefon. \"Weil klar war, jeden Moment konnte der Anruf kommen.\"\nDer Anruf, auf den so viele in Bergamo und Umgebung warteten. Damals, als die Särge der Corona-Toten aus Bergamo mit Militärtransportern durch halb Italien transportiert wurden, weil das Krematorium überlastet war. Der Anruf, von dem jeder hoffte, dass das Telefon nie läuten würde - und der viel zu oft doch kam.\nAuch bei Salvatore Mazzola. Sein Vater, der aus Sizilien zu Besuch bei ihm und den Enkeln war, ist damals gestorben - an Corona. Sein Tod hätte verhindert werden können, wenn die Behörden und die politisch Verantwortlichen mehr getan hätten, glaubt Mazzola. Auch deshalb kann er bis heute nicht abschließen, ist wütend. Und verlangt Gerechtigkeit.\nref_doc_id: 2025-01-31\/ausland\/article_4.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, warum Salvatore Mazzola während der Corona-Pandemie in seiner Bäckerei schlief."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1161,
+    "topic": "Gesellschaftliche Auswirkungen der Corona-Pandemie"
+  }
+}
+{
+  "id": "96929e51-31e5-4e50-b2db-3316e421d464",
+  "question": "Welche waren das?",
+  "reference_answer": "Vor allem Papiere aus der Rüstungsindustrie, der Baubranche und dem Energiesektor waren vor dem Wochenende stark gefragt.",
+  "reference_context": "Document 115: Unnamed: 0: 115\ntext: Zeitweise stieg der DAX sogar zurück über die Marke von 23.000 Zählern. Sein zuvor erhebliches Wochenminus machte er damit fast komplett wett.\nHoffen auf Finanzpaket\nOb die Schuldenbremse tatsächlich gelockert wird, dürfte sich am kommenden Dienstag im Bundestag entscheiden. Die Chancen stehen allerdings gut, nachdem sich die Fraktionsspitzen von Union, SPD und Grünen nach langen Diskussionen auf die Pakete für Verteidigung und Infrastruktur einigen konnten.\nVor allem Papiere aus der Rüstungsindustrie, der Baubranche und dem Energiesektor waren daraufhin vor dem Wochenende stark gefragt. Rheinmetall, das am Donnerstag Volkswagen beim Börsenwert überholt hatte, legte um weitere 7,6 Prozent zu und erreichte mit 1.386 Euro ein neues Rekordhoch.\nWeiterhin wohl schwankende Kurse\nNicht nur die deutsche Politik bewegt derzeit die Kurse dies- und jenseits des Atlantiks: \"Die Hoffnung auf Frieden in der Ukraine, auf erfolgreiche Verhandlungen in den Zollstreitigkeiten mit den USA sowie auf große konjunkturstimulierende Fiskalprogramme in Europa wurde in der abgelaufenen Woche eher von dem Bangen abgelöst, dass genau diese positiven Politikimpulse nicht gelingen werden\", kommentierte Ulrich Kater, Chefvolkswirt der DekaBank.\nAuch eine mögliche Schwäche der US-Wirtschaft wird thematisiert. \"Angesichts der Unsicherheit schürenden Handels- und Fiskalpolitik der Trump-Regierung hat sich seit dem Jahreswechsel die Stimmung an den Märkten hinsichtlich der US-Konjunkturaussichten eingetrübt\", schreibt Michael Krautzberger, Ökonom bei Allianz Global Investors. Die US-Aktien- und Anleihemärkte litten unter der Last dieser politischen Unberechenbarkeit.\nref_doc_id: 2025-03-14\/wirtschaft\/article_4.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welche Aktien vor dem Wochenende besonders gefragt waren."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 115,
+    "topic": "Finanzmärkte und Währungen"
+  }
+}
+{
+  "id": "bd8e4347-0906-4644-81cf-da61bdcbedac",
+  "question": "Was führte dazu?",
+  "reference_answer": "Trumps aggressive Kanada-Politik führte in den vergangenen Monaten zu einem spektakulären Meinungsumschwung zugunsten der Liberalen.",
+  "reference_context": "Document 810: Unnamed: 0: 810\ntext: Liberale verdanken Wahlerfolg Trumps aggressiver Politik\nCarney war mit seiner Liberalen Partei als Favorit ins Rennen gegangen. Die oppositionellen Konservativen hatten in Umfragen jedoch lange Zeit vor den Liberalen gelegen. Trumps aggressive Kanada-Politik führte in den vergangenen Monaten dann zu einem spektakulären Meinungsumschwung. Carney hatte seinen Wahlkampf ganz auf den US-Präsidenten und dessen aggressive Zollpolitik sowie Drohungen ausgerichtet, Kanada zum 51. US-Bundesstaat machen zu wollen.\nDer Politologin Geneviève Tellier von der Universität Ottawa zufolge verdankt der ehemalige Zentralbankchef dieser Linie seinen Wahlerfolg. \"Wenn es Donald Trump nicht gäbe, hätten die Konservativen wahrscheinlich gewonnen\", sagte sie.\nCarney hatte das Amt des kanadischen Regierungschefs Mitte März von Justin Trudeau übernommen, der angesichts der schlechter Umfragewerte und parteiinterner Meinungsverschiedenheiten zurückgetreten war.\nHöchste Wahlbeteiligung seit 1993\nCarney wird aller Voraussicht nach eine Minderheitsregierung anführen. Nach der Auszählung fast aller Wahlbezirke kommen seine Liberalen auf 169 Sitze im Parlament in Ottawa. Zur absoluten Mehrheit braucht es 172 Sitze. Die Liberalen regieren bereits seit 2019 mit einer Minderheitsregierung. Die kanadische Wahlbehörde meldete eine Wahlbeteiligung von 68,5 Prozent - der höchste Wert seit 1993.\nPoilievre räumte seine Niederlage ein und kündigte an, mit Carney zusammenzuarbeiten. \"Wir werden Kanada immer zur Priorität machen\", sagte er vor Anhängerinnen und Anhängern in Ottawa. Seine Partei werde \"mit dem Premierminister und allen Parteien zusammenarbeiten, um die Interessen Kanadas zu verteidigen und ein neues Handelsabkommen zu erzielen, das diese Zölle hinter uns lässt und unsere Souveränität schützt\".\nref_doc_id: 2025-04-30\/ausland\/article_12.md\n\nDocument 809: Unnamed: 0: 809\ntext: Carney: \"Wir werden diesen Handelskrieg gewinnen\nDie Beziehungen zwischen beiden Nachbarländern hatten sich mit Trumps Amtsantritt im Januar drastisch verschlechtert. Die Parlamentswahl fand vor dem Hintergrund der aggressiven Zollpolitik der USA sowie Trumps Drohungen statt, Kanada zum 51. US-Bundesstaat zu machen. Kurz nach Öffnung der Wahllokale wiederholte Trump entsprechende Äußerungen in seinem Onlinedienst Truth Social. Carney und sein konservativer Herausforderer Pierre Poilievre wiesen dies entschieden zurück.\nCarney sagte in seiner Siegesrede weiter, er werde als Regierungschef einen \"neuen Weg nach vorne\" verfolgen. Die Welt habe sich durch Trumps Politik \"fundamental verändert\". \"Unsere einstige Beziehung zu den Vereinigten Staaten ist vorbei\", weil \"Präsident Trump versucht, uns zu brechen, um uns zu besitzen\", fügte Carney hinzu. \"Wir werden diesen Handelskrieg gewinnen\", sagte er weiter. Zugleich stimmte er die Kanadier auf herausfordernde Zeiten ein. Es stünden \"schwierige Monate\" bevor, \"die Opfer verlangen werden\".\nLiberale verdanken Wahlerfolg Trumps aggressiver Politik\nCarney war mit seiner Liberalen Partei als Favorit ins Rennen gegangen. Die oppositionellen Konservativen hatten in Umfragen jedoch lange Zeit vor den Liberalen gelegen. Trumps aggressive Kanada-Politik führte in den vergangenen Monaten dann zu einem spektakulären Meinungsumschwung. Carney hatte seinen Wahlkampf ganz auf den US-Präsidenten und dessen aggressive Zollpolitik sowie Drohungen ausgerichtet, Kanada zum 51. US-Bundesstaat machen zu wollen.\nDer Politologin Geneviève Tellier von der Universität Ottawa zufolge verdankt der ehemalige Zentralbankchef dieser Linie seinen Wahlerfolg.\nref_doc_id: 2025-04-30\/ausland\/article_12.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Es gab einen Meinungsumschwung zugunsten der Liberalen in Kanada."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 810,
+    "topic": "Kanadische Politik und US-Beziehungen"
+  }
+}
+{
+  "id": "0e139784-e8df-4c9a-8873-387fb7cdbfe6",
+  "question": "Was ist dafür notwendig?",
+  "reference_answer": "Die asthmatische Atemkrise erfordert die Gabe von Sauerstoff.",
+  "reference_context": "Document 220: Unnamed: 0: 220\ntext: Ich wiederhole meine Nähe zum gepeinigten ukrainischen Volk und lade euch ein, an die Opfer aller bewaffneten Konflikte zu denken.\" Es folgte ein Aufruf, für den Frieden im Nahen Osten, in Myanmar, im Kongo und im Sudan zu beten.\nIn der Predigt appellierte der Papst an die Diakone, sich für die Vergebung unter den Menschen einzusetzen. \"Eine Welt, in der es für die Gegner nur Hass gibt, ist eine Welt ohne Hoffnung, ohne Zukunft, die dazu verurteilt ist, von Kriegen, Spaltungen und endlosen Racheakten zerrissen zu werden, wie wir es leider auch heute auf vielen Ebenen und in verschiedenen Teilen der Welt sehen. Vergeben bedeutet also, in uns selbst und in unseren Gemeinschaften ein einladendes, sicheres Zuhause für die Zukunft zu schaffen.\"\nKritischer Zustand am Samstag\nDer Vatikan berichtete in der Mitteilung von Samstagabend, Franziskus' Zustand sei kritisch. Er sei nicht \"außer Gefahr\". Bei dem 88-Jährigen sei eine \"anhaltende asthmatische Atemkrise\" aufgetreten, die die Gabe von Sauerstoff erfordert habe.\nEs sei zudem eine Bluttransfusion nötig gewesen. Bei Blutuntersuchungen war nach Angaben des Vatikans ein Mangel an Thrombozyten, also Blutplättchen, festgestellt worden, die für die Blutgerinnung benötigt werden. Die Zahl der Blutplättchen habe sich im Zusammenhang mit einer Anämie verringert.\nFranziskus sei aber wach gewesen und habe den Samstag in einem Sessel verbracht, wenn auch unter stärkeren Schmerzen als an vorherigen Tagen. \"Derzeit ist die Prognose ungewiss\", hieß es weiter. Franziskus liegt seit dem 14. Februrar im Gemelli-Krankenhaus in Rom.\nDeutscher Kardinal: \"Man steigt nicht vom Kreuz herab.\"\nref_doc_id: 2025-02-23\/ausland\/article_11.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Die asthmatische Atemkrise von Franziskus erfordert etwas."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 220,
+    "topic": "Papstwahl im Vatikan"
+  }
+}
+{
+  "id": "ad700b73-109b-44a8-98c2-da7d8600332b",
+  "question": "Warum ist das so?",
+  "reference_answer": "Grund für Trumps Ärger war eine von Putin wiederholte Behauptung, wonach der ukrainische Präsident Wolodymyr Selenskyj nicht länger legitimes Staatsoberhaupt seines Landes sei, weil seine Amtszeit im vergangenen Jahr abgelaufen ist.",
+  "reference_context": "Document 682: Unnamed: 0: 682\ntext: Bislang stehe kein neues Telefonat im Terminplan Putins, das könne aber schnell vereinbart werden.\nTrump ist angeblich \"wütend\" und \"stinksauer\"\nDer US-Präsident hatte in einem Interview mit NBC News gesagt, er sei \"wütend\" und \"stinksauer\" auf Putin. Grund für Trumps Ärger war eine von Putin wiederholte Behauptung, wonach der ukrainische Präsident Wolodymyr Selenskyj nicht länger legitimes Staatsoberhaupt seines Landes sei, weil seine Amtszeit im vergangenen Jahr abgelaufen ist.\nNach der ukrainischen Verfassung sind Wahlen jedoch nicht zulässig, solange das Land unter Kriegsrecht steht - wie derzeit wegen des russischen Angriffskrieges. Putin ignorierte das jedoch und schlug vor, die Ukraine unter UN-Schirmherrschaft zu stellen und \"Neuwahlen unter externer Leitung\" abzuhalten. Eine dabei gewählte Regierung könne dann über einen Friedensvertrag verhandeln.\nAngesichts solcher Äußerungen stellt die EU-Außenbeauftragte Kaja Kallas Moskaus Friedenswillen in Frage. \"Russland spielt Spielchen und ist nicht wirklich am Frieden interessiert\", sagte sie vor einem EU-Außenministertreffen in Madrid. \"Unsere Frage ist also, wie wir mehr Druck auf Russland ausüben können.\" Polens Außenminister Radoslaw Sikorski schlägt vor, Russland eine Frist für die Annahme eines Waffenstillstands in der Ukraine zu setzen.\nFinnischer Präsident berichtet von Trumps Ungeduld\nDen Eindruck, dass Trump die Geduld mit Putin verliert, hat auch Finnlands Präsident Alexander Stubb, der den US-Präsidenten am Wochenende traf und nach einer gemeinsamen Runde Golf berichtete: \"Wütend ist vermutlich das falsche Wort - aber ungeduldig, das sicherlich.\" Das antwortete Stubb in einem Interview mit dem britischen Sender Sky News auf die Frage, ob Trump wütend auf Putin gewirkt habe.\nref_doc_id: 2025-03-31\/ausland\/article_4.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Trump ist laut einem Interview mit NBC News wütend auf Putin."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 682,
+    "topic": "Ukraine-Krieg: Friedensverhandlungen und internationale Diplomatie"
+  }
+}
+{
+  "id": "b7c51653-4467-45b3-9350-7016949a5694",
+  "question": "Wie viele sind es?",
+  "reference_answer": "Jedes Jahr koste der Tabakkonsum bundesweit mindestens 127.000 Menschen das Leben.",
+  "reference_context": "Document 901: Unnamed: 0: 901\ntext: Etwa für Gaststätten, Schulen, Universitäten und Krankenhäuser seien dagegen die Länder verantwortlich.\nKrebshilfe: Zehntausende Tote wegen Tabakkonsum jährlich\nDie Deutsche Krebshilfe appellierte anlässlich des Weltnichtrauchertags am Samstag an die Bundesregierung, mehr für die Prävention zu tun. \"Tabakkonsum ist der größte vermeidbare Krebsrisikofaktor\", sagte der Vorstandsvorsitzende Franz Kohlhuber der Rheinischen Post. Rund 80 Prozent aller Lungenkrebsfälle in Deutschland seien auf das Rauchen zurückzuführen.\nJedes Jahr koste der Tabakkonsum bundesweit mindestens 127.000 Menschen das Leben. \"Derzeit gehört Deutschland in Europa zu den Schlusslichtern in Sachen Tabakprävention\", kritisierte Kohlhuber. Er forderte, das Rauchen unter anderem \"auf Spielplätzen und Sportstätten zu verbieten, ebenso auf den Geländen von Bildungs- und Gesundheitseinrichtungen\".\nKrebsgesellschaft fordert teilweises Rauchverbot in Autos\nFrankreich geht in diesem Bereich bald schon weiter: Dort soll ab Juli ein Rauchverbot an öffentlichen Orten wie Parks, Bushaltestellen oder vor Schulen gelten. Auch die EU empfehle ein Rauchverbot im Freien, sagte der Generalsekretär der Deutschen Krebsgesellschaft, Johannes Bruns, den Funke-Zeitungen. Deutschland hinke beim Nichtraucherschutz hinterher.\nBruns zufolge seien gerade Kinder und Schwangere eine besonders schützenswerte Gruppe. \"Das leider in der letzten Legislaturperiode gescheiterte Rauchverbot in Autos bei Anwesenheit von Kindern oder Schwangeren wäre in Deutschland daher sehr zu begrüßen\", sagte er weiter.\nWHO warnt vor Nikotinprodukten mit Aromen\nUm insbesondere junge Menschen zu schützen ruft die Weltgesundheitsorganisation (WHO) Regierungen auf, Tabak- und Nikotinprodukte mit Aroma zu verbieten.\nref_doc_id: 2025-05-31\/inland\/article_3.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, wie viele Menschen jährlich in Deutschland durch Tabakkonsum sterben."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 901,
+    "topic": "Entwicklungszusammenarbeit und Gesundheitspolitik"
+  }
+}
+{
+  "id": "4138783e-1bcc-4526-a8d9-c82fe7469641",
+  "question": "Was wird versprochen?",
+  "reference_answer": "Mit dem Gebäudetyp E wird das Planen und Bauen einfacher, günstiger und schneller.",
+  "reference_context": "Document 733: Unnamed: 0: 733\ntext: Und das trifft nicht nur Bauherren wie Reiserer, der Mietwohnungen schafft. Auch für private Bauherren ist Bauen teuer und schwer planbar geworden. Dadurch machen viel weniger Menschen ihren Traum vom eigenen Haus wahr und bleiben lieber Mieter. Das spitzt die Situation am Mietmarkt noch weiter zu.\nEin Lösungsansatz der Politik ist der Gebäudetyp E. \"Mit dem Gebäudetyp E wird das Planen und Bauen einfacher, günstiger und schneller\", verspricht das Bundesbauministerium auf seiner Webseite. Bei diesem Gebäudetyp werden zum Beispiel weniger Steckdosen verbaut, oder die Stahlbetondecken sind dünner - das spart Materialkosten und macht Bauen so wieder günstiger. Allerdings wurde das Gebäudetyp-E-Gesetz wegen der vorgezogenen Wahl nicht mehr im Bundestag verabschiedet - die neue Regierung muss die Gesetzgebung nun also noch einmal neu anstoßen.\nref_doc_id: 2025-03-31\/wirtschaft\/article_4.md\n\nDocument 732: Unnamed: 0: 732\ntext: Das hat das Bauen von Wohngebäuden insgesamt extrem verteuert: Zwischen 2021 und 2024 sind Neubauten laut Statistischem Bundesamt rund 30 Prozent teurer geworden.\nDeshalb versuchen Michael Reiserer und sein Geschäftspartner auch so kostengünstig wie möglich zu bauen: So haben sie etwa den Bau so geplant, dass so wenig Kabel wie möglich verlegt werden, mit geraden Wänden und Fertigdecken. Doch die hohen Kosten sind nicht das einzige Problem, das er als Bauherr hat: \"Ich weiß nicht, nach welchem Standard ich planen soll, weil sich das ständig ändert.\"\nEr beklagt, dass er derzeitig keine zuverlässige politische Richtung gebe: \"Wir haben eine Unzuverlässigkeit, wie wir sie nie hatten. Ich kann mich einfach nicht darauf verlassen, dass es ein Förderprogramm in einem Jahr noch gibt.\" Dadurch sei Bauen nahezu unkalkulierbar geworden.\n37 Prozent staatliche Kosten\nAll das treibt die Preise ebenfalls: So heißt es im Frühjahrsgutachten der Immobilienweisen aus dem vergangenen Jahr, dass in Deutschland 37 Prozent der Kosten beim Wohnungsneubau staatlich bedingt sind. Diese Kosten entstehen zum Beispiel durch Auflagen, die Bauherren erfüllen müssen.\nUnd das trifft nicht nur Bauherren wie Reiserer, der Mietwohnungen schafft. Auch für private Bauherren ist Bauen teuer und schwer planbar geworden. Dadurch machen viel weniger Menschen ihren Traum vom eigenen Haus wahr und bleiben lieber Mieter. Das spitzt die Situation am Mietmarkt noch weiter zu.\nEin Lösungsansatz der Politik ist der Gebäudetyp E. \"Mit dem Gebäudetyp E wird das Planen und Bauen einfacher, günstiger und schneller\", verspricht das Bundesbauministerium auf seiner Webseite. Bei diesem Gebäudetyp werden zum Beispiel weniger Steckdosen verbaut, oder die Stahlbetondecken sind dünner - das spart Materialkosten und macht Bauen so wieder günstiger.\nref_doc_id: 2025-03-31\/wirtschaft\/article_4.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, was der Gebäudetyp E laut Bundesbauministerium verspricht."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 733,
+    "topic": "Wohnungsmarkt und Baufinanzierung in Deutschland"
+  }
+}
+{
+  "id": "dac83f9c-d033-4da9-8fd9-a9593d9006da",
+  "question": "Welche war es?",
+  "reference_answer": "Indigo, die größte heimische Fluggesellschaft des Landes, sagte am Mittwoch 165 Flüge ab.",
+  "reference_context": "Document 1451: Unnamed: 0: 1451\ntext: Die Opfer waren meist indische Touristen. Neu-Delhi wirft Pakistan eine Beteiligung vor, was die Regierung in Islamabad zurückweist.\nIn der Nacht zum Donnerstag kam es nach Berichten indischer Medien in der Himalaya-Region Kaschmir zudem erneut zu Schusswechseln zwischen Soldaten beider Länder sowie zu Artilleriebeschuss. Die Gefechte erfolgten erneut im Grenzgebiet Kaschmirs. Die Region ist zwischen Pakistan und Indien geteilt, beide beanspruchen aber das ganze Gebiet für sich.\nAirlines in Indien und Pakistan setzen Betrieb aus\nIndische Fluggesellschaften haben den Flugbetrieb im Norden und Westen des Landes teilweise ausgesetzt. Indigo, die größte heimische Fluggesellschaft des Landes, sagte am Mittwoch 165 Flüge ab, während Air India und Air India Express eine ähnliche Zahl von Annullierungen meldeten. Auch einige Internationale Flüge wurden umgeleitet.\nIn Pakistan wurde der Flugverkehr angesichts der gegenseitigen Drohnen- und Raketenangriffe zeitweise landesweit eingestellt. Die Sperrung des Luftraums ist nach Angaben der nationalen Luftfahrtbehörde inzwischen aber wieder aufgehoben. Lediglich in der Stadt Karatschi bleiben Starts und Landungen bis Mitternacht verboten.\nDas US-Generalkonsulat im pakistanischen Lahore wies seine Mitarbeiter an, sich in Sicherheit zu bringen. Das geschehe angesichts von Berichten über Explosionen, abgeschossene Drohnen und mögliche Verletzungen des Luftraums, teilt das Außenministerium mit. Laut dem US-Generalkonsulat gibt es auch Berichte, dass die pakistanischen Behörden einige an den Hauptflughafen von Lahore angrenzende Gebiete evakuieren wollen.\nEU ruft zu Stopp der Angriffe auf\nDeutschland und die anderen 26 EU-Staaten haben die beiden Atommächte Indien und Pakistan inzwischen zu einer sofortigen Deeskalation des aktuellen militärischen Konflikts aufgerufen.\nref_doc_id: 2025-05-08\/ausland\/article_17.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welche Fluggesellschaft in Indien am Mittwoch 165 Flüge abgesagt hat."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1451,
+    "topic": "Kaschmir-Konflikt zwischen Indien und Pakistan"
+  }
+}
+{
+  "id": "d0adf882-c984-41aa-bb1d-512a5ef1ab77",
+  "question": "Was wissen nur ein Drittel davon?",
+  "reference_answer": "Nur ein Drittel der 18- bis 24-Jährigen weiß laut einer Umfrage der gemeinnützigen Organisation 'More in Common', dass am 8. Mai die Deutschen kapitulierten.",
+  "reference_context": "Document 1456: Unnamed: 0: 1456\ntext: Dies ist einer der wenigen Punkte, bei dem die britische Politik über Parteigrenzen hinweg an einem Strang zieht und ein guter Teil der Bevölkerung hinter ihr steht.\nWissen geht verloren\nDoch auch wenn Zehntausende Schaulustige nach London gereist waren, stundenlang auf Parade und Flugschau warteten, eingewickelt in Union-Jack-Flaggen - in Teilen der Bevölkerung versiegt die Erinnerung an den Zweiten Weltkrieg. Nur ein Drittel der 18- bis 24-Jährigen weiß laut einer Umfrage der gemeinnützigen Organisation \"More in Common\", dass am 8. Mai die Deutschen kapitulierten.\nHistoriker Tim Bouverie ist besorgt, denn es gehe beim Gedenken um etwas Essentielles:\nLeichtes Ende einer herausfordernden Woche\nMilitärhistoriker Hew Strachan regte im Londoner Radiosender LBC an: \"Einige der jüngeren Veteranen finden, dass Großbritannien sich zu sehr mit den Jahrestagen der Weltkriege beschäftigt. Sie wünschen sich mehr Fokus auf aktuelle Konflikte.\"\nViele Briten beschäftigen diese ohnehin. Vielleicht enden die Feierlichkeiten in Großbritannien auch deshalb eher leicht, nach einer Woche Gedenken: mit Backwettbewerben, Strick-Meisterschaften, Musik, Tanz und viel Tee.\nref_doc_id: 2025-05-08\/ausland\/article_2.md\n\nDocument 1455: Unnamed: 0: 1455\ntext: Er achte auch darauf, das Leid der britischen Soldaten und ihrer Angehörigen nicht zu vergessen. Andere sprechen über ihre Angst vor einer Eskalation im Nahen Osten, vor einem dritten Weltkrieg, davor, dass Europa weiter nach rechts rutsche.\nViele betonen: In dieser Woche gehe es um den Zusammenhalt der Nation, mehr denn je.\nFeierlichkeiten mit Beigeschmack\n\"Bittersüß\" nennt der britische Historiker Tim Bouverie die Feierlichkeiten in diesem Jahr:\nAuf der richtigen Seite stehen\nDie Briten aber wollen weiter auf der richtigen Seite stehen, so fühlte es sich zumindest am Montag an: Die pompöse Militärparade durch das Zentrum Londons, entlang des Buckingham Palastes, war mehr als Gold und Glitzer.\nAuf Einladung der Regierung zogen auch ukrainische Soldaten an der Ehrentribüne vorbei, auf der König Charles III. ihnen salutierte, unter lautem Jubel der Zuschauer.\nDie Einladung solle ein Zeichen sein, teilte das Verteidigungsministerium mit, für die anhaltende globale Unterstützung für die Ukraine und ihren \"Kampf für die Freiheit, gegen Russlands illegale Invasion\". Dies ist einer der wenigen Punkte, bei dem die britische Politik über Parteigrenzen hinweg an einem Strang zieht und ein guter Teil der Bevölkerung hinter ihr steht.\nWissen geht verloren\nDoch auch wenn Zehntausende Schaulustige nach London gereist waren, stundenlang auf Parade und Flugschau warteten, eingewickelt in Union-Jack-Flaggen - in Teilen der Bevölkerung versiegt die Erinnerung an den Zweiten Weltkrieg. Nur ein Drittel der 18- bis 24-Jährigen weiß laut einer Umfrage der gemeinnützigen Organisation \"More in Common\", dass am 8. Mai die Deutschen kapitulierten.\nref_doc_id: 2025-05-08\/ausland\/article_2.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Die Organisation 'More in Common' hat eine Umfrage durchgeführt, die sich mit dem Wissen von 18- bis 24-Jährigen beschäftigt."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1456,
+    "topic": "Gedenken an Kriegsenden und ihre Folgen"
+  }
+}
+{
+  "id": "d1385a01-ab56-40fc-97bf-03ab7719a3d5",
+  "question": "Wie hoch sind diese?",
+  "reference_answer": "Rund 21 Milliarden Euro pro Jahr.",
+  "reference_context": "Document 774: Unnamed: 0: 774\ntext: \"Die Folgekosten unserer Ernährung sind enorm\"\nBei der Erzeugung von Fleisch in Deutschland entstehen einer Studie zufolge durch Umwelt- und Klimaschäden Kosten in Höhe von rund 21 Milliarden Euro pro Jahr. Die Schäden würden verursacht unter anderem durch Treibhausgasemissionen aus der Tierhaltung und die Luftbelastung mit Feinstaub und Schadstoffen, teilte die Umweltschutzorganisation Greenpeace mit. Hinzu kämen Gesundheitskosten in Höhe von gut 16 Milliarden Euro durch den übermäßigen Konsum von rotem Fleisch, Schinken und Wurst, der Risiken für Herz- und Kreislauferkrankungen, Krebs und Typ-2-Diabetes erhöhe.\nDie Studie des Forums Ökologisch-Soziale Marktwirtschaft (FÖS) wurde von Greenpeace in Auftrag gegeben. \"Die Folgekosten unserer Ernährung sind enorm und müssen besser in die Preise für Lebensmittel und deren Produktion einbezogen werden\", sagte Beate Richter, Referentin für Agrarpolitik beim FÖS. \"Würden diese bislang versteckten Folgekosten in den Supermarktregalen für Verbraucherinnen und Verbraucher erkennbar, könnten Konsum und Produktion nachhaltiger und wirtschaftlicher werden\", meinte die Expertin.\nMatthias Lambrecht, Landwirtschaftsexperte von Greenpeace, forderte die Bundesregierung auf, klimafreundliche Lebensmittel von der Mehrwertsteuer zu befreien und so die richtigen Anreize für Verbraucherinnen und Verbraucher zu setzen. \"Weiter umweltschädlich erzeugte Lebensmittel zu subventionieren, lässt uns am Ende alle draufzahlen\", so der Experte.\nref_doc_id: 2025-04-30\/inland\/article_6.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die jährlichen Kosten durch Umwelt- und Klimaschäden bei der Fleischproduktion in Deutschland laut einer Studie."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 774,
+    "topic": "Others"
+  }
+}
+{
+  "id": "64fab8a2-2e28-4a43-9e17-95552f4abc83",
+  "question": "Wie viele sind betroffen?",
+  "reference_answer": "In Bangkoks Hauptstadt werden knapp 80 Vermisste unter einem eingestürzten 30-stöckigen Rohbau gesucht.",
+  "reference_context": "Document 710: Unnamed: 0: 710\ntext: Das berichtete die Nachrichtenagentur Myanmar Now unter Berufung auf die chinesische Botschaft in Myanmar.\nBergungsarbeiten auch in Bangkok - viel weniger Opfer\nIn Thailands Hauptstadt Bangkok dauert die Suche nach knapp 80 Vermissten unter einem eingestürzten 30-stöckigen Rohbau weiter an. Die Helfer sind mit Baggern und Hundestaffeln im Einsatz. Verzweifelte Angehörige hoffen noch immer auf ein Wunder. Die 72 Stunden, die Verschüttete normalerweise ohne Essen und Trinken auskommen können, sind bereits verstrichen.\nNachdem am frühen Nachmittag eine weitere Leiche einer Frau in dem riesigen Berg aus Schutt und Geröll gefunden wurde, stieg die Zahl der Toten in der thailändischen Hauptstadt auf 19. Die Zeitung \"Bangkok Post\" berichtete aber auch von einem \"Hoffnungsschimmer\": Laut Bangkoks Gouverneur Chadchart Sittipunt sollen Infrarotsensoren am Sonntagabend die Lebenszeichen von mindestens drei Menschen in den Trümmern erfasst haben. Die Rettungskräfte hätten jedoch Schwierigkeiten, zu ihnen zu gelangen, da die Unglücksstelle weiter sehr unsicher sei.\nref_doc_id: 2025-03-31\/ausland\/article_13.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, wie viele Menschen in Bangkok nach dem Einsturz eines Gebäudes vermisst werden."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 710,
+    "topic": "Naturkatastrophen und Rettungseinsätze in Südostasien"
+  }
+}
+{
+  "id": "53887e3d-3264-4d5e-9b34-d0a16348cc17",
+  "question": "Was hat er versprochen?",
+  "reference_answer": "Trump hatte versprochen, die Regulierungen für Kryptowährungen zu lockern und hat sich für eine nationale Bitcoin-Reserve der USA ausgesprochen.",
+  "reference_context": "Document 624: Unnamed: 0: 624\ntext: Trump hatte versprochen, die Regulierungen für Kryptowährungen zu lockern. Außerdem hat er sich für eine nationale Bitcoin-Reserve der USA ausgesprochen.\nÖlpreise geben deutlich nach\nDie Ölpreise sind heute den dritten Handelstag in Folge gefallen. Nachdem sich die Notierungen im frühen Geschäft kaum verändert hatten, gerieten sie im Tagesverlauf unter Druck. Der Preis für ein Barrel (159 Liter) der Nordseesorte Brent fiel unter 80 Dollar.\nHändler verweisen auf Befürchtungen, dass neue Handelsbarrieren das globale Wirtschaftswachstum und damit die Ölnachfrage belasten könnten. Dazu kommt die Erwartung einer Ankurbelung der US-Förderung unter der neuen Regierung. Zudem erwartet auch der Rohstoffmarkt die Ausführungen des neuen Präsidenten Donald Trump nach seiner Vereidigung.\nCommerzbank prüft Abbau Tausender Jobs\nDie Commerzbank-Aktie ist mit einem Plus von fast drei Prozent der größte Gewinner im DAX. Das Institut prüft zur Abwehr einer Übernahme durch die UniCredit laut einem Pressebericht den Abbau Tausender Arbeitsplätze. Es werde erwartet, dass die Pläne dem Betriebsrat in den kommenden Wochen vorgestellt werden, berichtete die Financial Times unter Berufung auf Insider.\nRheinmetall erstmals über 700 Euro\nAktien von Rheinmetall markieren ein Rekordhoch. In der Spitze zahlen Anleger erstmals mehr als 700 Euro. Anleger erwarten von Trump erneut Forderungen nach höheren Verteidigungsbudgets der NATO-Partner. Zudem hat sich Rheinmetall einen weiteren Großauftrag der Bundeswehr über 568 Militär-Lastwagen gesichert.\nUnterdessen hat das Bundeskartellamt das Gemeinschaftsunternehmen von Rheinmetall und dem italienischen Rüstungskonzern Leonardo zum Bau von Panzern nach kurzer Prüfung freigegeben.\nref_doc_id: 2025-01-20\/wirtschaft\/article_3.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich für die Versprechen von Donald Trump bezüglich Kryptowährungen."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 624,
+    "topic": "Others"
+  }
+}
+{
+  "id": "63fa9dbe-ae73-4de8-b867-72c1875deceb",
+  "question": "Um wie viel Prozent ist das geschehen?",
+  "reference_answer": "Die US-Wirtschaft ist im ersten Quartal des Jahres um 0,3 Prozent geschrumpft.",
+  "reference_context": "Document 880: Unnamed: 0: 880\ntext: Rückgang im ersten Quartal\nUS-Wirtschaft verliert an Fahrt\nStand: 30.04.2025 16:12 Uhr\nDie US-Wirtschaft ist in den ersten drei Monaten des Jahres um 0,3 Prozent geschrumpft, nachdem sie im Vorquartal noch um 2,4 Prozent gewachsen war. Präsident Trump macht seinen Vorgänger verantwortlich, bittet gleichzeitig um Geduld.\nDie US-Wirtschaft hat deutlich an Fahrt verloren und ist im ersten Quartal des Jahres überraschend geschrumpft. Das Bruttoinlandsprodukt (BIP) fiel in den ersten drei Monaten um 0,3 Prozent, wie das Handelsministerium laut einer ersten Schätzung mitteilte.\nIn den ersten Monaten seiner Amtszeit hatte US-Präsident Donald Trump mit zahlreichen Zollankündigungen, -rücknahmen und einer insgesamt erratischen Handelspolitik große Unsicherheit ausgelöst. An den Finanzmärkten hatte dies zeitweise heftige Marktturbulenzen zur Folge.\nFür Experten überraschend\nFachleute waren dennoch nicht davon ausgegangen, dass die US-Wirtschaft im ersten Quartal schrumpfen würde. Erwartet worden war, dass sich die wirtschaftlichen Auswirkungen der aggressiven Zollpolitik erst in den kommenden Wochen und Monaten richtig bemerkbar machen würden.\nBereits Ende des vergangenen Jahres hatte die US-Wirtschaft an Tempo verloren. Im Schlussquartal 2024 hatte es jedoch noch einem Anstieg von 2,4 Prozent gegeben.\nTrump macht Biden verantwortlich\nTrump, der ein \"goldenes Zeitalter\" für die Wirtschaft unter seiner Ägide ausgerufen hatte, bat erneut um Geduld. Der Abschwung der US-Wirtschaft habe nichts mit seiner Zollpolitik zu tun, erklärte Trump in sozialen Medien. Der Republikaner prognostizierte vielmehr einen Aufschwung in den USA: \"Wenn der Boom beginnt, wird er beispiellos sein. HABT GEDULD!!!\"\nref_doc_id: 2025-04-30\/wirtschaft\/article_6.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich interessiere mich dafür, um wie viel Prozent die US-Wirtschaft im ersten Quartal des Jahres geschrumpft ist."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 880,
+    "topic": "US-Wirtschaftspolitik unter Trump"
+  }
+}
+{
+  "id": "23f6eb55-7d8d-417b-9901-52a21889084e",
+  "question": "Wie viele waren es?",
+  "reference_answer": "2.241 Menschen",
+  "reference_context": "Document 663: Unnamed: 0: 663\ntext: Selbst in einem sogenannten Spannungs- oder Verteidigungsfall gilt zwar Artikel 12a des Grundgesetzes, wonach Männer ab 18 Jahren zu einem Dienst \"in den Streitkräften, im Bundesgrenzschutz oder in einem Zivilschutzverband\" verpflichtet werden können. Davor, am Ende unfreiwillig an der Waffe in den Krieg zu ziehen, schützt aber Artikel 4: \"Niemand darf gegen sein Gewissen zum Kriegsdienst mit der Waffe gezwungen werden.\"\nPersonen, die einen militärischen Einsatz nicht mit ihrem Gewissen vereinbaren können, haben bereits jetzt die Möglichkeit, beim örtlichen Karrierecenter der Bundeswehr einen Antrag auf Kriegsdienstverweigerung zu stellen. Ein Weg, den laut Bundesamt für Familie und zivilgesellschaftliche Aufgaben im vergangenen Jahr 2.241 Menschen gegangen sind - mehr als doppelt so viele als noch 2022.\nref_doc_id: 2025-03-31\/inland\/article_2.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, wie viele Menschen im vergangenen Jahr einen Antrag auf Kriegsdienstverweigerung gestellt haben."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 663,
+    "topic": "Bundeswehr und Heimatschutz in Deutschland"
+  }
+}
+{
+  "id": "fd313aa2-f78f-4e1c-8fee-b9d480bdc836",
+  "question": "Welche drei Punkte sah das vor?",
+  "reference_answer": "Die Begrenzung der Migration sollte wieder explizit im Aufenthaltsgesetz verankert werden, der Familiennachzug für subsidiär Schutzbedürftige wegfallen, und die Bundespolizei die Befugnis erhalten, selbst Haft oder Gewahrsam für Ausreisepflichtige zu beantragen.",
+  "reference_context": "Document 1155: Unnamed: 0: 1155\ntext: Scholz: Merz von Anfang an nicht verhandlungsbereit\nScholz kritisierte nun, dass Merz sich von Anfang an nicht zu Verhandlungen bereit erklärt habe. Er begrüßte dafür den Vorstoß der FDP, das Gesetz weiter im Innenausschuss zu beraten. Dann hätte man ein paar Tage mehr Zeit gehabt.\nNach den Worten von Scholz hätte man einige Themen gerne gemeinsam mit der Union besprochen - etwa die Gesetze zur Umsetzung des gemeinsamen europäischen Asylsystems, das Bundespolizeigesetz und die Sicherheitsgesetze, die CDU\/CSU im Bundestag aufgehalten habe. \"Das hätten wir gerne alles gemeinsam miteinander besprochen.\"\nAuf die Frage, ob er Verschärfungen in der Asylpolitik nicht mittragen wolle, antwortete Scholz: \"Der einzige Kanzler, der in den letzten 20 Jahren schärfere Regeln in der Asylpolitik durchgesetzt hat, heißt Olaf Scholz.\" Man habe Grenzkontrollen eingeführt, die Möglichkeiten der Ausländerbehörden verbessert und die irreguläre Migration sei zurückgegangen.\nGescheitertes Gesetz mit drei Kernpunkten\nDas sogenannte \"Zustrombegrenzungsgesetz\" sah drei Kernpunkte vor: Die Begrenzung der Migration sollte wieder explizit im Aufenthaltsgesetz verankert werden, der Familiennachzug für subsidiär Schutzbedürftige wegfallen, und die Bundespolizei die Befugnis erhalten, selbst Haft oder Gewahrsam für Ausreisepflichtige zu beantragen.\nBereits am Mittwoch hatte ein Unionsantrag zur Migration auch mit Stimmen der AfD eine Mehrheit gefunden.\nref_doc_id: 2025-01-31\/inland\/article_8.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, welche drei Kernpunkte das 'Zustrombegrenzungsgesetz' vorsah."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 1155,
+    "topic": "Debatte um Migrationsgesetz im Bundestag"
+  }
+}
+{
+  "id": "23d78ffd-4f30-41a8-bc35-bb9f3eaf1bf1",
+  "question": "Wen begnadigte er?",
+  "reference_answer": "Der Demokrat begnadigte James B. Biden, seinen jüngeren Bruder und dessen Ehefrau, seine jüngere Schwester Valerie Biden Owens und deren Ehemann sowie seinen jüngsten Bruder Francis W. Biden.",
+  "reference_context": "Document 544: Unnamed: 0: 544\ntext: Der Demokrat begnadigte James B. Biden, seinen jüngeren Bruder und dessen Ehefrau, seine jüngere Schwester Valerie Biden Owens und deren Ehemann sowie seinen jüngsten Bruder Francis W. Biden. Auch hier sollen die Begnadigungen Biden zufolge nicht als Schuldeingeständnis gelten. \"Unbegründete und politisch motivierte Ermittlungen\" zerstörten das Leben, die Sicherheit und die finanzielle Absicherung der betroffenen Personen und ihrer Familien, hieß es.\nAnfang Dezember sorgte die Begnadigung seines Sohnes Hunter für heftige Kritik. Dieser hatte sich nach einem Schuldspruch wegen Verstößen gegen das Waffenrecht auch in einem zweiten Verfahren wegen verschiedener Steuervergehen schuldig bekannt.\nHausarrest für indigenen Aktivisten\nIn einer Erklärung wandelte Biden auch die lebenslange Haftstrafe des indigenen Aktivisten Leonard Peltier um, der wegen der Ermordung zweier FBI-Agenten im Jahr 1975 fast fünf Jahrzehnte in einem Bundesgefängnis saß. Peltier wird den Rest seiner Strafe im Hausarrest absitzen.\nDer 80-Jährige wurde 1977 wegen seiner mutmaßlichen Rolle in einer Schießerei im Pine Ridge Reservat zu zweimal lebenslanger Haft verurteilt. Peltier, der wegen Mordes verurteilt wurde, beteuert seit jeher seine Unschuld. Seine Haft ist eng mit der Bewegung für die Rechte der Ureinwohner verknüpft.\nBereits zuvor Begnadigungen durch Biden\nAuch am Sonntag hatte Biden bereits fünf Menschen begnadigt - unter ihnen eine Person posthum, wie das Weiße Haus mitteilte. Die Strafen von zwei weiteren Menschen würden zudem deutlich verkürzt. \"Diese Begnadigten haben jeweils bedeutende Beiträge zur Verbesserung ihrer Gemeinschaften geleistet\", hatte es in der Mitteilung geheißen.\nref_doc_id: 2025-01-20\/ausland\/article_1.md",
+  "conversation_history": [
+    {
+      "role": "user",
+      "content": "Ich möchte wissen, wen der Demokrat neben seinem Sohn Hunter begnadigte."
+    },
+    {
+      "role": "assistant",
+      "content": "How can I help you with that?"
+    }
+  ],
+  "metadata": {
+    "question_type": "conversational",
+    "seed_document_id": 544,
+    "topic": "US-Präsidentschaft und Machtwechsel"
+  }
+}

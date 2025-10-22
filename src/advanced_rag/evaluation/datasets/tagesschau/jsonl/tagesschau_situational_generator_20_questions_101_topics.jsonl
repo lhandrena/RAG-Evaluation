@@ -1,0 +1,260 @@
+{
+  "id": "292e90f9-f472-493e-9e7d-d6ffc962b494",
+  "question": "Hallo, ich plane eine Reise nach Deutschland und habe kürzlich von einigen wirtschaftlichen Veränderungen dort gehört. Können Sie mir sagen, welches Unternehmen im vergangenen Jahr von niedrigeren Zinsen profitiert hat?",
+  "reference_answer": "Hypoport",
+  "reference_context": "Document 627: Unnamed: 0: 627\ntext: Niedrigere Zinsen treiben Hypoport an\nIm MDAX legte auch die Hypoport-Aktie deutlich zu. Der Finanzdienstleister hat im vergangenen Jahr dank einer Belebung bei den Immobilienfinanzierungen und Marktanteilsgewinnen zugelegt. Dabei kamen dem Unternehmen auch die gesunkenen Zinsen zugute. Das über die Plattform Europace abgewickelte Finanzierungsvolumen stieg 2024 um 27 Prozent auf 66,1 Milliarden Euro.\nLufthansa vollzieht ersten Schritt zur Ita-Übernahme\nDie Lufthansa hat den ersten Schritt zur Übernahme der italienischen Staatsairline Ita vollzogen. Nach eigenen Angaben hat der MDAX-Konzern eine Kapitaleinlage von 325 Millionen Euro geleistet und dafür eine Minderheit von 41 Prozent der Ita-Anteile erhalten. Die Mehrheit hält zunächst weiterhin der italienische Staat. Die vollständige Übernahme der Ita ist bereits mit der Regierung in Rom vertraglich festgelegt.\nFormycon steigen nach EU-Zulassung von Augenheilmittel\nMit Kursgewinnen reagieren die Aktien von Formycon auf die EU-Zulassung eines Augenheilmittels. Formycon hat die Zulassung für den Wirkstoff FYB203 in der EU erhalten, der unter den Markennamen Ahzantive und Baiama vertrieben werden soll. Das Mittel steht in Konkurrenz zum Medikament Eylea von Bayer, das 2023 einen Umsatz von gut neun Milliarden Dollar verbucht hatte.\nref_doc_id: 2025-01-20\/wirtschaft\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 627,
+    "situational_context": "A curious tourist planning a trip to Germany wonders about the latest business trends and catches a glimpse of recent news about significant mergers and economic shifts.",
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "f3e2144b-6aac-4e09-b842-0aaa9eb9db4c",
+  "question": "Hallo, ich habe gehört, dass es in Goma Bedenken wegen eines möglichen Austritts von Virenproben gibt. Welche Organisation hat davor gewarnt, und gibt es auch deutsche Vertreter, die sich zur humanitären Krise in Ruanda äußern?",
+  "reference_answer": "Das Internationale Komitee vom Roten Kreuz (IKRK) warnte vor einem Austritt von Virenproben in Goma.",
+  "reference_context": "Document 332: Unnamed: 0: 332\ntext: Ruanda bestreitet, die Rebellen zu unterstützen.\nHumanitäre Hilfen teilweise unterbrochen\nAuch die Internationalen Kontaktgruppe für die Afrikanischen Großen Seen forderte ein Ende der Offensive und den ungehinderten Zugang zu Goma für humanitäre Helfer. Der Kontaktgruppe gehören neben Vertretern aus Deutschland auch Vertreter aus Dänemark, Belgien, der Europäischen Union, Frankreich, den Niederlanden, Schweden, der Schweiz, den USA und Großbritannien an.\nDie UN warnten, dass die Nahrungsmittelhilfe in und um Goma vorübergehend eingestellt worden sei. Die Hilfsorganisation Caritas international kündigte an, trotz der gefährlichen und unübersichtlichen Lage in Goma weiterhin humanitäre und medizinische Hilfe zu leisten - beispielsweise auch in der Geburtshilfe.\nVergewaltigungen in Goma - Virenlabor in Gefahr?\nEs gebe Berichte über Vergewaltigungen, Plünderungen und Angriffe auf medizinische Einrichtungen in Goma, sagte der Sprecher des UN-Nothilfebüros OCHA. Das Internationale Komitee vom Roten Kreuz (IKRK) warnte vor einem Austritt von Virenproben aus einem Labor in der Stadt - darunter solche des Ebola-Virus.\nDer IKRK-Regionaldirektor für Afrika, Patrick Youssef, äußerte Sorgen um die \"Situation im Labor des Nationalen Instituts für biomedizinische Forschung, in dem die Gefahr eines Stromausfalls besteht\". Ein Austritt könne \"unvorstellbare Konsequenzen\" haben.\nHunderttausende Menschen vertrieben\nAm Montag wurden in Goma mehr als 360 Menschen in Krankenhäusern behandelt, die bei den Kämpfen verletzt wurden. Nach Zählung der Nachrichtenagentur AFP gab es an diesem Tag mindestens 17 Tote. Nach Angaben der Vereinten Nationen wurden seit Monatsbeginn durch die Kämpfe 400.000 Menschen in der Region vertrieben.\nref_doc_id: 2025-01-28\/ausland\/article_4.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 332,
+    "situational_context": "A curious news enthusiast wonders if German representatives express concern about their involvement in Ruanda's humanitarian crisis.",
+    "topic": "Konflikt im Ostkongo"
+  }
+}
+{
+  "id": "6458aeb0-c498-4432-b139-8c2d67ea6fd7",
+  "question": "Hallo, ich habe gerade einen Artikel über mögliche politische Allianzen der AfD gelesen. Welche Partei hat rechtliche Bedenken gegen das 'Zustrombegrenzungsgesetz'?",
+  "reference_answer": "Gegen das Gesetz hat Kanzler Olaf Scholz (SPD) rechtliche Bedenken.",
+  "reference_context": "Document 1140: Unnamed: 0: 1140\ntext: Es könnte also wieder eine Mehrheit jenseits der Regierungskoalition und mit der AfD geben.\nTritt das Gesetz dann in Kraft?\nWird der Gesetzentwurf beschlossen, würde er zunächst an den Bundesrat gehen. Der Bundesrat dürfte allerdings - wenn keine Fristverkürzung beschlossen wird - erst nach der Bundestagswahl über den Entwurf entscheiden.\nDarüber hinaus ist zumindest fraglich, ob das Gesetz den Bundesrat passieren würde. In schwarz-grünen Landesregierungen dürfte es in jedem Fall Diskussionen auslösen. Danach müsste der Bundespräsident das Gesetz noch unterzeichnen. Entscheidend ist die Veröffentlichung im Bundesgesetzblatt.\nDa nach der Wahl erst einmal Sondierungen und Koalitionsverhandlungen anstehen, könnte es theoretisch sein, dass die rot-grüne Regierung dann noch als amtierende Bundesregierung handeln müsste.\nSind auch andere Mehrheiten möglich?\nInnenpolitiker von Union und FDP haben an die SPD appelliert, das Vorhaben im Bundestag zu unterstützen. Die SPD habe es in der Hand, bei der geplanten Abstimmung dafür zu sorgen, \"dass es eine demokratische Mehrheit für das 'Zustrombegrenzungsgesetz' gibt\", sagte die CSU-Politikerin Andrea Lindholz der Nachrichtenagentur dpa. Die Union würde das sehr begrüßen. Für die SPD könne es keinen inhaltlichen Grund geben, sich gegen den Entwurf zu stellen, sagte die stellvertretende Vorsitzende der Unionsfraktion.\nDie SPD-Bundestagsfraktion würde \"auch ihrer Wählerschaft signalisieren, dass sie die Sorgen der Menschen in der Migrationspolitik ernst nimmt, indem sie die Abstimmung in der Fraktion frei gibt\", sagte der FDP-Innenexperte Stephan Thomae.\nGegen das Gesetz hat Kanzler Olaf Scholz (SPD) rechtliche Bedenken.\nref_doc_id: 2025-01-31\/inland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1140,
+    "situational_context": "A reader skimming through headlines on a German news portal wonders about the potential political alliances involving the AfD and the challenges faced by the 'Zustrombegrenzungsgesetz' passing through various government bodies.",
+    "topic": "Debatte um Migrationsgesetz im Bundestag"
+  }
+}
+{
+  "id": "5bc070a2-df97-4f90-98ec-bcbe50c976d5",
+  "question": "Hallo, da Friedrich Merz jetzt Bundeskanzler ist, frage ich mich, was er über die Möglichkeit gesagt hat, dass AfD-Abgeordnete den Vorsitz in Ausschüssen übernehmen könnten?",
+  "reference_answer": "Friedrich Merz sagte, dass er es sich nicht vorstellen könne, dass AfD-Bundestagsabgeordnete den Vorsitz von Bundestagsausschüssen übernehmen.",
+  "reference_context": "Document 1283: Unnamed: 0: 1283\ntext: CDU-Chef Friedrich Merz, der heute zum Bundeskanzler gewählt werden soll, hat sich bisher zurückhaltend dazu geäußert. Auf der Fraktionssitzung der Union am Montag sagte er, es werde die Aufgabe der nächsten Bundesregierung sein, den Bericht des Bundesamts für Verfassungsschutz sorgfältig auszuwerten.\nDass AfD-Bundestagsabgeordnete den Vorsitz von Bundestagsausschüssen übernehmen, könne er sich dagegen nicht vorstellen, sagte Merz. \"Spätestens seit dem letzten Wochenende ist es auch für mich unvorstellbar, dass Abgeordnete im Deutschen Bundestag AfD-Abgeordnete zu Ausschussvorsitzenden wählen\", erklärte der CDU-Chef.\nDobrindt: Keine pauschalen Konsequenzen für Beamte mit AfD-Parteibuch\nAuch die Frage, ob Beamte und Angestellte im öffentlichen Dienst mit Konsequenzen rechnen müssen, wenn sie sich zur AfD bekennen, steht im Raum. Dazu sagte der designierte Bundesinnenminister Alexander Dobrindt (CSU) der Bild-Zeitung: \"Es gibt keine pauschalen Konsequenzen für Beamte, die sich zur AfD bekennen. Die Verfassungstreue, die von Beamten gefordert ist, kann nur einzelfallspezifisch in Betrachtung genommen werden.\"\nÄhnlich hatte sich vergangene Woche bereits Nordrhein-Westfalens Innenminister Herbert Reul (CDU) geäußert. \"Wenn man jemanden aus dem öffentlichen Dienst entfernen will, muss man beweisen, dass diese Person durch Äußerungen oder Taten ihre Treuepflicht gegenüber dem Staat verletzt hat. Solche Fälle müssen einzeln geprüft werden - ohne Schnellschüsse, aber mit klarem Blick und Konsequenz, wenn es nötig ist\", bekräftigte Reul jetzt gegenüber Bild.\nAfD verklagt Verfassungsschutz\nDie AfD geht gerichtlich gegen das Bundesamt für Verfassungsschutz vor.\nref_doc_id: 2025-05-06\/inland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1283,
+    "situational_context": "Upon hearing about Friedrich Merz being elected as Germany's Chancellor, a curious individual wonders what this means for the role of the right-wing AfD in government committees.",
+    "topic": "AfD und politische Reaktionen in Deutschland"
+  }
+}
+{
+  "id": "4f8c01ba-3d6b-4802-9f40-d21e61f881d2",
+  "question": "Guten Morgen! Da ich in Deutschland lebe, interessiert es mich, welche Länder Dänemarks Regierungschefin Frederiksen auf ihrer Europa-Tour besucht, besonders im Hinblick auf Deutschlands Einfluss auf Dänemarks diplomatische Bemühungen bezüglich Grönland.",
+  "reference_answer": "Frederiksen besucht Berlin, Paris und Brüssel.",
+  "reference_context": "Document 341: Unnamed: 0: 341\ntext: Dänemarks Diplomatie-Tour\nRückendeckung in der Grönland-Frage\nStand: 28.01.2025 16:20 Uhr\nDänemarks Regierungschefin Frederiksen tourt von Berlin über Paris nach Brüssel - und zeigt, wie ernst sie Trumps Drohungen zu Grönland nimmt. Die Botschaft ist deutlich: Dänemark hat Europa hinter sich.\nBerlin am frühen Dienstagmorgen: Die dänische Regierungschefin Mette Frederiksen steigt aus einem Helikopter und geht zielstrebig auf Bundeskanzler Olaf Scholz zu. Die beiden schütteln sich die Hand. Dann stellen sie sich für die Fotografen auf.\nEs sind Bilder, von denen vor allem Frederiksen hofft, dass sie um die Welt gehen und auf der anderen Seite des Atlantiks ankommen: genauer gesagt bei Donald Trump.\nDenn der hat Dänemark gerade erst erneut gedroht: Nur die USA könnten die freie Welt bewahren, und dazu bräuchten sie nun mal Grönland. An Bord der Air Force One sagte der US-Präsident am Samstag vor Journalisten, er wisse nicht genau, was Dänemark für einen Anspruch auf Grönland habe. Es wäre aber \"sehr unfreundlich\" von den Dänen, wenn sie die USA nicht machen ließen.\nDänemark hat Europa hinter sich, so die Botschaft\nGenau das hat Frederiksen nicht vor. Auch deshalb machte sie sich auf eine kleine Europa-Tour. In einem kurzen gemeinsamen Pressestatement mit Scholz sprach die Dänin Grönland nicht direkt an. Doch die Botschaft an Trump ist deutlich: Dänemark hat Europa hinter sich.\nUnd es soll den US-Präsidenten daran erinnern, wie Diplomatie geht. \"Unser Kontinent basiert auf der Idee, dass Kooperation und nicht Konfrontation zu Frieden führt\", sagte Frederiksen in Berlin, bevor sie weitereilte zu Terminen mit Frankreichs Präsident Emmanuel Macron und NATO-Chef Mark Rutte.\nref_doc_id: 2025-01-28\/ausland\/article_6.md\n\nDocument 342: Unnamed: 0: 342\ntext: Es wäre aber \"sehr unfreundlich\" von den Dänen, wenn sie die USA nicht machen ließen.\nDänemark hat Europa hinter sich, so die Botschaft\nGenau das hat Frederiksen nicht vor. Auch deshalb machte sie sich auf eine kleine Europa-Tour. In einem kurzen gemeinsamen Pressestatement mit Scholz sprach die Dänin Grönland nicht direkt an. Doch die Botschaft an Trump ist deutlich: Dänemark hat Europa hinter sich.\nUnd es soll den US-Präsidenten daran erinnern, wie Diplomatie geht. \"Unser Kontinent basiert auf der Idee, dass Kooperation und nicht Konfrontation zu Frieden führt\", sagte Frederiksen in Berlin, bevor sie weitereilte zu Terminen mit Frankreichs Präsident Emmanuel Macron und NATO-Chef Mark Rutte.\nDänemark will sich wappnen\nFrederiksens Blitzbesuche zeugen davon, wie ernst Dänemark Trumps Vorstöße nimmt. In dem skandinavischen Land wächst die Angst davor, wozu der US-Präsident fähig sein könnte.\nSein Interesse an Grönland ist nicht neu. Schon 2019 hatte Trump ähnliche Besitzansprüche formuliert. Aber diesmal, glauben die Dänen, dürfte es sich im Gegensatz zu damals nicht nur um leere Drohungen handeln. Frederiksen und ihre Regierung trauen Trump alles zu - und versuchen sich zu wappnen.\n\"Trump ein Gefühl des Siegs geben\"\nUnter anderem wollen die Dänen ihre Präsenz auf der Arktisinsel stärken. Umgerechnet knapp zwei Milliarden Euro will das Land etwa in drei neue Schiffe und Langstreckendrohnen zur Überwachung der Region investieren. Auch verstärkte Satellitenkapazitäten sind Teil des Abkommens.\nEs stecke aber noch eine andere Absicht dahinter, sagte Jon Rahbek-Clemmensen von der dänischen Verteidigungsakademie dem dänischen Rundfunk. \"Dänemark will Donald Trump ein Gefühl des Siegs geben\", so der Experte.\nref_doc_id: 2025-01-28\/ausland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 341,
+    "situational_context": "A curious expat in Germany, glancing through headlines on a morning news app, wonders what role Germany might play in Denmark's diplomatic efforts regarding Greenland.",
+    "topic": "Internationale Sicherheits- und Verteidigungspolitik"
+  }
+}
+{
+  "id": "c8c4362e-c419-48bc-ae53-f30596638a90",
+  "question": "Hallo, ich habe gerade gelesen, dass Apples Pläne für KI-getriebene Suchfunktionen die Google-Aktie beeinflusst haben. Welche Pläne von Apple haben die Google-Aktie ins Minus getrieben?",
+  "reference_answer": "Pläne von Apple für KI-getriebene Suchfunktionen bei seinem Webbrowser Safari haben die Aktie von Google gestern deutlich ins Minus getrieben.",
+  "reference_context": "Document 1498: Unnamed: 0: 1498\ntext: Allerdings ist es hierbei auf die Zustimmung des Betriebsrats angewiesen, da eine erst vor zwei Jahren abgeschlossene Vereinbarung noch bis 2032 gilt: Sie schließt betriebsbedingte Kündigungen aus.\nApple-Pläne für KI-Browsersuche setzen Google unter Druck\nPläne von Apple für KI-getriebene Suchfunktionen bei seinem Webbrowser Safari haben die Aktie von Google gestern deutlich ins Minus getrieben. Wie Reuters von einem Insider erfuhr, gab der hochrangige Apple-Manager Eddy Cue bei einem Kartellverfahren gegen die Google-Mutter Alphabet entsprechende Überlegungen bekannt. Zudem wolle der iPhone-Hersteller KI-Anbieter wie OpenAI und Perplexity künftig als Suchoptionen hinzufügen. Cue gab weiter bekannt, dass Suchanfragen über Safari im vergangenen Monat erstmals zurückgegangen seien.\nref_doc_id: 2025-05-08\/wirtschaft\/article_4.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1498,
+    "situational_context": "A tech-savvy enthusiast curiously reads about Apple's potential AI-driven search functions putting pressure on Google and feels intrigued by the evolving dynamics in the tech industry.",
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "1ebdbdec-9656-4d67-ac77-fee60a277f90",
+  "question": "Hallo, als neugieriger junger Journalist möchte ich wissen: Was fordern die Grünen im Zusammenhang mit der AfD, um die Leser über die möglichen Auswirkungen politischer Entscheidungen zu informieren?",
+  "reference_answer": "Die Grünen fordern rasche konkrete Schritte wie die Einberufung der Sonder-Innenministerkonferenz.",
+  "reference_context": "Document 412: Unnamed: 0: 412\ntext: Die Innenminister von Bund und Ländern beschlossen Mitte Juni, eine Arbeitsgruppe für den Fall einzurichten, dass das Verwaltungsgericht Köln die Entscheidung des Verfassungsschutzes bestätigen sollte. Diese soll dann bewerten, wie sich die Einstufung auf den öffentlichen Dienst auswirken könnte, auf den Waffenbesitz und die Sicherheitsüberprüfungen. Um ein Verbotsverfahren geht es nicht.\nGrüne fordern Sonder-Innenministerkonferenz\nDobrindt hatte schon wiederholt deutlich gemacht, dass er von einem Verbotsverfahren wenig hält. Er befürchtet, dass ein solches Verfahren der AfD nutzen könnte. Auch Bundeskanzler Friedrich Merz (CDU) sieht einen solchen Schritt skeptisch.\nDie Grünen forderten hingegen rasche konkrete Schritte wie die Einberufung der Sonder-Innenministerkonferenz. \"Hier wurde bereits viel Zeit verschwendet und der Vizekanzler war bei dem Thema bislang keine treibende Kraft\", kritisierten die Parlamentsgeschäftsführerin Irene Mihalic und der Vize-Fraktionsvorsitzende Konstantin von Notz mit Blick auf SPD-Chef Klingbeil. \"Die SPD-Innenminister müssen jetzt handeln und gemeinsam mit der Union im Rahmen einer Bund-Länder-Arbeitsgruppe alles Notwendige zusammentragen, um ein Verbotsverfahren auf den Weg zu bringen.\"\nLinke: SPD-Beschluss ist \"starkes Symbol ohne weitere Folgen\"\nLinken-Chefin Ines Schwerdtner erwartet keine Konsequenzen aus dem SPD-Beschluss zur Vorbereitung eines AfD-Verbotsverfahrens. Die SPD werde ein Verbotsverfahren mit der Union kaum durchsetzen können, sagte sie dem Fernsehsender RTL\/n-tv. \"Insofern bleibt das im Moment nur ein starkes Symbol ohne weitere Folgen\", meinte die Co-Vorsitzende der Linken.\nDie Linke strebt selbst ein AfD-Verbot an. Schwerdtner sagte, die SPD habe richtigerweise erkannt, dass die Maßnahme vernünftig wäre.\nref_doc_id: 2025-06-30\/inland\/article_5.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 412,
+    "situational_context": "A curious young journalist skims through the latest German headlines, eager to craft sharp questions that will intrigue readers about the potential impact of political decisions regarding the AfD.",
+    "topic": "AfD und politische Reaktionen in Deutschland"
+  }
+}
+{
+  "id": "defa7095-04a2-44df-856a-b75ef0520fd3",
+  "question": "Hallo, als junger Journalist aus Berlin, der sich intensiv mit Psychologie beschäftigt, frage ich mich, welche Rolle laut dem Psychologen Dominic Hennig die Psychologie bei der Gestaltung von Wahlplakaten spielt?",
+  "reference_answer": "Psychologie spielt eine große Rolle bei der Wählermobilisierung, Bekanntmachung und Wiedererkennung von Personen durch Wahlplakate.",
+  "reference_context": "Document 283: Unnamed: 0: 283\ntext: Bundestagswahl 2025\nWerbestrategien\nDie Macht der Wahlplakate\nStand: 28.01.2025 06:35 Uhr\nEin Gesicht und ein Wort: Einige Wahlplakate wirken minimalistisch. Dahinter steckt Strategie. Beim ältesten Werbemittel setzen die Parteien vor allem auf Psychologie.\nSie leiten die heiße Phase der Wahlkämpfe ein: die Wahlplakate. Auch in Zeiten von Social Media und Werbemöglichkeiten, die sich an einzelnen Zielgruppen orientieren, zeigen sie unübersehbar, dass Parteien um jede Stimme kämpfen. Dabei spielt Psychologie eine große Rolle - und das richtige Timing. \"Wahlplakate haben eine große Bedeutung in der Wählermobilisierung, aber auch in der Bekanntmachung und Wiedererkennung von Personen\", sagt der Karlsruher Psychologe Dominic Hennig.\nEine Einschätzung, die auch Frank Brettschneider in Stuttgart teilt. Der Politik- und Kommunikationswissenschaftler der Universität Hohenheim untersucht seit mehr als zwei Jahrzehnten die Wirkung von Wahlplakaten. \"Über sie können Wähler über alle Bevölkerungsgruppen hinweg erreicht werden\", sagt Brettschneider und hebt damit den großen Vorteil der Plakate gegenüber Social-Media-Kampagnen hervor. Eine Einschränkung gebe es aber: Sie müssen gut gemacht und verständlich sein.\nSind Wahlplakate noch zeitgemäß?\nDer Psychologe Hennig hält das Wahlplakat auch in einer digitalen Welt für unverzichtbar: \"Es gibt den sogenannten Exposure Effekt, der besagt: Je häufiger wir eine Person oder auch ein Objekt sehen, umso sympathischer wird das für uns in unserer Wahrnehmung.\" Sympathische Menschen würden eher gewählt als unsympathische. Deshalb startet die Plakatierung auch klassischerweise mit den Gesichtern der Direktkandidaten für einen Wahlkreis.\nref_doc_id: 2025-01-28\/inland\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 283,
+    "situational_context": "A young journalist from Berlin flips through pages of psychology textbooks, eager to write a compelling article on how minimalistic election posters in Germany might be influencing public perception.",
+    "topic": "Bundestagswahl 2025 in Deutschland"
+  }
+}
+{
+  "id": "69172b4c-4568-4147-bcc5-4b3969cf57e2",
+  "question": "Hallo, können Sie mir sagen, was die Ukraine in Bezug auf eine Waffenruhe fordert, insbesondere im Vergleich zu Russlands Vorschlägen für einen Waffenstillstand?",
+  "reference_answer": "Die Ukraine fordert, dass es zuerst eine 30-tägige Waffenruhe geben solle, um dann an der Lösung des Konflikts zu arbeiten.",
+  "reference_context": "Document 920: Unnamed: 0: 920\ntext: Russland spricht von nachhaltiger Lösung\nNebensja zufolge könne eine Waffenruhe im Weiteren ermöglichen, an einer nachhaltigen Lösung der ursprünglichen Ursachen des Konflikts zu arbeiten. Russland hatte bisher stets betont, erst den Konflikt grundsätzlich lösen zu wollen und dann eine Waffenruhe zu erwägen. Die Ukraine fordert hingegen bereits seit März auf Grundlage eines US-Vorschlags, dass es zuerst eine 30-tägige Waffenruhe geben solle, um dann an der Lösung des Konflikts zu arbeiten.\nDer ukrainische Präsident Wolodymyr Selenskyj verlangte, dass die Feuerpause ohne Vorbedingungen vereinbart werden müsse.\nUkraine fordert Einsicht in Positionspapier\nIn Kiew löste die Rede von Nebensja Entsetzen aus. \"Das ist Russlands Schlag ins Gesicht all jener, die sich für Frieden einsetzen\" sagte Außenminister Serhij Sybiha. Noch bis zum späten Freitagnachmittag hatte seine Regierung erkennen lassen, grundsätzlich zu einem Treffen in Istanbul bereit zu sein. Nach der Rede Nebensjas ließ Präsident Selenskyj aber eine Teilnahme Kiews offen.\nEr habe mit dem türkischen Präsidenten Recep Tayyip Erdogan über Bedingungen einer Beteiligung der Ukraine an den Verhandlungen gesprochen, teilte Selenskyj auf der Plattform X mit. Details nannte er nicht, sagte aber, dass es bei einer ukrainischen Teilnahme echte Ergebnisse geben müsse. Der jüngste Gefangenenaustausch sei ein wichtiges Ergebnis der Verhandlungen in Istanbul gewesen, aber \"leider das einzige\".\nEine Waffenruhe sei für eine Bewegung in Richtung Frieden notwendig, sagte Selenskyj. Das Töten müsse aufhören. Moskau hat zu dem Treffen am Montag auch ein Memorandum in Aussicht gestellt, das die Ukraine zur Vorabbegutachtung angefordert hatte.\nref_doc_id: 2025-05-31\/ausland\/article_10.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 920,
+    "situational_context": "A young journalist is reading the latest headlines to understand how Russia's proposed ceasefire contrasts with Ukraine's demands for an immediate peace agreement without preconditions.",
+    "topic": "Friedensverhandlungen im Ukraine-Krieg"
+  }
+}
+{
+  "id": "fc405360-4371-457d-a181-973a1e93a970",
+  "question": "Hallo, ich studiere Politikwissenschaft und interessiere mich dafür, wie die Grünen im Osten Deutschlands besser ankommen könnten. Was sagt Taher Saleh über die Themen im Osten im Vergleich zum Rest der Republik?",
+  "reference_answer": "Die Themen sind im Osten anders als im Rest der Republik, sei es das Thema Frieden, sei es das Thema Migration, Wirtschaft.",
+  "reference_context": "Document 442: Unnamed: 0: 442\ntext: Seine Parteivorsitzenden sprechen von Eckkneipen und Weinfesten. Aber gerade im Osten treffen die Grünen oft nicht den richtigen Ton, sagt Taher Saleh. \"Die Themen sind im Osten anders als im Rest der Republik, sei es das Thema Frieden, sei es das Thema Migration, Wirtschaft\", sagt der Abgeordnete. \"Das Thema Vermögen ist entscheidend und das Thema Repräsentation auf der Bundesebene - diese Themen müssen wir ansprechen.\"\nWie viele in seiner Partei setzt Taher Saleh auf Zeit. Seit der Bundestagswahl sind gerade mal vier Monate vergangen. Die Grünen bräuchten Zeit, neue Gesichter populär zu machen, ihre inhaltliche Ausrichtung auszuloten. Aber Zeit ist in der Politik ein rares Gut. Um sich als Oppositionskraft zu profilieren, stehen die Grünen mächtig unter Druck.\nref_doc_id: 2025-06-30\/inland\/article_2.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 442,
+    "situational_context": "A political science student is curious about what strategies the Green Party might use to better connect with voters in Eastern Germany.",
+    "topic": "Deutsche Politik und Bundestagswahl 2025"
+  }
+}
+{
+  "id": "f7a1d85a-f4a5-42ec-8e68-d82225e1d606",
+  "question": "Hallo, ich recherchiere gerade für mein Studium der internationalen Beziehungen über die Geopolitik im Nahen Osten. Könntest du mir sagen, was der israelische Premierminister Benjamin Netanjahu über die Stationierung israelischer Soldaten im Gazastreifen angekündigt hat?",
+  "reference_answer": "Israelische Soldaten sollen künftig in eroberten Gebieten des Gazastreifens stationiert bleiben.",
+  "reference_context": "Document 1303: Unnamed: 0: 1303\ntext: Israelische Soldaten sollen bleiben\nAm Montagabend hatte der israelische Premierminister Benjamin Netanjahu in einer Ansprache mitgeteilt, dass israelische Soldaten künftig in eroberten Gebieten des Gazastreifens stationiert bleiben sollen. Es sei nicht länger beabsichtigt, dass Soldaten nur Angriffe im Gazastreifen ausführen und sich dann dort wieder zurückziehen. Ziel sei das Gegenteil.\nDer Plan sehe auch vor, die palästinensische Bevölkerung vom Norden in den Süden des Gazastreifens zu bewegen, hieß es in einer Mitteilung der Regierung weiter. Ziel ist es demnach, die im Gazastreifen herrschende Hamas zu besiegen und die Freilassung der Geiseln zu erreichen.\nSmotrich: \"Gaza total zerstört\" als Zeichen für einen Sieg\nDer rechtsextreme israelische Finanzminister Bezalel Smotrich ging nun noch einen Schritt weiter. Auf einer Siedlerkonferenz im Westjordanland antwortete er auf die Frage, wie für ihn ein Sieg im Gaza-Krieg aussehe: \"Gaza total zerstört\".\nDie Einwohner sollten ganz im Süden des Küstenstreifens, südlich der ehemaligen israelischen Siedlung Morag, in einer \"humanitären Zone\" konzentriert werden, sagte der Minister weiter. Von dort aus sollten die Einwohner dann in großer Zahl den Gazastreifen verlassen und in Drittländer gehen. Innerhalb eines halben Jahres werde es im Gazastreifen keine Hamas mehr geben, sagte Smotrich.\nKatar: \"Ständige Kontakte\" zu beiden Seiten\nDas in dem Konflikt vermittelnde Katar kündigte unterdessen an, sich weiter um eine Feuerpause zu bemühen. Ein Sprecher des Außenministeriums sagte, trotz der \"katastrophalen humanitären Lage\" gingen die Bemühungen seiner Regierung um eine neue Waffenruhe weiter. Es gebe \"ständige Kontakte\" zwischen Katar und den \"betroffenen Parteien\".\nref_doc_id: 2025-05-06\/ausland\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1303,
+    "situational_context": "An international relations student is researching German news sources for insights on Middle Eastern geopolitics and reads about Israel's plans in the Gaza Strip.",
+    "topic": "Gazastreifen-Konflikt und humanitäre Krise"
+  }
+}
+{
+  "id": "11419416-ea85-4b98-93dd-ef17f3a7467d",
+  "question": "Hallo, ich bin ein Wirtschaftsstudent und versuche zu verstehen, wie neue Zölle mein Anlageportfolio beeinflussen könnten. Könnten Sie mir sagen, wie viel Prozent der DAX im ersten Quartal zugelegt hat?",
+  "reference_answer": "Der DAX legte im ersten Quartal 11,3 Prozent zu.",
+  "reference_context": "Document 737: Unnamed: 0: 737\ntext: Der Handel in New York startete heute wieder um 15.30 Uhr MEZ, nachdem am Wochenende nun auch hierzulande die Uhren auf die Sommerzeit umgestellt wurden.\nDAX ganz im Zeichen neuer Zollsorgen\nDer DAX knüpfte zum Wochenstart an die sehr schwachen Vorgaben der Wall Street vom Freitag sowie die hohen Verluste heute im asiatischen Handel an. Auch die US-Börsen starteten zunächst im Minus, was sich auf das späte Geschäft noch auswirkte. In Asien verlor der Tokioter Leitindex Nikkei heute sogar vier Prozent.\nDer deutsche Leitindex pendelte zwischen 21.978 und 22.320 Punkten und ging am Ende bei 22.163 Punkten um 1,33 Prozent schwächer aus dem Handel. Trotz der Abgaben zuletzt war es ein sehr erfolgreiches erstes Vierteljahr für den DAX, der 11,3 Prozent zulegte.\nCharttechniker hatten zuletzt beim DAX allerdings vor einem \"Doppelhoch\" gewarnt, lag das neue Rekordhoch von Mitte März bei 23.476 Punkten doch weniger als einen ganzen Punkt über dem alten. Ein Doppelhoch gilt als Vorbote einer Trendumkehr und damit fallender Kurse an den Börsen. Der MDAX der mittelgroßen Werte stand heute 1,65 Prozent im Minus auf 27.393 Punkte und verzeichnete im ersten Quartal ein Plus von sieben Prozent.\n\"Ein Hauch von Panik\" im DAX\nAnleger fürchten durch die US-Zollpolitik einen eskalierenden globalen Handelskonflikt, geringeres Wachstum und höhere Inflation für die großen Volkswirtschaften. Sie fliehen daher schon seit einer Weile aus riskanten Anlagen wie Aktien - und rein in \"sichere Häfen\" wie Gold. Das gelbe Edelmetall markiert zu Wochenbeginn bei bisher 3.119 Dollar je Feinunze ein frisches Rekordhoch.\nref_doc_id: 2025-03-31\/wirtschaft\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 737,
+    "situational_context": "An economics student in Germany is trying to understand how new tariffs might affect their investment portfolio.",
+    "topic": "Aktienmärkte und Wirtschaftsnachrichten"
+  }
+}
+{
+  "id": "873d76cc-5d4f-4eb6-b724-a021b0b5558c",
+  "question": "Hallo, ich bin ein Deutschstudent in Berlin und habe gerade über EU-Sanktionen gelesen. Können Sie mir erklären, warum die EU-Sanktionen gegen Russland verhängt wurden, und ob das Auswirkungen auf meine Reisepläne nach Ungarn haben könnte?",
+  "reference_answer": "Die EU-Sanktionen wurden als Reaktion auf die aus EU-Sicht ungerechtfertigte und grundlose militärische Aggression Russlands gegen die Ukraine verhängt.",
+  "reference_context": "Document 82: Unnamed: 0: 82\ntext: Die Sanktionen der EU umfassen in der Regel Reisebeschränkungen, das Einfrieren von Vermögenswerten sowie das Verbot der Bereitstellung von Geldern oder anderen wirtschaftlichen Ressourcen. Sie wurden in den meisten Fällen als Reaktion auf die aus EU-Sicht ungerechtfertigte und grundlose militärische Aggression Russlands gegen die Ukraine verhängt.\nÜber die Forderungen Ungarns hatte es wochenlang Diskussionen gegeben, weil etliche Mitgliedstaaten sie zunächst nicht akzeptieren wollten. Als Risiko gilt, dass die Aufhebung der Sanktionen anderen Russen Argumente für Klagen gegen Strafmaßnahmen geben könnte. So hieß es beispielsweise im Sanktionsbeschluss gegen Kantor, dieser habe enge Verbindungen zu Präsident Wladimir Putin, die ihm geholfen hätten, sein Vermögen zu sichern.\nWegen seiner guten Beziehungen zum Kreml habe er von russischen Entscheidungsträgern profitiert, die für die rechtswidrige Annexion der Halbinsel Krim durch Russland oder die Destabilisierung der Ukraine verantwortlich seien. Nach Angaben der EU ist Kantor ein großer Anteilseigner von einem der größten Düngemittelhersteller Russlands.\n\"Entschlossenheit ist entscheidend\"\nVergleichsweise unstrittig war nach Angaben von Diplomaten lediglich die Aufhebung von Sanktionen gegen Wladimir Raschewski, der früher Geschäftsführer und Direktor des Mineraldüngerherstellers EuroChem war. Er hatte im vergangenen Juli auch eine Klage vor dem EU-Gericht gegen EU-Beschlüsse gegen ihn gewonnen.\nSpitzenvertreter der EU gingen heute zunächst nicht auf die Meinungsverschiedenheiten mit Ungarn ein. Kommissionspräsidentin Ursula von der Leyen sprach hingegen davon, dass der Druck gegen Russland erhöht werde. \"Unsere Entschlossenheit, die Ukraine zu unterstützen, ist entscheidend\", schrieb sie auf der Plattform X.\nref_doc_id: 2025-03-14\/ausland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 82,
+    "situational_context": "A German language student in Berlin skims through EU sanctions news, wondering how it might affect travel plans to Hungary and surrounding regions.",
+    "topic": "Russland-Ukraine-Konflikt und internationale Reaktionen"
+  }
+}
+{
+  "id": "e042a70b-5100-49ad-b7c7-c2f90894ed4a",
+  "question": "Hallo, ich habe gerade in einem Berliner Café über die Koalitionsverhandlungen gelesen. Weißt du, wer die Parteivorsitzenden sind, die für die SPD an den Sondierungsgesprächen teilnehmen?",
+  "reference_answer": "Die Parteivorsitzenden Lars Klingbeil und Saskia Esken.",
+  "reference_context": "Document 1005: Unnamed: 0: 1005\ntext: Union und SPD schicken jeweils neunköpfige Teams in die Sondierungsgespräche. Für die Union sitzen neben CDU-Chef Merz der CSU-Vorsitzende Markus Söder sowie die Generalsekretäre Carsten Linnemann (CDU) und Martin Huber (CSU) am Tisch. Hinzu kommen Unions-Fraktionsgeschäftsführer Thorsten Frei, CSU-Landesgruppenchef Alexander Dobrindt, Sachsens Ministerpräsident Michael Kretschmer, die stellvertretende CDU-Vorsitzende Karin Prien und CSU-Vize Dorothee Bär.\nFür die SPD sondieren die Parteivorsitzenden Lars Klingbeil und Saskia Esken, außerdem Verteidigungsminister Boris Pistorius und Arbeitsminister Hubertus Heil. Ebenfalls im Verhandlungsteam: Generalsekretär Matthias Miersch, Bundestagspräsidentin Bärbel Bas, die beiden Ministerpräsidentinnen Manuela Schwesig und Anke Rehlinger sowie der Chef der NRW-SPD, Haushaltsexperte Achim Post.\nBei den eigentlichen Verhandlungen dürften dann - anders als 2017 bei den gescheiterten Jamaika-Sondierungen zwischen Union, Grünen und FDP - die schwierigsten Themen erst in möglichst kleinen Runden zur Sprache kommen. Zur Erarbeitung der Sachthemen soll es auch kleine Arbeitsgruppen geben.\nWas brachte das Treffen heute?\nBei dem ersten Treffen sollte es vor allem darum gehen, grobe Linien und einen Zeitplan für das weitere Vorgehen abzustecken. So war es dann offenbar auch: \"Die Sondierungsgespräche haben in einer offenen und konstruktiven Atmosphäre begonnen\", teilten die drei Generalsekretäre von CDU, CSU und SPD, Linnemann, Huber und Miersch nach den Beratungen mit. Bundesfinanzminister Jörg Kukies habe der Runde einen Überblick über die Haushaltslage gegeben.\nref_doc_id: 2025-02-28\/inland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1005,
+    "situational_context": "In a bustling Berlin café, a curious local read about the coalition negotiations between German political parties, trying to grasp the implications of the unfolding events on the country's future leadership.",
+    "topic": "Koalitionsverhandlungen nach der Bundestagswahl 2025"
+  }
+}
+{
+  "id": "a21533e1-1408-451a-b1d7-1c963efbc917",
+  "question": "Hallo, ich arbeite an einem Artikel über die Gewerkschaftsführer in Deutschland und muss schnell einige Fakten überprüfen. Können Sie mir sagen, wann Frank Bsirske stellvertretender ver.di-Bundesvorsitzender wurde?",
+  "reference_answer": "2001",
+  "reference_context": "Document 504: Unnamed: 0: 504\ntext: Dieser sei ein Jahr nach dem Ende von Sommers Amtszeit eingeführt worden.\nSommer an ver.di-Gründung beteiligt\nSommer wurde 1952 in Büderich in Nordrhein-Westfalen geboren. 1971 trat er in die Deutsche Postgewerkschaft (DPG) ein, als er während des Studiums der Politikwissenschaft an der Freien Universität Berlin als Paketzusteller jobbte. Nach dem Studium wurde Sommer hauptberuflich Gewerkschafter in der Postgewerkschaft.\nEr war 2001 maßgeblich an der Gründung der Vereinten Dienstleistungsgewerkschaft ver.di beteiligt und wurde im selben Jahr stellvertretender ver.di-Bundesvorsitzender. 2002 folgte er dem scheidenden damaligen DGB-Vorsitzenden Dieter Schulte im Amt. Damals sagte er: \"Mein Ziel ist es, sagen zu können, der politische Einfluss der Gewerkschaften in Deutschland und Europa ist stärker geworden.\"\nSommer war auch international als Gewerkschafter aktiv, wie der DGB ausführte. So wurde er 2010 zum Präsidenten des Internationalen Gewerkschaftsbundes gewählt und vertrat in dieser Funktion die Interessen von 168 Millionen Gewerkschaftsmitgliedern weltweit.\nMit Informationen von Justus Kliss, rbb\nref_doc_id: 2025-06-30\/wirtschaft\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 504,
+    "situational_context": "A journalist is skimming over a comprehensive article about union leader's legacy in Germany while rushing to meet a deadline for a local news piece.",
+    "topic": "Others"
+  }
+}
+{
+  "id": "ae85b0aa-59fc-4315-8e19-eba161821cd6",
+  "question": "Hallo, ich habe gerade auf meinem Smartphone nachgeschaut und gesehen, dass der DAX gestiegen ist. Weißt du, um wie viel Prozent der DAX im Januar gestiegen ist? Ich möchte das für unser nächstes Investment-Club-Treffen wissen.",
+  "reference_answer": "Der DAX ist im Januar um 9,15 Prozent gestiegen.",
+  "reference_context": "Document 1202: Unnamed: 0: 1202\ntext: An den Terminmärkten wird damit gerechnet, dass die Notenbank erst im Juni die nächste Senkung angeht.\nDAX mit neuem Rekord - Ende eines grandiosen Börsenmonats\nNachdem der DAX heute am Mittag bei 21.800 Punkten ein weiteres Rekordhoch markiert hatte, haben es die Anleger danach ruhiger angehen lassen. Am Ende ging der deutsche Leitindex bei 21.732 Zählern nahezu unverändert aus dem Handel. Damit nähert sich der Index stetig weiter der nächsten runden Marke von 22.000 Zählern an, die nur noch gut ein Prozent entfernt liegt.\nJanuar-Effekt lässt hoffen\nFür den Januar ergibt sich ein Wertzuwachs im DAX von 9,15 Prozent. Der Jahresauftakt ist damit einer der stärksten überhaupt. Zuletzt hatte der DAX 2012 mit 9,5 Prozent noch einen Tick stärker zugelegt. Der MDAX der mittelgroßen Unternehmen, der von Rekordhöhen weit entfernt bleibt, bewegte sich letztlich ebenfalls kaum und schloss bei 26.730 Punkten.\n\"Für den DAX bedeutet dies nur noch gut ein Prozent bis zur nächsten runden Marke von 22.000 Punkten, die noch vor vier Wochen wohl nur die wenigsten Marktbeobachter als Ziel für das Gesamtjahr auf dem Zettel hatten\", streicht Kapitalmarktstratege Jürgen Molnar vom Broker RoboMarkets heraus.\nTechnische Analysten verweisen darauf, dass ein guter Januar oftmals ein gutes Gesamtjahr nach sich zieht. \"Auf Basis der Daten seit 1988 folgten auf einen guten Jahresbeginn in 76 Prozent aller Fälle weitere Kursgewinne bis zum Jahresultimo\", erklärt HSBC-Experte Jörg Scherer.\nKI-Unsicherheit abgeschüttelt\nZuletzt profitierte der deutsche Leitindex davon, dass er nicht so technologielastig aufgestellt ist.\nref_doc_id: 2025-01-31\/wirtschaft\/article_7.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1202,
+    "situational_context": "A young finance enthusiast eagerly checks his smartphone for updates on the DAX performance and potential implications for his investment club's next meeting topic.",
+    "topic": "Finanzmärkte und internationale Wirtschaftspolitik"
+  }
+}
+{
+  "id": "faf83338-d93a-4118-9f29-34aac77fee84",
+  "question": "Hallo, ich habe gelesen, dass Karsten Wildberger eine wichtige Rolle im neuen Digitalministerium übernimmt. Kannst du mir sagen, welche Position er dort genau hat?",
+  "reference_answer": "Karsten Wildberger übernimmt das neue Digitalministerium.",
+  "reference_context": "Document 1239: Unnamed: 0: 1239\ntext: Er habe Schnieder aber \"in unserer gemeinsamen Zeit im Verkehrsausschuss als jemanden kennengelernt, der vor großen Aufgaben nicht zurückschreckt\", sagte der EVG-Chef weiter, der lange für die SPD im Bundestag saß.\nDigitalisierung und Staatsmodernisierung: Karsten Wildberger\nEr ist die große Überraschung: Der gebürtige Gießener und bisherige Topmanager Karsten Wildberger übernimmt das neue Digitalministerium. Der 56-Jährige stammt aus Gießen, studierte Physik in München und Aachen studiert und promovierte auch. Als Unternehmensberater der Boston Consulting Group hatte er zunächst Unternehmen in verschiedenen Branchen zu Fragen der Strategie und Digitalisierung beraten.\nWildberger und Merz kennen sich über den Wirtschaftsrat der CDU: Wildberger folgte Merz im November 2021 auf dem Posten des Vizepräsidenten, nachdem Merz parallel zu seiner Rückkehr in den Deutschen Bundestag nicht wieder für diese Position kandidierte. Wildberger betätigte sich bereits seit 2017 im Wirtschaftsrat ehrenamtlich.\nAls Vorstandschef des Düsseldorfer Ceconomy-Konzerns und Vorsitzender der Geschäftsführung der Media-Saturn-Holding mit rund 1.000 Märkten in vielen Ländern bringt Wildberger einschlägige Praxiserfahrung mit. In den vergangenen Jahren gehörte die digitale Transformation in Wirtschaft und Unternehmenswelt zum Kern seiner Tätigkeiten.\nInternationale Führungspositionen bekleidete Wildberger auch bei T-Mobile, Vodafone oder dem australischen Telekommunikationsunternehmen Telstar. Von 2016 bis Sommer 2021 war Wildberger beim Energiekonzern Eon als Vorstandsmitglied für den digitalen Wandel zuständig.\nFamilie und Bildung: Karin Prien\nFür Karin Prien ist es das erste bundespolitische Amt sein. Sie gilt als selbstbewusste Bildungspolitikerin.\nref_doc_id: 2025-05-06\/inland\/article_1.md\n\nDocument 1238: Unnamed: 0: 1238\ntext: Als Mitglied im Verkehrsausschuss sammelte er zuvor einige Jahre fachpolitische Erfahrung. Als seine inhaltlichen Schwerpunkte nennt Schnieder den Einsatz für den ländlichen Raum und für eine leistungsfähige Infrastruktur bei Straße und Schiene.\nAls Bundesverkehrsminister wird Schnieder laut Eisenbahn- und Verkehrsgewerkschaft (EVG) \"langen Atem und Mut unter Beweis stellen müssen\". Das Verkehrsministerium könne in den kommenden vier Jahren \"zu einem echten Gestaltungsministerium werden\", sagte der EVG-Vorsitzende Martin Burkert zu der Personalie. \"Das Sondervermögen Infrastruktur macht möglich, was jahrelang nicht möglich war.\" Die Herausforderungen bei der Bahn seien jedoch \"gewaltig\".\nSchienen und Stellwerke müssten dringend modernisiert werden, die Frachttochter der Deutschen Bahn, DB Cargo, brauche eine Zukunftsperspektive und bei den Trassenpreisen sei dringend eine Reform nötig, \"damit die Verkehrswende nicht blockiert wird\", fuhr Burkert fort. Er habe Schnieder aber \"in unserer gemeinsamen Zeit im Verkehrsausschuss als jemanden kennengelernt, der vor großen Aufgaben nicht zurückschreckt\", sagte der EVG-Chef weiter, der lange für die SPD im Bundestag saß.\nDigitalisierung und Staatsmodernisierung: Karsten Wildberger\nEr ist die große Überraschung: Der gebürtige Gießener und bisherige Topmanager Karsten Wildberger übernimmt das neue Digitalministerium. Der 56-Jährige stammt aus Gießen, studierte Physik in München und Aachen studiert und promovierte auch. Als Unternehmensberater der Boston Consulting Group hatte er zunächst Unternehmen in verschiedenen Branchen zu Fragen der Strategie und Digitalisierung beraten.\nref_doc_id: 2025-05-06\/inland\/article_1.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 1239,
+    "situational_context": "A curious reader skims through the latest German political updates, wondering why Karsten Wildberger's appointment as head of the new Digitalministerium has caused such a stir in the news.",
+    "topic": "Deutsche Bundesregierung und Ministerposten"
+  }
+}
+{
+  "id": "8e9f8116-84ba-493e-b490-1258a565a236",
+  "question": "Hallo, ich bin ein deutscher Wirtschaftsstudent und lese gerade über die Auswirkungen von Trumps Zöllen auf Deutschland. Weißt du, wie hoch der Handelswert zwischen Deutschland und den USA im Jahr 2024 war?",
+  "reference_answer": "Waren im Wert von rund 253 Milliarden Euro wurden zwischen Deutschland und den Vereinigten Staaten gehandelt.",
+  "reference_context": "Document 843: Unnamed: 0: 843\ntext: Von \"außergewöhnlich hoher Unsicherheit\" sprach jüngst EZB-Präsidentin Christine Lagarde.\nWelche Bedeutung haben Trumps Zölle für Deutschland?\nDie deutsche Wirtschaft ist von Trumps Zolloffensive besonders betroffen: Die USA sind Deutschlands wichtiger Handelspartner vor China und den Niederlanden und größter Abnehmer deutscher Ausfuhren. 2024 wurden nach Angaben des Statistischen Bundesamtes Waren im Wert von rund 253 Milliarden Euro zwischen Deutschland und den Vereinigten Staaten gehandelt.\nDabei lieferten deutsche Firmen Waren im Wert von gut 161 Milliarden Euro in die USA, gut zehn Prozent aller Exporte. Für die deutschen Exporteure seien die Vereinigten Staaten so wichtig wie nie in den vergangenen 20 Jahren.\n\"Zölle auf deutsche Exporte in die USA treffen Branchen wie die Pharmaindustrie und Medizintechnik, den Fahrzeug- sowie den Maschinenbau besonders schwer\", betonten die Statistiker. \"Für viele Exportgüter aus diesen Branchen sind die Vereinigten Staaten der bedeutendste Absatzmarkt.\"\nWas macht Hoffnung auf Besserung?\nDie Aussichten für die deutsche Wirtschaft würden sich erheblich aufhellen, sollte der Zollstreit mit den USA beigelegt werden. Die Europäische Union hat in der Hoffnung auf Verhandlungen bereits geplante Gegenzölle ausgesetzt. Und Trump hat Autoherstellern zumindest Zollausnahmen in Aussicht gestellt.\nBeflügelt werden dürfte die heimische Konjunktur zudem vom Milliarden-Paket des Bundes für Verteidigung und Infrastruktur, wenn auch nicht sofort. \"Von den finanzpolitischen Weichenstellungen der künftigen Bundesregierung werden positive Impulse ausgehen, die allerdings erst in den kommenden Jahren spürbar zum Wachstum beitragen werden\", meinte die scheidende Bundesregierung. Sie erwartet für 2026 immerhin 1,0 Prozent Wirtschaftswachstum.\nref_doc_id: 2025-04-30\/wirtschaft\/article_1.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 843,
+    "situational_context": "Curious about the potential improvement in economic relations with the US, a German economics student reads about the impact of Trump's tariffs on Germany.",
+    "topic": "Handelskonflikt zwischen USA und Deutschland"
+  }
+}
+{
+  "id": "40b7a67c-8ab6-455a-acc0-55959567f313",
+  "question": "Hallo, ich habe kürzlich über die aktuellen nationalen Proteste in Deutschland gelesen und frage mich, worüber im geschäftsführenden Fraktionsvorstand schon vor Wochen gesprochen wurde?",
+  "reference_answer": "Wie sich Vereine finanzieren, die an den Protesten beteiligt sind.",
+  "reference_context": "Document 995: Unnamed: 0: 995\ntext: Hintergrund dieses doch recht ausführlichen und aufwändigen Schreibens: Die bundesweiten Proteste Anfang des Monats, die sich auch gegen Friedrich Merz wendeten.\nWie finanzieren sich Vereine, die daran beteiligt sind? Das lohne es sich mal abzufragen, darüber habe man im geschäftsführenden Fraktionsvorstand schon vor Wochen gesprochen, heißt es aus der Fraktion. Dass die Referenten nun so viele Fragen zusammengetragen hätten, habe überrascht, sei doch aber nicht verwerflich. Dass die Anfrage des CSU-Landesgruppenchefs Alexander Dobrindt und dem CDU-Fraktionsvorsitzenden Merz unterschrieben ist, ist eine reine Formalie. Höchstwahrscheinlich haben die beiden den Fragenkatalog nie gelesen. Allerdings schließt sich für die SPD damit ein Kreis: Merz, der von \"linken und grünen Spinnern\" spricht, sorgt für eine Stimmung in seiner Partei und Fraktion, aus der heraus solche Anfragen resultieren.\nWüst mahnt zu Mäßigung\nIn den nächsten Wochen wollen Union und SPD dann allerdings nicht mehr übereinander, sondern miteinander sprechen und sondieren, ob eine gemeinsame Regierung möglich ist. CDU-Ministerpräsident Hendrik Wüst hat bereits gemahnt: Nun sei es an der Zeit, aufeinander zuzugehen. Es brauche einen neuen politischen Stil. Ob er damit seinen eigenen Kanzlerkandidaten oder die SPD-Vertreter meinte, ist offen.\nref_doc_id: 2025-02-28\/inland\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 995,
+    "situational_context": "A curious reader skims through German news, pondering over which political figures are currently criticized in national protests.",
+    "topic": "Others"
+  }
+}
+{
+  "id": "47159ea7-d2e6-48ea-b1f8-70f8003bc32a",
+  "question": "Hallo, als jemand, der sich sehr für Politik interessiert und die deutschen Nachrichten verfolgt, möchte ich wissen: Wer hat sich über die organisierte Gewalt am israelischen Trauertag empört?",
+  "reference_answer": "Der linksliberale israelische Oppositionspolitiker Jair Golan.",
+  "reference_context": "Document 801: Unnamed: 0: 801\ntext: Dabei kommt es immer wieder zu Ausschreitungen ultrarechter Randalierer.\nGolan spricht von organisierter Gewalt\nDer linksliberale israelische Oppositionspolitiker Jair Golan zeigte sich empört. Er schrieb auf der Plattform X zu dem Vorfall: \"Am Gedenktag, als sich ganz Israel versammelt, um an einem Abend voller Trauer und Schmerz seiner Gefallenen zu gedenken, wurden Friedensstifter Opfer organisierter Gewalt.\"\nDies sei weder ein Einzelfall noch handele es sich um Randfiguren, so Golan. \"Dieses Ereignis ist eine direkte und eindeutige Folge fortgesetzter Aufhetzung, von Vernachlässigung und von der Legitimierung politischer Gewalt von oben. Eine Regierung, die Recht und gegenseitigen Respekt mit Füßen tritt, ist verantwortlich für Gewalt und Blutvergießen.\"\nProteste gegen Premier Netanjahu\nEine Sirene am Abend markierte den Beginn des israelischen Trauertags, der landesweit mit verschiedenen Gedenkfeiern und Friedhofsbesuchen begangen wird. In mehreren Fällen kam es zu Protesten trauernder Familien gegen Regierungsvertreter, darunter gegen Premierminister Benjamin Netanjahu bei einer Zeremonie an einer Jerusalemer Gedenkstätte für gefallene Soldaten.\nBei der offiziellen Staatszeremonie an der Klagemauer appellierte Präsident Izchak Herzog an die Öffentlichkeit, Spaltungen beizulegen und sich für Frieden und Einheit in der israelischen Gesellschaft einzusetzen. Der Generalstabschef der israelischen Armee, Eyal Zamir, rief laut Berichten dazu auf, die Verteidigungslast des Landes gemeinsam zu tragen. Die Armee brauche jeden einzelnen Wehrfähigen \"mehr denn je\".\nref_doc_id: 2025-04-30\/ausland\/article_11.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "situational",
+    "seed_document_id": 801,
+    "situational_context": "As a politics aficionado, Alex eagerly navigates German news reports to stay updated on international relations and current events. ",
+    "topic": "Hisbollah, Israel und Libanon-Konflikt"
+  }
+}

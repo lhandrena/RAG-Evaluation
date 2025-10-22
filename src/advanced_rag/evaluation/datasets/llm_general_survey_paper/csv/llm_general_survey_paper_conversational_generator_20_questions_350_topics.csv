@@ -1,0 +1,21 @@
+input,expected_output,expected_articles
+Welche sind besonders wertvoll?,"Die drei fortgeschrittenen Fähigkeiten sind: die Anpassung an menschliche Werte und Präferenzen (human alignment), das richtige Handeln in realen Szenarien (Interaktion mit der externen Umgebung) und die Erweiterung des Fähigkeitsspektrums (Werkzeugmanipulation).",general_surveys/2303.18223v16.pdf
+Welcher wird bevorzugt?,"Der neueste Dialogagent, Claude, bevorzugt Constitutional AI.",general_surveys/2303.04226v1.pdf
+Welches behandelt das?,"N. De Cao, W. Aziz und I. Titov. 2021. Editing factual knowledge in language models.",general_surveys/2307.10169v1.pdf
+Welche wird erwähnt?,International Conference on Learning Representations,general_surveys/2302.09419v3.pdf
+Was ist das?,"Das Buch zielt darauf ab, die grundlegenden Konzepte großer Sprachmodelle zu umreißen und die damit verbundenen Techniken vorzustellen.",general_surveys/2501.09223v2.pdf
+Welche Vorteile hat das eine im Vergleich zum anderen?,"Im Vergleich zum FFNN hat das RNN den Vorteil, dass es Eingaben beliebiger variabler Länge akzeptieren kann. Durch den internen Zustandsmechanismus kann es wiederholte Berechnungen vermeiden, und die Parameterteilung reduziert die Anzahl der Modellparameter.",general_surveys/2302.09419v3.pdf
+Welche beschreibt das?,"Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang und Qun Liu beschreiben TinyBERT in 'Tinybert: Distilling bert for natural language understanding', veröffentlicht in den Findings of the Association for Computational Linguistics: EMNLP 2020, Seiten 4163–4174, 2020.",general_surveys/2501.09223v2.pdf
+Was ist das laut dem Kontext?,"'Seq2sql' ist ein Ansatz zur Generierung strukturierter Abfragen aus natürlicher Sprache unter Verwendung von Reinforcement Learning, wie in CoRR, vol. abs/1709.00103, 2017 beschrieben.",general_surveys/2303.18223v16.pdf
+Wann war das?,2018,general_surveys/2303.18223v16.pdf
+Wie viel wird dafür benötigt?,"Für das Training von LLaMA-7B (P ≈ 6.7 × 10^9) werden etwa 100GB Speicher benötigt, um die Modellzustände allein zu speichern.",general_surveys/2303.18223v16.pdf
+Was bedeutet das?,Prompt Ensembling ist der Prozess der Verwendung mehrerer unbeantworteter Prompts für eine Eingabe zur Vorhersage während der Inferenzzeit.,general_surveys/3560815.pdf
+Welche behandelt das?,"J. Uesato, N. Kushman, R. Kumar, H. F. Song, N. Y. Siegel, L. Wang, A. Creswell, G. Irving, and I. Higgins, “Solving math word problems with process- and outcome-based feedback,” CoRR, vol. abs/2211.14275, 2022.",general_surveys/2303.18223v16.pdf
+Welche wird dort behandelt?,Lernen durch Graph Property Prediction.,general_surveys/2302.09419v3.pdf
+Welche gibt es?,"Es gibt Bedenken hinsichtlich der Privatsphäre beim Hochladen von Gesundheitsinformationen von Patienten auf einen kommerziellen Server, der das LLM unterstützt, sowie die Möglichkeit, dass LLMs medizinische Fehlinformationen fabrizieren, z.B. medizinische Begriffe falsch interpretieren und Ratschläge geben, die nicht mit medizinischen Richtlinien übereinstimmen.",general_surveys/2303.18223v16.pdf
+Welches Thema behandelt es?,Das Papier behandelt die ethischen und sozialen Risiken von Schäden durch Sprachmodelle.,general_surveys/2302.09419v3.pdf
+Wofür wird das verwendet?,"Das CoNLL2012-Dataset wird für die Koreferenzauflösung verwendet, bei der Modelle identifizieren, welche Wörter in einem Text auf dieselbe Entität verweisen.",general_surveys/682263.pdf
+Welches wird dort vorgestellt?,Attngan: Fine-grained text to image generation with attentional generative adversarial networks,general_surveys/2303.04226v1.pdf
+Welches Thema behandelt es?,Automatisierung der Formalisierung von Theoremaussagen mit großen Sprachmodellen.,general_surveys/2307.10169v1.pdf
+Welche wird als solche angesehen?,"Human Alignment, also die Ausrichtung an menschlichen Werten und Bedürfnissen, wird als Schlüssel für die breite Nutzung von LLMs in realen Anwendungen angesehen.",general_surveys/2303.18223v16.pdf
+Welches Thema behandelt dieser?,"Der Artikel 'Hotpotqa' behandelt ein Datenset für vielfältige, erklärbare Multi-Hop-Fragebeantwortung.",general_surveys/2303.18223v16.pdf

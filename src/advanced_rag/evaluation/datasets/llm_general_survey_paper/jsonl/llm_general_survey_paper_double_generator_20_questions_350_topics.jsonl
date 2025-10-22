@@ -1,0 +1,440 @@
+{
+  "id": "20409956-1879-4ecb-95d7-f611374c76a3",
+  "question": "Wie viele Parameter hat das Modell GPT-2 und was ist ein Hauptmerkmal von GPT-3 im Vergleich zu GPT-2?",
+  "reference_answer": "Das Modell GPT-2 hat insgesamt 1,5 Milliarden Parameter, während GPT-3 eine Modellgröße von 175 Milliarden Parametern hat und kein Fine-Tuning für spezifische nachgelagerte Aufgaben benötigt.",
+  "reference_context": "Document 2734: Unnamed: 0: 2734\ntext: As a follow-up, the OpenAI team continues to expand GPT, proposes the GPT-2 [51] and increases the number of stacked Transformer layers to 48 layers. The total number of parameters reached 1.5 billion. GPT-2 also introduces multi-task learning [52]. The GPT-2 has a considerable model capacity and can be adjusted for different task models rather than ﬁne-tuning them. However, GPT-2 also uses an autoregressive LM. Therefore, it improves the performance of the model without increasing the cost dramatically. Due to the lack of contextual modeling ability with a one-way Transformer, the main performance improvement of GPT-2 comes from the combined effect of multi-task pretraining, super-large datasets, and super-large models. Task-based datasets for ﬁne-tuning are still needed for speciﬁc downstream tasks. Increasing the training scale of the LM can lead to a signiﬁcant enhancement in task-independent performance. Hence, GPT-3 [20] was developed, which features a model size of 175 billion parameters and is trained with 45 Terabytes of data. This enables it to exhibit good performance without the need for ﬁne-tuning for speciﬁc downstream tasks.\n\nContextual Language Model The autoregressive LM only uses the information above or below and can- not use the information above and below at the same time. ELMO [53] only uses bi-directional Long\n\n11\n\n(7)\n\nShort-Term Memory (LSTM), which is a concatenation of two unidirectional LSTMs in backward and for- ward. The contextual LM predictions are based on contextual words.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie viele Parameter hat das Modell GPT-2?",
+        "answer": "Das Modell GPT-2 hat insgesamt 1,5 Milliarden Parameter."
+      },
+      {
+        "question": "Was ist ein Hauptmerkmal von GPT-3 im Vergleich zu GPT-2?",
+        "answer": "GPT-3 hat eine Modellgröße von 175 Milliarden Parametern und benötigt kein Fine-Tuning für spezifische nachgelagerte Aufgaben."
+      }
+    ],
+    "seed_document_id": 2734,
+    "topic": "Large Language Models and Architectures"
+  }
+}
+{
+  "id": "d52c3d62-76d7-4154-8853-f7b977693cda",
+  "question": "Was beschreibt das Papier 'Gptq' und worum geht es in dem Blogbeitrag von A. Frömmgen und L. Kharatyan?",
+  "reference_answer": "Das Papier 'Gptq' beschreibt eine genaue Nachtraining-Quantisierung für generative Pre-Trained Transformer, während der Blogbeitrag von A. Frömmgen und L. Kharatyan das Lösen von Code-Review-Kommentaren mit maschinellem Lernen behandelt.",
+  "reference_context": "Document 4203: Unnamed: 0: 4203\ntext: Gptq: Accurate post-training quantization for generative pre-trained transformers. arXiv preprint arXiv:2210.17323.\n\n[154] D. Fried, A. Aghajanyan, J. Lin, S. Wang, E. Wallace, F. Shi, R. Zhong, W.-t. Yih et al. 2022. Incoder: A genera- tive model for code infilling and synthesis.\n\n[155] A. Frömmgen and L. Kharatyan. 2023.\n\nResolv- ing code review comments with ml. Available from: https:\/\/ai.googleblog.com\/2023\/05\/ resolving-code-review-comments-with-ml. html. Accessed: 26\/06\/2023.\n\n[156] J. Fu, S.-K. Ng, Z. Jiang and P. Liu. 2023. Gptscore: Evaluate as you desire. arXiv preprint arXiv:2302.04166.\n\n[157] T. Fujii, K. Shibata, A. Yamaguchi, T. Morishita and Y. Sogawa. 2023. How do different tokenizers perform on downstream tasks in scriptio continua languages?: A case study in japanese. arXiv preprint arXiv:2306.09572.\n\n[158] I. Gabriel. 2020. Artificial intelligence, values, and align-\n\nment. Minds and machines, 30(3):411–437.\nref_doc_id: general_surveys\/2307.10169v1.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was beschreibt das Papier 'Gptq'?",
+        "answer": "Das Papier 'Gptq' beschreibt eine genaue Nachtraining-Quantisierung für generative Pre-Trained Transformer."
+      },
+      {
+        "question": "Worum geht es in dem Blogbeitrag von A. Frömmgen und L. Kharatyan?",
+        "answer": "Der Blogbeitrag von A. Frömmgen und L. Kharatyan behandelt das Lösen von Code-Review-Kommentaren mit maschinellem Lernen."
+      }
+    ],
+    "seed_document_id": 4203,
+    "topic": "Large Language Models Research"
+  }
+}
+{
+  "id": "a07858b4-fe85-4a22-94de-961c0907286e",
+  "question": "Welche Autoren haben an dem Artikel 'Chatgpt goes to law school' mitgewirkt und welche Publikation behandelt die Frage, ob GPT-3 gesetzliche Argumentation durchführen kann?",
+  "reference_answer": "Die Autoren des Artikels 'Chatgpt goes to law school' sind J. H. Choi, K. E. Hickman, A. Monahan und D. Schwarcz, und die Publikation, die die Frage behandelt, ob GPT-3 gesetzliche Argumentation durchführen kann, ist von A. Blair-Stanek, N. Holzenberger und B. V. Durme, veröffentlicht in CoRR, vol. abs\/2302.06100, 2023.",
+  "reference_context": "Document 2584: Unnamed: 0: 2584\ntext: J. H. Choi, K. E. Hickman, A. Monahan, and\n\n[908]\n\n[909]\n\nD. Schwarcz, “Chatgpt goes to law school,” Available at SSRN, 2023. J. J. Nay, “Law informs code: A legal informatics approach to aligning artificial intelligence with hu- mans,” CoRR, vol. abs\/2209.13020, 2022.\n\n[910] F. Yu, L. Quartey, and F. Schilder, “Legal prompting: Teaching a language model to think like a lawyer,” CoRR, vol. abs\/2212.01326, 2022.\n\n[911] D. Trautmann, A. Petrova, and F. Schilder, “Legal prompt engineering for multilingual legal judgement prediction,” CoRR, vol. abs\/2212.02199, 2022. [912] A. Tamkin, M. Brundage, J. Clark, and D. Ganguli, “Understanding the capabilities, limitations, and so- cietal impact of large language models,” CoRR, vol. abs\/2102.02503, 2021.\n\n[913] Z. Sun, “A short survey of viewing large language models in legal aspect,” CoRR, vol. abs\/2303.09136, 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2583: Unnamed: 0: 2583\ntext: on opportunities and challenges of large lan- guage models for education,” Learning and Individual Differences, vol. 103, p. 102274, 2023.\n\n[906] A. Blair-Stanek, N. Holzenberger, and B. V. Durme, “Can GPT-3 perform statutory reasoning?” CoRR, vol. abs\/2302.06100, 2023.\n\n[907] D. Trautmann, A. Petrova, and F. Schilder, “Legal prompt engineering for multilingual legal judgement prediction,” CoRR, vol. abs\/2212.02199, 2022. J. H. Choi, K. E. Hickman, A. Monahan, and\n\n[908]\n\n[909]\n\nD. Schwarcz, “Chatgpt goes to law school,” Available at SSRN, 2023. J. J. Nay, “Law informs code: A legal informatics approach to aligning artificial intelligence with hu- mans,” CoRR, vol. abs\/2209.13020, 2022.\n\n[910] F. Yu, L. Quartey, and F. Schilder, “Legal prompting: Teaching a language model to think like a lawyer,” CoRR, vol. abs\/2212.01326, 2022.\n\n[911] D. Trautmann, A. Petrova, and F. Schilder, “Legal prompt engineering for multilingual legal judgement prediction,” CoRR, vol. abs\/2212.02199, 2022.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Autoren haben an dem Artikel 'Chatgpt goes to law school' mitgewirkt?",
+        "answer": "Die Autoren des Artikels 'Chatgpt goes to law school' sind J. H. Choi, K. E. Hickman, A. Monahan und D. Schwarcz."
+      },
+      {
+        "question": "Welche Publikation behandelt die Frage, ob GPT-3 gesetzliche Argumentation durchführen kann?",
+        "answer": "Die Publikation, die die Frage behandelt, ob GPT-3 gesetzliche Argumentation durchführen kann, ist von A. Blair-Stanek, N. Holzenberger und B. V. Durme, veröffentlicht in CoRR, vol. abs\/2302.06100, 2023."
+      }
+    ],
+    "seed_document_id": 2584,
+    "topic": "ChatGPT and Large Language Models Applications"
+  }
+}
+{
+  "id": "6c284f87-f129-4d48-b3e3-5d7f5b82a3ce",
+  "question": "Wie können LLMs zur Auswahl von Demonstrationen verwendet werden und wie wird die Demonstrationsauswahl als RL-Problem formuliert?",
+  "reference_answer": "LLMs können genutzt werden, um die Informationsgehalt jedes Beispiels direkt zu messen, basierend auf dem Leistungsgewinn nach Hinzufügen des Beispiels, und die Aufgabe der Demonstrationsauswahl kann in ein RL-Problem formuliert werden, wobei LLMs als Belohnungsfunktion dienen, um Feedback für das Training des Politikmodells bereitzustellen.",
+  "reference_context": "Document 1698: Unnamed: 0: 1698\ntext: LLM-based approaches. Another line of work selects demonstrations by making use of LLMs. For example, LLMs can be utilized to directly measure the informativeness of each example according to the performance gain after adding the example [486]. In addition, EPR [421] proposes a two-stage retrieval approach that first recalls similar ex- amples with an unsupervised method (e.g., BM25) and then ranks them using a dense retriever (trained with positive and negative examples labeled by LLMs). As an alterna- tive approach, the task of demonstration selection can be formulated into a RL problem, where LLMs serve as the reward function to provide feedback for training the policy model [487]. Since LLMs perform well for text annota- tion [488], some recent studies employ LLM itself as the demonstration generator without human intervention [489]. To summarize, as discussed in [490], the selected demon- stration examples in ICL should contain sufficient informa- tion about the task to solve as well as be relevant to the test query, for the above two selection approaches. Demonstration Format. After selecting task examples, the next step is to integrate and format them into a natural language prompt for LLMs. A straightforward method is to instantiate a pre-defined template with the corresponding input-output pairs [36]. To construct more informative tem- plates, recent studies consider adding task descriptions [69] or enhancing the reasoning capability of LLMs with chain- of-thought prompts [33]. For instance, in [179], the authors collect a large-scale dataset with task descriptions written by humans.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie können LLMs zur Auswahl von Demonstrationen verwendet werden?",
+        "answer": "LLMs können genutzt werden, um die Informationsgehalt jedes Beispiels direkt zu messen, basierend auf dem Leistungsgewinn nach Hinzufügen des Beispiels."
+      },
+      {
+        "question": "Wie wird die Demonstrationsauswahl als RL-Problem formuliert?",
+        "answer": "Die Aufgabe der Demonstrationsauswahl kann in ein RL-Problem formuliert werden, wobei LLMs als Belohnungsfunktion dienen, um Feedback für das Training des Politikmodells bereitzustellen."
+      }
+    ],
+    "seed_document_id": 1698,
+    "topic": "Prompting and In-Context Learning in LLMs"
+  }
+}
+{
+  "id": "00608c87-e49a-414d-a5e3-33348449bc69",
+  "question": "Was sind die Ziele von Instruction-Aligning-Methoden bei großen Sprachmodellen und wie wird das Supervised Fine-Tuning (SFT) durchgeführt?",
+  "reference_answer": "Instruction-aligning methods zielen darauf ab, das Sprachmodell dazu zu bringen, menschlichen Absichten zu folgen und sinnvolle Ausgaben zu erzeugen, während das Supervised Fine-Tuning (SFT) eine Technik ist, bei der das vortrainierte Sprachmodell mit einem hochwertigen Korpus auf eine überwachte Weise feinabgestimmt wird, um Wissen zu erschließen und auf spezifische, reale Aufgaben anzuwenden.",
+  "reference_context": "Document 2757: Unnamed: 0: 2757\ntext: 3.5\n\nInstruction-Aligning Methods\n\nInstruction-aligning methods aim to let the LM follow human intents and generate meaningful outputs. The general approach is ﬁne-tuning the pretrained LM with high-quality corpus in a supervised manner. To further improve the usefulness and harmlessness of LMs, some works introduce RL into the ﬁne-tuning pro- cedure so that LMs could revise their responses according to human or AI feedback. Both supervised and RL approaches can leverage chain-of-thought [24] style reasoning to improve the human-judged performance and transparency of AI decision-making.\n\nSupervised Fine-Tuning (SFT) SFT is a well-established technique to unlock knowledge and apply it to speciﬁc real-world, even unseen tasks. The template for SFT is composed of input-output pairs and an instruction [113]. For example, given the instruction “Translate this sentence to Spanish:” and an input “The new ofﬁce building was built in less than three months.”, we want the LM to generate the target “El nuevo ediﬁcio de oﬁcinas se construyó en tres meses.”. The template is commonly humanmade including unnatural instructions [114] and natural instructions [115, 116], or bootstrap based on a seed corpus [117]. Ethical and social risks of harm from LMs are signiﬁcant concerns in SFT [118]. LaMDA, the largest LM to date, thus relies on crowdworker annotated data for providing a safety assessment of any generated LaMDA response in three conversation categories: natural, sensitive, and adversarial. The list of rules serves further safety ﬁne-tuning and evaluation purposes.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was sind die Ziele von Instruction-Aligning-Methoden bei großen Sprachmodellen?",
+        "answer": "Instruction-aligning methods aim to let the LM follow human intents and generate meaningful outputs."
+      },
+      {
+        "question": "Wie wird das Supervised Fine-Tuning (SFT) bei großen Sprachmodellen durchgeführt?",
+        "answer": "SFT ist eine Technik, bei der das vortrainierte Sprachmodell mit einem hochwertigen Korpus auf eine überwachte Weise feinabgestimmt wird, um Wissen zu erschließen und auf spezifische, reale Aufgaben anzuwenden."
+      }
+    ],
+    "seed_document_id": 2757,
+    "topic": "Others"
+  }
+}
+{
+  "id": "c1b22d23-fbf0-4e36-a943-6bb2abc0048c",
+  "question": "Wer sind einige der Herausgeber der Konferenzberichte über maschinelle Übersetzung im Jahr 2020 und in welchem Jahr fand die sechste Konferenz über maschinelle Übersetzung (WMT21) statt?",
+  "reference_answer": "Einige der Herausgeber der Konferenzberichte über maschinelle Übersetzung im Jahr 2020 sind L. Barrault, O. Bojar, F. Bougares, R. Chatterjee, M. R. Costa-jussà und C. Federmann, und die sechste Konferenz über maschinelle Übersetzung (WMT21) fand im Jahr 2021 statt.",
+  "reference_context": "Document 2392: Unnamed: 0: 2392\ntext: Association for Computational Linguistics, 2019, pp. 1–61.\n\n[545] L. Barrault, M. Biesialska, O. Bojar, M. R. Costa- juss`a, C. Federmann, Y. Graham, R. Grundkiewicz, B. Haddow, M. Huck, E. Joanis, T. Kocmi, P. Koehn, C. Lo, N. Ljubesic, C. Monz, M. Morishita, M. Na- gata, T. Nakazawa, S. Pal, M. Post, and M. Zampieri, “Findings of the 2020 conference on machine trans- lation (WMT20),” in Proceedings of the Fifth Con- ference on Machine Translation, WMT@EMNLP 2020, Online, November 19-20, 2020, L. Barrault, O. Bojar, F. Bougares, R. Chatterjee, M. R. Costa-juss`a, C. Fed- ermann, M. Fishel, A. Fraser, Y. Graham, P. Guzman, B. Haddow, M. Huck, A. Jimeno-Yepes, P. Koehn, A. Martins, M. Morishita, C. Monz, M. Nagata, T. Nakazawa, and M. Negri, Eds. Association for Computational Linguistics, 2020, pp. 1–55.\n\n[546] F. Akhbardeh, A. Arkhangorodsky, M. Biesialska, O. Bojar, R.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2393: Unnamed: 0: 2393\ntext: Association for Computational Linguistics, 2020, pp. 1–55.\n\n[546] F. Akhbardeh, A. Arkhangorodsky, M. Biesialska, O. Bojar, R. Chatterjee, V. Chaudhary, M. R. Costa- juss`a, C. Espa˜na-Bonet, A. Fan, C. Federmann, M. Freitag, Y. Graham, R. Grundkiewicz, B. Had- dow, L. Harter, K. Heafield, C. Homan, M. Huck, K. Amponsah-Kaakyire, J. Kasai, D. Khashabi, K. Knight, T. Kocmi, P. Koehn, N. Lourie, C. Monz, M. Morishita, M. Nagata, A. Nagesh, T. Nakazawa, M. Negri, S. Pal, A. A. Tapo, M. Turchi, V. Vydrin, and M. Zampieri, “Findings of the 2021 confer- ence on machine translation (WMT21),” in Proceed- ings of the Sixth Conference on Machine Translation, WMT@EMNLP 2021, Online Event, November 10-11, 2021, L. Barrault, O. Bojar, F. Bougares, R. Chat- terjee, M. R. Costa-juss`a, C. Federmann, M. Fishel,\n\nA. Fraser, M. Freitag, Y. Graham, R. Grundkiewicz, P. Guzman,\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2391: Unnamed: 0: 2391\ntext: The Associa- tion for Computer Linguistics, 2014, pp. 12–58. [543] O. Bojar, R. Chatterjee, C. Federmann, Y. Graham, B. Haddow, M. Huck, A. Jimeno-Yepes, P. Koehn, V. Logacheva, C. Monz, M. Negri, A. N´ev´eol, M. L. Neves, M. Popel, M. Post, R. Rubino, C. Scarton, L. Specia, M. Turchi, K. Verspoor, and M. Zampieri, “Findings of the 2016 conference on machine trans- lation,” in WMT. The Association for Computer Linguistics, 2016, pp. 131–198.\n\n[544] L. Barrault, O. Bojar, M. R. Costa-juss`a, C. Feder- mann, M. Fishel, Y. Graham, B. Haddow, M. Huck, P. Koehn, S. Malmasi, C. Monz, M. M¨uller, S. Pal, M. Post, and M. Zampieri, “Findings of the 2019 conference on machine translation (WMT19),” in Pro- ceedings of the Fourth Conference on Machine Transla- tion, WMT 2019, Florence, Italy, August 1-2, 2019 - Vol- ume 2: Shared Task Papers, Day 1, O. Bojar, R. Chatter- jee, C. Federmann, M. Fishel, Y. Graham, B. Haddow, M. Huck, A. Jimeno-Yepes, P. Koehn, A. Martins, C. Monz, M. Negri, A. N´ev´eol, M. L. Neves, M. Post, M. Turchi, and K. Verspoor, Eds.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wer sind einige der Herausgeber der Konferenzberichte über maschinelle Übersetzung im Jahr 2020?",
+        "answer": "Einige der Herausgeber sind L. Barrault, O. Bojar, F. Bougares, R. Chatterjee, M. R. Costa-jussà und C. Federmann."
+      },
+      {
+        "question": "In welchem Jahr fand die sechste Konferenz über maschinelle Übersetzung (WMT21) statt?",
+        "answer": "Die sechste Konferenz über maschinelle Übersetzung (WMT21) fand im Jahr 2021 statt."
+      }
+    ],
+    "seed_document_id": 2392,
+    "topic": "Others"
+  }
+}
+{
+  "id": "bdf48504-c23d-45b7-ad30-76602d61a8cf",
+  "question": "Welche Autoren haben an dem Artikel 'Fast random walk graph kernel' mitgewirkt und in welchem Jahr wurde der Artikel 'Weisfeiler-lehman graph kernels' veröffentlicht?",
+  "reference_answer": "Die Autoren des Artikels 'Fast random walk graph kernel' sind U. Kang, H. Tong und J. Sun, und der Artikel 'Weisfeiler-lehman graph kernels' wurde im Jahr 2011 veröffentlicht.",
+  "reference_context": "Document 3154: Unnamed: 0: 3154\ntext: [352] U. Kang, H. Tong, and J. Sun, “Fast random walk graph kernel,” in SIAM.\n\n[353] N. Shervashidze, P. Schweitzer, E. J. van Leeuwen, K. Mehlhorn, and K. M. Borgwardt, “Weisfeiler-\n\nlehman graph kernels,” J. Mach. Learn. Res., pp. 2539–2561, 2011.\n\n[354] D. Erhan, P.-A. Manzagol, Y. Bengio, S. Bengio, and P. Vincent, “The difﬁculty of training deep architectures and the effect of unsupervised pre-training,” in Artiﬁcial Intelligence and Statistics, 2009.\n\n[355] D. Erhan, A. Courville, Y. Bengio, and P. Vincent, “Why does unsupervised pre-training help deep\n\nlearning?,” in AISTATS.\n\n[356] J. D. Lee, Q. Lei, N. Saunshi, and J. Zhuo, “Predicting what you already know helps: Provable\n\nself-supervised learning,” arXiv, 2020.\n\n[357] C. Tosh, A. Krishnamurthy, and D. Hsu, “Contrastive learning, multi-view redundancy, and linear\n\nmodels,” in Algorithmic Learning Theory, 2021.\n\n[358] S. Arora, H. Khandeparkar, M. Khodak, O. Plevrakis, and N. Saunshi, “A theoretical analysis of\n\ncontrastive unsupervised representation learning,” arXiv, 2019.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Autoren haben an dem Artikel 'Fast random walk graph kernel' mitgewirkt?",
+        "answer": "Die Autoren des Artikels 'Fast random walk graph kernel' sind U. Kang, H. Tong und J. Sun."
+      },
+      {
+        "question": "In welchem Jahr wurde der Artikel 'Weisfeiler-lehman graph kernels' veröffentlicht?",
+        "answer": "Der Artikel 'Weisfeiler-lehman graph kernels' wurde im Jahr 2011 veröffentlicht."
+      }
+    ],
+    "seed_document_id": 3154,
+    "topic": "Graph Representation Learning"
+  }
+}
+{
+  "id": "bad88976-9da8-4b85-91c8-93e7678e71bc",
+  "question": "Welche Themen werden in der Arbeit von M. Fraiwan und N. Khasawneh behandelt und in welchem Jahr wurde der Artikel 'The virtue of simplicity: On machine learning models in algorithmic trading' von K. B. Hansen veröffentlicht?",
+  "reference_answer": "Die Arbeit von M. Fraiwan und N. Khasawneh behandelt Anwendungen von ChatGPT in den Bereichen Bildung, Marketing, Softwaretechnik und Gesundheitswesen sowie deren Vorteile, Nachteile und Forschungsrichtungen, und der Artikel von K. B. Hansen wurde im Jahr 2020 veröffentlicht.",
+  "reference_context": "Document 5338: Unnamed: 0: 5338\ntext: 3507827, 2020.\n\n[447] K. B. Hansen, “The virtue of simplicity: On machine learning mod- els in algorithmic trading,” Big Data & Society, vol. 7, no. 1, p. 2053951720926558, 2020.\n\n[448] Z. Lin, Z. Song, Z. Dai, and Q. V. Le, “Fingpt: Open-source financial large language models,” arXiv preprint arXiv:2306.06031, 2023. [449] X. Hou, Y. Zhao, Y. Liu, Z. Yang, K. Wang, L. Li, X. Luo, D. Lo, J. Grundy, and H. Wang, “Large language models for soft- ware engineering: A systematic literature review,” arXiv preprint arXiv:2308.10620, 2023.\n\n[450] M. Fraiwan and N. Khasawneh, “A review of chatgpt applications in education, marketing, software engineering, and healthcare: Benefits, drawbacks, and research directions,” arXiv preprint arXiv:2305.00237, 2023.\n\n[451] D. Tiro, “The possibility of applying chatgpt (ai) for calculations in mechanical engineering,” in New Technologies, Development and Application VI: Volume 1, pp. 313–320, Springer, 2023.\n\n[452] X. Wang, N. Anwer, Y. Dai, and A. Liu, “Chatgpt for design,\n\nmanufacturing, and education,” 2023.\nref_doc_id: general_surveys\/682263.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Themen werden in der Arbeit von M. Fraiwan und N. Khasawneh behandelt?",
+        "answer": "Die Arbeit von M. Fraiwan und N. Khasawneh behandelt Anwendungen von ChatGPT in den Bereichen Bildung, Marketing, Softwaretechnik und Gesundheitswesen sowie deren Vorteile, Nachteile und Forschungsrichtungen."
+      },
+      {
+        "question": "In welchem Jahr wurde der Artikel 'The virtue of simplicity: On machine learning models in algorithmic trading' von K. B. Hansen veröffentlicht?",
+        "answer": "Der Artikel von K. B. Hansen wurde im Jahr 2020 veröffentlicht."
+      }
+    ],
+    "seed_document_id": 5338,
+    "topic": "Others"
+  }
+}
+{
+  "id": "1d60ed00-101a-4e12-a4ee-47efa242de97",
+  "question": "Was ist das Chinchilla-Modell und wie unterscheidet es sich vom Gopher-Modell, und wie verbessert das AlexaTM-Modell das In-Context-Lernen?",
+  "reference_answer": "Das Chinchilla-Modell ist ein kausaler Decoder, der auf demselben Datensatz wie das Gopher-Modell trainiert wurde, jedoch mit einer leicht unterschiedlichen Datenverteilungsstrategie und dem AdamW-Optimizer anstelle von Adam, und zeigt, dass die Modellgröße für jede Verdopplung der Trainings-Token verdoppelt werden sollte. Das AlexaTM-Modell verbessert das In-Context-Lernen, indem es während des Trainings den CLM-Aufgabe für 20% der Zeit anwendet.",
+  "reference_context": "Document 3446: Unnamed: 0: 3446\ntext: 1.17 Chinchilla [119]: A causal decoder trained on the same dataset as the Gopher [111] but with a little different data sampling distribution (sampled from MassiveText). The model architecture is similar to the one used for Gopher, with the exception of AdamW optimizer instead of Adam. Chinchilla identifies the relationship that model size should be doubled for every doubling of training tokens. Over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens are trained to get the estimates for compute-optimal training under a given budget. The authors train a 70B model with the same compute budget as Gopher (280B) but with 4 times more data. It outperforms Gopher [111], GPT-3 [6], and others on various downstream tasks, after fine-tuning.\n\n1.18 AlexaTM [120]: An encoder-decoder model, where encoder weights and decoder embeddings are initialized with a pre-trained encoder to speedup training. The encoder stays frozen for initial 100k steps and later unfreezed for end-to-end training. The model is trained on a combination of denoising\n\n1https:\/\/github.com\/TimDettmers\/bitsandbytes\n\nand causal language modeling (CLM) objectives, concate- nating [CLM] token at the beginning for mode switiching. During training, the CLM task is applied for 20% of the time, which improves the in-context learning performance.\n\n1.19 PaLM [15]: A causal decoder with parallel atten- tion and feed-forward layers similar to Eq. 4, speeding up training 15 times faster.\nref_doc_id: general_surveys\/2307.06435v8.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist das Chinchilla-Modell und wie unterscheidet es sich vom Gopher-Modell?",
+        "answer": "Das Chinchilla-Modell ist ein kausaler Decoder, der auf demselben Datensatz wie das Gopher-Modell trainiert wurde, jedoch mit einer leicht unterschiedlichen Datenverteilungsstrategie. Es verwendet den AdamW-Optimizer anstelle von Adam und zeigt, dass die Modellgröße für jede Verdopplung der Trainings-Token verdoppelt werden sollte."
+      },
+      {
+        "question": "Wie verbessert das AlexaTM-Modell das In-Context-Lernen?",
+        "answer": "Das AlexaTM-Modell verbessert das In-Context-Lernen, indem es während des Trainings den CLM-Aufgabe für 20% der Zeit anwendet."
+      }
+    ],
+    "seed_document_id": 3446,
+    "topic": "Large Language Models and Tokenization"
+  }
+}
+{
+  "id": "07c364aa-ca99-48a5-864c-3f6cb31ea890",
+  "question": "Was wird verwendet, um ein binäres Klassifikationssystem zu erstellen und welche Art von Modellierung wird in der Masked Language Modeling Aufgabe verwendet?",
+  "reference_answer": "Ein Softmax-Layer wird auf h0 hinzugefügt, um ein binäres Klassifikationssystem zu erstellen, und in der Masked Language Modeling Aufgabe wird eine Reihenfolge von x0,[MASK],x2,[MASK],x4 verwendet, um x1 und x3 vorherzusagen.",
+  "reference_context": "Document 338: Unnamed: 0: 338\ntext: Since h0 is generally considered as the representation of the entire sequence, we add a Softmax layer on top of it to construct a binary classification system. This process is illustrated as follows\n\ntoken: [CLS]\n\nembedding:\n\ne0 ↓\n\nIt is e1 e2 ↓ ↓\n\nraining . e4 ↓\n\ne3 ↓\n\n[SEP]\n\ne5 ↓\n\nI need an umbrella e8 e6 ↓ ↓\n\ne7 ↓\n\ne9 ↓\n\n. e10 ↓\n\n[SEP]\n\ne11 ↓\n\nEncoder\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\n↓\n\nencoding: h0 ↓\n\nh1 h2\n\nh3\n\nh4\n\nh5\n\nh6 h7 h8\n\nh9\n\nh10 h11\n\nSoftmax\n\n↓\n\nIs Next or Not?\n\n1.2 Self-supervised Pre-training Tasks\n\nx0\n\nx1\n\nx2\n\nx3\n\nx4\n\nx0\n\nPr(x0) = 1\n\nx1\n\nPr(x1|e0)\n\nx2\n\nPr(x2|e0,e1)\n\nx3\n\nPr(x3|e0,e1,e2)\n\nx4\n\nPr(x4|e0,e1,e2,e3)\n\n(a) Causal Language Modeling (order: x0 → x1 → x2 → x3 → x4)\n\nx0\n\nmasked x1\n\nx2\n\nmasked x3\n\nx4\n\nx0\n\n1\n\nx1 masked x2\n\nPr(x1|e0,emask,e2,emask,e4)\n\n1\n\nx3 masked x4\n\nPr(x3|e0,emask,e2,emask,e4)\n\n1\n\n(b) Masked Language Modeling (order: x0,[MASK],x2,[MASK],x4 → x1,x3)\n\nx0\n\nx1\n\nx2\n\nx3\n\nx4\n\nx0\n\nPr(x0) = 1\n\nx1\n\nPr(x1|e0,e4,e2)\n\nx2\n\nPr(x2|e0,e4)\n\nx3\n\nPr(x3|e0,e4,e2,e1)\n\nx4\n\nPr(x4|e0)\n\n(c) Permuted Language Modeling (order: x0 → x4 → x2 → x1 → x3)\n\nFig.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was wird verwendet, um ein binäres Klassifikationssystem zu erstellen?",
+        "answer": "Ein Softmax-Layer wird auf h0 hinzugefügt, um ein binäres Klassifikationssystem zu erstellen."
+      },
+      {
+        "question": "Welche Art von Modellierung wird in der Masked Language Modeling Aufgabe verwendet?",
+        "answer": "In der Masked Language Modeling Aufgabe wird eine Reihenfolge von x0,[MASK],x2,[MASK],x4 verwendet, um x1 und x3 vorherzusagen."
+      }
+    ],
+    "seed_document_id": 338,
+    "topic": "Masked Language Modeling in Transformers"
+  }
+}
+{
+  "id": "c8cafc82-65ec-4c1f-aea4-408cb0d1830f",
+  "question": "Was ist der Titel des Papiers von M. Besta und Kollegen im Jahr 2023 und welches Papier befasst sich mit der Förderung des logischen Denkens in großen Sprachmodellen?",
+  "reference_answer": "Der Titel des Papiers von M. Besta und Kollegen im Jahr 2023 ist 'Graph of thoughts: Solving elaborate problems with large language models', und das Papier 'Boosting logical reasoning in large language models through a new framework: The graph of thought' von B. Lei, P. Lin, C. Liao und C. Ding befasst sich mit der Förderung des logischen Denkens in großen Sprachmodellen.",
+  "reference_context": "Document 2379: Unnamed: 0: 2379\ntext: abs\/2309.07694, 2023.\n\n[519] M. Besta, N. Blach, A. Kubicek, R. Gerstenberger, L. Gianinazzi, J. Gajda, T. Lehmann, M. Podstawski, H. Niewiadomski, P. Nyczyk, and T. Hoefler, “Graph of thoughts: Solving elaborate problems with large language models,” CoRR, vol. abs\/2308.09687, 2023. [520] B. Lei, P. Lin, C. Liao, and C. Ding, “Boosting log- ical reasoning in large language models through a new framework: The graph of thought,” CoRR, vol. abs\/2308.08614, 2023.\n\n[521] R. Ding, C. Zhang, L. Wang, Y. Xu, M. Ma, W. Zhang, S. Qin, S. Rajmohan, Q. Lin, and D. Zhang, “Ev- thoughts: Defying the law of pen- erything of rose triangle for thought generation,” arXiv preprint arXiv:2311.04254, 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2380: Unnamed: 0: 2380\ntext: abs\/2308.09687, 2023. [520] B. Lei, P. Lin, C. Liao, and C. Ding, “Boosting log- ical reasoning in large language models through a new framework: The graph of thought,” CoRR, vol. abs\/2308.08614, 2023.\n\n[521] R. Ding, C. Zhang, L. Wang, Y. Xu, M. Ma, W. Zhang, S. Qin, S. Rajmohan, Q. Lin, and D. Zhang, “Ev- thoughts: Defying the law of pen- erything of rose triangle for thought generation,” arXiv preprint arXiv:2311.04254, 2023.\n\n[522] P. Liang, R. Bommasani, T. Lee, D. Tsipras, D. Soylu, M. Yasunaga, Y. Zhang, D. Narayanan, Y. Wu, A. Ku- mar, B. Newman, B. Yuan, B. Yan, C. Zhang, C. Cos- grove, C. D. Manning, C. R´e, D. Acosta-Navas, D. A. Hudson, E. Zelikman, E. Durmus, F. Ladhak, F. Rong, H. Ren, H. Yao, J. Wang, K. Santhanam, L. J. Orr, L. Zheng, M. Y¨uksekg¨on¨ul, M. Suzgun, N. Kim, N. Guha, N. S. Chatterji, O. Khattab, P. Henderson, Q. Huang, R. Chi, S. M. Xie, S. Santurkar, S. Ganguli, T. Hashimoto, T. Icard, T. Zhang, V. Chaudhary, W. Wang, X. Li, Y. Mai, Y. Zhang, and Y. Koreeda, “Holistic evaluation of language models,” CoRR, vol.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist der Titel des Papiers von M. Besta und Kollegen im Jahr 2023?",
+        "answer": "Der Titel des Papiers ist 'Graph of thoughts: Solving elaborate problems with large language models'."
+      },
+      {
+        "question": "Welches Papier befasst sich mit der Förderung des logischen Denkens in großen Sprachmodellen?",
+        "answer": "Das Papier 'Boosting logical reasoning in large language models through a new framework: The graph of thought' von B. Lei, P. Lin, C. Liao und C. Ding befasst sich mit diesem Thema."
+      }
+    ],
+    "seed_document_id": 2379,
+    "topic": "Reasoning in Large Language Models"
+  }
+}
+{
+  "id": "ea0fe80c-7b01-459a-a6b0-e574ba78769e",
+  "question": "Wer sind die Autoren des Artikels 'Rome was built in 1776: A case study on factual correctness in knowledge-grounded response generation' und in welchem Jahr wurde der Artikel 'Machine learning: The high interest credit card of technical debt' veröffentlicht?",
+  "reference_answer": "Die Autoren des Artikels 'Rome was built in 1776: A case study on factual correctness in knowledge-grounded response generation' sind S. Santhanam, B. Hedayatnia, S. Gella, A. Padmakumar, S. Kim, Y. Liu und D. Z. Hakkani-T¨ur, und der Artikel 'Machine learning: The high interest credit card of technical debt' wurde im Jahr 2014 veröffentlicht.",
+  "reference_context": "Document 4814: Unnamed: 0: 4814\ntext: 1066–1083, 2022. [Online]. Available: https:\/\/aclanthology.org\/2022.tacl-1.62\n\n[154] S. Santhanam, B. Hedayatnia, S. Gella, A. Padmakumar, S. Kim, Y. Liu, and D. Z. Hakkani-T¨ur, “Rome was built in 1776: A case study on factual correctness in knowledge-grounded response generation,” ArXiv, vol. abs\/2110.05456, 2021.\n\n[155] S. Min, K. Krishna, X. Lyu, M. Lewis, W. tau Yih, P. W. Koh, M. Iyyer, L. Zettlemoyer, and H. Hajishirzi, “Factscore: Fine-grained atomic evaluation of factual precision in long form text generation,” 2023.\n\n[156] D. Sculley, G. Holt, D. Golovin, E. Davydov, T. Phillips, D. Ebner, V. Chaudhary, and M. Young, “Machine learning: The high interest credit card of technical debt,” in SE4ML: Software Engineering for Machine Learning (NIPS 2014 Workshop), 2014.\n\n[157] Z. Zhang, A. Zhang, M. Li, and A. Smola, “Automatic chain of thought\n\nprompting in large language models,” 2022.\nref_doc_id: general_surveys\/2402.06196v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wer sind die Autoren des Artikels 'Rome was built in 1776: A case study on factual correctness in knowledge-grounded response generation'?",
+        "answer": "Die Autoren sind S. Santhanam, B. Hedayatnia, S. Gella, A. Padmakumar, S. Kim, Y. Liu und D. Z. Hakkani-T¨ur."
+      },
+      {
+        "question": "In welchem Jahr wurde der Artikel 'Machine learning: The high interest credit card of technical debt' veröffentlicht?",
+        "answer": "Der Artikel wurde im Jahr 2014 veröffentlicht."
+      }
+    ],
+    "seed_document_id": 4814,
+    "topic": "Large Language Models for Reasoning and Planning"
+  }
+}
+{
+  "id": "02c2e255-e62f-4e16-a1cd-85180ba51121",
+  "question": "Welche vier gängigen Aufgaben zur Graph-Augmentation werden im GraphCL-Modell eingeführt und wie maximiert DGI die gegenseitige Information in Graphen?",
+  "reference_answer": "Im GraphCL-Modell werden vier gängige Aufgaben zur Graph-Augmentation eingeführt: Knotenentfernung, Kantenstörung, Attributmaskierung und Teilgraph-Sampling; DGI maximiert die gegenseitige Information, indem es die MI zwischen der Patch-Darstellung und der Zusammenfassung der entsprechenden hochrangigen Graphen maximiert, die alle mit der etablierten Graph-Convolutional-Network-Architektur abgeleitet werden.",
+  "reference_context": "Document 2829: Unnamed: 0: 2829\ntext: Speciﬁcally, GCA devises an enhancement scheme based on node centrality measures to highlight important connection structures, while corrupting node features by adding noise to speciﬁc nodes to lead the pretraining model to recognize underlying semantic information.\n\nFor graph-level tasks, some studies have attempted to introduce more diverse contrastive learning strate- gies. Among them, You et al. [197] introduce four common graph augmentation tasks (i.e., node dropping, edge perturbation, attribute masking, and subgraph sampling) into the GL model based on underlying prior and propose a uniﬁed comparative learning framework: GraphCL. Meanwhile, GraphCL discusses in depth the role of data augmentation in comparative learning and gives experimental demonstration that joint mul- tiple augmentation strategies can improve model performance.\n\nCross Scale Consistency Unlike the above two methods that consider the consistency of elements in the same scale, contrasting elements in graph data of different scales can also be used to train graph models, e.g., node-subgraphs. Most of such methods have the idea of maximizing mutual information [198, 199]. Speciﬁcally, the readout function is usually used to obtain the summary of the graph\/subgraph, and the MI estimator can be calculated using the Jensen-Shannon divergence.\n\nAs a representative method, DGI [200] relies on maximizing the MI between the patch representation and the summary of the corresponding high-level graphs, which are all derived using the established graph convolutional network architecture, to learn the node representation. To generate negative samples on a single graph, DGI corrupts the original graph by randomly scrambling node features while keeping the structure unchanged.\nref_doc_id: general_surveys\/2302.09419v3.pdf\n\nDocument 2828: Unnamed: 0: 2828\ntext: 14 (b). Inspired by contrastive learn- ing, some studies have begun to generate augmented samples of original data samples in the graph model. Among them, two augmented samples from the same original sample are regarded as positive pairs, and two augmented samples from different original samples are regarded as negative pairs.\n\nFor node-level tasks, GCC [195] devises the pretext task as subgraph instance discrimination in and across networks. And GCC also enhances the ability of GNNs to learn the intrinsic and transferable struc- tural representations by introducing contrastive learning. Speciﬁcally, GCC samples subgraphs from the whole graph as augmentations via random walk with restart and artiﬁcially designs positional node em- bedding as node initial features. As a novel graph representation learning model, GCA [196] incorporates various priors for topological and semantic aspects of the graph to achieve adaptive contrastive augmen- tation. Speciﬁcally, GCA devises an enhancement scheme based on node centrality measures to highlight important connection structures, while corrupting node features by adding noise to speciﬁc nodes to lead the pretraining model to recognize underlying semantic information.\n\nFor graph-level tasks, some studies have attempted to introduce more diverse contrastive learning strate- gies. Among them, You et al. [197] introduce four common graph augmentation tasks (i.e., node dropping, edge perturbation, attribute masking, and subgraph sampling) into the GL model based on underlying prior and propose a uniﬁed comparative learning framework: GraphCL. Meanwhile, GraphCL discusses in depth the role of data augmentation in comparative learning and gives experimental demonstration that joint mul- tiple augmentation strategies can improve model performance.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche vier gängigen Aufgaben zur Graph-Augmentation werden im GraphCL-Modell eingeführt?",
+        "answer": "Im GraphCL-Modell werden vier gängige Aufgaben zur Graph-Augmentation eingeführt: Knotenentfernung, Kantenstörung, Attributmaskierung und Teilgraph-Sampling."
+      },
+      {
+        "question": "Wie maximiert DGI die gegenseitige Information in Graphen?",
+        "answer": "DGI maximiert die gegenseitige Information, indem es die MI zwischen der Patch-Darstellung und der Zusammenfassung der entsprechenden hochrangigen Graphen maximiert, die alle mit der etablierten Graph-Convolutional-Network-Architektur abgeleitet werden."
+      }
+    ],
+    "seed_document_id": 2829,
+    "topic": "Graph Representation Learning"
+  }
+}
+{
+  "id": "2076d5cc-8c06-4e6a-a3eb-d9d895448eab",
+  "question": "Was ist das Winograd Schema Challenge (WSC) und wofür wird das RACE-High-Dataset verwendet?",
+  "reference_answer": "Das Winograd Schema Challenge (WSC) ist eine Leseverständnisaufgabe, bei der ein System Referenzen in einem Text auflösen muss, was oft Weltwissen und Schlussfolgerungen über den Text erfordert, während das RACE-High-Dataset verwendet wird, um die Verständnisfähigkeit von Modellen in einem akademischen und herausfordernden Kontext zu bewerten, da es aus englischen Prüfungsfragen auf High-School-Niveau besteht.",
+  "reference_context": "Document 3580: Unnamed: 0: 3580\ntext: 6.3 WSC [346]: The Winograd Schema Challenge (WSC) is a reading comprehension task in which a system must resolve references in a text, often requiring world knowl- edge and reasoning about the text.\n\n6.4 CSQA [347]: The CommonsenseQA is a question- answering dataset that requires commonsense knowledge to answer the ability of AI models to understand and answer questions that require commonsense reasoning.\n\n5.3 RACE-High [336]: A subset of the RACE [336] dataset, RACE-High consists of high school-level English exam questions. It is designed to evaluate the comprehension ability of models in a more academic and challenging context. 5.4 QuAC [337]: This dataset simulates an information- seeking dialog between students and teachers using hidden Wikipedia text. It introduces unique challenges not found in machine comprehension datasets, making it a valuable resource for advancing dialog systems.\n\n6. Commonsense Reasoning:\n\n6.1 HellaSwag [344]: A dataset that challenges models to pick the best ending to a context uses Adversarial Filtering to create a ‘Goldilocks’ zone of complexity, where generated text is absurd to humans but often misclassified by models.\n\n6.2 COPA [390]: This dataset evaluates a model’s progress in open-domain commonsense causal reasoning. Each question comprises a premise and two alternatives, and the model must select the more plausible alternative, testing a\n\n7. Reading Comprehension:\n\n7.1 BoolQ [352]: A dataset derived from Google search queries, BoolQ challenges models to answer binary (yes\/no) questions. The questions are naturally occurring and are paired with a paragraph from a Wikipedia article containing the answer. It’s a test of reading comprehension and reasoning.\nref_doc_id: general_surveys\/2307.06435v8.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist das Winograd Schema Challenge (WSC)?",
+        "answer": "Das Winograd Schema Challenge (WSC) ist eine Leseverständnisaufgabe, bei der ein System Referenzen in einem Text auflösen muss, was oft Weltwissen und Schlussfolgerungen über den Text erfordert."
+      },
+      {
+        "question": "Wofür wird das RACE-High-Dataset verwendet?",
+        "answer": "Das RACE-High-Dataset wird verwendet, um die Verständnisfähigkeit von Modellen in einem akademischen und herausfordernden Kontext zu bewerten, da es aus englischen Prüfungsfragen auf High-School-Niveau besteht."
+      }
+    ],
+    "seed_document_id": 3580,
+    "topic": "Natural Language Processing Datasets"
+  }
+}
+{
+  "id": "24bf4888-96d1-4765-aa8a-e412f280e65e",
+  "question": "Welche Experimente werden in dem Dokument 'Sparks of artificial general intelligence: Early experiments with gpt-4' erwähnt und wer sind die Autoren des Papiers 'The malicious use of artificial intelligence: Forecasting, prevention, and mitigation'?",
+  "reference_answer": "Das Dokument erwähnt frühe Experimente mit gpt-4 im Zusammenhang mit künstlicher allgemeiner Intelligenz und die Autoren des Papiers sind M. Brundage, S. Avin, J. Clark, H. Toner, P. Eckersley, B. Garfinkel, A. Dafoe, P. Scharre et al.",
+  "reference_context": "Document 4166: Unnamed: 0: 4166\ntext: 2020. Language models are few-shot learners. In Advances in Neural Information Processing Systems, volume 33, pages 1877–1901. Curran Associates, Inc.\n\n[60] M. Brundage, S. Avin, J. Clark, H. Toner, P. Eckersley, B. Garfinkel, A. Dafoe, P. Scharre et al. 2018. The mali- cious use of artificial intelligence: Forecasting, prevention, and mitigation. arXiv preprint arXiv:1802.07228.\n\n[61] S. Bubeck, V. Chandrasekaran, R. Eldan, J. Gehrke, E. Horvitz, E. Kamar, P. Lee, Y. T. Lee et al. 2023. Sparks of artificial general intelligence: Early experiments with gpt-4.\n\n51\n\n[62] C. Burns, H. Ye, D. Klein and J. Steinhardt. 2022. Dis- covering latent knowledge in language models without supervision.\n\n[63] A. Calderwood, N. Wardrip-Fruin and M. Mateas. 2022. Spinning coherent interactive fiction through foundation model prompts. International Conference of Computation and Creativity.\n\n[64] N. Carlini, M. Jagielski, C. A. Choquette-Choo, D. Paleka, W. Pearce, H. Anderson, A. Terzis, K. Thomas et al. 2023. Poisoning Web-Scale Training Datasets is Practical. ArXiv:2302.10149 [cs].\nref_doc_id: general_surveys\/2307.10169v1.pdf\n\nDocument 4167: Unnamed: 0: 4167\ntext: 2023. Sparks of artificial general intelligence: Early experiments with gpt-4.\n\n51\n\n[62] C. Burns, H. Ye, D. Klein and J. Steinhardt. 2022. Dis- covering latent knowledge in language models without supervision.\n\n[63] A. Calderwood, N. Wardrip-Fruin and M. Mateas. 2022. Spinning coherent interactive fiction through foundation model prompts. International Conference of Computation and Creativity.\n\n[64] N. Carlini, M. Jagielski, C. A. Choquette-Choo, D. Paleka, W. Pearce, H. Anderson, A. Terzis, K. Thomas et al. 2023. Poisoning Web-Scale Training Datasets is Practical. ArXiv:2302.10149 [cs].\n\n[65] N. Carlini, C. Liu, Ú. Erlingsson, J. Kos and D. Song. 2019. The secret sharer: Evaluating and testing unintended In USENIX Security memorization in neural networks. Symposium, volume 267.\n\n[66] N. Carlini, M. Nasr, C. A. Choquette-Choo, M. Jagielski, I. Gao, A. Awadalla, P. W. Koh, D. Ippolito et al. 2023. Are aligned neural networks adversarially aligned?\n\n[67] N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert- Voss, K. Lee, A. Roberts, T. Brown et al. 2020.\nref_doc_id: general_surveys\/2307.10169v1.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Experimente werden in dem Dokument 'Sparks of artificial general intelligence: Early experiments with gpt-4' erwähnt?",
+        "answer": "Das Dokument erwähnt frühe Experimente mit gpt-4 im Zusammenhang mit künstlicher allgemeiner Intelligenz."
+      },
+      {
+        "question": "Wer sind die Autoren des Papiers 'The malicious use of artificial intelligence: Forecasting, prevention, and mitigation'?",
+        "answer": "Die Autoren des Papiers sind M. Brundage, S. Avin, J. Clark, H. Toner, P. Eckersley, B. Garfinkel, A. Dafoe, P. Scharre et al."
+      }
+    ],
+    "seed_document_id": 4166,
+    "topic": "Large Language Models Research"
+  }
+}
+{
+  "id": "f48a53ff-d8eb-431f-9226-b161997e788a",
+  "question": "Was ist das Thema des Papiers von T. Carta und Kollegen im Jahr 2023 und welches Papier behandelt allgemein fähige Agenten für offene Umgebungen in Minecraft?",
+  "reference_answer": "Das Papier von T. Carta und Kollegen im Jahr 2023 behandelt die Verankerung großer Sprachmodelle in interaktiven Umgebungen mit Online-Verstärkungslernen, während das Papier von X. Zhu und Kollegen mit dem Titel 'Ghost in the minecraft: Generally capable agents for open-world environments via large language models with text-based knowledge and memory' allgemein fähige Agenten für offene Umgebungen in Minecraft behandelt.",
+  "reference_context": "Document 2479: Unnamed: 0: 2479\ntext: Proceedings of Machine Learning Re- search, vol. 162. PMLR, 2022, pp. 9118–9147. [697] T. Carta, C. Romac, T. Wolf, S. Lamprier, O. Sigaud, and P. Oudeyer, “Grounding large language models in interactive environments with online reinforce- ment learning,” CoRR, vol. abs\/2302.02662, 2023.\n\n[698] X. Zhu, Y. Chen, H. Tian, C. Tao, W. Su, C. Yang, G. Huang, B. Li, L. Lu, X. Wang, Y. Qiao, Z. Zhang,\n\nand J. Dai, “Ghost in the minecraft: Generally capa- ble agents for open-world environments via large language models with text-based knowledge and memory,” CoRR, vol. abs\/2305.17144, 2023. [699] G. Wang, Y. Xie, Y. Jiang, A. Mandlekar, C. Xiao, Y. Zhu, L. Fan, and A. Anandkumar, “Voyager: An open-ended embodied agent with large language models,” CoRR, vol. abs\/2305.16291, 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2478: Unnamed: 0: 2478\ntext: 761–779.\n\n[694] H. Zhou, A. Nova, H. Larochelle, A. C. Courville, B. Neyshabur, and H. Sedghi, “Teaching algorith- mic reasoning via in-context learning,” CoRR, vol. abs\/2211.09066, 2022.\n\n[695] A. Parisi, Y. Zhao, and N. Fiedel, “TALM: tool augmented language models,” CoRR, vol. abs\/2205.12255, 2022.\n\n[696] W. Huang, P. Abbeel, D. Pathak, and I. Mordatch, “Language models as zero-shot planners: Extract- ing actionable knowledge for embodied agents,” in ICML, ser. Proceedings of Machine Learning Re- search, vol. 162. PMLR, 2022, pp. 9118–9147. [697] T. Carta, C. Romac, T. Wolf, S. Lamprier, O. Sigaud, and P. Oudeyer, “Grounding large language models in interactive environments with online reinforce- ment learning,” CoRR, vol. abs\/2302.02662, 2023.\n\n[698] X. Zhu, Y. Chen, H. Tian, C. Tao, W. Su, C. Yang, G. Huang, B. Li, L. Lu, X. Wang, Y. Qiao, Z. Zhang,\n\nand J. Dai, “Ghost in the minecraft: Generally capa- ble agents for open-world environments via large language models with text-based knowledge and memory,” CoRR, vol.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2480: Unnamed: 0: 2480\ntext: abs\/2302.02662, 2023.\n\n[698] X. Zhu, Y. Chen, H. Tian, C. Tao, W. Su, C. Yang, G. Huang, B. Li, L. Lu, X. Wang, Y. Qiao, Z. Zhang,\n\nand J. Dai, “Ghost in the minecraft: Generally capa- ble agents for open-world environments via large language models with text-based knowledge and memory,” CoRR, vol. abs\/2305.17144, 2023. [699] G. Wang, Y. Xie, Y. Jiang, A. Mandlekar, C. Xiao, Y. Zhu, L. Fan, and A. Anandkumar, “Voyager: An open-ended embodied agent with large language models,” CoRR, vol. abs\/2305.16291, 2023.\n\n[700] M. Ahn, A. Brohan, N. Brown, Y. Chebotar, O. Cortes, B. David, C. Finn, K. Gopalakrishnan, K. Hausman, A. Herzog, D. Ho, J. Hsu, J. Ibarz, B. Ichter, A. Ir- pan, E. Jang, R. J. Ruano, K. Jeffrey, S. Jesmonth, N. J. Joshi, R. Julian, D. Kalashnikov, Y. Kuang, K. Lee, S. Levine, Y. Lu, L. Luu, C. Parada, P. Pastor, J. Quiambao, K. Rao, J. Rettinghouse, D. Reyes, P. Ser- manet, N. Sievers, C. Tan, A. Toshev, V. Vanhoucke, F. Xia, T. Xiao, P. Xu, S. Xu, and M. Yan, “Do as I can, not as I say: Grounding language in robotic affordances,” CoRR, vol.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist das Thema des Papiers von T. Carta und Kollegen im Jahr 2023?",
+        "answer": "Das Papier von T. Carta und Kollegen im Jahr 2023 behandelt die Verankerung großer Sprachmodelle in interaktiven Umgebungen mit Online-Verstärkungslernen."
+      },
+      {
+        "question": "Welches Papier behandelt allgemein fähige Agenten für offene Umgebungen in Minecraft?",
+        "answer": "Das Papier von X. Zhu und Kollegen mit dem Titel 'Ghost in the minecraft: Generally capable agents for open-world environments via large language models with text-based knowledge and memory' behandelt allgemein fähige Agenten für offene Umgebungen in Minecraft."
+      }
+    ],
+    "seed_document_id": 2479,
+    "topic": "Large Language Models and Alignment"
+  }
+}
+{
+  "id": "5b3c2fc3-cfbc-44bc-98e3-7e99837b68e9",
+  "question": "Was ist das Thema des Datensatzes, der von D. Jin und anderen in der Zeitschrift Applied Sciences veröffentlicht wurde, und was ist das Ziel des Projekts 'Stanford alpaca' von R. Taori und anderen?",
+  "reference_answer": "Der Datensatz befasst sich mit der Frage 'Welche Krankheit hat dieser Patient?' und ist ein groß angelegter offener Frage-Antwort-Datensatz aus medizinischen Prüfungen, während das Ziel des Projekts 'Stanford alpaca' ist es, ein Anweisungen befolgendes Llama-Modell zu entwickeln.",
+  "reference_context": "Document 2192: Unnamed: 0: 2192\ntext: AAAI Press, 2020, pp. 9701–9708.\n\n[145] D. Jin, E. Pan, N. Oufattole, W.-H. Weng, H. Fang, and P. Szolovits, “What disease does this patient have? a large-scale open domain question answer- ing dataset from medical exams,” Applied Sciences, vol. 11, no. 14, p. 6421, 2021.\n\n[146] R. Taori, I. Gulrajani, T. Zhang, Y. Dubois, X. Li, C. Guestrin, P. Liang, and T. B. Hashimoto, “Stanford alpaca: An instruction-following llama model,” https:\/\/github.com\/tatsu-lab\/stanford alpaca, 2023.\n\n[147] Y. Wang, Y. Kordi, S. Mishra, A. Liu, N. A. Smith, D. Khashabi, and H. Hajishirzi, “Self-instruct: Align- ing language model with self generated instruc- tions,” CoRR, vol. abs\/2212.10560, 2022.\n\n[148] Alpaca-LoRA, “Instruct-tune llama on consumer hardware,” https:\/\/github.com\/tloen\/alpaca-lora, 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist das Thema des Datensatzes, der von D. Jin und anderen in der Zeitschrift Applied Sciences veröffentlicht wurde?",
+        "answer": "Der Datensatz befasst sich mit der Frage 'Welche Krankheit hat dieser Patient?' und ist ein groß angelegter offener Frage-Antwort-Datensatz aus medizinischen Prüfungen."
+      },
+      {
+        "question": "Was ist das Ziel des Projekts 'Stanford alpaca' von R. Taori und anderen?",
+        "answer": "Das Ziel des Projekts 'Stanford alpaca' ist es, ein Anweisungen befolgendes Llama-Modell zu entwickeln."
+      }
+    ],
+    "seed_document_id": 2192,
+    "topic": "Others"
+  }
+}
+{
+  "id": "9e10c640-6ba4-4519-a167-b7ecb6ce88e1",
+  "question": "Wie verwenden Gao et al. das vortrainierte Sprachmodell T5 im Template-Suchprozess und was untersuchen Davison et al. im Zusammenhang mit der Vervollständigung von Wissensbasen?",
+  "reference_answer": "Gao et al. verwenden T5, um Template-Token zu generieren, indem sie die Position zum Einfügen von Template-Token innerhalb eines Templates angeben und Trainingsbeispiele bereitstellen, damit T5 die Template-Token dekodieren kann, während Davison et al. die Aufgabe der Wissensbasis-Vervollständigung untersuchen und ein Template für ein Eingabe-Triple (head-relation-tail) unter Verwendung von Sprachmodellen entwerfen.",
+  "reference_context": "Document 3247: Unnamed: 0: 3247\ntext: For\n\nexample, Gao et al. [32] introduce the seq2seq pre-trained LM T5 into the template search process. Since T5 has been pre-trained on a task of filling in missing spans, they use T5 to\n\ngenerate template tokens by (1) specifying the position to insert template tokens within a\n\ntemplate® and (2) providing training samples for T5 to decode template tokens. Guo et al.\n\n[36] use reinforcement learning [132] to generate prompts to control the text generation\n\nprocess. Ben-David et al. [5] propose a domain adaptation algorithm that trains T5 to gener-\n\nate unique domain relevant features (DRFs) (a set of keywords that characterize domain\n\ninformation) for each input. Then those DRFs can be concatenated with the input to form a\n\ntemplate and be further used by downstream tasks.\n\nD5: Prompt Scoring. Davison et al. [19] investigate the task of knowledge base completion\n\nand design a template for an input (head-relation-tail triple) using LMs. They first hand-\n\ncraft a set of templates as potential candidates and fill the input and answer slots to form a\n\nfilled prompt. They then use a unidirectional LM to score those filled prompts, selecting the\n\none with the highest LM probability. This will result in custom template for each individual input.\n\n>The number of template tokens do not need to be pre-specified, since T5 can decode multiple tokens at a masked position.\n\nACM Computing Surveys, Vol. 55, No. 9, Article 195. Publication date: January 2023.\n\nA Systematic Survey of Prompting Methods in Natural Language Processing 195:9\n\n3.3.2 Continuous Prompts.\nref_doc_id: general_surveys\/3560815.pdf\n\nDocument 3248: Unnamed: 0: 3248\ntext: D5: Prompt Scoring. Davison et al. [19] investigate the task of knowledge base completion\n\nand design a template for an input (head-relation-tail triple) using LMs. They first hand-\n\ncraft a set of templates as potential candidates and fill the input and answer slots to form a\n\nfilled prompt. They then use a unidirectional LM to score those filled prompts, selecting the\n\none with the highest LM probability. This will result in custom template for each individual input.\n\n>The number of template tokens do not need to be pre-specified, since T5 can decode multiple tokens at a masked position.\n\nACM Computing Surveys, Vol. 55, No. 9, Article 195. Publication date: January 2023.\n\nA Systematic Survey of Prompting Methods in Natural Language Processing 195:9\n\n3.3.2 Continuous Prompts. Because the purpose of prompt construction is to find a method that allows an LM to effectively perform a task, rather than being for human consumption, it is not nec- essary to limit the prompt to human-interpretable natural language. Because of this, there are also methods that examine continuous prompts (a.k.a. soft prompts) that perform prompting directly in the embedding space of the model. Specifically, continuous prompts remove two constraints: (1) relax the constraint that the embeddings of template words be the embeddings of natural lan- guage (e.g., English) words and (2) remove the restriction that the template is parameterized by the pre-trained LM’s parameters. Instead, templates have their own parameters that can be tuned based on training data from the downstream task. We highlight several representative methods below.\n\ne C1: Prefix Tuning.\nref_doc_id: general_surveys\/3560815.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie verwenden Gao et al. das vortrainierte Sprachmodell T5 im Template-Suchprozess?",
+        "answer": "Gao et al. verwenden T5, um Template-Token zu generieren, indem sie die Position zum Einfügen von Template-Token innerhalb eines Templates angeben und Trainingsbeispiele bereitstellen, damit T5 die Template-Token dekodieren kann."
+      },
+      {
+        "question": "Was untersuchen Davison et al. im Zusammenhang mit der Vervollständigung von Wissensbasen?",
+        "answer": "Davison et al. untersuchen die Aufgabe der Wissensbasis-Vervollständigung und entwerfen ein Template für ein Eingabe-Triple (head-relation-tail) unter Verwendung von Sprachmodellen."
+      }
+    ],
+    "seed_document_id": 3247,
+    "topic": "Prompting Methods in Natural Language Processing"
+  }
+}
+{
+  "id": "07f98fce-d3ad-4660-9ce0-77ff2099da54",
+  "question": "Was ist der Titel des Papiers, das von S. Smith und anderen im Jahr 2022 veröffentlicht wurde, und welches Modell wird im Papier von W. Ben und K. Aran im Jahr 2021 beschrieben?",
+  "reference_answer": "Das Papier von S. Smith und anderen im Jahr 2022 trägt den Titel 'Using deepspeed and megatron to train megatron-turing nlg 530b, a large-scale generative language model', und das Modell, das im Papier von W. Ben und K. Aran im Jahr 2021 beschrieben wird, ist 'Gpt-j-6b: A 6 billion parameter autoregressive language model'.",
+  "reference_context": "Document 3672: Unnamed: 0: 3672\ntext: 8, 9, 23, 25\n\n[112] S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari, J. Casper, Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti et al., “Us- ing deepspeed and megatron to train megatron-turing nlg 530b, a large- scale generative language model,” arXiv preprint arXiv:2201.11990, 2022. 8, 9, 21, 23\n\n[113] S. Black, S. Biderman, E. Hallahan, Q. Anthony, L. Gao, L. Gold- ing, H. He, C. Leahy, K. McDonell, J. Phang et al., “Gpt-neox- 20b: An open-source autoregressive language model,” arXiv preprint arXiv:2204.06745, 2022. 8, 20, 21, 23\n\n[114] W. Ben and K. Aran, “Gpt-j-6b: A 6 billion parameter autoregressive\n\nlanguage model,” 2021. 8\n\n[115] P. Micikevicius, S. Narang, J. Alben, G. Diamos, E. Elsen, D. Garcia, B. Ginsburg, M. Houston, O. Kuchaiev, G. Venkatesh et al., “Mixed precision training,” arXiv preprint arXiv:1710.03740, 2017.\nref_doc_id: general_surveys\/2307.06435v8.pdf\n\nDocument 3673: Unnamed: 0: 3673\ntext: 8, 20, 21, 23\n\n[114] W. Ben and K. Aran, “Gpt-j-6b: A 6 billion parameter autoregressive\n\nlanguage model,” 2021. 8\n\n[115] P. Micikevicius, S. Narang, J. Alben, G. Diamos, E. Elsen, D. Garcia, B. Ginsburg, M. Houston, O. Kuchaiev, G. Venkatesh et al., “Mixed precision training,” arXiv preprint arXiv:1710.03740, 2017. 8, 21\n\n[116] N. Du, Y. Huang, A. M. Dai, S. Tong, D. Lepikhin, Y. Xu, M. Krikun, Y. Zhou, A. W. Yu, O. Firat et al., “Glam: Efficient scaling of language models with mixture-of-experts,” in International Conference on Machine Learning. PMLR, 2022, pp. 5547–5569. 9, 21, 23 [117] N. Shazeer, A. Mirhoseini, K. Maziarz, A. Davis, Q. Le, G. Hinton, and J. Dean, “Outrageously large neural networks: The sparsely-gated mixture-of-experts layer,” arXiv preprint arXiv:1701.06538, 2017. 9, 21\n\n[118] W. Fedus, B. Zoph, and N. Shazeer, “Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity,” The Journal of Machine Learning Research, vol. 23, no.\nref_doc_id: general_surveys\/2307.06435v8.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist der Titel des Papiers, das von S. Smith und anderen im Jahr 2022 veröffentlicht wurde?",
+        "answer": "Das Papier trägt den Titel 'Using deepspeed and megatron to train megatron-turing nlg 530b, a large-scale generative language model'."
+      },
+      {
+        "question": "Welches Modell wird im Papier von W. Ben und K. Aran im Jahr 2021 beschrieben?",
+        "answer": "Das Modell, das im Papier beschrieben wird, ist 'Gpt-j-6b: A 6 billion parameter autoregressive language model'."
+      }
+    ],
+    "seed_document_id": 3672,
+    "topic": "Large Language Models and Training Systems"
+  }
+}
+{
+  "id": "59b9d6b8-b8a5-467b-9d3b-90b77d267f2e",
+  "question": "Welche Herausforderungen haben große Sprachmodelle (LLMs) bei der Lösung von Sequence Tagging Aufgaben und warum schneiden sie bei der Informationsextraktion oft schlechter ab als Methoden mit vollständigem Daten-Finetuning?",
+  "reference_answer": "LLMs haben Schwierigkeiten, spezielle Kategorien mit mehrdeutigen oder seltenen Namen zu lösen, wie z.B. die 'MISC' und 'ORG' Klassen, da sie möglicherweise die Bedeutungen dieser Klassen im menschlich annotierten Datensatz missverstehen, und bei der Informationsextraktion müssen komplexe semantische Beziehungen genau verstanden und verarbeitet werden, wobei in-context learning mit LLMs typischerweise schlechter abschneidet als state-of-the-art Methoden mit vollständigem Daten-Finetuning.",
+  "reference_context": "Document 1864: Unnamed: 0: 1864\ntext: Typically, such tasks require assigning each token in the input sequence a proper semantic category label, e.g., the classic B-I-O (Be- ginning, Inside and Outside) tagging scheme for NER tasks. In the era of deep learning, early efforts [759, 760] mainly integrate the learned sequence representations (e.g., using CNN, LSTM, and BERT) into the classic conditional random field model (CRF), which performs the tagging task based on structural prediction. Recently, researchers have tested the performance of LLMs in sequence tagging tasks, but ob- served that LLMs still face challenges in solving them using in-context learning [755], especially for special categories with ambiguous or rare names, e.g., the “MISC” (miscella- neous entity) and “ORG” (organization) classes. A possible reason is that LLMs may misunderstand the meanings of these classes in the human-annotated dataset, making it difficult to accurately understand their semantics according to the instruction and limited examples in the context.\n\nInformation Extraction. The information extraction task focuses on automatically extracting useful structured infor- mation from unstructured text data, such as relation extrac- tion [761] and event extraction [762], which is also a crucial task relating to many NLP applications. Typically, previous studies formulate this task as a text classification task or a sequential labeling task. As information extraction often needs to accurately understand and process complex se- mantic relations (multiple relations within one sentence), in- context learning with LLMs typically underperform state- of-the-art full-data fine-tuning methods [763, 764].\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Herausforderungen haben große Sprachmodelle (LLMs) bei der Lösung von Sequence Tagging Aufgaben?",
+        "answer": "LLMs haben Schwierigkeiten, spezielle Kategorien mit mehrdeutigen oder seltenen Namen zu lösen, wie z.B. die 'MISC' (verschiedene Entitäten) und 'ORG' (Organisation) Klassen, da sie möglicherweise die Bedeutungen dieser Klassen im menschlich annotierten Datensatz missverstehen."
+      },
+      {
+        "question": "Warum schneiden LLMs bei der Informationsextraktion oft schlechter ab als Methoden mit vollständigem Daten-Finetuning?",
+        "answer": "Bei der Informationsextraktion müssen komplexe semantische Beziehungen genau verstanden und verarbeitet werden, und in-context learning mit LLMs schneidet typischerweise schlechter ab als state-of-the-art Methoden mit vollständigem Daten-Finetuning."
+      }
+    ],
+    "seed_document_id": 1864,
+    "topic": "Large Language Models"
+  }
+}

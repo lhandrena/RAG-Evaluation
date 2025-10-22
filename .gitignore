@@ -1,0 +1,13 @@
+.aider*
+.env
+/volumes/
+/milvus_docs/
+.idea/*
+!.idea/runConfigurations
+.vscode
+venv
+.venv
+.DS_Store
+/neo4j
+__pycache__
+chroma**

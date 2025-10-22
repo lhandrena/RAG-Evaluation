@@ -1,0 +1,240 @@
+{
+  "id": "6c82d55d-6d48-4116-8825-fa25ab5e3e7f",
+  "question": "Unter der Voraussetzung, dass die CDU die Mehrheit der Stimmen im Bundestag erhält, wer wird dann voraussichtlich als neuer Kanzler Deutschlands gewählt und welche Schritte sind dabei zu beachten?",
+  "reference_answer": "Merz soll zum Kanzler gewählt werden.",
+  "reference_context": "Document 1225: Unnamed: 0: 1225\ntext: Neue Bundesregierung\nWie die Kanzlerwahl abläuft\nStand: 06.05.2025 04:50 Uhr\nDer Koalitionsvertrag ist unterschrieben, Scholz mit Großem Zapfenstreich verabschiedet. Heute soll Merz zum Kanzler gewählt und sein Kabinett vereidigt werden. So sieht der Zeitplan aus.\nBundestag - Schloss Bellevue - Bundestag - Schloss Bellevue - Bundestag: So lauten heute die Stationen bei der Kanzlerwahl und der Einsetzung des neuen Bundeskabinetts.\nWenn alles nach Plan läuft, sind dann sechs Monate politische Hängepartie in Deutschland vorbei. Genau ein halbes Jahr nach dem Bruch der Ampelkoalition soll die fünfte schwarz-rote Koalition an die Arbeit gehen.\nVorausgesetzt CDU-Chef Friedrich Merz erhält bei der Wahl im Parlament die nötige Zahl der Stimmen, sieht der Zeitplan wie folgt aus.\n9 Uhr: Kanzlerwahl im Bundestag\nDer Bundestag tritt zur Kanzlerwahl zusammen. Nach der Eröffnung der Sitzung durch Bundestagspräsidentin Julia Klöckner (CDU) gibt es keine Reden. Klöckner wird die Regeln für die Wahl erläutern, dann wird geheim gewählt.\nMerz benötigt die Zustimmung der Mehrheit aller Bundestagsabgeordneten. Das sind 316 Stimmen. Dem Bundestag gehören 328 Politiker von Union und SPD an. Trotz des dünnen Polsters gilt die Wahl im ersten Wahlgang als ziemlich sicher.\nIn der Vergangenheit lag das Ergebnis bei der Kanzlerwahl meist unterhalb der Zahl der Koalitionssitze. Es kann aber auch andersherum laufen: 1998 stimmten sechs Abgeordnete mehr für Gerhard Schröder (SPD), als die rot-grüne Koalition Sitze im Bundestag hatte. Nach der Verkündung des Wahlergebnisses wird die Sitzung unterbrochen und Merz fährt zum Amtssitz des Bundespräsidenten.\nref_doc_id: 2025-05-06\/inland\/article_5.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1225,
+    "topic": "Regierungswechsel und Kanzlerwahl 2025"
+  }
+}
+{
+  "id": "e2dd69f7-c834-4dc7-9aa2-4b812db3b9af",
+  "question": "Unter der Bedingung, dass das Weihnachtsquartal als erstes Quartal des Geschäftsjahres 2024\/25 gilt, um wie viel Prozent hat sich der Gewinn von Visa in diesem Zeitraum erhöht?",
+  "reference_answer": "Der Gewinn von Visa stieg um fünf Prozent.",
+  "reference_context": "Document 1210: Unnamed: 0: 1210\ntext: Analysten hatten im Schnitt mit rund 12,9 Milliarden Dollar gerechnet.\nVisa mit Gewinnplus im Weihnachtsquartal\nEin hervorragendes Weihnachtsgeschäft hat dem weltgrößten Zahlungsdienstleister Visa eine starke Quartalsbilanz beschert. Der Gewinn des Konzerns aus San Francisco stieg im ersten Quartal des laufenden Geschäftsjahres 2024\/25 um fünf Prozent auf 5,1 Milliarden Dollar. Der Umsatz legte um zehn Prozent auf 9,5 Milliarden Dollar zu. Damit übertraf Visa die Erwartungen der Experten. Im frühen Handel markierte die schon zuvor gut gelaufene Aktie bei 351,25 Dollar ein neues Rekordhoch, fiel danach aber ab. Seit Jahresbeginn hat das Papier bereits rund 9,5 Prozent zugelegt.\nNovartis wächst kräftig\nDer Pharmakonzern Novartis hat 2024 die Früchte des Konzernumbaus geerntet. Der Umsatz des Schweizer Unternehmens kletterte in Lokalwährungen um zwölf Prozent auf 50,3 Milliarden Dollar. Wachstumstreiber waren unter anderem das Herzmedikament Entresto, Kesimpta gegen Multiple Sklerose, die Brustkrebsarznei Kisqali und der Cholesterinsenker Leqvio. Das bereinigte operative Ergebnis wuchs um 22 Prozent auf 19,5 Milliarden Dollar.\nref_doc_id: 2025-01-31\/wirtschaft\/article_7.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1210,
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "a62fe317-500c-4e72-b960-54171612ae94",
+  "question": "Unter welchen Bedingungen wurde Friedrich Merz als Kanzlerkandidat der Union erwähnt, und gibt es andere Personen, die in diesem Zusammenhang genannt wurden?",
+  "reference_answer": "Friedrich Merz",
+  "reference_context": "Document 1137: Unnamed: 0: 1137\ntext: Unions-Kanzlerkandidat Friedrich Merz \"steht nicht für einen politischen Wandel\". AfD-Chef Tino Chrupalla ergänzte, die Union müsse sich fragen, wer der eigentliche Kanzlerkandidat sei - Merz oder die frühere Kanzlerin Angela Merkel.\nEmotionale Debatte\nIn der vorangegangenen Debatte hatten SPD und Grüne von Unionsfraktionschef Friedrich Merz (CDU) eindringlich gefordert, das Gesetz von der Tagesordnung zu nehmen. Der \"Sündenfall\" einer akzeptierten AfD-Unterstützung werde Merz immer begleiten, hatte SPD-Fraktionschef Rolf Mützenich gesagt.\nDie Debatte verlief emotional. Es gab zahlreiche Zwischenfragen und Kurzinterventionen. Bundestagsvizepräsidentin Katrin Göring-Eckardt (Grüne) musste mehrfach Disziplin anmahnen. Etliche Rednerinnen und Redner überschritten ihre Redezeit.\nÜberweisung in den Ausschuss war abgelehnt worden\nDie Debatte über das Gesetz hatte erst mit dreistündiger Verspätung begonnen. Grund war eine Initiative der FDP, den Entwurf zunächst in den Innenausschuss zurückzuverweisen, um bis zur letzten Plenarsitzung vor der Bundestagswahl im Februar über Verhandlungen einen Kompromiss zu erzielen. Dies scheiterte aber - ebenso wie ein Antrag von SPD und Grünen kurz vor Beginn der Abstimmung, der ebenfalls darauf zielte, den Gesetzentwurf in den Ausschuss zurückzuverweisen.\nref_doc_id: 2025-01-31\/inland\/article_7.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1137,
+    "topic": "Deutsche Migrations- und Sicherheitspolitik"
+  }
+}
+{
+  "id": "fd34e3d5-b182-4db9-80b9-ba87cceffe09",
+  "question": "Unter der Bedingung, dass die Zahl der neuen Milliardäre im letzten Jahr weltweit laut Oxfam bekannt gegeben wurde, wie viele neue Milliardäre wurden im Vergleich zu den Vorjahren hinzugefügt?",
+  "reference_answer": "204 neue Milliardäre",
+  "reference_context": "Document 609: Unnamed: 0: 609\ntext: Bericht von Oxfam\nSuperreiche werden immer reicher\nStand: 20.01.2025 07:41 Uhr\nDie reichsten Menschen der Welt werden immer reicher, teilweise wachsen die Vermögen um bis zu 100 Millionen US-Dollar pro Tag. Im Gegensatz dazu müssen laut Oxfam mehr Menschen Hunger leiden.\nWie die Entwicklungsorganisation Oxfam zu Beginn des Weltwirtschaftsforums in Davos vorrechnete, gab es im vergangenen Jahr weltweit 204 neue Milliardäre. Auch die Vermögen der Superreichen werden demzufolge immer größer: Ihr Gesamtvermögen sei innerhalb eines Jahres von 13 Billionen US-Dollar auf 15 Billionen US-Dollar 2024 gestiegen. Im Gegensatz dazu haben 733 Millionen Menschen nicht genug zum Essen - etwa 152 Millionen Menschen mehr als 2019.\nLaut der Oxfam-Studie \"Takers not Makers\" gibt es weltweit derzeit 2.769 Milliardärinnen und Milliardäre. Ihr Gesamtvermögen sei 2024 dreimal schneller gewachsen als im Jahr zuvor. Bei den reichsten zehn Milliardären sei das Vermögen im Durchschnitt um 100 Millionen US-Dollar pro Tag gewachsen. Die Zahl der Menschen, die unter der erweiterten Armutsgrenze der Weltbank von 6,85 US-Dollar pro Tag leben, stagniert dagegen seit 1990 und beträgt laut Oxfam fast 3,6 Milliarden.\nIn Deutschland gibt es 130 Milliardäre\nIn Deutschland stieg 2024 das Gesamtvermögen der Superreichen um 26,8 Milliarden US-Dollar auf inzwischen 625,4 Milliarden US-Dollar. Neun Milliardäre kamen hinzu, insgesamt seien es jetzt 130. Deutschland hat damit nach den USA, China und Indien die meisten Milliardäre. Oxfam errechnete zudem, dass deutsche Milliardärinnen und Milliardäre überdurchschnittlich von Erbschaften profitieren.\nref_doc_id: 2025-01-20\/wirtschaft\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 609,
+    "topic": "Deutsche Wirtschaft und Inflation"
+  }
+}
+{
+  "id": "97bc2df0-f15c-40c6-9295-17757a4d2a0c",
+  "question": "Welches neu geschaffene Ministerium, das sich mit Digitalisierung und Staatsmodernisierung befasst, wird von Karsten Wildberger, einem ehemaligen Topmanager und Unternehmensberater, geleitet?",
+  "reference_answer": "Karsten Wildberger übernimmt das neue Digitalministerium.",
+  "reference_context": "Document 1239: Unnamed: 0: 1239\ntext: Er habe Schnieder aber \"in unserer gemeinsamen Zeit im Verkehrsausschuss als jemanden kennengelernt, der vor großen Aufgaben nicht zurückschreckt\", sagte der EVG-Chef weiter, der lange für die SPD im Bundestag saß.\nDigitalisierung und Staatsmodernisierung: Karsten Wildberger\nEr ist die große Überraschung: Der gebürtige Gießener und bisherige Topmanager Karsten Wildberger übernimmt das neue Digitalministerium. Der 56-Jährige stammt aus Gießen, studierte Physik in München und Aachen studiert und promovierte auch. Als Unternehmensberater der Boston Consulting Group hatte er zunächst Unternehmen in verschiedenen Branchen zu Fragen der Strategie und Digitalisierung beraten.\nWildberger und Merz kennen sich über den Wirtschaftsrat der CDU: Wildberger folgte Merz im November 2021 auf dem Posten des Vizepräsidenten, nachdem Merz parallel zu seiner Rückkehr in den Deutschen Bundestag nicht wieder für diese Position kandidierte. Wildberger betätigte sich bereits seit 2017 im Wirtschaftsrat ehrenamtlich.\nAls Vorstandschef des Düsseldorfer Ceconomy-Konzerns und Vorsitzender der Geschäftsführung der Media-Saturn-Holding mit rund 1.000 Märkten in vielen Ländern bringt Wildberger einschlägige Praxiserfahrung mit. In den vergangenen Jahren gehörte die digitale Transformation in Wirtschaft und Unternehmenswelt zum Kern seiner Tätigkeiten.\nInternationale Führungspositionen bekleidete Wildberger auch bei T-Mobile, Vodafone oder dem australischen Telekommunikationsunternehmen Telstar. Von 2016 bis Sommer 2021 war Wildberger beim Energiekonzern Eon als Vorstandsmitglied für den digitalen Wandel zuständig.\nFamilie und Bildung: Karin Prien\nFür Karin Prien ist es das erste bundespolitische Amt sein. Sie gilt als selbstbewusste Bildungspolitikerin.\nref_doc_id: 2025-05-06\/inland\/article_1.md\n\nDocument 1238: Unnamed: 0: 1238\ntext: Als Mitglied im Verkehrsausschuss sammelte er zuvor einige Jahre fachpolitische Erfahrung. Als seine inhaltlichen Schwerpunkte nennt Schnieder den Einsatz für den ländlichen Raum und für eine leistungsfähige Infrastruktur bei Straße und Schiene.\nAls Bundesverkehrsminister wird Schnieder laut Eisenbahn- und Verkehrsgewerkschaft (EVG) \"langen Atem und Mut unter Beweis stellen müssen\". Das Verkehrsministerium könne in den kommenden vier Jahren \"zu einem echten Gestaltungsministerium werden\", sagte der EVG-Vorsitzende Martin Burkert zu der Personalie. \"Das Sondervermögen Infrastruktur macht möglich, was jahrelang nicht möglich war.\" Die Herausforderungen bei der Bahn seien jedoch \"gewaltig\".\nSchienen und Stellwerke müssten dringend modernisiert werden, die Frachttochter der Deutschen Bahn, DB Cargo, brauche eine Zukunftsperspektive und bei den Trassenpreisen sei dringend eine Reform nötig, \"damit die Verkehrswende nicht blockiert wird\", fuhr Burkert fort. Er habe Schnieder aber \"in unserer gemeinsamen Zeit im Verkehrsausschuss als jemanden kennengelernt, der vor großen Aufgaben nicht zurückschreckt\", sagte der EVG-Chef weiter, der lange für die SPD im Bundestag saß.\nDigitalisierung und Staatsmodernisierung: Karsten Wildberger\nEr ist die große Überraschung: Der gebürtige Gießener und bisherige Topmanager Karsten Wildberger übernimmt das neue Digitalministerium. Der 56-Jährige stammt aus Gießen, studierte Physik in München und Aachen studiert und promovierte auch. Als Unternehmensberater der Boston Consulting Group hatte er zunächst Unternehmen in verschiedenen Branchen zu Fragen der Strategie und Digitalisierung beraten.\nref_doc_id: 2025-05-06\/inland\/article_1.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1239,
+    "topic": "Deutsche Bundesregierung und Ministerposten"
+  }
+}
+{
+  "id": "746a20cd-208e-4eec-96ab-599ecee2d8ac",
+  "question": "Unter der Bedingung, dass die Erhöhung des Mindestlohns auf 15 Euro bis spätestens 2026 erfolgt, welche politische Partei setzt sich dafür ein?",
+  "reference_answer": "Die SPD fordert eine Anhebung auf 15 Euro spätestens ab 2026.",
+  "reference_context": "Document 1007: Unnamed: 0: 1007\ntext: Es beginnt beim Geld und endet beim Wahlrecht. Eine Auswahl:\nSchuldenbremse oder Sondervermögen: Intensiv diskutiert wird in Union und SPD über eine Lockerung der Schuldenbremse oder ein neues Sondervermögen für die Bundeswehr. Beides könnte nur über eine Grundgesetzänderung erfolgen, dafür wäre eine Zweidrittelmehrheit nötig. Im scheidenden Bundestag wäre das mit CDU\/CSU, SPD und Grünen möglich. Im neuen Parlament ginge das aber nicht ohne die Linkspartei, die grundsätzlich gegen mehr Aufrüstung ist. CDU-Chef Merz hat seinerseits diese Woche eine Lockerung der Schuldenbremse noch im alten Bundestag bereits ausgeschlossen.\nSteuern: CDU\/CSU wollen die Unternehmensteuern in mehreren Schritten auf maximal 25 Prozent senken, die SPD will Firmen hingegen durch Abschreibungen bei Investitionen unterstützen. Bei der Einkommensteuer strebt die Union eine Abflachung des Tarifs an und will die Einkommensgrenze für den Spitzensteuersatz deutlich erhöhen. Außerdem soll der Soli komplett gestrichen werden. Die SPD will ihrerseits die Einkommensteuer für 95 Prozent der Steuerzahlerinnen und Steuerzahler senken, Top-Verdiener sollen jedoch einen höheren Beitrag leisten.\nMindestlohn: Die Union will den Mindestlohn von derzeit 12,82 Euro pro Stunde nicht über eine politische Entscheidung anheben. Die Lohnuntergrenze soll weiterhin die unabhängige Mindestlohnkommission regelmäßig anpassen, die sich aus den Sozialpartnern zusammensetzt. Die SPD fordert hingegen eine Anhebung auf 15 Euro spätestens ab 2026. In der SPD-geführten Ampelkoalition war der Mindestlohn schon einmal durch einen politischen Beschluss auf zwölf Euro erhöht worden.\nref_doc_id: 2025-02-28\/inland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1007,
+    "topic": "Koalitionsverhandlungen und Finanzpolitik in Deutschland"
+  }
+}
+{
+  "id": "42b77ad7-d472-4ef0-bb8e-d24cab090e2e",
+  "question": "Unter der Bedingung, dass die Zollpolitik als ein Risiko für die Wirtschaft betrachtet wird, wie würde Paul Winfree die Erfolgsbilanz von Donald Trump auf einer Punkteskala von null bis zehn bewerten?",
+  "reference_answer": "Auf einer Punkteskala von null bis zehn würde Winfree Trump bei sieben bis acht, also als ziemlich erfolgreich einordnen.",
+  "reference_context": "Document 798: Unnamed: 0: 798\ntext: Derzeit könne man jeden Tag erleben, dass die Kontrollbefugnisse des Kongresses eingeschränkt und abgebaut werden, erklärt Zimmer.\nHauptsache dynamisch?\nDer Ökonom Paul Winfree sieht die Dinge völlig anders. Er hat für die Trump-nahe Heritage Foundation gearbeitet und dort ein Kapitel des \"Project 25\" selbst geschrieben, das viele Ultrakonservative als Blaupause für Trumps zweite Amtszeit ansehen, was den Umbau der USA betrifft. Inzwischen hat Winfree seine eigene Politikberatungsfirma gegründet. Verfassungskrise? Keine Spur, meint Winfree. Trump sei nicht der erste US-Präsident, der die Grenzen seiner Macht austeste.\nFür Winfree ist Trump vor allem eins: dynamisch. Die vom Unternehmer Elon Musk geleitete Behörde für Regierungseffizienz, DOGE, breche zum Beispiel Verkrustungen auf, stelle Fragen, die sich Abgeordnete nicht zu stellen trauten. Wenn DOGE Fehler mache, könne man die korrigieren.\nUnd trotz deutlich sinkender Popularitätswerte stehe der Kern seiner Anhängerschaft weiter fest zu Trump: \"Sie lieben, dass Trump handelt, wo Politiker normalerweise nur groß reden und nicht handeln.\" Auf einer Punkteskala von null bis zehn würde Winfree Trump bei sieben bis acht, also als ziemlich erfolgreich einordnen. Der Grund, warum er ihm keine zehn Punkte geben würde, sei die Zollpolitik. \"Die Zölle bedeuten zu viel Risiko für die Wirtschaft.\"\nEinigkeit nur über Unklarheit\nSo unterschiedlich die Perspektiven sind, in einem sind sich die Experten einig: Wie es weitergeht, ist offen. Für Paul Winfree ist der Maßstab wirtschaftlicher Erfolg: \"Am Ende geht es immer um die Wirtschaft, um die Themen, die die Leute am Küchentisch besprechen.\"\nFür Thomas Zimmer geht es um den Erhalt der Demokratie: \"Das Schicksal der Demokratie ist jetzt hier nicht besiegelt.\nref_doc_id: 2025-04-30\/ausland\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 798,
+    "topic": "Trump-Regierungspolitik in den USA"
+  }
+}
+{
+  "id": "ae76a82f-e123-43d4-a1b7-55d120f77e84",
+  "question": "Unter welchen spezifischen Umständen und in welchen Gebieten behauptet das pakistanische Militär, dass es Drohnen aus Indien abgeschossen hat?",
+  "reference_answer": "Das pakistanische Militär teilte mit, dass zahlreiche Drohnen aus Indien abgeschossen worden seien.",
+  "reference_context": "Document 1449: Unnamed: 0: 1449\ntext: Kaschmir-Konflikt\nIndien und Pakistan melden weitere Angriffe\nStand: 08.05.2025 16:17 Uhr\nEinen Tag nachdem Indien Ziele in Pakistan beschossen hat, weiten sich die Kämpfe zwischen den Atommächten aus. Beide Seiten werfen sich gegenseitige Angriffe mit zahlreichen Toten und Verletzten vor.\nIm Konflikt zwischen den Atommächten Indien und Pakistan ist keine Entspannung in Sicht. Beide Länder attackieren die Flugabwehr der jeweils anderen Seite. Nach Angaben der indischen Regierung wurden Systeme an mehreren Orten des Nachbarlandes angegriffen. Unter anderem sei eine Stellung in der Millionenstadt Lahore zerstört worden.\nMit dem Beschuss in der Nacht zum Donnerstag habe das Militär auf den Versuch Pakistans reagiert, militärische Ziele im Norden und Westen Indiens mit Drohnen und Raketen zu treffen. Dies habe aber vereitelt werden können, hieß es von der indischen Regierung weiter. Eine Bestätigung dafür aus Pakistan gab es zunächst nicht.\nPakistan will zahlreiche Drohnen abgeschossen haben\nDas pakistanische Militär teilte mit, dass zahlreiche Drohnen aus Indien abgeschossen worden seien. Indien habe mehrere Orte angegriffen, sagte ein Militärsprecher. Darunter seien die beiden größten Städte des Landes, Karatschi und Lahore, gewesen.\nBeide Seiten meldeten nach dem jüngsten Gewaltausbruch jeweils zahlreiche getötete Kämpfer und Soldaten. Der pakistanische Militärsprecher sagte, Drohnen würden weiterhin in den pakistanischen Luftraum eindringen. Indien werde für diese \"unverhohlene Aggression weiterhin teuer bezahlen\".\nLaut der indischen Regierung wurden 16 Menschen in der Kaschmir-Region auf indischer Seite getötet, darunter fünf Kinder. Indien erklärte, bei den Angriffen am Mittwoch mehr als 100 \"Terroristen\" in Pakistan getötet zu haben.\nref_doc_id: 2025-05-08\/ausland\/article_17.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1449,
+    "topic": "Kaschmir-Konflikt zwischen Indien und Pakistan"
+  }
+}
+{
+  "id": "ba9198b9-fed6-4eb4-b26a-655f26f2ee94",
+  "question": "Welche Maßnahmen plant der Bundespräsident konkret, nachdem Weinberg und Toscano angekündigt haben, ihre Verdienstorden zurückzugeben, und wie wird er auf die Bedenken des Internationalen Auschwitz-Komitees reagieren?",
+  "reference_answer": "Der Bundespräsident wird beide zu einem Gespräch einladen.",
+  "reference_context": "Document 1119: Unnamed: 0: 1119\ntext: Er werde die ihm 2021 verliehene Ehrung zusammen mit Weinberg bald an Bundespräsident Frank-Walter Steinmeier zurückgeben. \"Entweder empfängt uns der Bundespräsident, oder wir werfen es bei ihm in den Briefkasten\", sagte er.\nBedauern über geplante Rückgabe\nSteinmeier reagierte inzwischen auf die Ankündigung der zwei Verdienstordenträger: \"Der Bundespräsident würde eine Rückgabe des Verdienstordens durch Herrn Weinberg und Herrn Toscano sehr bedauern\", sagte ein Sprecher Steinmeiers dem Redaktionsnetzwerk Deutschland (RND). \"Der Bundespräsident wird beide zu einem Gespräch einladen.\"\nDas Internationale Auschwitz-Komitee zeigte wiederum Verständnis für den Schritt von Weinberg und Toscano: \"Der Blick der Überlebenden auf Deutschland verdunkelt sich\", sagte der Exekutiv-Vizepräsident des Komitees, Christoph Heubner, dem RND. \"Sie fragen sich, warum der Vorsitzende einer großen konservativen Partei, die bisher die Lehren aus der Geschichte des Holocaust und die Würde und die Lebensleistung der Holocaust-Überlebenden geachtet hat, plötzlich die Zusammenarbeit mit einer Partei für akzeptabel hält, die die Lehren aus der Geschichte des Holocaust auf den Müllhaufen bugsieren will.\"\nFünf-Punkte-Plan der Union\nDie Union hatte am Mittwoch ihren Fünf-Punkte-Plan für eine schärfere Migrationspolitik knapp mit Stimmen von AfD, FDP und Fraktionslosen durch den Bundestag gebracht. Erstmals beschaffte die AfD dabei im Plenum eine Mehrheit.\nAm Freitag soll das Parlament über einen Gesetzentwurf der Union zur Eindämmung der Migration abstimmen. Neben der AfD signalisierten bereits FDP und BSW ihre Zustimmung.\nLetzte Zeitzeugen der NS-Zeit\nWeinberg überlebte die drei Konzentrationslager Auschwitz, Mittelbau-Dora, Bergen-Belsen und mehrere Todesmärsche.\nref_doc_id: 2025-01-31\/inland\/article_5.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1119,
+    "topic": "Others"
+  }
+}
+{
+  "id": "eb7cbd75-48dc-4e4f-ba77-5cd8d3ba08a3",
+  "question": "Unter der Bedingung, dass die Grenze geöffnet ist, in welches spezifische Grenzgebiet dürfen Touristen in Nordkorea reisen, und welche logistischen Herausforderungen könnten dabei auftreten?",
+  "reference_answer": "Touristen dürfen nur in das Grenzgebiet Rason im Dreiländereck zwischen Nordkorea, Russland und China reisen.",
+  "reference_context": "Document 320: Unnamed: 0: 320\ntext: Frei bewegen darf sich niemand\nEr und sein Team bieten seit mehr als 20 Jahren Trips nach Nordkorea an. Eine so lange Pause wie seit dem Ausbruch der Corona-Pandemie hat es noch nie gegeben. Und auch bei der jetzt verkündeten Öffnung bleiben noch viele, vor allem logistische Fragen offen.\nWenn überhaupt, dürfen die Touristen nur in das Grenzgebiet Rason im Dreiländereck zwischen Nordkorea, Russland und China reisen. Das erreicht man aber nur über den Landweg - und die chinesische Seite der Grenze ist derzeit nicht besetzt. Wann und ob sie öffnet, kann niemand genau sagen.\nWie viele Menschen einreisen dürfen, ist ebenso unklar. Fest steht offenbar nur: Der Rest des Landes, inklusive der Hauptstadt Pjöngjang, bleibt gesperrt, und frei bewegen darf sich ohnehin niemand.\nUrlaub im sozialistischen Vorzeigedorf\nSehenswert sei die Gegend ganz im Nordosten des Landes trotzdem, behauptete Cockerell. Er spricht von einer landschaftlich \"wirklich schönen Ecke\". Rason sei bekannt für die Schönheit seiner Küste.\nEs gebe viele Bauernhöfe und Fabriken, die besichtigt werden können - Schuhfabriken, Taschenfabriken, Brauereien, ein großes Casino, unzählige Hotels und den ersten und einzigen für Touristen legalen Markt. Eine Art sozialistisches Vorzeigedorf also. Zufällig verirrt sich hierhin kein Tourist.\nBesonders Menschen, die sich zum Ziel gesetzt hätten, jedes Land der Welt einmal zu besuchen, könnten es kaum erwarten, ihren Fuß nach Nordkorea zu setzen. \"Vielen fehlt nur noch dieses eine Land auf ihrer Liste\", sagt Cockerell, der mit seiner Agentur auch Reisen in andere \"komplizierte\" Länder wie etwa Turkmenistan anbietet.\nIndiz für schrittweise Öffnung?\nref_doc_id: 2025-01-28\/ausland\/article_10.md\n\nDocument 319: Unnamed: 0: 319\ntext: Reisen nach Nordkorea\nWieder Ferien beim Diktator\nStand: 28.01.2025 16:37 Uhr\nFast fünf Jahre lang waren die Grenzen zu Nordkorea dicht. Doch bald soll das verschlossenste Land der Welt für westliche Besucher wieder zugänglich werden: Erste Reiseveranstalter planen Touren.\nDrei Nächte in Rason, ganz im Nordosten des Landes, plus zwei Übernachtungen vorher und nachher in Peking, inklusive Inlandsflüge - für etwa 1.300 Euro pro Person. Das ist das Preisschild für einen Urlaub im Reich von Machthaber Kim Jong Un. Am 18. Februar soll, Stand jetzt, die erste Reise starten - nach fast fünf Jahren Pause.\nBei Koryo Tours und anderen vergleichbaren Reiseveranstaltern, die Trips in die Demokratische Volksrepublik Korea anbieten, laufen die Telefone heiß. Die Nachfrage ist tatsächlich groß.\nWirklich viele andere Kommunikationsmöglichkeiten zwischen den Kontaktleuten in Nordkorea und China, wo die meisten Tour-Anbieter sitzen, gibt es nicht. \"Nordkorea ist und bleibt immer noch eine besondere Herausforderung\", berichtet Koryo-Tours-Geschäftsführer Simon Cockerell im Interview mit dem ARD-Studio Tokio.\nFrei bewegen darf sich niemand\nEr und sein Team bieten seit mehr als 20 Jahren Trips nach Nordkorea an. Eine so lange Pause wie seit dem Ausbruch der Corona-Pandemie hat es noch nie gegeben. Und auch bei der jetzt verkündeten Öffnung bleiben noch viele, vor allem logistische Fragen offen.\nWenn überhaupt, dürfen die Touristen nur in das Grenzgebiet Rason im Dreiländereck zwischen Nordkorea, Russland und China reisen. Das erreicht man aber nur über den Landweg - und die chinesische Seite der Grenze ist derzeit nicht besetzt. Wann und ob sie öffnet, kann niemand genau sagen.\nWie viele Menschen einreisen dürfen, ist ebenso unklar.\nref_doc_id: 2025-01-28\/ausland\/article_10.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 320,
+    "topic": "Others"
+  }
+}
+{
+  "id": "e6c1d714-3ac8-42a8-91fb-90d45bac6dee",
+  "question": "Welche konkreten Maßnahmen plant Israels rechtsextremer Finanzminister Bezalel Smotrich im Gazastreifen, unter Berücksichtigung seiner Aussagen im Armeeradio, und wie lange sollen diese Maßnahmen andauern?",
+  "reference_answer": "Bezalel Smotrich plant, den Gazastreifen zu erobern und eine vorübergehende militärische Regierung zu errichten.",
+  "reference_context": "Document 578: Unnamed: 0: 578\ntext: \"Barmherzigkeit mit den Märtyrern. Unsere Freiheit ist unvollständig, bis Gaza wieder aufgebaut ist und das Leben dorthin zurückkehrt. Die Menschen von Gaza sind stark und standhaft\", so Shatara.\nAm kommenden Wochenende soll es wieder ähnliche Szenen geben. Dann sollen wieder Palästinenser freikommen und vier israelische Geiseln. Die Vereinbarung sieht vor, dass die Hamas dann auch bekannt gibt, wer von den insgesamt 33 Geiseln, die im Laufe der sechs Wochen freikommen sollen, noch am Leben ist.\nIsraels Truppen beginnen mit Rückzug\nIn Gaza kommen derweil inzwischen mehr Hilfsgüter an. Israels Truppen haben begonnen, sich aus einigen Gebieten zurückzuziehen. Menschen im Süden berichten jedoch von vereinzelten Schüssen. Während die Zukunft des Gazastreifens Teil der weiteren Verhandlungen ist, nannte Israels rechtsextremer Finanzminister Bezalel Smotrich im Armeeradio schon mal seine Sicht der Dinge: \"Es gibt keinen anderen Weg, wir müssen dort regieren. Ich sage schon lange: Wir müssen den Gazastreifen erobern und eine vorübergehende militärische Regierung errichten. Wir dürfen uns nicht einschüchtern lassen.\"\nEs gehe um \"minimale humanitäre Anstrengung\" wie Essen, Trinken, ein wenig Gesundheit, so Smotrich. \"Es gibt keine andere Wahl. Für ein bis zwei Jahre, bis wir Hamas wirklich zerstört haben, die Bevölkerung aufhört sich vor Hamas zu fürchten und versteht, dass die Hamas am Ende ist und für immer verschwunden.\"\nAber bisher kann davon keine Rede sein. Und ziemlich sicher wird es auch in ein paar Tagen wieder Jubelbilder geben und Zeichen der Stärke - wenn weitere Geiseln gegen palästinensische Gefangene ausgetauscht werden.\nref_doc_id: 2025-01-20\/ausland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 578,
+    "topic": "Israel-Hamas-Konflikt und Geiselfreilassungen"
+  }
+}
+{
+  "id": "ae416658-cf65-4a9f-87c3-7017769d5353",
+  "question": "Unter welchen spezifischen Umständen könnten die Verhandlungen zwischen CDU und SPD besonders kompliziert werden, insbesondere in Bezug auf Migration, Schuldenbremse und Ukraine-Politik?",
+  "reference_answer": "Migration, Schuldenbremse und Ukraine-Politik.",
+  "reference_context": "Document 1000: Unnamed: 0: 1000\ntext: \"Wir wollen (...) keine Zeit verlieren auf dieser Strecke, aber wir wollen das (...) in aller Gründlichkeit mit der Union besprechen.\"\nSchwierige Verhandlungen erwartet\nEine schwarze-rote Koalition ist nach der Bundestagswahl die wahrscheinlichste Regierung. Es werden allerdings schwierige Verhandlungen erwartet - bei Themen wie Migration, Schuldenbremse und Ukraine-Politik gibt es deutliche Differenzen. Außerdem wurde im Wahlkampf viel Vertrauen zwischen den Parteien zerstört. Die SPD warf Merz Wort- und Tabubruch wegen einer gemeinsamen Abstimmung mit der AfD im Bundestag vor.\nDer CDU-Chef wetterte zuletzt scharf gegen \"linke Spinner\" und handelte sich dafür den Vorwurf der SPD ein, wie ein \"Mini-Trump\" aufzutreten. Klingbeil hat wiederholt deutlich gemacht, dass es keinen Automatismus einer Regierungsbeteiligung gebe: \"Ob es zu einer Regierungsbildung kommt, ob die SPD in eine Regierung eintritt, das steht nicht fest\", sagte er. Über eine mögliche Regierungsbeteiligung will die SPD ihre Mitglieder entscheiden lassen.\nref_doc_id: 2025-02-28\/inland\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1000,
+    "topic": "Koalitionsverhandlungen nach der Bundestagswahl 2025"
+  }
+}
+{
+  "id": "7c8334f0-764e-4bbe-a954-ac532f7c9858",
+  "question": "Welche spezifischen Risiken sieht Oxfam in der zunehmenden wirtschaftlichen Ungleichheit zwischen den Superreichen und der Mittelschicht, insbesondere im Hinblick auf die Stabilität demokratischer Systeme und unter Berücksichtigung der historischen Auswirkungen des Kolonialismus?",
+  "reference_answer": "Oxfam sieht in der wachsenden Kluft eine Gefahr für demokratische Gesellschaften, da Reichtum mit politischer Macht einhergeht.",
+  "reference_context": "Document 611: Unnamed: 0: 611\ntext: \"Superreiche zahlen hierzulande oft weniger Steuern und Abgaben als Mittelschichtsfamilien.\"\nOxfam: Wachsende Kluft ist Gefahr für demokratische Gesellschaften\nDen Studienmachern zufolge sind die Reichen die großen Gewinner der Krisenjahre. Die wachsende Kluft hat aus Sicht der Hilfsorganisation Konsequenzen für die Weltgemeinschaft, aber auch die nationalen Gesellschaften. Denn die Superreichen sorgten gezielt dafür, dass die ungerechten Strukturen stabil blieben. \"Die wirtschaftlich starken Länder im Globalen Norden bestimmen weiterhin die Regeln, von denen Superreiche und ihre Konzerne profitieren\", heißt es in dem Bericht. Das sei weiterhin Folge des Kolonialismus.\nDie geschäftsführende Vorstandsvorsitzende von Oxfam Deutschland, Serap Altinisik, warnt vor negativen Folgen für Demokratien: \"Denn Reichtum geht Hand in Hand mit politischer Macht. Das sehen wir heute bei der Amtseinführung des US-Präsidenten Donald Trump: ein milliardenschwerer Präsident unterstützt vom reichsten Mann der Welt, Elon Musk.\" Altinisik kritisiert: \"Der Vermögenszuwachs der Superreichen ist grenzenlos, während es bei der Bekämpfung der Armut kaum Fortschritte gibt.\"\nUS-Tech-Unternehmer ganz vorne mit dabei\nDer Bericht beruft sich auf Daten der Zeitschrift Forbes. \"Selbst wenn sie über Nacht 99 Prozent ihres Vermögens verlieren würden, blieben sie Milliardäre\", teilte die Nothilfe- und Entwicklungsorganisation mit. Die sogenannte Forbes-Liste führt in den Top Ten auch die US-amerikanischen Tech-Unternehmer Jeff Bezos (Amazon), Mark Zuckerberg (Meta), Larry Ellison (Oracle), Bill Gates und Steve Ballmer (beide Microsoft) sowie Larry Page (Google) auf. Der reichste Deutsche ist demnach der Hamburger Logistik-Unternehmer Klaus-Michael Kühne.\nref_doc_id: 2025-01-20\/wirtschaft\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 611,
+    "topic": "Others"
+  }
+}
+{
+  "id": "967842b1-8e6c-4a0c-9384-abfe4ee191f1",
+  "question": "Welche Zeitung, die zur Neuen Pressegesellschaft in Baden-Württemberg gehört, ist auch Teil der Medienholding Süd im SWMH-Konzern und wie wirkt sich dieser Zusammenschluss auf den Zeitungsmarkt aus?",
+  "reference_answer": "Zur Neuen Pressegesellschaft gehören unter anderem die Eßlinger Zeitung, der Schwarzwälder Bote und die Kreiszeitung Böblinger Bote.",
+  "reference_context": "Document 490: Unnamed: 0: 490\ntext: Zeitungsmarkt in Baden-Württemberg neu gestaltet\nDer mit künftig weitem Abstand größte Akteur auf dem Zeitungsmarkt in Baden-Württemberg ist damit die Neue Pressegesellschaft (NPG) mit der SWP. Zu ihr sollen dann neben der Mehrheit an den Stuttgarter Blättern auch verbundene Titel wie Eßlinger Zeitung, Schwarzwälder Bote und Kreiszeitung Böblinger Bote gehören, die bisher in der Medienholding Süd (MHS) im SWMH-Konzern gebündelt sind. Zum Portfolio der NPG zählen zudem bereits auch zwei Titel in Brandenburg: Die Märkische Oderzeitung und die Lausitzer Rundschau.\nTeil des Plans ist ferner, dass das gesonderte SWMH-Geschäft mit Fachpublikationen an den Verbund der Medien Union Ludwigshafen gehen soll. Zu den finanziellen Eckdaten der Deals machten die Beteiligten keine Angaben.\nFallen weitere Stellen weg?\nDie SWMH wiederum konzentriert sich damit auf die Geschäfte um die Süddeutsche Zeitung. Zur Mediengruppe gehört auch der Verlagsverbund Hof, Coburg, Suhl, Bayreuth (HCSB) mit mehreren Regionalzeitungen in Nordbayern und Südthüringen. Zur Zukunft dieses Teils machte die SWMH keine Angaben. Über einen Verkauf wird in der Branche seit langem spekuliert.\nDie SWMH hatte Ende 2007 die SZ gekauft, nach langem Tauziehen mit Eigentümer-Familien. Seither musste sich die Mediengruppe sowohl auf das überregionale SZ-Geschäft konzentrieren als auch die oft anders gelagerten Bedürfnisse des Regionalzeitungsmarkts im Südwesten bedienen. Das führte auch zu Spannungen angesichts der unterschiedlichen Interessen der Verlage hinter den Zeitungen.\nZu Auswirkungen auf Jobs durch den neuen Deal ist bisher nichts bekannt.\nref_doc_id: 2025-06-30\/wirtschaft\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 490,
+    "topic": "Others"
+  }
+}
+{
+  "id": "fe632d6a-cc2c-4fb1-a0a4-9035a0949990",
+  "question": "Unter welchen Bedingungen und im Rahmen welcher gesetzlichen Bestimmungen wurde die Wahl in der Ukraine verschoben, insbesondere im Kontext des russischen Angriffskriegs?",
+  "reference_answer": "Die Wahl wurde wegen des russischen Angriffskriegs im Einklang mit der ukrainischen Verfassung verschoben.",
+  "reference_context": "Document 228: Unnamed: 0: 228\ntext: In der Ukraine setzt das geltende Kriegsrecht Wahlen während eines Krieges aus: Die Wahl wurde wegen des russischen Angriffskriegs also im Einklang mit der ukrainischen Verfassung verschoben.\nSelenskyj: Vermittlung ist \"nicht genug\"\nSeit Trumps Amtsantritt versucht die US-Regierung den Krieg gegen die Ukraine zu beenden und nahm Gespräche mit Russland auf. Dabei stellte sich Trump immer wieder gegen den ukrainischen Präsidenten. So sagte er etwa in einem Interview mit dem US-Sender Fox News, die Teilnahme Selenskyjs an Verhandlungen zur Beendigung des Krieges sei \"nicht sehr wichtig\".\nSelenskyj hingegen sagte nun, er wolle Trump als Partner der Ukraine und nicht nur als Vermittler zwischen der Ukraine und Russland sehen. Nur eine Vermittlung sei \"nicht genug\".\nAm Montag jährt sich zum dritten Mal der russische Einmarsch in das osteuropäische Land. Einer der von Russland verkündeten Kriegsgründe ist die Verhinderung eines Beitritts des Nachbarn zur westlichen Militärallianz NATO.\nref_doc_id: 2025-02-23\/ausland\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 228,
+    "topic": "Russisch-Ukrainischer Krieg und internationale Reaktionen"
+  }
+}
+{
+  "id": "5c9ef2c0-3de0-4327-bc79-da1c2804fbe9",
+  "question": "Unter der Bedingung, dass es sich um die europäische Stahlindustrie handelt, welches Land gilt als der bedeutendste Markt für den Export von Stahlprodukten aus der EU, insbesondere im Jahr 2023?",
+  "reference_answer": "Die USA sind der wichtigste Absatzmarkt für die europäische Stahlindustrie.",
+  "reference_context": "Document 967: Unnamed: 0: 967\ntext: USA sind wichtiger Stahlabnehmer für die EU\nLaut dem deutschen Branchenverband Wirtschaftsvereinigung Stahl sind die USA der wichtigste Absatzmarkt für die europäische Stahlindustrie. Aus der gesamten EU seien 2023 rund vier Millionen Tonnen in die USA exportiert worden. Allein aus Deutschland seien es jährlich rund eine Million Tonnen, zumeist Spezialstahl. Deutschland ist demnach der größte Stahlproduzent in der EU.\nAluminium importieren die USA vor allem aus Kanada, den Vereinigten Arabischen Emiraten, China und Südkorea. Deutschland stand 2024 nur auf Platz 16 der wichtigsten Herkunftsländer - mit relativ geringer Menge.\nTrump irritiert mit Äußerungen zu US Steel\nTrump lobte zudem die Kooperation zwischen US Steel und dem japanischen Stahlkonzern Nippon Steel. Die Übernahme des US-Unternehmens durch die Japaner steht seit Monaten im Raum, war jedoch von den Gewerkschaften bei US Steel abgelehnt. Im Wahlkampf hatte der Präsident noch für einen Verbleib von US Steel in US-Besitz plädiert. Die Übernahme war von Trumps Vorgänger Joe Biden blockiert worden.\nAm Montag hatte Trump verkündet, es habe eine Einigung zwischen US Steel und Nippon Steel gegeben, ohne Details zu nennen. Vor den Stahlarbeitern in Pennsylvania bekräftigte er nun, US Steel werde weiterhin \"von den USA kontrolliert werden\", es werde keine Entlassungen oder Ausgliederungen von Arbeitsplätzen geben.\nDie Stahlgewerkschaft USW kritisierte Trumps unklare Ankündigung: Nichts weise daraufhin, dass Nippon von seiner bisherigen Position abweiche. Der japanische Konzern habe bisher stets darauf bestanden, dass er nur in US Steel investieren werde, wenn er das Unternehmen übernehmen könne.\nref_doc_id: 2025-05-31\/wirtschaft\/article_1.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 967,
+    "topic": "US-Handelspolitik und Zölle unter Trump"
+  }
+}
+{
+  "id": "b6970ba9-5368-48bd-b3b6-9c74532ded3a",
+  "question": "Unter der Bedingung, dass Sie die Stadt Southport am 29. Juli 2024 erwähnen, können Sie beschreiben, welche Ereignisse dort stattfanden und welche Auswirkungen sie auf das Land hatten?",
+  "reference_answer": "Am 29. Juli 2024 griff ein Teenager während eines Tanzkurses zur Musik von Taylor Swift Kinder an und tötete dabei drei Mädchen im Alter von sechs, sieben und neun Jahren.",
+  "reference_context": "Document 560: Unnamed: 0: 560\ntext: Er bekannte sich außerdem schuldig, ein Trainingshandbuch der Terrororganisation Al-Kaida besessen zu haben.\nMorde schockieren das Land\nDie Morde am 29. Juli 2024 in der nordwestenglischen Stadt Southport hatten Großbritannien schockiert. Der Teenager hatte die Kinder während eines Tanzkurses zur Musik von Taylor Swift angegriffen. Er tötete dabei drei Mädchen im Alter von sechs, sieben und neun Jahren.\nIn der Folge war es - auch getrieben von Falschinformationen über den mutmaßlichen Täter - zu tagelangen rechtsradikalen und antimuslimischen Ausschreitungen im ganzen Land gekommen. Rechtsextreme setzten nach der Tat im Sommer die Falschbehauptung in die Welt, wonach der Tatverdächtige ein Asylbewerber sei, der erst kürzlich per Boot in Großbritannien eingetroffen sei. Der 18-Jährige ist aber als Sohn von Ruandern in Wales geboren. Hunderte Randalierer wurden inzwischen verurteilt.\nref_doc_id: 2025-01-20\/ausland\/article_15.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 560,
+    "topic": "Gewaltverbrechen und Terrorismus"
+  }
+}
+{
+  "id": "4d1e9a3f-b94b-4735-9217-f72e352384d4",
+  "question": "Welche spezifischen Maßnahmen im Bereich der Energiepolitik plant der neue Präsident, insbesondere in Bezug auf Fracking, Ölproduktion und erneuerbare Energien, und wie könnten diese Maßnahmen die wirtschaftliche Lage der USA beeinflussen?",
+  "reference_answer": "Er will den Energie-Notstand ausrufen, Fracking voranbringen, mehr Öl fördern und mehr Öl ins Ausland verkaufen.",
+  "reference_context": "Document 580: Unnamed: 0: 580\ntext: Aber natürlich fehlten auch ein starker Bezug zu Gott und viel Patriotismus nicht.\n\"America first\" bestimmt das Handeln\nViel von dem, was der neue Präsident in seiner ersten Rede vorgetragen hat, war schon bekannt. In seinen Wahlkampfreden hat er zum Beispiel klar gemacht, dass Grenzschutz und Abschiebungen für ihn eine hohe Priorität haben und dass er Joe Bidens Klimapolitik rückgängig machen will.\nNun hat er alle seine Wahlkampfversprechen hintereinander weg als Regierungsprogramm vorgestellt. Er will die Grenze zu Mexiko faktisch schließen und die Armee dorthin schicken, um die Sicherheit wiederherzustellen. Er will im großen Stil Ausländer abschieben, vor allem solche, die straffällig geworden sind. Er will den Energie-Notstand ausrufen, Fracking voranbringen, mehr Öl fördern und mehr Öl ins Ausland verkaufen.\n\"Flüssiges Gold\" soll die USA wieder wohlhabend machen. Windparks will er genauso abschaffen wie die Förderung von Elektroautos. Außerdem verspricht er, alles zu unternehmen, um die Lebenshaltungskosten in den USA zu senken. Die Außenpolitik soll sich strikt an der Formel \"Amerika zuerst\" ausrichten. Und künftig werde es in den USA nur noch zwei Geschlechter geben: Männer und Frauen.\nNeue Töne an das Ausland\nViele von Trumps Ankündigungen waren nach innen in die USA hinein orientiert. Was er dem Rest der Welt zu sagen hatte, klingt besorgniserregend. Trump hatte schon immer den Eindruck, dass die USA im Rest der Welt nicht ernst genommen werden. Das will er ändern.\nEin Beispiel, das er in seiner Rede nannte, ist der Panamakanal, der mit finanzieller Hilfe der USA 1914 eröffnet wurde. Trump behauptet, dass die USA inzwischen finanziell über den Tisch gezogen würden und dass China die Kontrolle über den Kanal übernommen habe.\nref_doc_id: 2025-01-20\/ausland\/article_17.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 580,
+    "topic": "Others"
+  }
+}
+{
+  "id": "d9e1bf63-1376-460a-9121-428b54888271",
+  "question": "Unter der Bedingung, dass es im Jahr 2024 keine weiteren Streiks oder Extremwetterereignisse gegeben hätte, wie viele Flugfälle hätten die Schlichter dann zu bearbeiten gehabt?",
+  "reference_answer": "Im Jahr 2024 hatten die Schlichter rund 38.000 Flugfälle zu bearbeiten.",
+  "reference_context": "Document 1177: Unnamed: 0: 1177\ntext: 2023 waren es 39.850.\nIm Jahr 2024 hatten die Schlichter demnach rund 38.000 Flugfälle zu bearbeiten. Das sind rund 14 Prozent mehr als im Vorjahr. Meist ging es bei den Beschwerden um annullierte Flüge und Verspätungen. Die Schlichtungsstelle erinnerte daran, dass es im vergangenen Jahr zahlreiche Streiks sowie Extremwetter und IT-Ausfälle gab. Im Durchschnitt werde seit Jahren in mehr als 80 Prozent der Fälle eine Einigung erzielt, hieß es.\nHilfe durch KI-Programme?\nDer Richterbund sieht Portale, mit denen Fluggäste ihre Ansprüche schnell und einfach durchsetzen können, als einen wesentlichen Grund für die Entwicklung bei den Gerichten. \"Die Justiz reagiert darauf inzwischen mit speziellen KI-Assistenzprogrammen, die an größeren Amtsgerichten erprobt werden\", sagte Bundesgeschäftsführer Sven Rebehn der Deutschen Presse-Agentur.\nDie Software solle in Sekundenschnelle Tausende Urteile vergleichen, Voraussetzungen für Ansprüche herausfiltern und Vorschläge für Entscheidungen machen können. \"Es gibt aber noch immer keine fertige Standardsoftware, die den Gerichten flächendeckend durch die Fließbandklagen der Legal-Tech-Anbieter hilft\", sagte Rebehn.\nZahl der Fluggäste 2024 gestiegen\nIm Jahr 2024 haben die 22 deutschen Hauptverkehrsflughäfen rund 199,5 Millionen Fluggäste gezählt. Wie das Statistische Bundesamt (Destatis) mitteilt, sind damit 7,7 Prozent mehr Passagiere von den Flughäfen gestartet oder gelandet als im Vorjahr.\nGegenüber dem Vor-Corona-Niveau des Jahres 2019, als die Flughäfen mit 226,7 Millionen Fluggästen ein Allzeithoch verzeichnet hatten, lag das Passagieraufkommen im Jahr 2024 um 12,0 Prozent niedriger.\nref_doc_id: 2025-01-31\/wirtschaft\/article_5.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 1177,
+    "topic": "Others"
+  }
+}
+{
+  "id": "5906b625-1ed5-43e0-9ba0-1d30d9f7d737",
+  "question": "Aus welchem spezifischen Grund hat 1&1 die Prognose für das Jahresergebnis angepasst und welche finanziellen Auswirkungen hat dies laut der neuesten Mitteilung des Unternehmens?",
+  "reference_answer": "Der Telekommunikationsanbieter 1&1 senkt wegen unerwartet hoher Kosten beim National Roaming mit Vodafone die Ergebnis-Prognose.",
+  "reference_context": "Document 501: Unnamed: 0: 501\ntext: Unternehmen hätten die Pflicht, \"Mitschuld an Verstößen gegen die grundlegenden Menschenrechte und das humanitäre Recht zu vermeiden\", erklärte KLP.\nDemnach geht es um Lieferungen von Kriegsschiffen und U-Booten an die israelische Marine durch Thyssenkrupp sowie Lastwagen von Oshkosh, welche das israelische Militär zu gepanzerten Truppentransportern umbaue.\nVW-Partner Rivian erhält zweite Milliarden-Spritze\nVolkswagen stockt die Beteiligung an seinem US-Partner Rivian auf. Nachdem der Tesla-Herausforderer Anfang Mai die Voraussetzungen erfüllt hatte, wird heute nun eine zweite Zahlung in Höhe von einer Milliarde Dollar fällig, mit der sich VW an Rivian beteiligt. Bereits im vergangenen Jahr war VW bei Rivian mit einer Milliarde Dollar eingestiegen.\n1&1 senkt Ergebnis-Prognose\nDer Telekommunikationsanbieter 1&1 senkt wegen unerwartet hoher Kosten beim National Roaming mit Vodafone die Ergebnis-Prognose. Das Ergebnis vor Zinsen, Steuern und Abschreibungen (Ebitda) werde im laufenden Jahr rund 545 Millionen Euro betragen, teilte die United-Internet-Tochter mit. Bisher lag das Ziel bei etwa 571 Millionen.\nDürr verkauft Umwelttechnikgeschäft\nDer Autozulieferer und Anlagenbauer Dürr verkauft sein Umwelttechnikgeschäft. Erwartet wird ein Nettoverkaufserlös von rund 250 Millionen Euro. Die Prognose für den Nettofinanzstatus zum 31. Dezember 2025 passte der Konzern entsprechend auf minus 250 bis minus 300 Millionen Euro an.\nref_doc_id: 2025-06-30\/wirtschaft\/article_4.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "complex",
+    "seed_document_id": 501,
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}

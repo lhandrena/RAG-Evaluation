@@ -1,0 +1,240 @@
+{
+  "id": "e09d4935-44a7-419e-a486-d5dc9c760730",
+  "question": "Was ist das Ziel des SEER-Modells, das auf SwAV basiert?",
+  "reference_answer": "Das Ziel des SEER-Modells ist es, einen vortrainierten Encoder aus einem beliebigen zufälligen Bild und einem unbegrenzten Datensatz in freier Wildbahn zu lernen.",
+  "reference_context": "Document 2807: Unnamed: 0: 2807\ntext: To avoid the dependence on a large number of explicit pairwise feature comparisons, Swapping As- signments between multiple Views of the same image (SwAV) [167] is proposed as an online algorithm by Inria and FAIR. SwAV introduces clustering to substitute the previous comparison between pairs, which gains more memory with the help of non-queue architecture. In this method, the clustering prototype joins the computation of the deﬁned loss function. This prototype is encoded as the concatenation of vectors learned through the backpropagation in CNNs. Thus, there is no need for SwAV to compare the encoded representations between different views.\n\nBased on the existing SwAV, a novel model called SElf-supERvised (SEER) [168] aims to learn a pre- trained encoder from any random image and unbounded dataset in the wild. The base network is RegNetY architectures [169] trained with the SwAV SSL method [167]. This method proves that the SSL is not speciﬁc to a curated dataset such as ImageNet, and the scalability of recent RegNet releases the limitation of traditional backbones such as ResNet. In addition, this method encourages the research community to explore more backbones suitable for universal SSL.\n\nAttracting the attention in the recent SSL, FAIR conducts empirical experiments on the SSL by utilizing the structure of Simple Siamese (SimSiam) networks. This method [170] can avoid the design of negative sample pairs, large batches (or memory banks), and momentum encoders in traditional contrastive learning. The two encoders in Fig. 10 with identical parameters that process two different views t and t(cid:48) of image x are substituted by the only siamese network.\nref_doc_id: general_surveys\/2302.09419v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 2807,
+    "topic": "Self-Supervised Learning for Visual Representation"
+  }
+}
+{
+  "id": "13f6952f-39a2-431a-b06a-f7750482fa93",
+  "question": "Wer sind die Autoren des Artikels 'X-FACTR: Multilingual factual knowledge retrieval from pretrained language models'?",
+  "reference_answer": "Zhengbao Jiang, Antonios Anastasopoulos, Jun Araki, Haibo Ding, und Graham Neubig.",
+  "reference_context": "Document 3352: Unnamed: 0: 3352\ntext: Association for Computational Linguistics, 2824-2835.\n\nMing Jiang, Shengsheng Huang, Juanyong Duan, and Qi Zhao. 2015. Salicon: Saliency in context. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 1072-1080.\n\nZhengbao Jiang, Antonios Anastasopoulos, Jun Araki, Haibo Ding, and Graham Neubig. 2020. X-FACTR: Multilingual factual knowledge retrieval from pretrained language models. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP’20). Association for Computational Linguistics, 5943-5959. https:\/\/doi.org\/ 10.18653\/v1\/2020.emnlp-main.479\n\nZhengbao Jiang, Jun Araki, Haibo Ding, and Graham Neubig. 2021. How can we know when language models know? On the calibration of language models for question answering. Trans. Assoc. Comput. Ling. 9 (09 2021), 962-977. https:\/\/doi.org\/10.1162\/tacl_a_00407\n\nZhengbao Jiang, Frank F. Xu, Jun Araki, and Graham Neubig. 2020. How can we know what language models know? Trans. Assoc. Comput. Ling. 8 (2020), 423-438. https:\/\/doi.org\/10.1162\/tacl_a_00324\n\nLukasz Kaiser, Ofir Nachum, Aurko Roy, and Samy Bengio. 2017. Learning to remember rare events. In Proceedings of the 5th International Conference on Learning Representations (ICLR’17).\nref_doc_id: general_surveys\/3560815.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 3352,
+    "topic": "Neural Networks in Natural Language Processing"
+  }
+}
+{
+  "id": "b5ba6e3d-591a-4044-8c78-028e2e90aba0",
+  "question": "Welche Beispiele für GenAI-Systeme werden im Text genannt?",
+  "reference_answer": "Einige gängige Beispiele für GenAI-Systeme sind Bildgeneratoren (Midjourney oder stabile Diffusion), Chatbots (ChatGPT, Bard, Palm), Codegeneratoren (CodeX, Co-Pilot), Audiogeneratoren (VALL-E), und Videogeneratoren (Gen-2).",
+  "reference_context": "Document 4895: Unnamed: 0: 4895\ntext: Some common examples of GenAI systems are image generators (Midjourney or stable diffusion), Chatbots (ChatGPT, Bard, Palm), code genera- tors (CodeX, Co-Pilot [133]) audio generators(VALL-E)Vall- e [134], and video generators (Gen-2) [135]\n\nDuring the past few years, GenAI models size has been scaled from a few million parameters(BERT [48], 110M) to hundreds of billions of parameters (GPT [136], 175B). Generally speaking, as the size of the model (number of parameters) increases, the performance of the model also increases [137], and it can be generalized for a variety of tasks [138], for example, Foundation models [139]. However, smaller models can also be fine-tuned for a more focused task [140].\n\nLLMs, such as ChatGPT by OpenAI, Bard by Google, and Llama by Meta, are a type of GenAI models, specifically designed to generate human-like language in response to a\n\n4\n\ngiven prompt [141]. These models are trained on massive amounts of data (see Table I), using techniques to learn the statistical patterns of language. However, many people accord the capabilities provided by GPT models to “more data and computing power” instead of “better ML research\" [142].\n\nGenAI works by leveraging complex algorithms and statis- tical models to generate new content that mimics the patterns and characteristics of the training data [143].\nref_doc_id: general_surveys\/682263.pdf\n\nDocument 4896: Unnamed: 0: 4896\ntext: However, smaller models can also be fine-tuned for a more focused task [140].\n\nLLMs, such as ChatGPT by OpenAI, Bard by Google, and Llama by Meta, are a type of GenAI models, specifically designed to generate human-like language in response to a\n\n4\n\ngiven prompt [141]. These models are trained on massive amounts of data (see Table I), using techniques to learn the statistical patterns of language. However, many people accord the capabilities provided by GPT models to “more data and computing power” instead of “better ML research\" [142].\n\nGenAI works by leveraging complex algorithms and statis- tical models to generate new content that mimics the patterns and characteristics of the training data [143]. These algorithms may include probabilistic techniques; such as Autoregressive model [144] and Variations Auto-encoders [145], or more recently, Generative Adversarial Networks [146] and Diffusion models [147] or Reinforcement Learning Human Feedback (RLHF) [148].\n\nin recent years due to its remarkable performance across an extensive array of applications in text, image, video and generation [149]. Constructed upon the foundation of the transformer archi- tecture [45], these models exhibit an extraordinary capacity to process and generate human-like content by leveraging massive volumes of training data for various topics [150].\n\nGenAI has captured significant\n\ninterest\n\nA. Data, Generation, Variance, and Performance measures\n\nis important to delve into the concepts of data, generation, and variance, and the interplay between them, as they form the foundation of generative systems [151].\nref_doc_id: general_surveys\/682263.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 4895,
+    "topic": "Generative AI and Large Language Models"
+  }
+}
+{
+  "id": "7b9ef4ac-9d23-47ae-a8a0-8f6fc660acf9",
+  "question": "Welche Autoren haben an dem Papier 'Hungry hungry hippos: Towards language modeling with state space models' mitgewirkt?",
+  "reference_answer": "T. Dao, D. Y. Fu, K. K. Saab, A. W. Thomas, A. Rudra, und C. Ré",
+  "reference_context": "Document 5411: Unnamed: 0: 5411\ntext: [630] T. Dao, D. Y. Fu, K. K. Saab, A. W. Thomas, A. Rudra, and C. Ré, “Hungry hungry hippos: Towards language modeling with state space models,” arXiv preprint arXiv:2212.14052, 2022.\n\n[631] Y. Yao, P. Wang, B. Tian, S. Cheng, Z. Li, S. Deng, H. Chen, and N. Zhang, “Editing large language models: Problems, methods, and opportunities,” arXiv preprint arXiv:2305.13172, 2023.\n\n[632] T. Schick and H. Schütze, “It’s not\n\nsize that matters: Small language models are also few-shot learners,” arXiv preprint arXiv:2009.07118, 2020.\n\njust\n\n[633] Y. Xiong, Z. Zeng, R. Chakraborty, M. Tan, G. Fung, Y. Li, and V. Singh, “Nyströmformer: A nyström-based algorithm for approximat- ing self-attention,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, pp. 14138–14148, 2021.\n\n[634] C. Wu, M. Che, and H. Yan, “The CUR Decomposition of Self- attention Matrices in Vision Transformers,” TechRxiv, August 01 2024.\nref_doc_id: general_surveys\/682263.pdf\n\nDocument 5410: Unnamed: 0: 5410\ntext: 34, pp. 2441–2453, 2021.\n\n52\n\n[629] B. Peng, E. Alcaide, Q. Anthony, A. Albalak, S. Arcadinho, H. Cao, X. Cheng, M. Chung, M. Grella, K. K. GV, et al., “Rwkv: Reinventing rnns for the transformer era,” arXiv preprint arXiv:2305.13048, 2023. [630] T. Dao, D. Y. Fu, K. K. Saab, A. W. Thomas, A. Rudra, and C. Ré, “Hungry hungry hippos: Towards language modeling with state space models,” arXiv preprint arXiv:2212.14052, 2022.\n\n[631] Y. Yao, P. Wang, B. Tian, S. Cheng, Z. Li, S. Deng, H. Chen, and N. Zhang, “Editing large language models: Problems, methods, and opportunities,” arXiv preprint arXiv:2305.13172, 2023.\nref_doc_id: general_surveys\/682263.pdf\n\nDocument 5412: Unnamed: 0: 5412\ntext: [632] T. Schick and H. Schütze, “It’s not\n\nsize that matters: Small language models are also few-shot learners,” arXiv preprint arXiv:2009.07118, 2020.\n\njust\n\n[633] Y. Xiong, Z. Zeng, R. Chakraborty, M. Tan, G. Fung, Y. Li, and V. Singh, “Nyströmformer: A nyström-based algorithm for approximat- ing self-attention,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, pp. 14138–14148, 2021.\n\n[634] C. Wu, M. Che, and H. Yan, “The CUR Decomposition of Self- attention Matrices in Vision Transformers,” TechRxiv, August 01 2024. [635] P. Schramowski, C. Turan, N. Andersen, C. A. Rothkopf, and K. Ker- sting, “Large pre-trained language models contain human-like biases of what is right and wrong to do,” Nature Machine Intelligence, vol. 4, no. 3, pp. 258–268, 2022.\n\n[636] Y. Yu, Y. Zhuang, J. Zhang, Y. Meng, A. Ratner, R. Krishna, J. Shen, and C. Zhang, “Large language model as attributed training data gen- erator: A tale of diversity and bias,” arXiv preprint arXiv:2306.15895, 2023.\nref_doc_id: general_surveys\/682263.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 5411,
+    "topic": "Large Language Models"
+  }
+}
+{
+  "id": "1f85bd4a-e19c-4f15-a9ab-bea0ecbf9842",
+  "question": "Wer sind die Autoren des Papiers über mehrsprachige faktische Wissensabfrage aus vortrainierten Sprachmodellen im Jahr 2020?",
+  "reference_answer": "Zhengbao Jiang, Antonios Anastasopoulos, Jun Araki, Haibo Ding, und Graham Neubig.",
+  "reference_context": "Document 3351: Unnamed: 0: 3351\ntext: 2019. Cosmos QA: Machine reading compre- hension with contextual commonsense reasoning. In Proceedings of the Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP’19). Association for Computational Linguistics, 2391-2401. https:\/\/doi.org\/10.18653\/v1\/D19- 1243\n\nRobert L. Logan IV, Ivana Balazevic, Eric Wallace, Fabio Petroni, Sameer Singh, and Sebastian Riedel. 2022. Cutting down on prompts and parameters: Simple few-shot learning with language models. In Findings of the Association for Computational Linguistics: ACL 2022, Smaranda Muresan, Preslav Nakov, and Aline Villavicencio (Eds.). Association for Computational Linguistics, 2824-2835.\n\nMing Jiang, Shengsheng Huang, Juanyong Duan, and Qi Zhao. 2015. Salicon: Saliency in context. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 1072-1080.\n\nZhengbao Jiang, Antonios Anastasopoulos, Jun Araki, Haibo Ding, and Graham Neubig. 2020. X-FACTR: Multilingual factual knowledge retrieval from pretrained language models. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP’20). Association for Computational Linguistics, 5943-5959. https:\/\/doi.org\/ 10.18653\/v1\/2020.emnlp-main.479\n\nZhengbao Jiang, Jun Araki, Haibo Ding, and Graham Neubig. 2021.\nref_doc_id: general_surveys\/3560815.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 3351,
+    "topic": "Natural Language Processing Research"
+  }
+}
+{
+  "id": "63e0d3f0-aa70-4531-8040-a859f41f7a93",
+  "question": "Wie viele Stunden wird Jerry insgesamt auf dem Spielfeld verbringen, um die Spiele und das Training seiner Töchter zu beobachten?",
+  "reference_answer": "Jerry wird insgesamt 96 Stunden auf dem Spielfeld verbringen, um die Spiele und das Training seiner Töchter zu beobachten.",
+  "reference_context": "Document 670: Unnamed: 0: 670\ntext: They each have 8 games this season. Each team practices 4 hours for every game they play. If each game lasts for 2 hours, how many hours will Jerry spend at the field watching his daughters play and practice altogether?\n\nA: Jerry will spend 8 games * 2 hours per game = ≪ 8 ∗ 2 = 16 ≫ 16 hours watching one daughter play her games. He will spend 16 ∗ 2 =≪ 16 ∗ 2 = 32 ≫ 32 hours watching both daughters play their games. He will spend 8 games * 4 hours of practice = ≪ 8 ∗ 4 = 32 ≫ 32 hours watching one daughter practice. He will spend 32∗2 =≪ 32∗2 = 64 ≫ 64 hours watching both daughters practice. He will spend a total of 32 hours watching games + 64 hours watching practice =≪ 32 + 64 = 96 ≫ 96 hours. #### 96\n\nQ: Mary bought six apples from the store. From the apples she bought, for each that Mary ate, she planted two trees from the remaining ones. How many apples did Mary eat?\n\nA: She planted eight trees. This means she used half of that amount of apples, which is 8 trees \/2 trees\/apple =≪ 8\/2 = 4 ≫ 4 apples. That means that she planted four of the six apples she bought, leaving only 6 apples − 4 apples =≪ 6 − 4 = 2 ≫ 2 apples to be eaten. #### 2\n\nUSER Q: Boris has 100 apples.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 670,
+    "topic": "Mathematical Reasoning with Language Models"
+  }
+}
+{
+  "id": "2f3189fa-4bfe-4ecc-9290-3ee582240384",
+  "question": "Welches Modell wird im Dokument 'general_surveys\/2303.04226v1.pdf' beschrieben?",
+  "reference_answer": "Megatron-Turing NLG 530B, ein groß angelegtes generatives Sprachmodell.",
+  "reference_context": "Document 157: Unnamed: 0: 157\ntext: [66] S.Smith,M.Patwary,B.Norick,P.LeGresley,S.Rajbhandari,J.Casper,Z.Liu,S.Prabhumoye,G.Zerveas,V.Korthikanti, E. Zhang, R. Child, R. Y. Aminabadi, J. Bernauer, X. Song, M. Shoeybi, Y. He, M. Houston, S. Tiwary, and B. Catanzaro, “Using deepspeed and megatron to train megatron-turing nlg 530b, a large-scale generative language model,” 2022. [67] W. Fedus, B. Zoph, and N. Shazeer, “Switch transformers: Scaling to trillion parameter models with simple and\n\nefficient sparsity,” J. Mach. Learn. Res, vol. 23, pp. 1–40, 2021.\n\n[68] V. Aribandi, Y. Tay, T. Schuster, J. Rao, H. S. Zheng, S. V. Mehta, H. Zhuang, V. Q. Tran, D. Bahri, J. Ni, et al., “Ext5:\n\nTowards extreme multi-task scaling for transfer learning,” arXiv preprint arXiv:2111.10952, 2021.\n\n[69] A. Aghajanyan, D. Okhonko, M. Lewis, M. Joshi, H. Xu, G. Ghosh, and L. Zettlemoyer, “Htlm: Hyper-text pre-training\n\nand prompting of language models,” 2021.\nref_doc_id: general_surveys\/2303.04226v1.pdf\n\nDocument 3074: Unnamed: 0: 3074\ntext: [110] S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari, J. Casper, Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti, et al., “Using deepspeed and megatron to train megatron-turing nlg 530b, a large-scale generative language model,” arXiv preprint arXiv:2201.11990, 2022.\n\n[111] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. d. L. Casas, L. A. Hendricks, J. Welbl, A. Clark, et al., “Training compute-optimal large language models,” arXiv preprint arXiv:2203.15556, 2022.\n\n75\n\n[112] S. Zhang, S. Roller, N. Goyal, M. Artetxe, M. Chen, S. Chen, C. Dewan, M. Diab, X. Li, X. V. Lin, et al., “Opt: Open pre-trained transformer language models,” arXiv preprint arXiv:2205.01068, 2022.\n\n[113] J. Wei, M. Bosma, V. Zhao, K. Guu, A. W. Yu, B. Lester, N. Du, A. M. Dai, and Q. V. Le, “Finetuned language models are zero-shot learners,” in International Conference on Learning Representations, 2022.\nref_doc_id: general_surveys\/2302.09419v3.pdf\n\nDocument 4792: Unnamed: 0: 4792\ntext: [101] S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari, J. Casper, Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti et al., “Using deepspeed and megatron to train megatron-turing nlg 530b, a large-scale generative language model,” arXiv preprint arXiv:2201.11990, 2022.\n\n[102]\n\nI. Beltagy, M. E. Peters, and A. Cohan, “Longformer: The long- document transformer,” arXiv preprint arXiv:2004.05150, 2020. [103] S. Iyer, X. V. Lin, R. Pasunuru, T. Mihaylov, D. Simig, P. Yu, K. Shus- ter, T. Wang, Q. Liu, P. S. Koura et al., “Opt-iml: Scaling language model instruction meta learning through the lens of generalization,” arXiv preprint arXiv:2212.12017, 2022.\n\n[104] Y. Hao, H. Song, L. Dong, S. Huang, Z. Chi, W. Wang, S. Ma, and F. Wei, “Language models are general-purpose interfaces,” arXiv preprint arXiv:2206.06336, 2022.\nref_doc_id: general_surveys\/2402.06196v3.pdf\n\nDocument 156: Unnamed: 0: 156\ntext: [64] T. L. Scao, A. Fan, C. Akiki, E. Pavlick, S. Ilić, D. Hesslow, R. Castagné, A. S. Luccioni, F. Yvon, M. Gallé, et al., “Bloom:\n\nA 176b-parameter open-access multilingual language model,” arXiv preprint arXiv:2211.05100, 2022.\n\n[65] M. Shoeybi, M. Patwary, R. Puri, P. LeGresley, J. Casper, and B. Catanzaro, “Megatron-lm: Training multi-billion\n\nparameter language models using model parallelism,” 2019.\n\n[66] S.Smith,M.Patwary,B.Norick,P.LeGresley,S.Rajbhandari,J.Casper,Z.Liu,S.Prabhumoye,G.Zerveas,V.Korthikanti, E. Zhang, R. Child, R. Y. Aminabadi, J. Bernauer, X. Song, M. Shoeybi, Y. He, M. Houston, S. Tiwary, and B. Catanzaro, “Using deepspeed and megatron to train megatron-turing nlg 530b, a large-scale generative language model,” 2022. [67] W. Fedus, B. Zoph, and N. Shazeer, “Switch transformers: Scaling to trillion parameter models with simple and\n\nefficient sparsity,” J. Mach. Learn. Res, vol. 23, pp. 1–40, 2021.\nref_doc_id: general_surveys\/2303.04226v1.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 157,
+    "topic": "Large Language Models and Training Systems"
+  }
+}
+{
+  "id": "38111b0f-f568-4eb5-81ce-17aab30fbef2",
+  "question": "Welche Methode wird vorgeschlagen, um die Sicherheit von LLMs zu verbessern?",
+  "reference_answer": "Red teaming wurde zur Verbesserung der Modellsicherheit von LLMs übernommen, indem gesammelte adversarielle Eingaben verwendet werden, um die LLMs zu verfeinern.",
+  "reference_context": "Document 2085: Unnamed: 0: 2085\ntext: Furthermore, it is also suggested to develop simplified optimization algorithms for alignment [388, 391], to reduce the training difficulty and unstability of RLHF. As another practical approach, red teaming [132, 367] has been adopted for improving the model safety of LLMs, which utilizes the collected adversarial prompts to refine the LLMs (i.e., avoiding the attacks from red teaming). In addition, privacy concerns are also important to consider when fine-tuning LLMs with domain-specific data, and thus federated based learning [1081] can be useful in privacy-restricted scenarios.\n\nApplication and Ecosystem. As LLMs have shown strong capacities in solving various tasks, they can be applied in a broad range of real-world applications (i.e., following task-specific natural language instructions). As a remarkable progress, ChatGPT has potentially changed the way how humans access information, which has been additionally integrated in the release of New Bing. Generally, in the near future, it can be foreseen that LLMs would have a significant impact on information-seeking techniques, in- cluding both search engines and recommender systems. Furthermore, LLMs make it possible to develop more intel- ligent systems (e.g., autonomous AI agents) to tackle various complex tasks in real-world scenarios. Specially, Assistants API has been launched by OpenAI (featured by instructions, knowledge and tool use), enabling rapid development of agent-like assistants within the applications. This wave of technical innovation would lead to an ecosystem of LLM- empowered applications (e.g., OpenAI’s GPT Store), which has a close connection with human life.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 2085,
+    "topic": "Large Language Models: Challenges and Applications"
+  }
+}
+{
+  "id": "cd551620-37f2-4767-b1ec-9a7eb81a0c73",
+  "question": "Welches Dokument beschreibt die technischen Details und die Bewertung von Jurassic-1?",
+  "reference_answer": "Das Dokument 'Jurassic-1: Technical details and evaluation' von O. Lieber, O. Sharir, B. Lenz und Y. Shoham, veröffentlicht als White Paper von AI21 Labs, vol. 1, 2021.",
+  "reference_context": "Document 2165: Unnamed: 0: 2165\ntext: [106] Y. Sun, S. Wang, S. Feng, S. Ding, C. Pang, J. Shang, J. Liu, X. Chen, Y. Zhao, Y. Lu, W. Liu, Z. Wu, W. Gong, J. Liang, Z. Shang, P. Sun, W. Liu, X. Ouyang, D. Yu, H. Tian, H. Wu, and H. Wang, “ERNIE 3.0: Large-scale knowledge enhanced pre- training for language understanding and genera- tion,” CoRR, vol. abs\/2107.02137, 2021.\n\n[107] O. Lieber, O. Sharir, B. Lenz, and Y. Shoham, “Jurassic-1: Technical details and evaluation,” White Paper. AI21 Labs, vol. 1, 2021.\n\n[108] B. Kim, H. Kim, S. Lee, G. Lee, D. Kwak, D. H. Jeon, S. Park, S. Kim, S. Kim, D. Seo, H. Lee, M. Jeong, S. Lee, M. Kim, S. Ko, S. Kim, T. Park, J. Kim, S. Kang, N. Ryu, K. M. Yoo, M. Chang, S. Suh, S. In, J. Park, K. Kim, H. Kim, J. Jeong, Y. G. Yeo, D. Ham, D. Park, M. Y. Lee, J. Kang, I. Kang, J. Ha, W. Park, and N. Sung, “What changes can large- scale language models bring?\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2164: Unnamed: 0: 2164\ntext: abs\/2107.03374, 2021.\n\n[106] Y. Sun, S. Wang, S. Feng, S. Ding, C. Pang, J. Shang, J. Liu, X. Chen, Y. Zhao, Y. Lu, W. Liu, Z. Wu, W. Gong, J. Liang, Z. Shang, P. Sun, W. Liu, X. Ouyang, D. Yu, H. Tian, H. Wu, and H. Wang, “ERNIE 3.0: Large-scale knowledge enhanced pre- training for language understanding and genera- tion,” CoRR, vol. abs\/2107.02137, 2021.\n\n[107] O. Lieber, O. Sharir, B. Lenz, and Y. Shoham, “Jurassic-1: Technical details and evaluation,” White Paper. AI21 Labs, vol. 1, 2021.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 2165,
+    "topic": "Others"
+  }
+}
+{
+  "id": "a94dabc2-9496-4401-98e9-b2d524d93067",
+  "question": "Wie viel Geld hat Olivia noch übrig, nachdem sie fünf Bagels gekauft hat?",
+  "reference_answer": "Olivia hat noch $8 übrig, nachdem sie fünf Bagels für jeweils $3 gekauft hat.",
+  "reference_context": "Document 1847: Unnamed: 0: 1847\ntext: Here are three examples how to do it,\\n Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\\n‘‘‘def solution():\\n \"\"\"Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\"\"\"\\n bagels = 5\\n bagel_cost\\n result = money_left\\n this question?\\n Q:\n\nmoney_initial = 23\\n money_spent = bagels *\n\nbagel_cost = 3\\n money_left = money_initial - money_spent\\n\n\nreturn result‘‘‘\\n ...... \\n How about\n\n79.30\n\nCode Synthesis\n\nHumanEval\n\nI want you act as a code completer. Given a code snippet, your objective is to complete the code and ensure that it can achieve the described functionality.\n\n79.88\n\nSDG\n\nText-to-SQL\n\nSpider\n\n### Complete sqlite SQL query only and with no explanation.\\n #\\n### Sqlite SQL tables, with their properties: \\n#\\n{table}\\n# {foreign_key}\\n#\\n### {question}\\n SELECT\n\n70.10\n\nIR\n\nRecommendation MovieLens\n\nI’ve watched the following movies in the past in order: \\n {user_his_text} \\n\\n Now there are {recall_budget} candidate movies that I can watch next: \\n {candidate_text_order} \\n Please rank these {recall_budget} movies by measuring the possibilities that I would like to watch next most, according to my watching history. Please think step by step. \\n Note that my most recently watched movie is {recent_item}. Please show me your ranking results with order numbers.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 1847,
+    "topic": "Evaluation of Language Models"
+  }
+}
+{
+  "id": "8a19844e-d132-43e0-aad8-676d0c8e17ab",
+  "question": "Was ist die Technik Automatic Multi-step Reasoning and Tool-use (ART)?",
+  "reference_answer": "Automatic Multi-step Reasoning and Tool-use (ART) ist eine Prompt-Engineering-Technik, die automatisiertes Chain-of-Thought-Prompting mit der Nutzung externer Tools kombiniert. Sie verbessert die Fähigkeit von großen Sprachmodellen (LLMs), komplexe Aufgaben zu bewältigen, die sowohl logisches Denken als auch die Interaktion mit externen Datenquellen oder Tools erfordern.",
+  "reference_context": "Document 4688: Unnamed: 0: 4688\ntext: A popular technique is the so called Automatic Multi- step Reasoning and Tool-use (ART).\n\nAutomatic Multi-step Reasoning and Tool-use (ART) [170] is a prompt engineering technique that combines automated chain of thought prompting with the use of external tools. ART represents a convergence of multiple prompt engineering strategies, enhancing the ability of Large Language Models\n\n(LLMs) to handle complex tasks that require both reasoning and interaction with external data sources or tools.\n\nART involves a systematic approach where, given a task and input, the system first identifies similar tasks from a task library. These tasks are then used as examples in the prompt, guiding the LLM on how to approach and execute the current task. This method is particularly effective when tasks require a combination of internal reasoning and external data processing or retrieval.\n\nE. LLM Agents\n\nThe idea of AI agents has been well-explored in the history of AI. An agent is typically an autonomous entity that can perceive the environment using its sensors, make a judgment based on the state it currently is, and accordingly act based on the actions that are available to it.\n\nIn the context of LLMs, an agent refers to a system based on a specialized instantiation of an (augmented) LLM that is capable of performing specific tasks autonomously. These agents are designed to interact with users and environment to make decisions based on the input and the intended goal of the interaction. Agents are based on LLMs equipped with the ability to access and use tools, and to make decisions based on the given input. They are designed to handle tasks that require a degree of autonomy and decision-making, typically beyond simple response generation.\n\nThe functionalities of a generic LLM-based agent include:\nref_doc_id: general_surveys\/2402.06196v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 4688,
+    "topic": "Others"
+  }
+}
+{
+  "id": "1d8272ea-30fb-486b-841a-497f214c5efe",
+  "question": "Wie kann man Mem und Memknn in das Aufmerksamkeitsmodell integrieren?",
+  "reference_answer": "Man könnte sie einfach kombinieren, um einen einzigen KV-Cache [Mem,Memknn] zu bilden, und qi über standardmäßige QKV-Aufmerksamkeit auf [Mem,Memknn] richten. Oder man könnte Mem und Memknn in separaten Aufmerksamkeitschritten verwenden.",
+  "reference_context": "Document 558: Unnamed: 0: 558\ntext: One might, for example, view the entire dataset as the context for predicting tokens. This allows us to retrieve the closest context situation in a set of sequences, rather than a given sequence prefix. Although we will restrict ourselves to context modeling for a single sequence, in this subsection, we discuss a relatively more general case.\n\nSuppose we have a set of keys {kj} with corresponding values {vj}, and suppose we store these key-value pairs in a vector database12. For each query qi, we find its k nearest neighbours by growing the radius of the sphere centered as qi until it contains k data points in {kj}. This results in a set of k keys along with their corresponding values, denoted by Memknn. As before, we denote Mem as the local memory for the query, such as the KV cache of neighboring tokens. Our goal is to attend query qi to both the local memory Mem and the long-term memory Memknn. There are, of course, several ways to incorporate Mem and Memknn into the attention model. For example, we might simply combine them to form a single KV cache [Mem,Memknn], and attend qi to [Mem,Memknn] via standard QKV attention. Or we might use Mem and Memknn in separate attention steps. An example of such approaches is the model developed by Wu et al. [2021].\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 558,
+    "topic": "Memory and Attention Mechanisms in Transformers"
+  }
+}
+{
+  "id": "bf76246f-65b9-44fa-aa41-d713bb35499e",
+  "question": "Was ist das Ziel von MI in Bezug auf LLMs?",
+  "reference_answer": "Das Ziel von MI ist es, die erlernten Verhaltensweisen eines LLMs in ihre einzelnen Komponenten zu reverse-engineeren, d.h. einen Prozess zu finden und zu verstehen, der menschlich interpretierbare Neuronen identifiziert.",
+  "reference_context": "Document 3980: Unnamed: 0: 3980\ntext: More specifically, the goal of MI is to reverse-engineer an LLM’s learned be- haviors into their individual components, i.e., a process to find and understand human-interpretable neurons. As an analogy, Olah [394] compares MI with reverse-engineering compiled program bina- ries into human-readable source code. For exam- ple, Elhage et al. [138]; discover that small Trans- formers have components that can be understood as interpretable circuits, while Olsson et al. [395] find a mechanism that seems to drive a significant fraction of in-context learning. Similarly, Meng et al. [360] aim to locate factual associations in language models. Nanda et al. [380] find that the emergent grokking phenomenon is not a sudden shift but rather arises from the gradual amplifi- cation of structured mechanisms encoded in the weights, followed by the later removal of memo-\n\nrizing components. Extending this work, Conmy et al. [99] propose a new algorithm to automate the identification of important units in a neural net- work. Given a model’s computational graph, this algorithm finds subgraphs that explain a particular behavior of the model. In a similar spirit, Liu et al. [339] introduce a method for making neural net- works more modular and interpretable by embed- ding neurons in a geometric space and augmenting the loss function with a cost proportional to the length of each neuron connection. This approach discovers useful modular neural networks for many simple tasks, revealing compositional structures in symbolic formulas, interpretable decision bound- aries, and features for classification, as well as mathematical structure in algorithmic datasets.\nref_doc_id: general_surveys\/2307.10169v1.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 3980,
+    "topic": "Large Language Models and Fine-Tuning"
+  }
+}
+{
+  "id": "a51da27f-cc75-4770-b235-62dafd33b7c8",
+  "question": "Wer sind die Autoren des Papiers 'Scaling language models: Methods, analysis & insights from training gopher'?",
+  "reference_answer": "J. W. Rae, S. Borgeaud, T. Cai, K. Millican, J. Hoffmann, F. Song, J. Aslanides, S. Henderson, R. Ring, S. Young, et al.",
+  "reference_context": "Document 145: Unnamed: 0: 145\ntext: [36] Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer: Hierarchical vision transformer using shifted windows,” in Proceedings of the IEEE\/CVF international conference on computer vision, pp. 10012–10022, 2021.\n\n[37] A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sastry, A. Askell, P. Mishkin, J. Clark, G. Krueger,\n\nand I. Sutskever, “Learning transferable visual models from natural language supervision,” 2021.\n\n[38] Q. Dong, L. Li, D. Dai, C. Zheng, Z. Wu, B. Chang, X. Sun, J. Xu, L. Li, and Z. Sui, “A survey on in-context learning,”\n\n2023.\n\n[39] J. W. Rae, S. Borgeaud, T. Cai, K. Millican, J. Hoffmann, F. Song, J. Aslanides, S. Henderson, R. Ring, S. Young, et al., “Scaling language models: Methods, analysis & insights from training gopher,” arXiv preprint arXiv:2112.11446, 2021.\nref_doc_id: general_surveys\/2303.04226v1.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 145,
+    "topic": "Neural Network Architectures and Language Models"
+  }
+}
+{
+  "id": "05ed2418-58aa-4acd-ba03-39e60c8fbee0",
+  "question": "Welche Ansätze gibt es zur Auswahl von Demonstrationen für ICL?",
+  "reference_answer": "Es gibt zwei Hauptansätze zur Auswahl von Demonstrationen: heuristische Ansätze und LLM-basierte Ansätze.",
+  "reference_context": "Document 1697: Unnamed: 0: 1697\ntext: To resolve this issue, diversity- based selection strategies are proposed to choose the most representative set of examples for specific tasks [483, 484].\n\n35. When ICL was introduced in the GPT-3’s paper [55], it was originally defined to be a combination of the task description and demonstration examples, wherein either component is dispensable. Following this definition, when a LLM is required to solve an unseen task by using only task descriptions, it can be also considered to perform ICL for task solving, whereas the ICL ability can be enhanced by instruction tuning.\n\nFurthermore, in [485], both relevance and diversity are taken into consideration when selecting demonstrations.\n\nLLM-based approaches. Another line of work selects demonstrations by making use of LLMs. For example, LLMs can be utilized to directly measure the informativeness of each example according to the performance gain after adding the example [486]. In addition, EPR [421] proposes a two-stage retrieval approach that first recalls similar ex- amples with an unsupervised method (e.g., BM25) and then ranks them using a dense retriever (trained with positive and negative examples labeled by LLMs). As an alterna- tive approach, the task of demonstration selection can be formulated into a RL problem, where LLMs serve as the reward function to provide feedback for training the policy model [487]. Since LLMs perform well for text annota- tion [488], some recent studies employ LLM itself as the demonstration generator without human intervention [489].\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 1696: Unnamed: 0: 1696\ntext: Demonstration Selection. The performance of ICL tends to have a large variance with different demonstration exam- ples [420], so it is important to select a subset of examples that can effectively leverage the ICL capability of LLMs. There are two main demonstration selection approaches, namely heuristic and LLM-based approaches:\n\nHeuristic approaches. Due to their simplicity and low costs, existing work widely adopts heuristic methods to select demonstrations. Several studies employ a k-NN based retriever to select examples that are semantically relevant to the query [420, 482]. However, they perform the selection individually for each example, rather than evaluating the example set as a whole. To resolve this issue, diversity- based selection strategies are proposed to choose the most representative set of examples for specific tasks [483, 484].\n\n35. When ICL was introduced in the GPT-3’s paper [55], it was originally defined to be a combination of the task description and demonstration examples, wherein either component is dispensable. Following this definition, when a LLM is required to solve an unseen task by using only task descriptions, it can be also considered to perform ICL for task solving, whereas the ICL ability can be enhanced by instruction tuning.\n\nFurthermore, in [485], both relevance and diversity are taken into consideration when selecting demonstrations.\n\nLLM-based approaches. Another line of work selects demonstrations by making use of LLMs. For example, LLMs can be utilized to directly measure the informativeness of each example according to the performance gain after adding the example [486].\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 1697,
+    "topic": "Others"
+  }
+}
+{
+  "id": "e88bb867-9fe8-419c-957f-c6d0ac1ccfb4",
+  "question": "Was ist der Unterschied zwischen Top-k Sampling und Top-p Sampling?",
+  "reference_answer": "Top-k Sampling wählt die nächsten Token aus einem festen Kandidatenpool basierend auf den höchsten Vorhersagewahrscheinlichkeiten aus, während Top-p Sampling die nächsten Token aus dem kleinsten Satz von Token auswählt, die zusammen eine kumulative Wahrscheinlichkeit höher als ein vordefinierter Schwellenwert p haben.",
+  "reference_context": "Document 1037: Unnamed: 0: 1037\ntext: We can define it as V i = {ytop1\n\n}\n\n(5.26)\n\nwhere {ytop1 } are the top-k tokens selected based on their prediction probabili- ties (see Eq. (5.22)). Once the selection pool is determined, we recompute the prediction probability distribution over V i. One of the simplest ways to do this is to renormalize their probabilities:\n\n,...,ytopk i\n\ni\n\nPr(yi|x,y<i) =\n\nP\n\nPr(yi|x,y<i)\n\nyj∈V i\n\nPr(yj|x,y<i)\n\n(5.27)\n\nAlternatively, we can calculate the distribution by using the Softmax function:\n\nPr(yi|x,y<i) =\n\nP\n\nexp(uyi)\n\nyj∈V i\n\nexp(uyj)\n\n(5.28)\n\nwhere uyi is the logit for token yi. Then, we sample a token ¯yi from this distribution:\n\n¯yi ∼ Pr(yi|x,y<i)\n\n(5.29)\n\nThe corresponding sequence is ¯y = y1...yi−1¯yi, and Yi is given by\n\nYi = {¯y}\n\n(5.30)\n\nTop-p Sampling. This sampling method, also known as nucleus sampling, follows a pro- cedure similar to that of top-k sampling. Instead of drawing from a fixed size candidate pool, it selects the next token from the smallest set of tokens that together have a cumulative probability higher than a predefined threshold p [Holtzman et al., 2020]. In this way we prevent the prediction from choosing from low-probability tokens in the long tail that could lead to incoherent or nonsensical outputs.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 1037,
+    "topic": "LLM Decoding and Sampling Methods"
+  }
+}
+{
+  "id": "f71065a2-2481-4457-91a3-a295168115d0",
+  "question": "Welche Methode wird zur automatischen Bewertung von maschineller Übersetzung in der Quelle [148] beschrieben?",
+  "reference_answer": "Bleu: eine Methode zur automatischen Bewertung von maschineller Übersetzung.",
+  "reference_context": "Document 4810: Unnamed: 0: 4810\ntext: [147] C.-Y. Lin, “ROUGE: A package for automatic evaluation of summaries,” in Text Summarization Branches Out. Barcelona, Spain: Association for Computational Linguistics, Jul. 2004, pp. 74–81. [Online]. Available: https:\/\/aclanthology.org\/W04-1013\n\n[148] K. Papineni, S. Roukos, T. Ward, and W.-J. Zhu, “Bleu: a method for automatic evaluation of machine translation,” in Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics, P. Isabelle, E. Charniak, and D. Lin, Eds. Philadelphia, Pennsylvania,\n\nUSA: Association for Computational Linguistics, Jul. 2002, pp. 311– 318. [Online]. Available: https:\/\/aclanthology.org\/P02-1040\n\n[149] B. Dhingra, M. Faruqui, A. Parikh, M.-W. Chang, D. Das, and W. Cohen, “Handling divergent reference texts when evaluating table-to-text generation,” in Proceedings of the 57th Annual Meeting the Association for Computational Linguistics, A. Korhonen, of D. Traum, and L. M`arquez, Eds. Italy: Association for Computational Linguistics, Jul. 2019, pp. 4884–4895. [Online].\nref_doc_id: general_surveys\/2402.06196v3.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 4810,
+    "topic": "Hallucination Detection in Language Models"
+  }
+}
+{
+  "id": "8178e4dd-a36d-487b-89ae-a191b2b9b3fd",
+  "question": "Wer ist der CEO der European Tourism Organisation laut dem Text?",
+  "reference_answer": "Tom Jenkins",
+  "reference_context": "Document 660: Unnamed: 0: 660\ntext: “I think the UK is doing perfectly well but we’ll see more people going to Europe,” he says of 2024, adding that there’s “allegedly a slight plateau of American de- mand for the UK.”\n\nThe person name identified in the provided text is: Tom Jenkins\n\nThen, we can extract all named entities.\n\nIdentify and classify all named entities in the provided text into categories such as person names, locations, dates, and organizations. List each entity with its type on one line.\n\nText: Is the UK really doing that badly or have travel trends shifted, post-pandemic? For Tom Jenkins, CEO of the European Tourism Organisation, it’s the latter. “I think the UK is doing perfectly well but we’ll see more people going to Europe,” he says of 2024, adding that there’s “allegedly a slight plateau of American de- mand for the UK.”\n\n1. Tom Jenkins - Person Name\n\n2. European Tourism Organisation - Organization\n\n3. UK - Location\n\n4. Europe - Location\n\n5. 2024 - Date\n\nGiven these identified named entities, we can further process the text using other information extraction tasks. For example, we can identify the relationships between these named entities (call it relation extraction). The corresponding prompt is shown as follows.\n\n109\n\n110\n\nPrompting\n\nGiven a text and a list of named entities identified within it, analyze and describe the relationships between these entities. Explain how each entity is contextually related to others.\n\nText: Is the UK really doing that badly or have travel trends shifted, post-pandemic? For Tom Jenkins, CEO of the European Tourism Organisation, it’s the latter.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 660,
+    "topic": "Natural Language Processing Techniques"
+  }
+}
+{
+  "id": "ca4c212d-6335-495d-b13d-79c82562f3c7",
+  "question": "Welche Parameter werden beim Fine-Tuning verwendet?",
+  "reference_answer": "Beim Fine-Tuning werden die vortrainierten Parameter ˆθ verwendet, die mit ˆθ+ notiert sind.",
+  "reference_context": "Document 451: Unnamed: 0: 451\ntext: We can modify Eq. (2.14) to obtain the objective of fine-tuning\n\n˜θ = argmax\n\nˆθ+\n\nX\n\nsample∈Dtune\n\nLˆθ+(sample)\n\n(2.16)\n\nHere ˜θ denotes the optimal parameters. The use of notation ˆθ+ means that the fine-tuning starts with the pre-trained parameters ˆθ.\n\nFor each sample ∈ Dtune, we divide it into an input segment xsample and an output segment\n\nysample, that is,\n\nsample = [ysample,xsample]\n\n(2.17)\n\nWe then define the loss function to be\n\nLˆθ+(sample) = −logPrˆθ+(ysample|xsample)\n\n(2.18)\n\nIn other words, we compute the loss over the sub-sequence ysample, rather than the entire sequence. In a practical implementation of back-propagation for this equation, the sequence [ysample,xsample] is constructed in the forward pass as usual. However, in the backward pass, error gradients are propagated back only through the parts of the network that correspond to ysample, leaving the rest of the network unchanged. As an example, consider a sequence\n\n⟨s⟩ Square this number . 2 . | {z } Context (Input)\n\nThe result is 4 . | } {z Prediction (Output)\n\nThe loss is calculated and back propagated only for The result is 4 ..\n\nInstruction fine-tuning also requires substantial engineering work. In order to achieve satis- factory results, one may experiment with different settings of the learning rate, batch size, number of fine-tuning steps, and so on. This typically requires many fine-tuning runs and evaluations.\nref_doc_id: general_surveys\/2501.09223v2.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 451,
+    "topic": "Large Language Model Fine-Tuning"
+  }
+}
+{
+  "id": "a45a6c23-f57b-42d2-9ef0-f80599aff5bb",
+  "question": "Wer sind die Autoren des Artikels über 'Selfcheck-gpt'?",
+  "reference_answer": "Die Autoren sind P. Manakul, A. Liusie und M. J. F. Gales.",
+  "reference_context": "Document 2463: Unnamed: 0: 2463\ntext: abs\/2207.05221, 2022. [666] P. Manakul, A. Liusie, and M. J. F. Gales, “Selfcheck- gpt: Zero-resource black-box hallucination detection for generative large language models,” ArXiv, vol. abs\/2305.06983, 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf\n\nDocument 2464: Unnamed: 0: 2464\ntext: abs\/2207.05221, 2022. [666] P. Manakul, A. Liusie, and M. J. F. Gales, “Selfcheck- gpt: Zero-resource black-box hallucination detection for generative large language models,” ArXiv, vol. abs\/2305.06983, 2023.\n\n[667] S. Agarwal, I. Akkaya, V. Balcom, M. Bavarian, G. Bernadett-Shapiro, G. Brockman, M. Brundage, J. Chan, F. Chantzis, N. Deutsch, B. Eastman, A. Eleti, N. Felix, S. P. Fishman, I. Fulford, C. Gibson, J. Gross, M. Heaton, J. Hilton, X. Hu, S. Jain, H. Jin, L. Kil- patrick, C. Kim, M. Kolhede, A. Mayne, P. McMil- lan, D. Medina, J. Menick, A. Mishchenko, A. Nair, R. Nayak, A. Neelakantan, R. Nuttall, J. Parish, A. T. Passos, A. Perelman, F. de Avila Belbute Peres, V. Pong, J. Schulman, E. Sigler, N. Staudacher, N. Tur- ley, J. Tworek, R. Greene, A. Vijayvergiya, C. Voss, J. Weng, M. Wiethoff, S. Yoo, K. Yu, W. Zaremba, S. Zhao, W. Zhuk, and B. Zoph, “Chatgpt plugins,” OpenAI Blog, March 2023.\nref_doc_id: general_surveys\/2303.18223v16.pdf",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "simple",
+    "seed_document_id": 2463,
+    "topic": "Others"
+  }
+}

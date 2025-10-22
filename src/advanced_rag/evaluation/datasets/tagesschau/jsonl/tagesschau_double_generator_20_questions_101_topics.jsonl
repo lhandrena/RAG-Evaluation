@@ -1,0 +1,440 @@
+{
+  "id": "19e6f410-a101-40d4-bf3c-e2a0dccaad3e",
+  "question": "Warum dürfen Geschenke an die Royals nicht verkauft oder getauscht werden und warum gab es Kritik an der US-Regierung wegen der neuen Air Force One?",
+  "reference_answer": "Geschenke an die Royals dürfen nicht verkauft oder getauscht werden, da sie nicht als privates Eigentum betrachtet werden und Teil der königlichen Sammlung werden; es gab Kritik an der US-Regierung wegen der neuen Air Force One, weil sie ein teures Geschenk einer Boeing 747-8 aus Katar akzeptierte, was rechtliche und ethische Fragen aufwarf.",
+  "reference_context": "Document 934: Unnamed: 0: 934\ntext: Die Gegenstände würden aber nicht als privates Eigentum der Royals betrachtet. Geschenke dürfen demnach nicht verkauft oder getauscht werden, sondern werden schließlich Teil der königlichen Sammlung.\nKritik an US-Regierung wegen neuer Air Force One\nEin nicht gekröntes Staatsoberhaupt sorgte unlängst für Kritik wegen einer Schenkung aus Katar: Die Regierung von US-Präsident Donald Trump gab bekannt, sie akzeptiere in Übereinstimmung mit allen Regeln und Vorschriften eine Maschine vom Typ Boeing 747-8, die für Trump zum Regierungsflieger Air Force One aufgerüstet werden soll. Berichten zufolge hat das Flugzeug einen Wert von etwa 400 Millionen US-Dollar (derzeit 355 Millionen Euro).\nDas teure Geschenk eines ausländischen Partners wirft rechtliche und ethische Fragen auf. Demokraten sprechen von \"blanker Korruption\" und haben mit Protestaktionen im US-Parlament gedroht.\nref_doc_id: 2025-05-31\/ausland\/article_15.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Warum dürfen Geschenke an die Royals nicht verkauft oder getauscht werden?",
+        "answer": "Die Gegenstände würden nicht als privates Eigentum der Royals betrachtet und werden schließlich Teil der königlichen Sammlung."
+      },
+      {
+        "question": "Warum gab es Kritik an der US-Regierung wegen der neuen Air Force One?",
+        "answer": "Es gab Kritik, weil die US-Regierung unter Donald Trump ein teures Geschenk einer Boeing 747-8 aus Katar akzeptierte, was rechtliche und ethische Fragen aufwarf."
+      }
+    ],
+    "seed_document_id": 934,
+    "topic": "Donald Trump und transatlantische Beziehungen"
+  }
+}
+{
+  "id": "2bf8fdb4-efa9-4be8-9512-a1170940e2fe",
+  "question": "Warum sucht Dänemark europäische Unterstützung in Bezug auf Grönland und welche Maßnahmen plant es, um seine Präsenz in der Arktis zu stärken?",
+  "reference_answer": "Dänemark sucht europäische Unterstützung, um sich für den Fall abzusichern, dass Trump seine Drohungen wahr macht und Dänemark gegenüber Macht anwendet in Bezug auf Grönland. Zudem plant Dänemark, knapp zwei Milliarden Euro in drei neue Schiffe, Langstreckendrohnen zur Überwachung der Region und verstärkte Satellitenkapazitäten zu investieren, um seine Präsenz in der Arktis zu stärken.",
+  "reference_context": "Document 344: Unnamed: 0: 344\ntext: Umso wichtiger scheint für die Dänen die Rückendeckung aus dem Ausland.\n\"Der geringen Größe bewusst\"\nBei Frederiksens Kurztrips nach Berlin, Paris und Brüssel geht es genau darum - \"sich europäische Unterstützung zu sichern für den Fall, dass Trump seine Drohungen wahr macht und Dänemark gegenüber Macht anwendet in Bezug auf Grönland\", sagte der EU-Korrespondent des dänischen Rundfunks, Ole Ryborg.\nBei NATO-Chef Rutte könnte Frederiksen auf einen stärkeren Fokus des Bündnisses auf die Sicherheit der Arktis hinarbeiten. \"Denn wenn die NATO diese garantiert, existiert das Problem nicht mehr, das Trump vorgibt\", sagte Ryborg.\nDie Drohgebärden aus den mächtigen USA sorgen dafür, dass Dänemark sich auf einmal wieder seiner eigenen geringen Größe bewusst wird. \"Dänemark ist so ein kleines Land. Wenn die Amerikaner es überrollen wollen, ist das kein Problem, das ist ein Leichtes für sie\", meint der EU-Korrespondent.\nMit EU und NATO im Rücken aber ist Dänemark stärker. Deren Unterstützung in Sachen Trump ist für das kleine Königreich deshalb entscheidend.\nref_doc_id: 2025-01-28\/ausland\/article_6.md\n\nDocument 343: Unnamed: 0: 343\ntext: Frederiksen und ihre Regierung trauen Trump alles zu - und versuchen sich zu wappnen.\n\"Trump ein Gefühl des Siegs geben\"\nUnter anderem wollen die Dänen ihre Präsenz auf der Arktisinsel stärken. Umgerechnet knapp zwei Milliarden Euro will das Land etwa in drei neue Schiffe und Langstreckendrohnen zur Überwachung der Region investieren. Auch verstärkte Satellitenkapazitäten sind Teil des Abkommens.\nEs stecke aber noch eine andere Absicht dahinter, sagte Jon Rahbek-Clemmensen von der dänischen Verteidigungsakademie dem dänischen Rundfunk. \"Dänemark will Donald Trump ein Gefühl des Siegs geben\", so der Experte. \"Indem man mehr in die militärischen Kapazitäten in Grönland investiert, hofft man, dass Trump das zum Anlass nimmt zu sagen: Guckt mal, was ich aus dieser ganzen Grönland-Geschichte rausgeholt habe.\"\nÜber die dänische Militärpräsenz in der Arktis hatte sich Trump zuvor lustig gemacht. Wie viel die schon länger geplanten Investitionen tatsächlich bringen - da sind sich Beobachter noch unsicher. Umso wichtiger scheint für die Dänen die Rückendeckung aus dem Ausland.\n\"Der geringen Größe bewusst\"\nBei Frederiksens Kurztrips nach Berlin, Paris und Brüssel geht es genau darum - \"sich europäische Unterstützung zu sichern für den Fall, dass Trump seine Drohungen wahr macht und Dänemark gegenüber Macht anwendet in Bezug auf Grönland\", sagte der EU-Korrespondent des dänischen Rundfunks, Ole Ryborg.\nBei NATO-Chef Rutte könnte Frederiksen auf einen stärkeren Fokus des Bündnisses auf die Sicherheit der Arktis hinarbeiten. \"Denn wenn die NATO diese garantiert, existiert das Problem nicht mehr, das Trump vorgibt\", sagte Ryborg.\nref_doc_id: 2025-01-28\/ausland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Warum sucht Dänemark europäische Unterstützung in Bezug auf Grönland?",
+        "answer": "Dänemark sucht europäische Unterstützung, um sich für den Fall abzusichern, dass Trump seine Drohungen wahr macht und Dänemark gegenüber Macht anwendet in Bezug auf Grönland."
+      },
+      {
+        "question": "Welche Maßnahmen plant Dänemark, um seine Präsenz in der Arktis zu stärken?",
+        "answer": "Dänemark plant, knapp zwei Milliarden Euro in drei neue Schiffe, Langstreckendrohnen zur Überwachung der Region und verstärkte Satellitenkapazitäten zu investieren."
+      }
+    ],
+    "seed_document_id": 344,
+    "topic": "Transatlantische Beziehungen und Sicherheitspolitik"
+  }
+}
+{
+  "id": "c7f66581-ed33-44cc-8d71-b5f71e43ceb0",
+  "question": "Was möchte die SPD bezüglich des Rentenniveaus erreichen und welche Maßnahme schlägt die Union zur Wirtschaftsförderung vor?",
+  "reference_answer": "Die SPD möchte das Durchschnittsniveau der Rente von 48 Prozent vom letzten Bruttolohn auf Dauer festschreiben, während die Union auf einen umfassenden Bürokratieabbau dringt, durch den viele Betriebe bares Geld sparen könnten.",
+  "reference_context": "Document 655: Unnamed: 0: 655\ntext: Rente\n48 Prozent vom letzten Bruttolohn soll die Rente betragen - die SPD möchte dieses Durchschnittsniveau gerne auf Dauer festschreiben. Das würde allerdings bedeuten, dass die Rentenbeiträge der Berufstätigen deutlich anstiegen - und der Steuerzuschuss des Bundes an die Rentenkasse.\nDie Union ist deswegen skeptisch, sie möchte, dass die Menschen länger arbeiten. Instrumente könnten sein: weniger Steuern auf Überstunden und ein erleichterter Hinzuverdienst für Ruheständler. Die meisten Beobachter bezweifeln, dass Union und SPD eine durchgreifende Reform des Rentensystems hinkriegen - etwa die Altersbezüge an die Inflation zu koppeln statt an die Lohnentwicklung.\nDie Ausweitung der Mütterrente dagegen, ein Wunsch der CSU, dürfte kommen - unklar ist, ob diese Leistung aus der Rentenkasse oder direkt vom Bund, also aus Steuermitteln, finanziert wird.\nWirtschaftsförderung\nOhne eine konjunkturelle Belebung wird es schwierig für jede neue Regierung - das ist beiden Seiten klar. Neben der Steuerbelastung der Unternehmen haben Union und SPD vor allem die Energiepreise im Visier. Deswegen wollen sie die Stromsteuer senken, davon würden auch private Haushalte profitieren. Auch hier ist die Finanzierung aber noch ungeklärt.\nAußerdem dringt die Union auf einen umfassenden Bürokratieabbau - durch den könnten viele Betriebe bares Geld sparen.\nKlimaschutz\nOffen ist, was aus dem sogenannten Heizungsgesetz wird - und damit aus der üppigen Förderung CO2-freier Heizungsanlagen in Privathäusern. Der Union ist das Gebäudeenergiegesetz mit seiner Regulierungsdichte ein Dorn im Auge. Dass die Zuschüsse für die private Heizungssanierung ganz wegfallen, ist aber unwahrscheinlich.\nref_doc_id: 2025-03-31\/inland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was möchte die SPD bezüglich des Rentenniveaus erreichen?",
+        "answer": "Die SPD möchte das Durchschnittsniveau der Rente von 48 Prozent vom letzten Bruttolohn auf Dauer festschreiben."
+      },
+      {
+        "question": "Welche Maßnahme schlägt die Union zur Wirtschaftsförderung vor?",
+        "answer": "Die Union dringt auf einen umfassenden Bürokratieabbau, durch den viele Betriebe bares Geld sparen könnten."
+      }
+    ],
+    "seed_document_id": 655,
+    "topic": "Koalitionsverhandlungen und Finanzpolitik in Deutschland"
+  }
+}
+{
+  "id": "11ffaa72-a5d3-4692-8351-8172e2842901",
+  "question": "Welche Sonderkosten haben das operative Ergebnis des Unternehmens beeinflusst und welche positiven Entwicklungen sieht Finanzchef Arno Antlitz für das Unternehmen?",
+  "reference_answer": "Sonderprobleme wie CO2-Rückstellungen in Europa, der Umbau bei der Softwaretochter Cariad sowie Rücklagen für den Dieselskandal sorgten für Sonderkosten in Höhe von rund 1,1 Milliarden Euro, während Arno Antlitz positive Entwicklungen im steigenden Auftragseingang in Westeuropa und im erhöhten Absatz von E-Autos in dieser Region sieht.",
+  "reference_context": "Document 863: Unnamed: 0: 863\ntext: Sonderprobleme wie CO2-Rückstellungen in Europa, der Umbau bei der Softwaretochter Cariad sowie Rücklagen für den Dieselskandal hatten für Sonderkosten in Höhe von rund 1,1 Milliarden Euro gesorgt, deshalb sackte das operative Ergebnis um rund 37 Prozent auf 2,9 Milliarden Euro. Der Konzernumsatz stieg hingegen um knapp 3 Prozent auf 77,6 Milliarden Euro.\nWie wirken sich die Zölle aus?\nFür die kommenden Monate bleibt das Management vorsichtig. An seiner Prognose für das Gesamtjahr hält das Unternehmen zwar fest und rechnet weiter mit einer Rendite zwischen 5,5 und 6,5 Prozent. Allerdings geht der Autobauer davon aus, dass sie sich am unteren Ende der Bandbreite bewegt.\nHerausforderungen ergäben sich insbesondere aus einem Umfeld politischer Unsicherheit, zunehmender Handelsbeschränkungen und geopolitischer Spannungen, der steigenden Wettbewerbsintensität, volatilen Rohstoff-, Energie- und Devisenmärkten sowie aus verschärften emissionsbezogenen Anforderungen, teilte der Konzern mit. Die jüngsten Autozölle in den USA sind in der Prognose noch nicht enthalten.\nKostenstruktur im Blick\n\"Gerade weil die weltweiten ökonomischen Rahmenbedingungen gegenwärtig so unsicher sind, müssen wir uns auf die Dinge konzentrieren, die wir selbst beeinflussen können\", sagte Finanzchef Arno Antlitz. \"Das heißt: Zu unserem starken Angebot an Fahrzeugen müssen wir eine wettbewerbsfähige Kostenstruktur sicherstellen, damit wir auch in einer sich schnell verändernden Welt erfolgreich bleiben.\"\nAntlitz sieht auch positive Entwicklungen: Der Auftragseingang in Westeuropa sei deutlich gestiegen, und die Auftragsbücher füllten sich schnell. \"Der Absatz von E-Autos habe sich in Westeuropa deutlich erhöht\", unterstreicht er.\nref_doc_id: 2025-04-30\/wirtschaft\/article_11.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Sonderkosten haben das operative Ergebnis des Unternehmens beeinflusst?",
+        "answer": "Sonderprobleme wie CO2-Rückstellungen in Europa, der Umbau bei der Softwaretochter Cariad sowie Rücklagen für den Dieselskandal sorgten für Sonderkosten in Höhe von rund 1,1 Milliarden Euro."
+      },
+      {
+        "question": "Welche positiven Entwicklungen sieht Finanzchef Arno Antlitz für das Unternehmen?",
+        "answer": "Arno Antlitz sieht positive Entwicklungen im steigenden Auftragseingang in Westeuropa und im erhöhten Absatz von E-Autos in dieser Region."
+      }
+    ],
+    "seed_document_id": 863,
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "6d587001-112f-41fe-8072-fcc6c59304d9",
+  "question": "Wie haben einige Unternehmen auf die Herausforderungen von DEI-Programmen reagiert und welche langfristigen Folgen könnten sich aus Trumps Politik in Bezug auf Vielfalt und Inklusion ergeben?",
+  "reference_answer": "Einige Unternehmen wie Meta oder Google distanzierten sich von ihren DEI-Leitlinien, während andere versuchen, die positiven Effekte zu erhalten, indem sie ihr Vokabular angepasst haben oder, wie die Supermarktkette Target, aus DEI-Programmen aussteigen. Trumps Politik könnte langfristig negative Konsequenzen haben, da die Bevölkerung immer diverser wird, aber gleichzeitig ein Rückzug in der Erziehung von jungen Leuten, Arbeitern und Institutionen zu beobachten ist, was zu einer verlorenen Generation führen könnte.",
+  "reference_context": "Document 970: Unnamed: 0: 970\ntext: Einige Unternehmen werden vorsichtiger\nDoch die Stimmung drehte sich bereits vor Trumps Amtsantritt. Denn DEI-Programme kosten Geld, und ihr Erfolg lässt sich nicht immer in Zahlen messen. Hinzu kam ein Urteil des Obersten Gerichtshofs, das eine besondere Förderung von Minderheiten an Universitäten untersagte. Das machte Unternehmen und Behörden vorsichtiger. Die Investitionen in DEI-Programme nahmen ab - bis Trumps Verordnung dann auch politisch einen Schlussstrich zog.\nEinige Unternehmen wie die Tech-Giganten Meta oder Google distanzierten sich öffentlich von ihren DEI-Leitlinien. Andere versuchen, die positiven Effekte zu erhalten.\n\"Ich glaube, viele Unternehmen, die divers sind, sind auch innovativer, haben höhere Einnahmen und machen grundsätzlich einen besseren Job als Firmen, die weniger divers sind\", sagt Soziologin Adia Wingfield von der Washington University in St. Louis. Deshalb sei jetzt die Herausforderung für diese Firmen: \"Wie erreichen sie weiterhin ihre Ziele, ohne Aufmerksamkeit auf sich zu ziehen, die zu Gerichtsverfahren oder anderen Konsequenzen durch Bundesbehörden führen könnte?\"\nSo unterschiedlich reagieren die Unternehmen\nManche Unternehmen haben ihr Vokabular angepasst: Statt von \"Equity\" (Gerechtigkeit) ist jetzt häufiger von \"Belonging\" (Zugehörigkeit) die Rede. Selbst innerhalb einzelner Branchen unterscheiden sich die Reaktionen. So kündigte die Supermarktkette Target Anfang 2025 an, aus DEI-Programmen auszusteigen. Die Reaktion: Boykott-Aufrufe aus der Schwarzen Community und sinkende Umsätze.\nDie Supermarktkette Costco hingegen bleibt ihren Prinzipien treu - und wird von Kundinnen und Kunden dafür gelobt: \"Wenn sie divers sind, erkenne ich mich wieder, dann fühle ich mich besser, da mein Geld auszugeben.\nref_doc_id: 2025-05-31\/wirtschaft\/article_0.md\n\nDocument 971: Unnamed: 0: 971\ntext: So unterschiedlich reagieren die Unternehmen\nManche Unternehmen haben ihr Vokabular angepasst: Statt von \"Equity\" (Gerechtigkeit) ist jetzt häufiger von \"Belonging\" (Zugehörigkeit) die Rede. Selbst innerhalb einzelner Branchen unterscheiden sich die Reaktionen. So kündigte die Supermarktkette Target Anfang 2025 an, aus DEI-Programmen auszusteigen. Die Reaktion: Boykott-Aufrufe aus der Schwarzen Community und sinkende Umsätze.\nDie Supermarktkette Costco hingegen bleibt ihren Prinzipien treu - und wird von Kundinnen und Kunden dafür gelobt: \"Wenn sie divers sind, erkenne ich mich wieder, dann fühle ich mich besser, da mein Geld auszugeben. Ich habe ein besseres Gefühl, wenn sie auch dafür einstehen, für das, was sie schon erreicht haben\", so eine Umfrage der Radiosendung Marketplace.\nLangfristige Folgen von Trumps Politik?\nDie Grundsätze Vielfalt, Gerechtigkeit und Inklusion schaffen nicht automatisch eine bessere Arbeitswelt - das hat Adia Wingfield in ihren Forschungen festgestellt. Aber Trumps Politik könnte langfristig Spuren hinterlassen. \"Die größte Beunruhigung dabei ist, dass unsere Bevölkerung gerade immer diverser wird. Gleichzeitig sehen wir diesen Rückzug in der Erziehung von jungen Leuten, Arbeitern, Führungskräften, Institutionen, wie man mit dieser Vielfalt klarkommt\", so Wingfield. \"Wir werden möglicherweise eine verlorene Generation sehen. Wir werden langfristige, negative Konsequenzen sehen - selbst wenn es irgendwann einen Punkt gibt, an dem es wieder vorwärts geht.\"\nWeniger oder mehr Antidiskriminierungsgesetze: Die Bewegung verlief in den vergangenen Jahren wellenartig. Vielleicht bringt die nächste Welle wieder einen anderen Schwerpunkt - und die nächste Wahl einen anderen US-Präsidenten.\nref_doc_id: 2025-05-31\/wirtschaft\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie haben einige Unternehmen auf die Herausforderungen von DEI-Programmen reagiert?",
+        "answer": "Einige Unternehmen wie Meta oder Google distanzierten sich von ihren DEI-Leitlinien, während andere versuchen, die positiven Effekte zu erhalten. Manche Unternehmen haben ihr Vokabular angepasst, und die Supermarktkette Target kündigte an, aus DEI-Programmen auszusteigen."
+      },
+      {
+        "question": "Welche langfristigen Folgen könnten sich aus Trumps Politik in Bezug auf Vielfalt und Inklusion ergeben?",
+        "answer": "Trumps Politik könnte langfristig negative Konsequenzen haben, da die Bevölkerung immer diverser wird, aber gleichzeitig ein Rückzug in der Erziehung von jungen Leuten, Arbeitern und Institutionen zu beobachten ist. Dies könnte zu einer verlorenen Generation führen."
+      }
+    ],
+    "seed_document_id": 970,
+    "topic": "Others"
+  }
+}
+{
+  "id": "90358f72-d4a3-476c-a61c-83173213b893",
+  "question": "Welche US-Bundesstaaten bieten großzügige Steuervorteile für Filmproduktionen und wie viel hat Kaliforniens Gouverneur Newsom an Steuervorteilen für die Filmindustrie ins Budget eingeplant?",
+  "reference_answer": "In Georgia, New Mexiko und New York City gibt es großzügige Steuervorteile für Filmproduktionen, und Kaliforniens Gouverneur Newsom hat bis zu 750 Millionen Dollar an Steuervorteilen für die Filmindustrie ins Budget eingeplant.",
+  "reference_context": "Document 1332: Unnamed: 0: 1332\ntext: Nun sei das fast gar nicht mehr so.\nAndere Bundesstaaten ziehen nach\nSelbst in anderen US-Bundesstaaten finden mittlerweile eine Menge Produktionen statt, sagt Diffie: etwa in Georgia und New Mexiko oder in New York City. Dort werden zum Teil neue, moderne Studios gebaut. Das hängt damit zusammen, dass es dort großzügige Steuervorteile gibt.\nKaliforniens Gouverneur Newsom hat deshalb im vergangenen Herbst nachgezogen, um so Jobs und Investitionen im Staat zu halten. Bis zu 750 Millionen Dollar an Steuervorteilen für die Filmindustrie hat er ins Budget eingeplant. Diffie findet, das komme zu spät und es sei zu wenig im Vergleich zu dem, was andere Bundesstaaten bieten.\nProblem \"Made in USA\"\nDas Hollywood-Problem ist also zumindest zum Teil \"Made in USA\". Und: Filme werden seit ewigen Zeiten und aus gutem Grund auch oder sogar großteils \"on location\" gedreht - oft sogar genau da, wo sie spielen.\nHollywood kann großartige Kulissen bauen, und für Filme wie \"Titanic\" ist das auch sinnvoll. Die neue \"Mission Impossible\"-Folge dagegen lebt wieder einmal auch von Drehs an Originalschauplätzen. Studios dürften nicht begeistert sein, wenn solche Produktionen pauschal mit 100 Prozent Strafzoll belegt würden.\nTrump hat inzwischen angekündigt, er wolle mit Industrievertretern sprechen. \"Es geht um Jobs, und wir werden sie zurückbekommen\", sagt Trump. Maskenbildnerin Diffie liegt zwar eigentlich nicht auf seiner politischen Linie - trotzdem würde sie gerne daran glauben.\nref_doc_id: 2025-05-06\/wirtschaft\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche US-Bundesstaaten bieten großzügige Steuervorteile für Filmproduktionen?",
+        "answer": "In Georgia, New Mexiko und New York City gibt es großzügige Steuervorteile für Filmproduktionen."
+      },
+      {
+        "question": "Wie viel hat Kaliforniens Gouverneur Newsom an Steuervorteilen für die Filmindustrie ins Budget eingeplant?",
+        "answer": "Kaliforniens Gouverneur Newsom hat bis zu 750 Millionen Dollar an Steuervorteilen für die Filmindustrie ins Budget eingeplant."
+      }
+    ],
+    "seed_document_id": 1332,
+    "topic": "Others"
+  }
+}
+{
+  "id": "21c0a83c-7aa3-4fbd-b1db-c1e5d11bb05a",
+  "question": "Was ist beim israelisch-palästinensischen Gedenken in Tel Aviv passiert und wie reagierte der israelische Oppositionspolitiker Jair Golan auf die Vorfälle?",
+  "reference_answer": "Ultrarechte Aktivisten haben Teilnehmer einer israelisch-palästinensischen Gedenkfeier angegriffen, was zu Panik führte, und Jair Golan zeigte sich empört und sprach von organisierter Gewalt gegen Friedensstifter am Gedenktag.",
+  "reference_context": "Document 800: Unnamed: 0: 800\ntext: Übergriffe Ultrarechter\nVerletzte bei israelisch-palästinensischem Gedenken\nStand: 30.04.2025 12:29 Uhr\nUltrarechte Aktivisten haben am israelischen Gedenktag Teilnehmer einer israelisch-palästinensischen Gedenkfeier angegriffen. In Tel Aviv kam es zu einer Panik. Präsident Herzog appellierte an die Öffentlichkeit.\nIn Israel ist es bei der Übertragung einer gemeinsamen israelisch-palästinensischen Gedenkfeier zu gewaltsamen Konfrontationen gekommen. Ultrarechte Aktivisten hätten sich mit Zusehern der Übertragung und Polizisten Zusammenstöße geliefert, berichtete der israelische Rundfunk.\nBei dem Vorfall gestern Abend vor einer Synagoge in Raanana bei Tel Aviv seien vier Polizisten verletzt und drei Personen festgenommen worden. Etwa 30 Angreifer warfen nach Medienberichten Steine auf die Synagoge und zerschmetterten die Windschutzscheibe eines Fahrzeugs.\nIn den vergangenen Jahren waren zum Soldatengedenktag bereits ähnliche Treffen organisiert worden, bei denen Israelis und Palästinenser gemeinsam ihrer Angehörigen gedenken, die im Konflikt beider Völker ums Leben gekommen sind. Dabei kommt es immer wieder zu Ausschreitungen ultrarechter Randalierer.\nGolan spricht von organisierter Gewalt\nDer linksliberale israelische Oppositionspolitiker Jair Golan zeigte sich empört. Er schrieb auf der Plattform X zu dem Vorfall: \"Am Gedenktag, als sich ganz Israel versammelt, um an einem Abend voller Trauer und Schmerz seiner Gefallenen zu gedenken, wurden Friedensstifter Opfer organisierter Gewalt.\"\nDies sei weder ein Einzelfall noch handele es sich um Randfiguren, so Golan.\nref_doc_id: 2025-04-30\/ausland\/article_11.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist beim israelisch-palästinensischen Gedenken in Tel Aviv passiert?",
+        "answer": "Ultrarechte Aktivisten haben Teilnehmer einer israelisch-palästinensischen Gedenkfeier angegriffen, was zu Panik führte."
+      },
+      {
+        "question": "Wie reagierte der israelische Oppositionspolitiker Jair Golan auf die Vorfälle?",
+        "answer": "Jair Golan zeigte sich empört und sprach von organisierter Gewalt gegen Friedensstifter am Gedenktag."
+      }
+    ],
+    "seed_document_id": 800,
+    "topic": "Others"
+  }
+}
+{
+  "id": "60b6b98d-01f8-4d79-8e01-3bd6815a9d9f",
+  "question": "Was erwartet Donald Tusk von anderen Ländern in Bezug auf Polens Verteidigung und Schutz der Ostgrenze und welche innenpolitischen Herausforderungen hat er in Polen?",
+  "reference_answer": "Donald Tusk erwartet nicht nur Verständnis, sondern auch volle Unterstützung bei den Aufgaben der Verteidigung und des Schutzes der Ostgrenze, und er muss sich gegenüber der rechtspopulistischen PiS-Partei behaupten, da in Polen Präsidentschaftswahlen anstehen.",
+  "reference_context": "Document 1465: Unnamed: 0: 1465\ntext: \"Erwarten nicht nur Verständnis, sondern Unterstützung\"\nDonald Tusk nickt. Das alles sind Aussagen, die in Polen gut ankommen. Aber, sagt er, sie würden sich zu lange und zu gut kennen, um nicht zu wissen, dass auch komplizierte Gespräche anstehen. \"Ich möchte, dass jeder weiß, dass Polen die gesamte Last bei der Verteidigung und beim Schutz der Ostgrenze trägt\", sagt Tusk.\nSein Land habe Milliarden Złoty in die Infrastruktur investiert, um irreguläre Migration zu stoppen und die Sicherheit \"angesichts einer möglichen Aggression unseres östlichen Nachbarns\" zu erhöhen. \"Wir erwarten nicht nur Verständnis, sondern auch volle Unterstützung bei diesen Aufgaben.\"\nTusk: Polen hat eigene innenpolitische Herausforderungen\nUnd zwar gemeinsam an der EU-Außengrenze statt mit Kontrollen nur an den deutschen Grenzen. Polen werde keine Geflüchteten aus Deutschland aufnehmen, sagt Tusk. Merz beschwichtigt. \"Wir wollen gemeinsam die europäische Einwanderungs- und Asylpolitik fortentwickeln und wir werden auch Grenzkontrollen vornehmen in einer Art und Weise, die für unsere Nachbarn verträglich ist.\"\nAuch Tusk weiß, dass Merz innenpolitisch unter Druck steht. Doch \"die AfD, das ist Ihr Problem, Herr Bundeskanzler\", sagt der polnische Premier. Er habe in Polen seine eigenen Herausforderungen. In Polen stehen Präsidentschaftswahlen an. Tusk muss sich gegenüber der rechtspopulistischen PiS-Partei behaupten. Dabei könne Merz ihm helfen, sagt der polnische Premier. So könne er in den deutsch-polnischen Beziehungen tatsächlich liefern.\nref_doc_id: 2025-05-08\/ausland\/article_18.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was erwartet Donald Tusk von anderen Ländern in Bezug auf Polens Verteidigung und Schutz der Ostgrenze?",
+        "answer": "Donald Tusk erwartet nicht nur Verständnis, sondern auch volle Unterstützung bei den Aufgaben der Verteidigung und des Schutzes der Ostgrenze."
+      },
+      {
+        "question": "Welche innenpolitischen Herausforderungen hat Donald Tusk in Polen?",
+        "answer": "Donald Tusk muss sich gegenüber der rechtspopulistischen PiS-Partei behaupten, da in Polen Präsidentschaftswahlen anstehen."
+      }
+    ],
+    "seed_document_id": 1465,
+    "topic": "Others"
+  }
+}
+{
+  "id": "de42d9aa-279d-4ec6-94dd-60a56b2190c3",
+  "question": "Was plant die EU im Hinblick auf ein Freihandelsabkommen mit Indien und welche zusätzlichen Partnerschaftsmöglichkeiten prüft sie?",
+  "reference_answer": "Die EU plant ein Freihandelsabkommen mit Indien, das noch in diesem Jahr abgeschlossen werden soll, und prüft Möglichkeiten einer engeren Zusammenarbeit im Sicherheits- und Verteidigungsbereich mit Indien.",
+  "reference_context": "Document 1060: Unnamed: 0: 1060\ntext: Von der Leyen trifft Modi\nEU und Indien wollen Freihandelspakt beschließen\nStand: 28.02.2025 12:05 Uhr\nAngesichts der von den USA angedrohten Zölle plant die EU ein Freihandelsabkommen mit Indien. Frühere Gespräche dazu scheiterten. Nun versucht es Kommissionspräsidentin von der Leyen erneut - und erwägt dabei auch eine Verteidigungspartnerschaft.\nDie Europäische Union und Indien streben den Abschluss eines Freihandelsabkommens noch in diesem Jahr an. Ein solches Abkommen zwischen der Staatengemeinschaft und Indien wäre \"das größte dieser Art auf der Welt\", sagte EU-Kommissionspräsidentin Ursula von der Leyen in der indischen Hauptstadt Neu-Delhi.\n\"Ich bin mir bewusst, dass das nicht einfach sein wird.\" Beide Seiten wollten jedoch darauf hinwirken, dass es noch dieses Jahres klappt. Darüber herrscht laut von der Leyen Einigkeit mit dem indischen Premierminister Narendra Modi.\nDurch einen Freihandelspakt verringern sich Zölle, es werden einheitliche Regeln festgelegt und auch die Lieferketten werden vereinfacht. Zwischen der EU und dem bevölkerungsreichsten Land der Erde gab es schon von 2007 bis 2013 Verhandlungen über ein Abkommen. Damals scheiterten die Gespräche jedoch und wurden erst vor drei Jahren wieder aufgenommen.\nPrüfung einer Sicherheitspartnerschaft\nZudem prüfe die EU Möglichkeiten einer engeren Zusammenarbeit im Sicherheits- und Verteidigungsbereich, erklärte von der Leyen weiter. \"Ich kann ankündigen, dass wir eine künftige Sicherheits- und Verteidigungspartnerschaft mit Indien nach dem Vorbild der Partnerschaften mit Japan und Südkorea prüfen.\"\nref_doc_id: 2025-02-28\/ausland\/article_9.md\n\nDocument 1027: Unnamed: 0: 1027\ntext: Von der Leyen in Neu-Delhi\nEU wirbt um Indien als neuen Handelspartner\nStand: 28.02.2025 16:55 Uhr\nAngesichts des Handelskonflikts mit den USA sucht die EU neue Partner - und setzt dabei auf Indien. Das lange verzögerte Freihandelsabkommen soll noch in diesem Jahr kommen. Streitpunkte gibt es trotzdem.\nAls EU-Kommissionschefin Ursula von der Leyen in Neu-Delhi landet, empfängt sie der rhythmische Klang des Dandiya - einem traditionellen Tanz aus dem Bundesstaat Gujarat. Die lebendige, kulturelle Begrüßung für die hochrangige europäische Besucherin ist wohl nicht zufällig gewählt, stammt doch Indiens Premierminister Narendra Modi selbst aus der Region.\nFür die EU sei es wichtig, stabile und verlässliche Partnerschaften zu haben, sagte von der Leyen dem ARD-Studio Südasien. Seit 30 Jahren bestehe ein Partnerschaftsabkommen. \"Aber wir merken, dass wir in vielen Themen, insbesondere in der digitalen Welt oder bei dem Thema Rohstoffe unsere Partnerschaft intensivieren können.\" Und jetzt sei die Zeit gekommen die Partnerschaft zwischen Europa und Indien auch zu festigen.\nTöne der Harmonie\nEs ist ein beispielloser Besuch: Bei ihrer dritten Reise nach Indien wird von der Leyen von einem Großteil ihrer Brüsseler Kommissarinnen und Kommissare begleitet - ein deutliches Zeichen für die wachsende strategische Bedeutung der Beziehungen zwischen der EU und Indien.\nAuch Indiens Premier Modi lobt die Zusammenarbeit in höchsten Tönen: \"Die strategische Partnerschaft zwischen Indien und der EU ist natürlich und organisch. Ihr Kern beruht auf Vertrauen, dem gemeinsamen Glauben an demokratische Werte und dem gegenseitigen Engagement für Wohlstand und Fortschritt.\"\nref_doc_id: 2025-02-28\/ausland\/article_1.md\n\nDocument 1061: Unnamed: 0: 1061\ntext: Durch einen Freihandelspakt verringern sich Zölle, es werden einheitliche Regeln festgelegt und auch die Lieferketten werden vereinfacht. Zwischen der EU und dem bevölkerungsreichsten Land der Erde gab es schon von 2007 bis 2013 Verhandlungen über ein Abkommen. Damals scheiterten die Gespräche jedoch und wurden erst vor drei Jahren wieder aufgenommen.\nPrüfung einer Sicherheitspartnerschaft\nZudem prüfe die EU Möglichkeiten einer engeren Zusammenarbeit im Sicherheits- und Verteidigungsbereich, erklärte von der Leyen weiter. \"Ich kann ankündigen, dass wir eine künftige Sicherheits- und Verteidigungspartnerschaft mit Indien nach dem Vorbild der Partnerschaften mit Japan und Südkorea prüfen.\"\nDies werde dabei helfen, \"unsere Arbeit zur Bekämpfung gemeinsamer Bedrohungen zu intensivieren, sei es in Bezug auf grenzüberschreitenden Terrorismus, Bedrohungen der maritimen Sicherheit, Cyberangriffe\" oder Angriffe auf die kritische Infrastruktur.\nDie Bemühungen um bessere Beziehungen der EU zu Indien erfolgen vor dem Hintergrund der Ankündigung von US-Sonderzöllen gegen zahlreiche Länder durch Präsident Donald Trump.\nViele EU-Kommissare dabei\nWährend von der Leyens Besuchs in Indien wird sie von Kommissarinnen und Kommissaren der 27 EU-Länder begleitet. Es ist eine der ersten Reisen des Kollegiums, nachdem die neue Kommission im Dezember ihre Arbeit aufgenommen hat. Der Besuch soll helfen, die strategische Partnerschaft zwischen beiden Seiten zu stärken.\nNeben handels- und wirtschaftspolitischen Fragen geht es auch um die Technologie-Zusammenarbeit, die internationale Sicherheit und den Klimaschutz.\nEU will Einfluss Chinas entgegentreten\nFür Indien - die fünftgrößte Volkswirtschaft der Welt - ist die EU der größte Handelspartner. Der bilaterale Handel erreichte im vergangenen Jahr wertmäßig 120 Milliarden Euro.\nref_doc_id: 2025-02-28\/ausland\/article_9.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was plant die EU im Hinblick auf ein Freihandelsabkommen mit Indien?",
+        "answer": "Die EU plant ein Freihandelsabkommen mit Indien, das noch in diesem Jahr abgeschlossen werden soll."
+      },
+      {
+        "question": "Welche zusätzlichen Partnerschaftsmöglichkeiten prüft die EU mit Indien?",
+        "answer": "Die EU prüft Möglichkeiten einer engeren Zusammenarbeit im Sicherheits- und Verteidigungsbereich mit Indien."
+      }
+    ],
+    "seed_document_id": 1060,
+    "topic": "EU-Indien Beziehungen und Freihandelsabkommen"
+  }
+}
+{
+  "id": "ad840640-b382-42ac-85c3-0953b858e7ba",
+  "question": "Wie hoch war die Inflationsrate in Deutschland im April 2025 und welche Produkte haben sich besonders verteuert?",
+  "reference_answer": "Die Inflationsrate in Deutschland sank im April 2025 auf 2,1 Prozent, und insbesondere haben sich Erdbeeren, Himbeeren, Stachelbeeren und ähnliches Obst um 27,2 Prozent sowie Tomaten um 31,6 Prozent und Paprika um 26,3 Prozent verteuert.",
+  "reference_context": "Document 886: Unnamed: 0: 886\ntext: Verbraucherpreise\nInflationsrate sinkt auf 2,1 Prozent\nStand: 30.04.2025 14:21 Uhr\nAuch im April lässt die Inflation in Deutschland weiter nach. Waren und Dienstleistungen verteuerten sich im April nur noch um 2,1 Prozent im Vergleich zum Vorjahresmonat. Vor allem Energie wird günstiger.\nSinkende Energiepreise haben die Inflationsrate in Deutschland auf den niedrigsten Stand seit einem halben Jahr gedrückt. Die Preise für Waren und Dienstleistungen stiegen im April nur noch um 2,1 Prozent im Vergleich zum Vorjahresmonat, teilte das Statistische Bundesamt in seiner ersten Schätzung mit. Das ist der niedrigste Wert seit Oktober 2024.\nFolgen des sinkenden Ölpreises\nIm März waren die Verbraucherpreise noch um 2,2 Prozent gestiegen. Von März auf April zogen die Preise um 0,4 Prozent an. Deutlich billiger wurde Energie: Sie kostete in diesem Monat 5,4 Prozent weniger als ein Jahr zuvor (März: -2,8 Prozent). Ein Grund dafür sind fallende Weltmarktpreise für Rohöl. Diese haben ihre Ursache in dem von US-Präsident Donald Trump losgetretenen Handelskrieg, der Ökonomen zufolge die Weltwirtschaft belastet und damit die Nachfrage nach Öl dämpfen dürfte\nPreistreiber blieben dagegen die Nahrungsmittel. Diese verteuerten sich um 2,8 Prozent (März: +3,0 Prozent). Dabei wurden für Erdbeeren, Himbeeren, Stachelbeeren oder ähnliches Obst 27,2 Prozent mehr verlangt als ein Jahr zuvor. Gemüse kostete 5,3 Prozent mehr. Hier verteuerten sich etwa Tomaten (+31,6 Prozent) und Paprika (+26,3 Prozent) sehr stark.\nDienstleistungen kosteten 3,9 Prozent mehr (März: +3,5 Prozent) als im selben Monat des Vorjahres.\nref_doc_id: 2025-04-30\/wirtschaft\/article_9.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie hoch war die Inflationsrate in Deutschland im April 2025?",
+        "answer": "Die Inflationsrate in Deutschland sank im April 2025 auf 2,1 Prozent."
+      },
+      {
+        "question": "Welche Produkte haben sich im April 2025 besonders verteuert?",
+        "answer": "Im April 2025 haben sich insbesondere Erdbeeren, Himbeeren, Stachelbeeren und ähnliches Obst um 27,2 Prozent sowie Tomaten um 31,6 Prozent und Paprika um 26,3 Prozent verteuert."
+      }
+    ],
+    "seed_document_id": 886,
+    "topic": "Deutsche Wirtschaft und Inflation"
+  }
+}
+{
+  "id": "ddaf8ad5-4a68-4231-ad67-bea5f439d934",
+  "question": "Welche Länder gehören zur Internationalen Kontaktgruppe für die Afrikanischen Großen Seen und welche Gefahren bestehen im Virenlabor in Goma laut dem IKRK?",
+  "reference_answer": "Zur Internationalen Kontaktgruppe für die Afrikanischen Großen Seen gehören Vertreter aus Deutschland, Dänemark, Belgien, der Europäischen Union, Frankreich, den Niederlanden, Schweden, der Schweiz, den USA und Großbritannien, und laut dem IKRK besteht im Labor des Nationalen Instituts für biomedizinische Forschung in Goma die Gefahr eines Stromausfalls, was zu einem Austritt von Virenproben, darunter solche des Ebola-Virus, führen könnte.",
+  "reference_context": "Document 332: Unnamed: 0: 332\ntext: Ruanda bestreitet, die Rebellen zu unterstützen.\nHumanitäre Hilfen teilweise unterbrochen\nAuch die Internationalen Kontaktgruppe für die Afrikanischen Großen Seen forderte ein Ende der Offensive und den ungehinderten Zugang zu Goma für humanitäre Helfer. Der Kontaktgruppe gehören neben Vertretern aus Deutschland auch Vertreter aus Dänemark, Belgien, der Europäischen Union, Frankreich, den Niederlanden, Schweden, der Schweiz, den USA und Großbritannien an.\nDie UN warnten, dass die Nahrungsmittelhilfe in und um Goma vorübergehend eingestellt worden sei. Die Hilfsorganisation Caritas international kündigte an, trotz der gefährlichen und unübersichtlichen Lage in Goma weiterhin humanitäre und medizinische Hilfe zu leisten - beispielsweise auch in der Geburtshilfe.\nVergewaltigungen in Goma - Virenlabor in Gefahr?\nEs gebe Berichte über Vergewaltigungen, Plünderungen und Angriffe auf medizinische Einrichtungen in Goma, sagte der Sprecher des UN-Nothilfebüros OCHA. Das Internationale Komitee vom Roten Kreuz (IKRK) warnte vor einem Austritt von Virenproben aus einem Labor in der Stadt - darunter solche des Ebola-Virus.\nDer IKRK-Regionaldirektor für Afrika, Patrick Youssef, äußerte Sorgen um die \"Situation im Labor des Nationalen Instituts für biomedizinische Forschung, in dem die Gefahr eines Stromausfalls besteht\". Ein Austritt könne \"unvorstellbare Konsequenzen\" haben.\nHunderttausende Menschen vertrieben\nAm Montag wurden in Goma mehr als 360 Menschen in Krankenhäusern behandelt, die bei den Kämpfen verletzt wurden. Nach Zählung der Nachrichtenagentur AFP gab es an diesem Tag mindestens 17 Tote. Nach Angaben der Vereinten Nationen wurden seit Monatsbeginn durch die Kämpfe 400.000 Menschen in der Region vertrieben.\nref_doc_id: 2025-01-28\/ausland\/article_4.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Länder gehören zur Internationalen Kontaktgruppe für die Afrikanischen Großen Seen?",
+        "answer": "Zur Internationalen Kontaktgruppe für die Afrikanischen Großen Seen gehören Vertreter aus Deutschland, Dänemark, Belgien, der Europäischen Union, Frankreich, den Niederlanden, Schweden, der Schweiz, den USA und Großbritannien."
+      },
+      {
+        "question": "Welche Gefahren bestehen im Virenlabor in Goma laut dem IKRK?",
+        "answer": "Laut dem IKRK besteht im Labor des Nationalen Instituts für biomedizinische Forschung in Goma die Gefahr eines Stromausfalls, was zu einem Austritt von Virenproben, darunter solche des Ebola-Virus, führen könnte."
+      }
+    ],
+    "seed_document_id": 332,
+    "topic": "Konflikt im Ostkongo"
+  }
+}
+{
+  "id": "14b93e67-fcad-4e9c-95ce-dc554c32d7db",
+  "question": "Wie äußerte sich Heidi Reichinnek zum Abschneiden der Linken und was kündigte Christian Lindner nach dem Absturz der FDP an?",
+  "reference_answer": "Heidi Reichinnek freute sich über das Abschneiden ihrer Partei und sagte, es sei richtig gewesen, sich auf das Thema Soziales zu konzentrieren, während Christian Lindner seinen Rückzug aus der Politik ankündigte.",
+  "reference_context": "Document 145: Unnamed: 0: 145\ntext: Van Aken: \"Die Linke lebt\"\nDie Spitzenkandidatin der Linken, Heidi Reichinnek, freute sich über das Abschneiden ihrer Partei. \"Ich bin so unfassbar glücklich über unser Ergebnis\", sagte sie in der ARD. Es sei richtig gewesen, sich auf das Thema Soziales zu konzentrieren, so Reichinnek. Man werde auch künftig für bezahlbaren Wohnraum und ein gerechtes Steuersystem eintreten.\nAuch Linken-Chef und Co-Spitzenkandidat Jan van Aken zeigte sich begeistert über das Abschneiden seiner Partei. \"Die Linke lebt\", sagte er vor einer jubelnden Menge in Berlin.\nLindner kündigt Rückzug aus Politik an\nNach dem Absturz der FDP und dem voraussichtlichen Scheitern an der Fünf-Prozent-Hürde kündigte der Parteivorsitzende Christian Lindner seinen Rückzug aus der Politik an. \"Nun scheide ich aus der aktiven Politik aus\", schrieb er auf der Plattform X.\nIn der Berliner Runde hatte er zuvor gesagt, falls die FDP aus dem Bundestag ausscheide, sei es völlig klar, dass er dann auch aus der Politik ausscheide. \"Dann ist mein Führungsanspruch für die FDP erloschen.\" Er werde dafür sorgen, dass sich die FDP politisch und personell neu aufstellen könne. Als Parteivorsitzender trete er dann nicht erneut an.\nFDP-Vizechef Wolfgang Kubicki schloss eine Jamaika-Koalition aus CDU, Grünen und FDP erneut aus. \"Ich kann Jamaika für mich persönlich ausschließen und für meine Partei auch\", sagte Kubicki in der ARD. \"Wir haben für uns ausgeschlossen, dass wir noch einmal die nächsten vier Jahre mit den Grünen zusammen regieren.\"\nSollte die FDP im Bundestag vertreten sein, wird es für Schwarz-Grün oder Schwarz-Rot wahrscheinlich nicht reichen. Dann müsse eine Koalition aus CDU, SPD und FDP gebildet werden, so Kubicki weiter.\nref_doc_id: 2025-02-23\/inland\/article_5.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie äußerte sich Heidi Reichinnek zum Abschneiden der Linken?",
+        "answer": "Heidi Reichinnek freute sich über das Abschneiden ihrer Partei und sagte, es sei richtig gewesen, sich auf das Thema Soziales zu konzentrieren."
+      },
+      {
+        "question": "Was kündigte Christian Lindner nach dem Absturz der FDP an?",
+        "answer": "Christian Lindner kündigte seinen Rückzug aus der Politik an."
+      }
+    ],
+    "seed_document_id": 145,
+    "topic": "Bundestagswahl 2025 in Deutschland"
+  }
+}
+{
+  "id": "a0cf0556-8853-4d36-8484-37dff054272a",
+  "question": "Welche Position hat der designierte Landwirtschaftsminister Alois Rainer zu einer Abgabe auf Fleisch und was ist seine Ansicht zu den Speiseplänen in Kindergärten und Schulen?",
+  "reference_answer": "Der designierte Landwirtschaftsminister Alois Rainer lehnt die vom geschäftsführenden Minister Cem Özdemir vorgeschlagene Abgabe auf Fleisch ab und betont die Wichtigkeit einer ausgewogenen Ernährung in Kindergärten und Schulen, bei der Obst, Gemüse, Fleisch und vegetarische Gerichte auf den Speiseplänen stehen sollten.",
+  "reference_context": "Document 772: Unnamed: 0: 772\ntext: Künftiger Landwirtschaftsminister\nRainer lehnt höhere Steuern auf Fleisch ab\nStand: 30.04.2025 11:28 Uhr\nDer designierte Landwirtschaftsminister Rainer erteilt dem Kurs des bisherigen Ministers Özdemir eine Absage. Dieser hatte unter anderem eine Abgabe von zehn Cent pro Kilo Fleisch gefordert. Rainer lehnt das ab.\nDer designierte Bundeslandwirtschaftsminister Alois Rainer (CSU) hat sich gegen die vom geschäftsführenden Minister Cem Özdemir (Grüne) vorgeschlagene Abgabe auf Fleisch ausgesprochen und eine Wende in der Branchenpolitik angekündigt. \"Im Koalitionsvertrag wurde vereinbart, dass keine Steuererhöhungen durchgeführt werden. Daran werde ich mich als zukünftiger Minister halten\", sagte Rainer der Bild-Zeitung.\nÖzdemir hatte sich zuletzt unter anderem für eine neue Abgabe auf Fleisch in Höhe von zehn Cent pro Kilo stark gemacht. Rainer hält dagegen auch sinkende Fleischpreise für möglich: \"Ich bin ein großer Freund der sozialen Marktwirtschaft. Das bedeutet: Fleischpreise macht nicht der Minister, sondern der Markt\", sagte Rainer der Zeitung.\nRainer will Bauern mehr Freiheiten lassen\nAuch die Speisepläne von Kindergärten und Schulen nimmt der künftige Agrarminister in den Blick und warnt vor rein vegetarischen Gerichten. Eine ausgewogene Ernährung sei wichtig, so der CSU-Politiker - das gelte besonders in Kindergärten und Schulen, \"wo Obst, Gemüse genauso wie Fleisch und vegetarische Gerichte auf den Speiseplänen stehen sollten\". Ihm sei \"qualitativ hochwertige Ernährung ein wichtiges Anliegen\".\nDen Bauern will der 60-Jährige künftig wieder mehr Freiheiten lassen: \"Landwirte sind keine Kinder, die man bevormunden muss.\" Er werde in der Agrarpolitik eher auf Anreize statt Verbote setzen.\nref_doc_id: 2025-04-30\/inland\/article_6.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Position hat der designierte Landwirtschaftsminister Alois Rainer zu einer Abgabe auf Fleisch?",
+        "answer": "Der designierte Landwirtschaftsminister Alois Rainer lehnt die vom geschäftsführenden Minister Cem Özdemir vorgeschlagene Abgabe auf Fleisch ab."
+      },
+      {
+        "question": "Was ist Alois Rainers Ansicht zu den Speiseplänen in Kindergärten und Schulen?",
+        "answer": "Alois Rainer betont die Wichtigkeit einer ausgewogenen Ernährung in Kindergärten und Schulen, bei der Obst, Gemüse, Fleisch und vegetarische Gerichte auf den Speiseplänen stehen sollten."
+      }
+    ],
+    "seed_document_id": 772,
+    "topic": "Deutsche Bundesregierung und Ministerposten"
+  }
+}
+{
+  "id": "ec8a9a42-77e8-4123-87a2-59f71dfef930",
+  "question": "Was ist das Hauptthema des Antrittsbesuchs von Friedrich Merz in Polen und wie steht Premierminister Tusk zur Migrationspolitik des neuen Kanzlers?",
+  "reference_answer": "Das Hauptthema des Antrittsbesuchs ist die Stärkung der deutsch-polnischen Beziehungen und die Zusammenarbeit in Bereichen wie Infrastruktur und Rüstungspolitik, während Premierminister Tusk mit der Migrationspolitik des neuen Kanzlers Friedrich Merz nicht einverstanden ist.",
+  "reference_context": "Document 1463: Unnamed: 0: 1463\ntext: Antrittsbesuch in Polen\n\"Die AfD, das ist Ihr Problem, Herr Bundeskanzler\"\nStand: 08.05.2025 01:37 Uhr\nKlartext zum Antrittsbesuch: Premier Tusk zeigt sich nach Merz' Warschau-Reise zuversichtlich. Zugleich stellt er klar: Mit der Migrationspolitik des neuen Kanzlers ist er nicht einverstanden.\nIrgendwann muss Friedrich Merz lächeln. In Warschau wird der neue Bundeskanzler mit militärischen Ehren empfangen. Auch Donald Tusk, Polens Premierminister, freut sich. Die Stimmung ist gut.\n\"Wir haben uns zuerst in Brüssel getroffen, aber dann auch die gute Zusammenarbeit bis hin zu einer persönlichen Freundschaft weiterentwickelt\", sagt Merz. \"Und deswegen ist das für mich auch ein besonderer Tag heute, dass ich hier sein darf.\"\nMerz zu Gast bei Freunden. Er wolle hier ein neues Kapitel in der deutsch-polnischen Nachbarschaft aufschlagen, sagt der Kanzler. Auch Tusk spricht mit voller Überzeugung von einem Neuanfang - vielleicht dem wichtigsten seit Jahrzehnten.\n\"Wir haben eine echte Chance, die deutsch-polnischen Beziehungen so zu stärken, dass sie Deutschland, Polen und Europa bestmöglich dienen\", sagt der polnische Premier. Er sei überzeugt, dass er Merz' Ansichten und seine Haltung zum deutsch-polnischen Verhältnis und zu Europa sehr gut kenne. \"Ich weiß genug, um heute optimistisch in die Zukunft zu blicken.\"\nEinigkeit bei Themen wie Infrastruktur und Rüstungspolitik\nUnd bei vielem sind sie sich einig. Zum Beispiel beim Infrastrukturausbau. Es sollen endlich mehr Schnellzüge zwischen Deutschland und Polen geben. Europa brauche zudem eine gemeinsame europäische Rüstungspolitik und die Hilfe für die Ukraine müsse fortgesetzt werden.\nref_doc_id: 2025-05-08\/ausland\/article_18.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Was ist das Hauptthema des Antrittsbesuchs von Friedrich Merz in Polen?",
+        "answer": "Das Hauptthema des Antrittsbesuchs ist die Stärkung der deutsch-polnischen Beziehungen und die Zusammenarbeit in Bereichen wie Infrastruktur und Rüstungspolitik."
+      },
+      {
+        "question": "Wie steht Premierminister Tusk zur Migrationspolitik des neuen Kanzlers Friedrich Merz?",
+        "answer": "Premierminister Tusk ist mit der Migrationspolitik des neuen Kanzlers Friedrich Merz nicht einverstanden."
+      }
+    ],
+    "seed_document_id": 1463,
+    "topic": "Others"
+  }
+}
+{
+  "id": "8abbc30b-6c2f-4ba7-a1e1-6d9d98a4d2ca",
+  "question": "Welche Hersteller bieten Smartphones unter 500 Euro an und warum hat Apple seine Preise erhöht?",
+  "reference_answer": "Geräte unter 500 Euro bieten jetzt nur noch Samsung, Google und die Hersteller aus China an, während Apple seine Preise erhöht hat, weil der iPhone-Umsatz im Weihnachtsgeschäft in China um elf Prozent und weltweit um ein Prozent zurückgegangen ist.",
+  "reference_context": "Document 1075: Unnamed: 0: 1075\ntext: Wirklich günstige Smartphones nur bei der Konkurrenz\nGeräte unter 500 Euro bieten jetzt nur noch Samsung, Google und die Hersteller aus China. Apple kann oder will in dieser Preisklasse nicht mehr mithalten. Google bietet sein Pixel 8a mittlerweile für 399 Euro an. Auch die Mittelklasse-Geräte von Samsung oder Huawei gibt es für unter 400 Euro.\nDie Wechsel der Preisstrategie bei Apple komme in einem interessanten Moment, sagt Mark Gurman, Apple-Reporter bei Bloomberg: Im eigentlich starken Weihnachtsgeschäft ist der iPhone-Umsatz in China um elf Prozent zurückgegangen, weltweit um ein Prozent. Der einfachste Weg, um das zu ändern, sei, die Preise zu erhöhen - genau das ist passiert. \"Es zeigt, dass Apple nicht auf der Jagd nach höheren Verkaufszahlen ist, zumal das Unternehmen diese Zahlen nicht mehr ausweist und keine Kompromisse bei den Gewinnmargen eingehen will.\"\nGeht Apples Strategie auf?\nGerrit Schneemann, Analyst bei Counterpoint Research, ist zuversichtlich. Grund sei das Display, das größer ist als das der SE-Vorgänger. \"Apple hat erkannt, dass die Leute an einem größeren Display interessiert sind\", sagte er dem Sender CNN. \"Selbst wenn das bedeutet, dass man den niedrigeren Einstiegspreis aufgeben muss.\"\n\"Sie müssen darauf achten, dass dieses Gerät so viel bietet, dass es einem Käufer 600 Dollar wert ist, aber nicht so viel, dass jemand, der sonst wesentlich mehr ausgeben würde, sich ebenfalls für dieses Gerät entscheidet\", so Daniel Newman vom Tech-Forschungsunternehmen The Futurum Group.\nHersteller setzen auf KI-Funktionen\nZusammengefasste Mails, Sprachassistenten, die komplexere Fragen verstehen oder Emojis, die Nutzer nach eigenen Wünschen erstellen können: Funktionen, die mit Künstlicher Intelligenz funktionieren, werden immer vielfältiger, sinnvoller und funktionieren auch immer besser. Google setzt auf den eigenen Assistenten Gemini und stattet damit auch Samsung-Geräte aus.\nref_doc_id: 2025-02-28\/wirtschaft\/article_0.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Hersteller bieten Smartphones unter 500 Euro an?",
+        "answer": "Geräte unter 500 Euro bieten jetzt nur noch Samsung, Google und die Hersteller aus China an."
+      },
+      {
+        "question": "Warum hat Apple seine Preise erhöht?",
+        "answer": "Apple hat seine Preise erhöht, weil der iPhone-Umsatz im Weihnachtsgeschäft in China um elf Prozent und weltweit um ein Prozent zurückgegangen ist."
+      }
+    ],
+    "seed_document_id": 1075,
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "9863f8bb-a8dd-4e45-b9c4-518643db5298",
+  "question": "Wie hat sich der Börsenwert von Nvidia nach dem KI-Schock verändert und welche Unternehmen liegen vor Nvidia im Wettkampf um den wertvollsten Börsenkonzern?",
+  "reference_answer": "Der Börsenwert von Nvidia fiel um 592,7 Milliarden auf 2,9 Billionen Dollar, hat sich dann aber mit einem Kursplus von mehr als sieben Prozent erholt und die Marktkapitalisierung stieg auf 3,08 Billionen Dollar; im Wettkampf um den wertvollsten Börsenkonzern liegen Apple mit 3,61 Billionen Dollar und Microsoft mit 3,32 Billionen Dollar vor Nvidia.",
+  "reference_context": "Document 380: Unnamed: 0: 380\ntext: Für den marktbreiten S&P 500 - vortags nicht ganz so gebeutelt wie die Nasdaq-Indizes - ging es um 0,9 Prozent auf 6.067 Punkte hoch.\nNvidia mit Verlusten von 600 Milliarden Dollar\nBesonders hart hatte es am Montag den US-Chiphersteller Nvidia erwischt. Der Börsenwert des ungeheuer hoch bewerteten US-Konzerns fiel um 592,7 Milliarden auf 2,9 Billionen Dollar. Am Tag nach dem KI-Schock haben die Aktien wieder ordentlich Boden gut gemacht. Mit einem Kursplus von mehr als sieben Prozent zählte der Halbleiterhersteller zu den größten Gewinnern im Nasdaq 100.\nDie Marktkapitalisierung des Konzerns stieg damit auf 3,08 Billionen Dollar. Damit liegt Nvidia im Dauer-Wettkampf um den Status des wertvollsten Börsenunternehmens aber weiter auf Platz drei - hinter dem iPhone-Konzern Apple und dem Softwareriesen Microsoft mit 3,61 beziehungsweise 3,32 Billionen Dollar.\nDer Ausverkauf vom Montag habe sich ausschließlich auf die Aktien der Spezialisten im Bereich Künstlicher Intelligenz (KI) beschränkt, kommentierte Konstantin Oldenburger, Analyst vom Broker CMC Markets: \"Genau da aber liegt auch das Problem. Denn während es der Dow Jones sogar zurück ins Plus schaffte, konnte im Technologieindex Nasdaq aufgrund der hohen Konzentration auf wenige große Titel lediglich Schadensbegrenzung betrieben werden, am Ende blieb ein dickes Minus übrig.\"\nDAX nimmt Rekordhoch ins Visier\nNach teils heftigen Kursverlusten und einem schwachen deutschen Aktienmarkt zum Wochenauftakt hat der DAX heute wieder Fahrt aufgenommen. In der Tagesspitze fehlten dem deutschen Leitindex dann sogar nur noch 45 Zähler zu einem Rekordhoch.\nref_doc_id: 2025-01-28\/wirtschaft\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie hat sich der Börsenwert von Nvidia nach dem KI-Schock verändert?",
+        "answer": "Der Börsenwert von Nvidia fiel um 592,7 Milliarden auf 2,9 Billionen Dollar, hat sich dann aber mit einem Kursplus von mehr als sieben Prozent erholt und die Marktkapitalisierung stieg auf 3,08 Billionen Dollar."
+      },
+      {
+        "question": "Welche Unternehmen liegen vor Nvidia im Wettkampf um den wertvollsten Börsenkonzern?",
+        "answer": "Im Wettkampf um den wertvollsten Börsenkonzern liegen Apple mit 3,61 Billionen Dollar und Microsoft mit 3,32 Billionen Dollar vor Nvidia."
+      }
+    ],
+    "seed_document_id": 380,
+    "topic": "Others"
+  }
+}
+{
+  "id": "67a80f7c-bd49-424a-815f-6fff3d35e6e7",
+  "question": "Warum wurde die Wahl in der Ukraine verschoben und wie sieht Selenskyj die Rolle von Trump im Ukraine-Konflikt?",
+  "reference_answer": "Die Wahl wurde wegen des russischen Angriffskriegs im Einklang mit der ukrainischen Verfassung verschoben, und Selenskyj möchte Trump als Partner der Ukraine und nicht nur als Vermittler zwischen der Ukraine und Russland sehen.",
+  "reference_context": "Document 228: Unnamed: 0: 228\ntext: In der Ukraine setzt das geltende Kriegsrecht Wahlen während eines Krieges aus: Die Wahl wurde wegen des russischen Angriffskriegs also im Einklang mit der ukrainischen Verfassung verschoben.\nSelenskyj: Vermittlung ist \"nicht genug\"\nSeit Trumps Amtsantritt versucht die US-Regierung den Krieg gegen die Ukraine zu beenden und nahm Gespräche mit Russland auf. Dabei stellte sich Trump immer wieder gegen den ukrainischen Präsidenten. So sagte er etwa in einem Interview mit dem US-Sender Fox News, die Teilnahme Selenskyjs an Verhandlungen zur Beendigung des Krieges sei \"nicht sehr wichtig\".\nSelenskyj hingegen sagte nun, er wolle Trump als Partner der Ukraine und nicht nur als Vermittler zwischen der Ukraine und Russland sehen. Nur eine Vermittlung sei \"nicht genug\".\nAm Montag jährt sich zum dritten Mal der russische Einmarsch in das osteuropäische Land. Einer der von Russland verkündeten Kriegsgründe ist die Verhinderung eines Beitritts des Nachbarn zur westlichen Militärallianz NATO.\nref_doc_id: 2025-02-23\/ausland\/article_3.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Warum wurde die Wahl in der Ukraine verschoben?",
+        "answer": "Die Wahl wurde wegen des russischen Angriffskriegs im Einklang mit der ukrainischen Verfassung verschoben."
+      },
+      {
+        "question": "Wie sieht Selenskyj die Rolle von Trump im Ukraine-Konflikt?",
+        "answer": "Selenskyj möchte Trump als Partner der Ukraine und nicht nur als Vermittler zwischen der Ukraine und Russland sehen."
+      }
+    ],
+    "seed_document_id": 228,
+    "topic": "Russisch-Ukrainischer Krieg und internationale Reaktionen"
+  }
+}
+{
+  "id": "0aa0fa53-abea-4cca-8495-0744f509b72c",
+  "question": "Welche Programme hat US-Präsident Trump gestrichen und welche Auswirkungen hat seine Entscheidung auf das Militär?",
+  "reference_answer": "US-Präsident Trump hat flächendeckend Programme für Vielfalt, Gleichberechtigung und Inklusion gestrichen, und im Militär sollen keine Transgender-Menschen mehr dienen dürfen, was zu einer Reihe von Klagen führen dürfte.",
+  "reference_context": "Document 352: Unnamed: 0: 352\ntext: Aus für Diversitätsprogramme\nTrump sagt \"Wokeness\" den Kampf an\nStand: 28.01.2025 05:12 Uhr\nUS-Präsident Trump streicht wie angekündigt flächendeckend Programme für Vielfalt, Gleichberechtigung und Inklusion. Viele haben nun Angst, dass Diskriminierung in den USA wieder gesellschaftsfähig wird.\nSchon im Wahlkampf wetterte Donald Trump immer wieder gegen einen angeblichen Transgender-Wahn. Er werde ihn am ersten Tag seiner Präsidentschaft beenden, versprach er. Auf dem Wirtschaftsgipfel in Davos erklärte Trump in der vergangenen Woche per Video zugeschaltet der Welt: Seine Regierung ergreife Maßnahmen, um allen diskriminierenden Unsinn in Bezug auf Vielfalt, Gleichberechtigung und Integration abzuschaffen. Amerika werde wieder ein leistungsorientiertes Land.\nTrump hat die Bundesbehörden angewiesen, alle Büros für Diversität und Inklusion innerhalb von 60 Tagen zu schließen, soweit dies gesetzlich zulässig ist. Was das genau bedeutet, ist noch unklar. Mitarbeiter wurden in bezahlten Urlaub geschickt, Internetseiten zu Diversitäts- und Gleichberechtigungsprogrammen abgeschaltet. Die US-Regierung erkennt auch nur noch zwei Geschlechter an - männlich und weiblich.\nGleichberechtigungsprogramme im Pentagon vor dem Aus\nIm Militär sollen keine Transgender-Menschen mehr dienen dürfen. Das dürfte, wie andere Maßnahmen auch, zu einer ganzen Reihe von Klagen führen. Verteidigungsminister Pete Hegseth, der im Kampf gegen ein angeblich zu \"wokes\" Militär voll auf Trumps Linie liegt, erklärte an seinem ersten Tag im Verteidigungsministerium, er unterstütze es voll und ganz, DEI-Programme aus dem Pentagon zu entfernen.\nDEI steht für diversity, equity, inclusion - Vielfalt, Teilhabe und Inklusion.\nref_doc_id: 2025-01-28\/ausland\/article_8.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Welche Programme hat US-Präsident Trump gestrichen?",
+        "answer": "US-Präsident Trump hat flächendeckend Programme für Vielfalt, Gleichberechtigung und Inklusion gestrichen."
+      },
+      {
+        "question": "Welche Auswirkungen hat Trumps Entscheidung auf das Militär?",
+        "answer": "Im Militär sollen keine Transgender-Menschen mehr dienen dürfen, was zu einer Reihe von Klagen führen dürfte."
+      }
+    ],
+    "seed_document_id": 352,
+    "topic": "Others"
+  }
+}
+{
+  "id": "660f6827-8e5f-4a21-b8e8-ec9395dd638a",
+  "question": "Wie hoch war der Quartalsgewinn von Apple im Weihnachtsquartal und welche Produktkategorien trugen zu Apples Umsatzwachstum bei?",
+  "reference_answer": "Apple steigerte den Quartalsgewinn um sieben Prozent auf 36,3 Milliarden Dollar, wobei besonders die Zuwächse bei Mac-Computern, iPads und im Dienstleistungsgeschäft zum Umsatzwachstum beitrugen.",
+  "reference_context": "Document 1215: Unnamed: 0: 1215\ntext: Geschäft des US-Konzern Apple\nUmsatz mit iPhones sinkt - trotzdem Rekordquartal\nStand: 31.01.2025 10:17 Uhr\nApple hat im Weihnachtsquartal einen Rekordgewinn eingefahren, Konzernchef Tim Cook spricht vom \"besten Quartal aller Zeiten\". Die iPhone-Verkaufszahlen und das China-Geschäft gehen indes zurück.\nDer Tech-Konzern Apple hat das wichtige Weihnachtsquartal trotz eines Rückgangs im iPhone-Geschäft mit einem Umsatzplus abgeschlossen. Unter dem Strich steigerte Apple den Quartalsgewinn um sieben Prozent auf 36,3 Milliarden Dollar, wie das Unternehmen gestern nach US-Börsenschluss mitteilte. Apple-Chef Tim Cook sprach vom \"besten Quartal aller Zeiten\". Apple-Kunden haben nun 2,35 Milliarden verschiedene Geräte des Konzerns im Einsatz, teilte der Konzern mit.\nDas iPhone bleibt zwar das mit Abstand wichtigste Produkt. Aber das vergangene Quartal demonstrierte, wie der Konzern von einem breiten Angebot mit verschiedenen Gerätekategorien profitiert. Besonders die Zuwächse bei Mac-Computern, iPads und im Dienstleistungsgeschäft sorgten dafür, dass der Konzernumsatz auf ein Rekordhoch bei 124,2 Milliarden Dollar stieg. Das sind vier Prozent mehr als im Vorjahresquartal.\nSo lief das Mac-Geschäft deutlich besser als von der Wall Street erwartet: Der Umsatz stieg von 7,8 auf 8,99 Milliarden Dollar. Analysten hatten lediglich knapp acht Milliarden Dollar erwartet. Auch beim iPad gab es einen deutlichen Zuwachs von sieben auf gut acht Milliarden Dollar. Das Dienstleistungsgeschäft mit Erlösen unter anderem aus dem App-Store und Apples Abo-Angeboten wuchs von 23,1 Milliarden Dollar vor einem Jahr auf 26,34 Milliarden Dollar.\nref_doc_id: 2025-01-31\/wirtschaft\/article_2.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Wie hoch war der Quartalsgewinn von Apple im Weihnachtsquartal?",
+        "answer": "Apple steigerte den Quartalsgewinn um sieben Prozent auf 36,3 Milliarden Dollar."
+      },
+      {
+        "question": "Welche Produktkategorien trugen zu Apples Umsatzwachstum bei?",
+        "answer": "Besonders die Zuwächse bei Mac-Computern, iPads und im Dienstleistungsgeschäft trugen zum Umsatzwachstum bei."
+      }
+    ],
+    "seed_document_id": 1215,
+    "topic": "Deutsche Wirtschaft und Unternehmen"
+  }
+}
+{
+  "id": "428ee348-9ccc-4775-8288-d39358ede3e2",
+  "question": "Woher erwarb der 18-Jährige das Repetiergewehr und welche psychischen Auffälligkeiten wurden beim Täter festgestellt?",
+  "reference_answer": "Einen Tag vor der Tat erwarb der 18-Jährige in Österreich das Repetiergewehr aus dem Jahr 1936, und dem österreichischen Innenministerium zufolge hatte der Vater seinen Sohn als psychisch auffällig wahrgenommen.",
+  "reference_context": "Document 35: Unnamed: 0: 35\ntext: Gegen 18-Jährigen bestand ein Waffenbesitzverbot\nNach Erkenntnissen des LKA hatte der 18-Jährige seit Juli 2024 zunächst mehrfach erfolglos versucht, Waffen zu kaufen. Einen Tag vor der Tat erwarb er demnach in Österreich das Repetiergewehr aus dem Jahr 1936. Bei der Tat war die Waffe zudem mit einem Bajonett versehen.\nDer Verkauf einer solchen Waffe ist laut den Ermittlern in Österreich legal. Der private Verkäufer habe zudem gewusst, dass gegen den österreichischen Täter ein behördliches Waffenbesitzverbot bestanden hatte. Die Ermittler attestieren dem jungen Mann in der Zeit vor der Tat ein starkes Interesse an Schuss- und Stichwaffen.\nTäter war sozial isoliert und handelte allein\nDer junge Mann war laut der Ermittler sozial isoliert. Er sei in Schule und Ausbildung gescheitert, erläuterte Tilmann. Und er habe keine Strategien gefunden, um die Misserfolge zu bewältigen. Dem österreichischem Innenministerium zufolge hatte der Vater seinen Sohn als psychisch auffällig wahrgenommen.\nDass es Tatbeteiligte, Mitwisser oder Anstifter gegeben haben könnte, schließen die Ermittler aus: Das Umfeld des Täters sei mit Hilfe anderer Behörden und internationaler Partner genau geprüft worden, sagte Tilmann. Man habe \"keinerlei\" Bezüge zu terroristischen Vereinigungen oder Gruppierungen gefunden.\nref_doc_id: 2025-03-14\/inland\/article_12.md",
+  "conversation_history": [],
+  "metadata": {
+    "question_type": "double",
+    "original_questions": [
+      {
+        "question": "Woher erwarb der 18-Jährige das Repetiergewehr?",
+        "answer": "Einen Tag vor der Tat erwarb er demnach in Österreich das Repetiergewehr aus dem Jahr 1936."
+      },
+      {
+        "question": "Welche psychischen Auffälligkeiten wurden beim Täter festgestellt?",
+        "answer": "Dem österreichischem Innenministerium zufolge hatte der Vater seinen Sohn als psychisch auffällig wahrgenommen."
+      }
+    ],
+    "seed_document_id": 35,
+    "topic": "Gewaltverbrechen und Terrorismus"
+  }
+}
