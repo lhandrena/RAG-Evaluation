@@ -1,1 +1,2 @@
-# Aufgabe 4.5: Graph RAG
+# Aufgabe 4.4: Query_Expansion
+... siehe Jupiter Notebook
