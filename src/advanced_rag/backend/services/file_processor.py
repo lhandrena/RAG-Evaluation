@@ -18,7 +18,7 @@ class FileProcessor:
     def load_documents(
             document_source: DocumentSource,
     ) -> list[Document]:
-        logging.info("Loading documents from tagesschau dump")
+        logging.info("Loading documents from "+document_source+" dump")
         
         unstructured_logger = logging.getLogger('unstructured')
         libmagic_filter = LibmagicWarningFilter()
