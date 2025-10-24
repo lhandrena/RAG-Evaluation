@@ -2,7 +2,10 @@ import csv
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
 from langfuse import Langfuse
+
+load_dotenv()
 
 
 def get_langfuse_client() -> Langfuse:
@@ -32,8 +35,7 @@ def ensure_dataset_exists(dataset_name: str, langfuse_client: Langfuse, csv_file
         print(f"Creating new dataset: {dataset_name}")
         
         metadata = {
-            "type": "evaluation",
-            "source": "tagesschau"
+            "type": "evaluation"
         }
         
         if csv_file_path:
@@ -96,45 +98,34 @@ def upload_csv_dataset(csv_file_path: str, dataset_name: str, langfuse_client: L
     print(f"Finished uploading dataset: {dataset_name}")
 
 
-def upload_all_tagesschau_datasets() -> None:
-    """Upload all CSV datasets from the tagesschau directory to Langfuse."""
+def upload_rag_source_dataset() -> None:
+    """Upload the rag_source.csv dataset to Langfuse."""
     
     # Initialize Langfuse client
     langfuse_client = get_langfuse_client()
     
-    # Define the CSV directory path
-    csv_dir = Path("src/advanced_rag/evaluation/datasets/")
+    # Define the specific CSV file path
+    csv_file = Path("src/advanced_rag/evaluation/datasets/rag_source.csv")
     
-    if not csv_dir.exists():
-        print(f"Directory not found: {csv_dir}")
+    if not csv_file.exists():
+        print(f"File not found: {csv_file}")
         return
     
-    # Get all CSV files in the directory
-    csv_files = list(csv_dir.glob("*.csv"))
+    print(f"Uploading rag_source dataset from: {csv_file}")
     
-    if not csv_files:
-        print(f"No CSV files found in {csv_dir}")
+    # Use the filename (without extension) as the dataset name
+    dataset_name = csv_file.stem
+    
+    try:
+        upload_csv_dataset(str(csv_file), dataset_name, langfuse_client)
+    except Exception as e:
+        print(f"Failed to upload {csv_file.name}: {e}")
         return
-    
-    print(f"Found {len(csv_files)} CSV files to upload:")
-    for csv_file in csv_files:
-        print(f"  - {csv_file.name}")
-    
-    # Upload each CSV file as a separate dataset
-    for csv_file in csv_files:
-        # Use the filename (without extension) as the dataset name
-        dataset_name = csv_file.stem
-        
-        try:
-            upload_csv_dataset(str(csv_file), dataset_name, langfuse_client)
-        except Exception as e:
-            print(f"Failed to upload {csv_file.name}: {e}")
-            continue
     
     # Flush to ensure all data is sent
     langfuse_client.flush()
-    print("All datasets uploaded successfully!")
+    print("Dataset uploaded successfully!")
 
 
 if __name__ == "__main__":
-    upload_all_tagesschau_datasets()
+    upload_rag_source_dataset()

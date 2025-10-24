@@ -17,11 +17,11 @@ from advanced_rag.evaluation.metrics.ragas_metrics import init_ragas_metrics
 @dataclass
 class MetricsConfig:
     # RAGAS Metrics - LLM involved
-    use_faithfulness: bool = False
-    use_context_precision: bool = False
-    use_context_recall: bool = False
-    use_factual_correctness: bool = False
-    use_semantic_similarity: bool = False
+    use_faithfulness: bool = True
+    use_context_precision: bool = True
+    use_context_recall: bool = True
+    use_factual_correctness: bool = True
+    use_semantic_similarity: bool = True
 
     # Custom Context Source Metrics - No LLM involved
     use_context_sources_recall: bool = True
@@ -78,4 +78,4 @@ async def evaluate_dataset(
 
 
 if __name__ == "__main__":
-    asyncio.run(evaluate_dataset("evaluation_dataset"))
+    asyncio.run(evaluate_dataset("rag_source"))

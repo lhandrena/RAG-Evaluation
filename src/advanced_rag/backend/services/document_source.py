@@ -17,3 +17,4 @@ class DocumentSource(StrEnum):
     TAGESSCHAU = 'TAGESSCHAU', 'src/advanced_rag/scraping/tagesschau_dump', 'german news'
     LLM_GENERAL_SURVEY_PAPER = 'LLM_GENERAL_SURVEY_PAPER', 'src/advanced_rag//scraping/llm_paper', 'general survey papers about large language models'
     SHAKESPEARE = 'SHAKESPEARE', 'src/advanced_rag/scraping/knowledge_graph/shakespeare', 'the book Mac Beth from William Shakespeare'
+    SCRAPED_DATA = 'SCRAPED_DATA', 'src/advanced_rag/scraping/rag_sources/scraped_data', 'scraped web content from various sources'

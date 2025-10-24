@@ -36,6 +36,7 @@ dependencies = [
     "ipywidgets>=8.1.7",
     "jupyter>=1.1.1",
     "wikipedia>=1.4.0",
+    "crawlee[beautifulsoup,playwright]>=1.0.4",
 ]
 
 [project.optional-dependencies]
