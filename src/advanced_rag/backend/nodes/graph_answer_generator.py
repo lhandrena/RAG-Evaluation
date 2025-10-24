@@ -39,10 +39,11 @@ class GraphAnswerGenerator(BaseNode):
     ):
         generation_prompt = PromptTemplate(
             input_variables=[
-                "question"
+                "question",
                 "context",
-                "chat_history"
-            ], template=GraphRagPrompt.get_prompt(),
+                "chat_history",
+            ],
+            template=GraphRagPrompt.get_prompt(),
         )
         chain = generation_prompt | self.llm | StrOutputParser()
         return chain
