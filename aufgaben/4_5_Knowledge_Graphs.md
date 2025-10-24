@@ -108,7 +108,7 @@ Dokumente laden → Chunking → Summarization → Graph-Extraktion → Neo4j
 
 ### Schritt 2: Neo4j starten
 
-Neo4j muss laufen, damit die Anwendung funktioniert. Starte Neo4j mit Docker Compose:
+Überprüfe ob Neo4j bereits läuft: http://localhost:7474 falls nicht, starte Neo4j mit Docker Compose:
 
 ```bash
 # Starte Neo4j
