@@ -1,5 +1,5 @@
 # Aufgabe 4.5: Knowledge Graphs mit Neo4j
-
+TODO weniger genaue aufgabenstellung, einfach die trainees das setup machen lassen und dann ausprobieren lassen. Screenshots wären hilfreich und der hinweis auf ein besseres Model umzustellen (mini statt nano)
 ## Lernziele
 - Verstehen, wie Knowledge Graphs in RAG-Systemen funktionieren
 - Umstellung von Vektor-basiertem Retrieval auf Graph-basiertes Retrieval
