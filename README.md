@@ -20,16 +20,16 @@
 ┌─────────────────────────────────────────────────┐
 │  Docker  (docker compose)                       │
 │  ┌─────────────┐ ┌──────────┐ ┌──────────────┐  │
-│  │  Langfuse    │ │ Frontend │ │    Neo4j      │  │
-│  │  :3000       │ │ :5173    │ │  :7474/:7687  │  │
+│  │  Langfuse   │ │ Frontend │ │    Neo4j     │  │
+│  │  :3000      │ │ :5173    │ │  :7474/:7687 │  │
 │  └─────────────┘ └──────────┘ └──────────────┘  │
 └─────────────────────────────────────────────────┘
                        ▲
                        │ REST API (:5000)
                        │
               ┌────────┴────────┐
-              │  Backend (lokal) │
-              │  Python / uv     │
+              │  Backend (lokal)│
+              │  Python / uv    │
               └─────────────────┘
 ```
 
@@ -59,7 +59,7 @@ cp .env.example .env
 ```
 
 In `.env` eintragen:
-- `OPENAI_API_KEY` – der zur Verfügung gestellte OpenAI API Key
+- `OPENAI_API_KEY` – wird im Kurs zur Verfügung gestellt (oder eigener Key)
 
 > Die Langfuse-Keys (`LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY`) werden in Schritt 3 ergänzt.
 
