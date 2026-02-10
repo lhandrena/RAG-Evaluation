@@ -1,8 +1,12 @@
-from typing import Any
+from typing import Any, Protocol
 
 import aiohttp
 from langchain_core.documents import Document
-from langfuse._client.datasets import DatasetItemClient
+
+
+class DatasetItemLike(Protocol):
+    id: str
+    input: Any
 
 
 class BackendClient:
@@ -33,7 +37,7 @@ class BackendClient:
 
     async def get_chat_completion_with_context(
             self,
-            item: DatasetItemClient,
+            item: DatasetItemLike,
     ) -> tuple[str, list[Document]]:
         payload: dict[str, list[dict[str, str]]] = self._create_payload_from(item)
         
@@ -71,7 +75,7 @@ class BackendClient:
 
     @staticmethod
     def _create_payload_from(
-            item: DatasetItemClient,
+            item: DatasetItemLike,
     ) -> dict[str, list[dict[str, str]]]:
         # Extract text from item.input if it's a dict, otherwise use as-is
         content = item.input.get('text') if isinstance(item.input, dict) else item.input

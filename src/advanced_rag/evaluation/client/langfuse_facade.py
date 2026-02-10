@@ -3,7 +3,7 @@ import os
 
 from tqdm import tqdm
 from langchain_core.documents import Document
-from langfuse._client.client import Langfuse
+from langfuse import Langfuse
 
 from advanced_rag.evaluation.client.backend_client import BackendClient
 from advanced_rag.backend.environment import Environment
