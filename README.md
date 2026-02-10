@@ -12,17 +12,19 @@
 ---
 
 ## ⚡ Schnellstart
-Beim ersten Einrichten folge den Schritten in [Setup](#-setup).
+
+> Der Schnellstart ist nur für den Fall gedacht, dass das Projekt bereits einmal vollständig eingerichtet wurde. Überspringe diesen Abschnitt, wenn du das Projekt zum ersten Mal einrichtest.
+
 ```bash
-# 1. Services starten (Langfuse, Neo4j, Frontend)
-docker compose -f infrastructure/langfuse_local.yml -f infrastructure/neo4j.yml up -d
-
-# 2. Python-Umgebung einrichten
-uv sync
-
-# 3. Environment-Variablen konfigurieren
+# 1. Environment-Variablen konfigurieren
 cp .env.example .env
-# → Langfuse Keys und OpenAI API Key in .env eintragen
+# → OPENAI_API_KEY in .env eintragen
+
+# 2. Services starten (Langfuse, Neo4j, Frontend)
+docker compose --env-file .env -f infrastructure/langfuse_frontend_local.yml -f infrastructure/neo4j.yml up -d
+
+# 3. Python-Umgebung einrichten
+uv sync
 
 # 4. Backend starten
 uv run --env-file .env python -m advanced_rag.backend.main
@@ -91,20 +93,7 @@ aufgaben/                # Übungsaufgaben
 
 ## 🛠️ Setup
 
-### 1️⃣ Langfuse und Frontend starten
-
-```bash
-# Docker Compose starten
-docker compose -f infrastructure/langfuse_local.yml -f infrastructure/neo4j.yml up -d
-```
-
-**Langfuse konfigurieren:**
-1. Browser öffnen: http://localhost:3000
-2. Benutzer anlegen
-3. Projekt erstellen
-4. In Langfuse unten rechts auf Settings → API Keys → API Keys generieren (Public + Secret Key)
-
-### 2️⃣ Environment-Variablen
+### 1️⃣ Environment-Variablen
 
 ```bash
 # .env-Datei erstellen
@@ -112,8 +101,22 @@ cp .env.example .env
 ```
 
 In `.env` eintragen:
-- `LANGFUSE_PUBLIC_KEY` und `LANGFUSE_SECRET_KEY` (aus Langfuse UI)
 - `OPENAI_API_KEY` (OpenAI API Key)
+
+### 2️⃣ Langfuse, Frontend und Neo4j starten
+
+```bash
+# Docker Compose starten
+docker compose --env-file .env -f infrastructure/langfuse_frontend_local.yml -f infrastructure/neo4j.yml up -d
+```
+
+**Langfuse konfigurieren:**
+1. Browser öffnen: http://localhost:3000
+2. Benutzer anlegen
+3. Organisation anlegen
+4. Projekt erstellen
+5. In Langfuse unten rechts auf Settings → API Keys → API Keys generieren (Public + Secret Key)
+6. `LANGFUSE_PUBLIC_KEY` und `LANGFUSE_SECRET_KEY` in `.env` ergänzen
 
 ### 3️⃣ Python-Umgebung
 
@@ -161,7 +164,7 @@ uv run --env-file .env python src/advanced_rag/backend/main.py
 1. Frontend öffnen: http://localhost:5173
 2. Frage: Wer ist Bundeskanzler? (dauert länger - siehe unten)
 3. Antwort sollte erscheinen
-4. Langfuse prüfen: http://localhost:3000 → Traces sichtbar, verwendeter Kontext sichtbar
+4. Langfuse prüfen: http://localhost:3000 → Traces sichtbar unter "Tracing"
 
 <details>
 <summary><b>⏱️ Warum dauert die erste Anfrage länger?</b></summary>

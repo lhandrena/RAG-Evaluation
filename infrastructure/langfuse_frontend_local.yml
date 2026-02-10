@@ -16,7 +16,7 @@ services:
     tty: true
 
   langfuse-worker:
-    image: langfuse/langfuse-worker:3.120.0
+    image: langfuse/langfuse-worker:3.152.0
     restart: always
     depends_on: &langfuse-depends-on
       postgres:
@@ -61,7 +61,7 @@ services:
       REDIS_AUTH: ${REDIS_AUTH:-myredissecret}
 
   langfuse-web:
-    image: langfuse/langfuse:3.120.0
+    image: langfuse/langfuse:3.152.0
     restart: always
     depends_on: *langfuse-depends-on
     ports:
@@ -153,7 +153,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - langfuse_postgres_data:/var/lib/postgresql/data
+      - langfuse_postgres_data:/var/lib/postgresql
   #TODO IMPROVEMENT: remove this service and fix the error
   otel-collector:
     image: otel/opentelemetry-collector:latest

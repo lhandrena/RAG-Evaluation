@@ -17,7 +17,7 @@ In dieser Datei werden dann folgende Variablen eingetragen:
 Für die Evaluation unserer Anwendung verwenden wir Langfuse als Monitoring- und Evaluierungstool. Der erste Schritt besteht darin, die Container lokal zu starten:
 
 ```bash
-docker compose -f infrastructure/langfuse_local.yml -f infrastructure/neo4j.yml up -d
+docker compose -f infrastructure/langfuse_frontend_local.yml -f infrastructure/neo4j.yml up -d
 ```
 
 **Langfuse konfigurieren:**
