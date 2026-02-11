@@ -34,7 +34,7 @@ class SemanticChunker:
             documents: list[Document],
             embedding: OpenAIEmbeddings,
     ) -> list[Document]:
-        logging.info("Splitting documents into semantic chunks")
+        logging.info("Splitting %s documents into semantic chunks", len(documents))
 
         # TODO IMPROVEMENT: Check if embedding is thread-safe, if not, create a new instance for each thread
         with ThreadPoolExecutor(max_workers=20) as executor:
@@ -47,6 +47,7 @@ class SemanticChunker:
                     ),
                 ),
             )
+        logging.info("Semantic chunking produced %s chunks", len(chunked_documents))
         return chunked_documents
 
     def _create_chunks(

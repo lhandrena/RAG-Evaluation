@@ -41,12 +41,27 @@ class DocumentProcessor:
             embedding_function=embedding,
             persist_directory=f"./chroma_langchain_db_{chunk_size}_{chunk_overlap}",
         )
+        logging.info(
+            "Vector store config: source=%s strategy=%s chunk_size=%s overlap=%s",
+            document_source,
+            chunking_strategy,
+            chunk_size,
+            chunk_overlap,
+        )
 
         file_processor: FileProcessor = FileProcessor()
         start_time = time.time()
         documents: list[Document] = file_processor.load_documents(document_source)
+        logging.info("Documents loaded before metadata filter: %s", len(documents))
         documents: list[Document] = filter_complex_metadata(documents)
+        logging.info("Documents after metadata filter: %s", len(documents))
         documents: list[Document] = self._filter_existing_documents(documents, vectorstore)
+        logging.info("Documents remaining for chunking: %s", len(documents))
+
+        if not documents:
+            logging.info("No new documents to chunk or index")
+            logging.info("Time taken to load and index documents: %.2f seconds", time.time() - start_time)
+            return vectorstore
 
         match chunking_strategy:
             case ChunkingStrategy.RECURSIVE:
@@ -58,12 +73,18 @@ class DocumentProcessor:
             case _:
                 raise ValueError(f"Unknown chunking type: {chunking_strategy}")
 
+        logging.info("Total chunks created: %s", len(documents))
+        total_batches = 0
+        total_indexed_chunks = 0
         for batch in generate_size_based_batches(documents):
 
             if batch:
                 vectorstore.add_documents(batch)
+                total_batches += 1
+                total_indexed_chunks += len(batch)
+        logging.info("Indexed %s chunks across %s batches", total_indexed_chunks, total_batches)
         end_time = time.time()
-        print(f"Time taken to load and index documents: {end_time - start_time} seconds")
+        logging.info("Time taken to load and index documents: %.2f seconds", end_time - start_time)
         return vectorstore
 
     def split_documents(
@@ -72,14 +93,21 @@ class DocumentProcessor:
             size,
             overlap,
     ) -> list[Document]:
-        logging.info("Splitting documents into chunks")
+        logging.info(
+            "Splitting %s documents into chunks (recursive size=%s overlap=%s)",
+            len(docs),
+            size,
+            overlap,
+        )
 
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=size,
             chunk_overlap=overlap,
         )
 
-        return text_splitter.split_documents(docs)
+        chunks = text_splitter.split_documents(docs)
+        logging.info("Recursive chunking produced %s chunks", len(chunks))
+        return chunks
 
     def _filter_existing_documents(
             self,

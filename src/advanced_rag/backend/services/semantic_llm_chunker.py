@@ -41,7 +41,7 @@ class SemanticLLMChunker:
             self,
             documents: list[Document],
     ) -> list[Document]:
-        logging.info("Splitting documents into semantic chunks")
+        logging.info("Splitting %s documents into semantic LLM chunks", len(documents))
 
         with ThreadPoolExecutor(max_workers=10) as executor:
             chunked_documents = list(
@@ -50,7 +50,7 @@ class SemanticLLMChunker:
                 ),
             )
 
-        logging.info(f"number of documents: {len(chunked_documents)}")
+        logging.info("Semantic LLM chunking produced %s chunks", len(chunked_documents))
         return chunked_documents
 
     def _chunk_single_document(
