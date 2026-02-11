@@ -39,7 +39,7 @@ uv run --env-file .env python src/advanced_rag/evaluation/evaluate_dataset.py
 
 ## Teil 3: Einzelne Traces analysieren (5 Minuten)
 
-Wähle einen Trace aus und analysiere ihn im Detail:
+Wähle ein Trace aus und analysiere es im Detail:
 
 **Finde heraus:**
 - Wo sehe ich den ursprünglichen Prompt?
