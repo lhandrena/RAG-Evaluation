@@ -28,7 +28,7 @@ Nutze ein LLM deiner Wahl, um eine möglichst große Variation an Formulierungen
 
 Schaue dir stichprobenartig die Tagesschau-Artikel in [`src/advanced_rag/scraping/tagesschau_dump/`](../src/advanced_rag/scraping/tagesschau_dump/) an.
 
-Öffne mehrere Datensätze und bewerte sie nach folgenden Kriterien:
+Öffne mehrere Datensätze in [`src/advanced_rag/evaluation/datasets/tagesschau/`](../src/advanced_rag/evaluation/datasets/tagesschau/) und bewerte sie nach folgenden Kriterien:
 
 **Bewertungskriterien:**
 - ✅ Sind die Fragen realistisch?
@@ -37,9 +37,9 @@ Schaue dir stichprobenartig die Tagesschau-Artikel in [`src/advanced_rag/scrapin
 - ⚠️ Sind die Fragen zu einfach/zu komplex?
 
 ### Reflexionsfragen
-2. Was sind die Vor- und Nachteile KI-generierter Datensätze?
-3. Wann sollte man manuelle vs. automatische Datensatz-Erstellung bevorzugen?
-4. Wie viele Fragen braucht man für eine aussagekräftige Evaluation?
+1. Was sind die Vor- und Nachteile KI-generierter Datensätze?
+2. Wann sollte man manuelle vs. automatische Datensatz-Erstellung bevorzugen?
+3. Wie viele Fragen braucht man für eine aussagekräftige Evaluation?
 
 ## Wichtige Erkenntnisse
 - 📊 **Qualität vor Quantität:** Wenige gute Fragen sind besser als viele schlechte
