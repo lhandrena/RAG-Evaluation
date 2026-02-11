@@ -1,6 +1,7 @@
 import csv
 import os
 from pathlib import Path
+from typing import Optional
 
 from dotenv import load_dotenv
 from langfuse import Langfuse
@@ -17,7 +18,11 @@ def get_langfuse_client() -> Langfuse:
     )
 
 
-def ensure_dataset_exists(dataset_name: str, langfuse_client: Langfuse, csv_file_path: str = None) -> None:
+def ensure_dataset_exists(
+    dataset_name: str,
+    langfuse_client: Langfuse,
+    csv_file_path: Optional[Path] = None,
+) -> None:
     """
     Ensure a dataset exists in Langfuse, creating it if necessary.
     
@@ -39,7 +44,7 @@ def ensure_dataset_exists(dataset_name: str, langfuse_client: Langfuse, csv_file
         }
         
         if csv_file_path:
-            metadata["csv_file"] = Path(csv_file_path).name
+            metadata["csv_file"] = csv_file_path.name
         
         langfuse_client.create_dataset(
             name=dataset_name,
@@ -49,7 +54,7 @@ def ensure_dataset_exists(dataset_name: str, langfuse_client: Langfuse, csv_file
         print(f"Dataset '{dataset_name}' created successfully")
 
 
-def upload_csv_dataset(csv_file_path: str, dataset_name: str, langfuse_client: Langfuse) -> None:
+def upload_csv_dataset(csv_file_path: Path, dataset_name: str, langfuse_client: Langfuse) -> None:
     """
     Upload a CSV dataset to Langfuse.
     
@@ -63,15 +68,15 @@ def upload_csv_dataset(csv_file_path: str, dataset_name: str, langfuse_client: L
     # Ensure the dataset exists before uploading items
     ensure_dataset_exists(dataset_name, langfuse_client, csv_file_path)
     
-    with open(csv_file_path, 'r', encoding='utf-8') as file:
+    with open(csv_file_path, "r", encoding="utf-8") as file:
         csv_reader = csv.DictReader(file)
         
         for row_idx, row in enumerate(csv_reader):
             try:
                 # Extract data from CSV row
-                input_text = row.get('input', '')
-                expected_output = row.get('expected_output', '')
-                expected_articles = row.get('expected_articles', '')
+                input_text = row.get("input", "")
+                expected_output = row.get("expected_output", "")
+                expected_articles = row.get("expected_articles", "")
                 
                 # Create dataset item
                 langfuse_client.create_dataset_item(
@@ -98,34 +103,31 @@ def upload_csv_dataset(csv_file_path: str, dataset_name: str, langfuse_client: L
     print(f"Finished uploading dataset: {dataset_name}")
 
 
-def upload_rag_source_dataset() -> None:
-    """Upload the rag_source.csv dataset to Langfuse."""
-    
-    # Initialize Langfuse client
+def upload_dataset(csv_file: Path) -> None:
+    """Upload a CSV dataset to Langfuse."""
     langfuse_client = get_langfuse_client()
-    
-    # Define the specific CSV file path
-    csv_file = Path("src/advanced_rag/evaluation/datasets/rag_source.csv")
-    
+
     if not csv_file.exists():
         print(f"File not found: {csv_file}")
         return
-    
-    print(f"Uploading rag_source dataset from: {csv_file}")
-    
-    # Use the filename (without extension) as the dataset name
+
+    print(f"Uploading dataset from: {csv_file}")
+
+    # Use the filename (without extension) as the dataset name.
     dataset_name = csv_file.stem
-    
+
     try:
-        upload_csv_dataset(str(csv_file), dataset_name, langfuse_client)
+        upload_csv_dataset(csv_file, dataset_name, langfuse_client)
     except Exception as e:
         print(f"Failed to upload {csv_file.name}: {e}")
         return
-    
+
     # Flush to ensure all data is sent
     langfuse_client.flush()
     print("Dataset uploaded successfully!")
 
 
 if __name__ == "__main__":
-    upload_rag_source_dataset()
+    # Change this path to switch between different CSV datasets.
+    csv_file = Path("src/advanced_rag/evaluation/datasets/evaluation_dataset.csv")
+    upload_dataset(csv_file)
