@@ -11,6 +11,7 @@
 - [Alternative: Langfuse Cloud](#-alternative-langfuse-cloud)
 - [Projektstruktur](#-projektstruktur)
 - [Plattform-spezifische Hinweise](#-plattform-spezifische-hinweise)
+- [Troubleshooting](#-troubleshooting)
 
 ---
 
@@ -298,3 +299,65 @@ Verfügbare Configs in der Command Palette:
 - **Evaluation-Guide:** [`src/advanced_rag/evaluation/README.md`](src/advanced_rag/evaluation/README.md)
 - **Scraping-Docs:** [`src/advanced_rag/scraping/README.md`](src/advanced_rag/scraping/README.md)
 - **Übungsaufgaben:** [`aufgaben/`](aufgaben/)
+
+---
+
+## 🔧 Troubleshooting
+
+<details>
+<summary><b>Port-Konflikt: Langfuse-Port 3000 ist bereits belegt</b></summary>
+
+Falls Port `3000` auf dem Host bereits von einer anderen Anwendung verwendet wird (z. B. ein anderer Webserver oder React Dev-Server), kann der Langfuse-Port wie folgt geändert werden – z. B. auf `3001`:
+
+**1. Port-Mapping in Docker Compose anpassen**
+
+In `infrastructure/langfuse_frontend_local.yml` den Port des `langfuse-web`-Services ändern:
+
+```yaml
+langfuse-web:
+  ports:
+    - "3001:3000"   # Host-Port 3001 → Container-Port 3000
+  environment:
+    NEXTAUTH_URL: http://localhost:3001   # muss zum neuen Host-Port passen
+```
+
+**2. `LANGFUSE_HOST` in `.env` aktualisieren**
+
+```
+LANGFUSE_HOST="http://localhost:3001"
+```
+
+**3. Docker-Services neu starten**
+
+Langfuse ist danach unter http://localhost:3001 erreichbar.
+
+</details>
+
+<details>
+<summary><b>Port-Konflikte anderer Services</b></summary>
+
+Das Projekt verwendet mehrere Ports. Falls ein Port bereits belegt ist, kann jeweils der **Host-Port** (linke Seite) im entsprechenden Docker-Compose-File angepasst werden:
+
+| Service | Standard-Port | Datei |
+|---------|--------------|-------|
+| Langfuse Web | `3000` | `infrastructure/langfuse_frontend_local.yml` |
+| Langfuse Worker | `3030` | `infrastructure/langfuse_frontend_local.yml` |
+| Frontend | `5173` | `infrastructure/langfuse_frontend_local.yml` |
+| PostgreSQL | `5432` | `infrastructure/langfuse_frontend_local.yml` |
+| Redis | `6379` | `infrastructure/langfuse_frontend_local.yml` |
+| ClickHouse HTTP | `8123` | `infrastructure/langfuse_frontend_local.yml` |
+| ClickHouse Native | `9023` | `infrastructure/langfuse_frontend_local.yml` |
+| MinIO API | `9090` | `infrastructure/langfuse_frontend_local.yml` |
+| MinIO Console | `9092` | `infrastructure/langfuse_frontend_local.yml` |
+| Neo4j Browser | `7474` | `infrastructure/neo4j.yml` |
+| Neo4j Bolt | `7687` | `infrastructure/neo4j.yml` |
+
+**Tipp:** Nur der Host-Port (links vom `:`) muss geändert werden. Der Container-Port (rechts) bleibt unverändert.
+
+Beispiel: PostgreSQL von `5432` auf `5433` ändern:
+```yaml
+ports:
+  - "5433:5432"
+```
+
+</details>
