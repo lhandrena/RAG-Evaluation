@@ -14,29 +14,55 @@ class LibmagicWarningFilter(logging.Filter):
 
 
 class FileProcessor:
+    _FAST_MARKDOWN_ENV = "FAST_MARKDOWN_LOADER"
+
     @staticmethod
     def load_documents(
             document_source: DocumentSource,
     ) -> list[Document]:
         logging.info("Loading documents from "+document_source+" dump")
-        
+
         unstructured_logger = logging.getLogger('unstructured')
         libmagic_filter = LibmagicWarningFilter()
         unstructured_logger.addFilter(libmagic_filter)
-        
+
         file_paths: list[str] = FileProcessor.get_all_files(document_source)
-        loader = UnstructuredLoader(
-            file_paths,
-            chunking_strategy="basic",
-            max_characters=sys.maxsize,
-            include_orig_elements=False,
-        )
-        documents = loader.load()
-        
+        fast_markdown_loader = os.getenv(FileProcessor._FAST_MARKDOWN_ENV, "false").lower() == "true"
+        all_markdown_files = all(file_path.lower().endswith(".md") for file_path in file_paths)
+
+        if fast_markdown_loader and all_markdown_files:
+            documents = FileProcessor._load_markdown_documents(file_paths)
+        else:
+            loader = UnstructuredLoader(
+                file_paths,
+                chunking_strategy="basic",
+                max_characters=sys.maxsize,
+                include_orig_elements=False,
+            )
+            documents = loader.load()
+
         unstructured_logger.removeFilter(libmagic_filter)
 
         for document in documents:
             document.metadata["source"] = FileProcessor.normalize_path(document.metadata["source"], document_source)
+        return documents
+
+    @staticmethod
+    def _load_markdown_documents(
+            file_paths: list[str],
+    ) -> list[Document]:
+        documents: list[Document] = []
+        for file_path in file_paths:
+            with open(file_path, "r", encoding="utf-8") as file:
+                content = file.read()
+            documents.append(
+                Document(
+                    page_content=content,
+                    metadata={
+                        "source": file_path
+                    },
+                ),
+            )
         return documents
 
     @staticmethod
