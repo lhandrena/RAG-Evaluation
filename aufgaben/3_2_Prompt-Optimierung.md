@@ -37,7 +37,7 @@ def get_prompt() -> str:
     return prompt_file.read_text().strip()
 ```
 
-Und wähle als Chat-Modell `gpt-5`.
+Und wähle als Chat-Modell `gpt-5.2`.
 
 ### Schritt 3: Backend neu starten und evaluieren
 - Backend neu starten
@@ -60,12 +60,12 @@ Analysiere in Langfuse:
 
 ### Schritt 7: Prompt-Impact vergleichen
 Vergleiche in Langfuse die folgenden Konfigurationen:
-1. **gpt-5 + bad prompt** (aus Aufgabe 3.1)
-2. **gpt-5 + good prompt** (aus Teil 1)
+1. **gpt-5.2 + bad prompt** (aus Aufgabe 3.1)
+2. **gpt-5.2 + good prompt** (aus Teil 1)
 3. **gpt-4.1-nano + good prompt** (aktuell)
 
 **Analysefragen:**
-- Wie groß ist der Prompt-Impact bei gpt-5?
+- Wie groß ist der Prompt-Impact bei gpt-5.2?
 - Wie groß ist der Prompt-Impact bei gpt-4.1-nano?
 
 ### Reflexionsfragen
@@ -76,7 +76,7 @@ Vergleiche in Langfuse die folgenden Konfigurationen:
 ## Teil 3 (Optional): Rules aus dem Prompt entfernen
 
 - Öffne [`generation_prompt_good.txt`](../src/advanced_rag/backend/nodes/prompt_templates/generation_prompt_good.txt) und entferne die "Rules" am Ende des Prompts.
-- Vergleiche gpt-5 mit und ohne "Rules"?
+- Vergleiche gpt-5.2 mit und ohne "Rules"?
 
 
 ## Fazit: Erkenntnisse aus Aufgabe 3.1 und 3.2
