@@ -89,7 +89,7 @@ Analysiere in Langfuse:
 CHAT_MODEL=gpt-4.1-nano
 
 # Nachher:
-CHAT_MODEL=gpt-5
+CHAT_MODEL=gpt-5.2
 ```
 
 **Hintergrund:** Neuere/größere Modelle haben oft besseres Reasoning und können komplexere Zusammenhänge verstehen.
@@ -104,7 +104,7 @@ python src/advanced_rag/evaluation/evaluate_dataset.py
 Vergleiche in Langfuse alle drei Konfigurationen:
 1. Baseline (small embedding + gpt-4.1-nano)
 2. Large embedding + gpt-4.1-nano
-3. Large embedding + gpt-5
+3. Large embedding + gpt-5.2
 
 ### Reflexionsfragen
 1. Welche Konfiguration liefert die besten Ergebnisse?
