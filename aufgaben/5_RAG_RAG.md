@@ -28,6 +28,7 @@
 
 ## Teil 2: Evaluation mit dem RAG-Dataset (10 Minuten)
 
+- Starte zuerst das Backend mit der neuen Datenquelle neu, damit die Inhalte in die Vektordatenbank geladen werden.
 - Starte das Evaluations-Skript evaluate-dataset.py mit dem neuen Datensatz
 
 **Beobachte:**
