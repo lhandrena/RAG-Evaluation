@@ -38,6 +38,10 @@
 
 Verbessere die Anwendung, indem du gezielt mehrere Methoden kombinierst (z. B. Chunking, Reranking, Query Expansion, Hybrid Search, ...).
 
+**Optimierungsziel:** Optimiere vorrangig die Metriken:
+- `context_sources_f1` 
+- `faithfulness`
+
 Arbeite iterativ in kurzen Zyklen:
 1. Formuliere mit dem KI-Agenten eine klare Hypothese
 2. Lasse die Änderung vom KI-Agenten umsetzen
