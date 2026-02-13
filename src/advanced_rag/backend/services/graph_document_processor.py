@@ -34,8 +34,8 @@ class GraphDocumentProcessor:
         self.neo4j_password = os.getenv(Environment.NEO4J_PASSWORD)
         self.file_service = FileProcessor()
 
-        self.chunk_size: int = int(os.getenv(Environment.CHUNK_SIZE))
-        self.chunk_overlap: int = int(os.getenv(Environment.CHUNK_OVERLAP))
+        self.chunk_size: int = int(6000)
+        self.chunk_overlap: int = int(500)
 
     def get_or_create(
             self,
