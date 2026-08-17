@@ -70,6 +70,11 @@ question-generation = [
     { name = "llama-index" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "debugpy" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.13.3" },
@@ -108,6 +113,9 @@ requires-dist = [
     { name = "wikipedia", specifier = ">=1.4.0" },
 ]
 provides-extras = ["question-generation"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "debugpy", specifier = ">=1.8.17" }]
 
 [[package]]
 name = "aiofiles"
