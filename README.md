@@ -8,6 +8,7 @@
 - [Voraussetzungen](#-voraussetzungen)
 - [Setup (Ersteinrichtung)](#-setup-ersteinrichtung)
 - [Schnellstart](#-schnellstart)
+- [RAG-Optimierungs-Challenge (Aufgabe 5)](#-rag-optimierungs-challenge-aufgabe-5)
 - [Alternative: Langfuse Cloud](#-alternative-langfuse-cloud)
 - [Projektstruktur](#-projektstruktur)
 - [Plattform-spezifische Hinweise](#-plattform-spezifische-hinweise)
@@ -176,6 +177,18 @@ docker compose --env-file .env \
 # 2. Backend starten
 uv run --env-file .env python -m advanced_rag.backend.main
 ```
+
+---
+
+## 🏁 RAG-Optimierungs-Challenge (Aufgabe 5)
+
+Die Abschluss-Challenge ([`aufgaben/5_RAG_RAG.md`](aufgaben/5_RAG_RAG.md)) startet von einem vorbereiteten Branch, damit alle vom gleichen Punkt loslegen:
+
+```bash
+git fetch && git checkout rag-challenge
+```
+
+Der Branch enthält den gemeinsamen Startpunkt (vorkonfigurierte Skripte, Metriken und ein Agenten-Leitfaden `AGENTS.md`) — alle Details stehen in der Aufgabe auf dem Branch.
 
 ---
 
