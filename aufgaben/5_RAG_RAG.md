@@ -18,8 +18,9 @@ Zum Abschluss wird es meta: Unsere RAG-Anwendung beantwortet jetzt Fragen über 
 
 ## Setup (5 Minuten)
 
-1. Branch auschecken:
+1. Branch auschecken. Falls du lokale Änderungen an Code-Dateien hast (z. B. Prompt-Switch aus Aufgabe 3.2 oder `main.py` aus Aufgabe 4.5), lege sie vorher mit `git stash` beiseite (deine `.env` bleibt dabei unangetastet):
 ```bash
+git stash
 git fetch && git checkout rag-challenge
 ```
 
