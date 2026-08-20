@@ -1,58 +1,21 @@
-# Aufgabe 5: RAG über RAG
+# Aufgabe 5: RAG-Optimierungs-Challenge
 
-## Lernziele
-- Einen RAG-spezifischen Datensatz in Langfuse hochladen und evaluieren
-- Die RAG-Anwendung durch Kombination mehrerer Methoden verbessern
-- Mit einem KI-Agenten arbeiten: Du bist der Navigator (Anforderungen und Bewertung), der KI-Agent setzt Änderungen um
+Diese Aufgabe startet von einem **vorbereiteten Branch**, damit alle vom gleichen Punkt loslegen — mit vorkonfigurierten Skripten, Metriken und einem Agenten-Leitfaden (`AGENTS.md`).
 
+## Branch auschecken
 
-## Voraussetzungen
-- ✅ Aufgaben 2.1 und 2.2 wurden abgeschlossen
-- ✅ Backend und Evaluationspipeline laufen lokal
+Falls du im Laufe des Trainings lokale Änderungen an Code-Dateien gemacht hast (z. B. Prompt-Switch aus Aufgabe 3.2 oder `main.py` aus Aufgabe 4.5), lege sie zuerst beiseite (deine `.env` bleibt dabei unangetastet):
 
-## Kontext
-- Quellen zum Thema RAG liegen in [`../src/advanced_rag/scraping/rag_sources/scraped_data/`](../src/advanced_rag/scraping/rag_sources/scraped_data/)
-- Das passende Evaluations-Dataset liegt in [`../src/advanced_rag/evaluation/datasets/rag_source.csv`](../src/advanced_rag/evaluation/datasets/rag_source.csv)
+```bash
+git stash
+```
 
-## Arbeitsmodus mit KI-Agent
-- **Deine Rolle (Navigator):** Formuliere klare Anforderungen, priorisiere nächste Schritte und definiere Erfolgskriterien
-- **Rolle des KI-Agenten:** Führt Änderungen aus, schlägt Varianten vor und setzt Experimente um
-- **Deine Verantwortung:** Ergebnisse kritisch bewerten (Metriken, Traces, Antwortqualität) und die nächste Iteration entscheiden
-- **Sparring beim Experimentieren:** Nutze den KI-Agenten aktiv, um Hypothesen und einen Schritt-für-Schritt-Plan für das weitere Vorgehen zu erarbeiten
+Dann den Challenge-Branch auschecken:
 
-## Teil 1: RAG-Dataset hochladen (5 Minuten)
+```bash
+git fetch && git checkout rag-challenge
+```
 
-- Öffne [`../src/advanced_rag/evaluation/upload_datasets.py`](../src/advanced_rag/evaluation/upload_datasets.py) und stelle sicher, dass `rag_source.csv` als Quelle verwendet wird.
-- Führe dann den Upload aus
+## Weiter geht's auf dem Branch
 
-
-## Teil 2: Evaluation mit dem RAG-Dataset (10 Minuten)
-
-- Starte zuerst das Backend mit der neuen Datenquelle neu, damit die Inhalte in die Vektordatenbank geladen werden.
-- Starte das Evaluations-Skript evaluate-dataset.py mit dem neuen Datensatz
-
-**Beobachte:**
-- Welche Metriken sind stark, welche schwach?
-- Welche Fehlermuster erkennst du in den Traces?
-
-## Teil 3: RAG-System verbessern (20-30 Minuten)
-
-Verbessere die Anwendung, indem du gezielt mehrere Methoden kombinierst (z. B. Chunking, Reranking, Query Expansion, Hybrid Search, ...).
-
-**Optimierungsziel:** Optimiere vorrangig die Metriken:
-- `context_sources_f1` 
-- `faithfulness`
-
-Arbeite iterativ in kurzen Zyklen:
-1. Formuliere mit dem KI-Agenten eine klare Hypothese
-2. Lasse die Änderung vom KI-Agenten umsetzen
-3. Führe die Evaluation aus
-4. Bewerte Ergebnis und entscheide den nächsten Schritt
-
-**Wichtig:** Ändere pro Iteration möglichst nur einen Hauptfaktor, damit du Ursache und Wirkung nachvollziehen kannst.
-
-## Reflexionsfragen
-1. Welche Kombination von Maßnahmen hat den größten Qualitätsgewinn gebracht?
-2. Welche Verbesserungen waren messbar, aber inhaltlich kaum relevant (oder umgekehrt)?
-3. Wie hat dir der KI-Agent als Sparring-Partner bei Planung und Priorisierung geholfen?
-4. Wo musstest du als Navigator bewusst gegen Vorschläge des KI-Agenten entscheiden?
+Die vollständige Aufgabenbeschreibung liegt auf dem Branch — öffne dort einfach wieder diese Datei: [`aufgaben/5_RAG_RAG.md`](5_RAG_RAG.md)
