@@ -129,5 +129,5 @@ def upload_dataset(csv_file: Path) -> None:
 
 if __name__ == "__main__":
     # Change this path to switch between different CSV datasets.
-    csv_file = Path("src/advanced_rag/evaluation/datasets/evaluation_dataset.csv")
+    csv_file = Path("src/advanced_rag/evaluation/datasets/rag_source.csv")
     upload_dataset(csv_file)

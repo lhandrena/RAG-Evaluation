@@ -20,10 +20,12 @@ def calculate_context_sources_precision_and_recall(
         expected_sources_str = expected_sources
     
     expected_documents: list[str] = expected_sources_str.split("|") if expected_sources_str else []
-    found_sources: list[str] = [document.metadata["source"] for document in documents]
-    relevant_documents: set[str] = set(expected_documents).intersection(set(found_sources))
+    # Multiple chunks from the same file count as one source, otherwise precision
+    # is structurally capped when only few sources are expected.
+    found_sources: set[str] = {document.metadata["source"] for document in documents}
+    relevant_documents: set[str] = set(expected_documents).intersection(found_sources)
 
-    recall = len(relevant_documents) / len(expected_documents) if expected_documents else 0
+    recall = len(relevant_documents) / len(set(expected_documents)) if expected_documents else 0
     precision = len(relevant_documents) / len(found_sources) if found_sources else 0
 
     return recall, precision
@@ -55,7 +57,7 @@ def upload_context_metrics(
     if metrics_config.use_context_sources_precision:
         metrics["context_sources_precision"] = context_precision
     if metrics_config.use_context_sources_f1:
-        metrics["context_sources_F1"] = context_f1
+        metrics["context_sources_f1"] = context_f1
 
     for metric_name, score_value in metrics.items():
         upload_metric(root_span, metric_name, score_value)
