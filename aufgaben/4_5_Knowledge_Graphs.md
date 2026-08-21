@@ -4,6 +4,7 @@
 - Verstehen, wie Knowledge Graphs in RAG-Systemen funktionieren
 - Umstellung von Vektor-basiertem Retrieval auf Graph-basiertes Retrieval
 - Neo4j Frontend nutzen, um Knowledge Graphs zu visualisieren
+- Einfache Cypher-Abfragen im Neo4j Browser ausführen
 - Analysieren, wie Entitäten und Beziehungen im Graph strukturiert sind
 - Vergleich: Vector Search vs. Knowledge Graph Retrieval
 
@@ -96,7 +97,7 @@ def create_flask_app():
 
 **GraphApplication macht folgendes anders:**
 1. **Lädt Dokumente**: Shakespeare-Texte werden aus dem `documents/shakespeare_dump` Ordner geladen
-2. **Chunking**: Dokumente werden in kleinere Abschnitte aufgeteilt (empfohlene Chunk Size=6000,Overlap=3000)
+2. **Chunking**: Dokumente werden mit einer Chunk-Größe von `3000` Zeichen und einem Overlap von `500` Zeichen in kleinere Abschnitte aufgeteilt
 3. **Summarization**: Jeder Chunk wird vom LLM zusammengefasst, um wichtige Entitäten zu extrahieren
 4. **Graph-Transformation**: LLM extrahiert Entitäten und Beziehungen aus den Chunks
 5. **Speicherung in Neo4j**: Graph wird in der Neo4j-Datenbank gespeichert
@@ -105,6 +106,16 @@ def create_flask_app():
 ```
 Dokumente laden → Chunking → Summarization → Graph-Extraktion → Neo4j
 ```
+
+> **Hinweis zur Konfiguration:** In dieser GraphRAG-Übung sind `chunk_size` und
+> `chunk_overlap` direkt in `GraphDocumentProcessor` in
+> [`graph_document_processor.py`](../src/advanced_rag/backend/services/graph_document_processor.py)
+> festgelegt. Die Werte `CHUNK_SIZE` und `CHUNK_OVERLAP` aus der `.env`-Datei
+> werden hier nicht verwendet. Wenn du die GraphRAG-Chunking-Parameter ändern
+> möchtest, passe `self.chunk_size` und `self.chunk_overlap` in dieser Datei an.
+> Damit die neuen Werte angewendet werden, muss der Graph anschließend mit einer
+> leeren Neo4j-Datenbank neu erstellt werden; vorhandene Graphdaten werden sonst
+> wiederverwendet.
 
 ### Schritt 2: Neo4j starten
 
@@ -128,6 +139,18 @@ NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=password
 ```
 
+**Chat-Modell für die Graph-Erstellung:**
+
+Setze außerdem das Chat-Modell in der `.env`-Datei auf `gpt-4.1-mini`:
+
+```env
+CHAT_MODEL=gpt-4.1-mini
+```
+
+Dieses Modell wird sowohl für die Zusammenfassung der Chunks als auch für die
+Extraktion der Entitäten und Beziehungen verwendet. Mit `gpt-4.1-mini` läuft
+die erstmalige Verarbeitung und Erstellung des Knowledge Graphs schneller ab.
+
 ### Schritt 3: Backend starten
 
 Starte das Backend neu, damit die Änderungen wirksam werden:
@@ -141,7 +164,7 @@ uv run --env-file .env python -m src.advanced_rag.backend.main
 - ✓ Verbindung zu Neo4j wird hergestellt
 - ✓ Falls die Datenbank leer ist: Knowledge Graph wird erstellt
 - ✓ Dokumente werden geladen, gechunkt, und in Graph-Struktur konvertiert
-- ⏳ **Achtung**: Erste Ausführung kann 2-5 Minuten dauern (LLM muss jeden Chunk analysieren)!
+- ⏳ **Achtung**: Die erste Ausführung kann 10–15 Minuten dauern, da das LLM jeden Chunk analysieren muss!
 
 **Erwartete Log-Ausgaben:**
 ```
@@ -181,6 +204,107 @@ Klicke dich durch den Knowledge Graph und erkunde die Struktur:
 - Welche Arten von Entitäten gibt es?
 - Wie sind die Charaktere miteinander verbunden?
 - Welche Beziehungstypen existieren?
+
+### Den Graph mit Cypher abfragen
+
+Neo4j verwendet die Abfragesprache **Cypher**. Eine Cypher-Abfrage beschreibt
+Muster aus Nodes und Beziehungen, die Neo4j im Graph suchen soll. Gib die
+folgenden Abfragen oben im Neo4j Browser ein und führe sie mit dem Play-Button
+aus.
+
+Die wichtigsten Bausteine sind:
+
+- `MATCH` sucht ein Muster im Graph.
+- `(person:Person)` steht für einen Node mit dem Label `Person`.
+- `{id: "Macbeth"}` filtert nach einer Property des Nodes. In diesem Graph
+  heißen die Personen über die Property `id`; eine Property `name` gibt es
+  nicht.
+- `-[relationship]-` steht für eine Beziehung in beliebiger Richtung. Mit
+  `-[relationship]->` wird dagegen nur die angegebene Richtung durchsucht.
+- `RETURN` bestimmt, welche Ergebnisse angezeigt werden.
+- `LIMIT` begrenzt die Anzahl der Ergebnisse.
+
+#### 1. Schema des Graphen entdecken
+
+Zeige zuerst die vorhandenen Node- und Beziehungstypen:
+
+```cypher
+CALL db.labels()
+```
+
+```cypher
+CALL db.relationshipTypes()
+```
+
+Visualisiere anschließend das Schema:
+
+```cypher
+CALL db.schema.visualization()
+```
+
+Beantworte anhand der Ergebnisse:
+
+- Welche Node-Labels gibt es neben `Person`?
+- Welche Arten von Beziehungen hat das LLM extrahiert?
+- Welche Properties besitzen die Nodes?
+
+#### 2. Nodes und Beziehungen anzeigen
+
+Zeige zunächst einige beliebige Nodes:
+
+```cypher
+MATCH (n)
+RETURN n
+LIMIT 25
+```
+
+Zeige anschließend verbundene Nodes einschließlich ihrer Beziehungen:
+
+```cypher
+MATCH (n)-[relationship]-(connected)
+RETURN n, relationship, connected
+LIMIT 50
+```
+
+#### 3. Eine Person und ihre Nachbarschaft untersuchen
+
+Liste zuerst einige Personen auf. Beachte, dass ihr Name in der Property `id`
+gespeichert ist:
+
+```cypher
+MATCH (person:Person)
+RETURN person.id
+LIMIT 25
+```
+
+Suche danach gezielt nach Macbeth:
+
+```cypher
+MATCH (macbeth:Person {id: "Macbeth"})
+RETURN macbeth
+```
+
+Zeige alle direkten Verbindungen von Macbeth:
+
+```cypher
+MATCH (macbeth:Person {id: "Macbeth"})-[relationship]-(connected)
+RETURN macbeth, relationship, connected
+LIMIT 50
+```
+
+Erweitere die Suche abschließend auf ein oder zwei Beziehungsschritte:
+
+```cypher
+MATCH path=(macbeth:Person {id: "Macbeth"})-[*1..2]-(connected)
+RETURN path
+LIMIT 100
+```
+
+Untersuche die Visualisierung:
+
+- Welche Personen oder Orte sind direkt mit Macbeth verbunden?
+- Über welche Beziehungstypen sind sie verbunden?
+- Welche zusätzlichen Zusammenhänge werden erst beim zweiten Schritt sichtbar?
 
 ## Teil 3: Fragen an die Graph-basierte RAG-Anwendung stellen
 
@@ -252,4 +376,3 @@ Beim nächsten Backend-Start wird der Graph neu erstellt.
    - ✅ Explizite Beziehungen
    - ❌ Längere Verarbeitungszeit (Graph-Erstellung)
    - ❌ Komplexität bei unstrukturierten Fragen
-
